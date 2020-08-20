@@ -1,0 +1,42 @@
+/* Resturcturing page and removing elements */
+#uc-group-homepage #left-content { display:none; }
+#uc-group-homepage .wrap .content-wrap.home-content-wrap.subsites.ninecol.last { width:unset; }
+#uc-group-homepage #right-content { width: unset; display: flex; flex-wrap: wrap;}
+#uc-group-homepage #right-content h1 { margin: 10px 25px 10px 20%; }
+#uc-group-homepage #group-events { display:none; }
+#uc-group-homepage .group-type-name { max-width: 25% }
+#uc-group-homepage .content-wrap.ninecol>div.group-search { width: calc(55% - 45px); ; border: none; display: flex; flex-direction: column; display: flex; flex-direction: row; align-items: center;}
+#uc-group-homepage .search-box-wrapper { padding: 5px; }
+#uc-group-homepage .uc-middle-panel-for-group-cat { display: contents; }
+#uc-group-homepage #your-societies .twelvecol { display: flex; flex-direction: row;}
+
+/* left hand menu with group types listed  */
+#uc-group-homepage .types-list  { width: 15rem; margin-top: -80px; }
+#uc-group-homepage .types-list .group-types, 
+#uc-group-homepage .types-list .group-types-wrapper { background: #251f5e; }
+#uc-group-homepage .types-list .group-types ul li a { color: #fff; }
+#uc-group-homepage .types-list .group-types ul li.active a { color: #251f5e; }
+#uc-group-homepage .types-list li{ padding: 0.5rem 1rem; }
+
+/* Group listing */
+.uc-group-list-page-wrapper { display : contents; position: absolute; bottom:0; }
+.category-box-wrapper { display:flex; flex-wrap: wrap; flex-direction: row;}
+.group-box { width: 275px; min-height: 0; display: flex; flex-direction: column; align-items: center; position: relative; margin-bottom: 0px;}
+.group-box .group-name { display: block; width: unset; color: #ff7f40; font-size: 1.4em; font-weight:bold; font-family: 'intelobold',Helvetica,sans-serif; padding-top:110px;}
+.group-box .group-banner {
+    display: block;
+    top: unset;
+    position: unset;
+    right: unset;
+    color: #4e4d4d;
+    font-size: 21px;
+    overflow: visible; 
+    margin:0;
+    float: unset;
+    position: absolute; top: 0;
+    border-radius: 10%;
+    border-width: 5px;
+    border-color: rgba(33,18,97,0.5);
+    border-style: solid;
+}
+.group-box .group-details { width: 100%; }
