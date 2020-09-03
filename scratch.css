@@ -1,0 +1,20 @@
+       
+
+    #uc-group-homepage #right-content h1 {
+        margin: 0; width: 100%; max-width: 100%; font-size: 1.8em;
+        text-align: center; font-family: 'intelobold',Helvetica,sans-serif;
+    }
+    #uc-group-homepage .content-wrap.ninecol>div.group-search { margin:0; width: 93%; max-width: 100%; display:block;}
+    #uc-group-homepage .types-list { margin-top:0; width: 100%; max-width: unset; }
+    #uc-group-homepage .types-list .group-types-wrapper { min-height: unset; }
+    #uc-group-homepage #your-societies .twelvecol { display:block; }
+
+    #uc-group-homepage .group-box {
+        width: 45%;
+        min-height: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        margin-bottom: 0px;
+    }

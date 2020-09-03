@@ -1,0 +1,66 @@
+/* Group Details Page */
+
+/* Navigation element */
+#uc-groups-details-page .ui-widget-header { background-image: none; background-color: rgba(0,175,170,0.2); color: #fff;}
+#uc-groups-details-page .ui-state-active, 
+#uc-groups-details-page .ui-widget-content .ui-state-active, 
+#uc-groups-details-page .ui-widget-header .ui-state-active  { 
+    background-color: #00afaa; 
+}
+#uc-groups-details-page .ui-state-default a, 
+#uc-groups-details-page .ui-state-default a:link, 
+#uc-groups-details-page .ui-state-default a:visited { color: rgba(0,175,170,1); }
+
+#uc-groups-details-page .ui-state-active a
+#uc-groups-details-page .ui-widget-content .ui-state-active a, 
+#uc-groups-details-page .ui-widget-header .ui-state-active a { 
+    color: #fff;
+}
+
+/*  Main menu */
+#uc-groups-details-page .tree-navigation ul li { list-style: none; background-image:none; text-indent:unset; margin-right:0;}
+#uc-groups-details-page .tree-navigation ul.group-category li, #uc-groups-details-page .tree-navigation ul.group-category ul { padding-left: 0; margin-left:0;}
+#uc-groups-details-page .group-category>li { display:none; }
+#uc-groups-details-page .group-category>li:nth-of-type(1) { display:block; }
+#uc-groups-details-page .group-category>li:nth-of-type(1) h4 { display:none; }
+#uc-groups-details-page .group-category  ul.typeCategory { display: flex; flex-wrap: wrap; }
+#uc-groups-details-page .group-category  ul.typeCategory li { background-position: 0 0; background-color: #e54360; color: #fff; display: block; padding:2px 7px; border-radius: 3px; margin:2px 5px; font-size: 0.8rem;}
+
+
+#uc-groups-details-page .group-category li.group-awards { display:block; }
+
+#uc-groups-details-page .tree-navigation ul li.selected a img { margin-left: 0; }
+
+#uc-groups-details-page .group-cms-wrapper .top-container {
+    display: none;
+}
+
+#uc-groups-details-page .threecol.tree-navigation {
+    border: none;
+}
+
+@media screen and (max-width: 980px) {
+    #uc-groups-details-page .group_left_panel_menu { 
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #uc-groups-details-page .content-wrap {
+        width:100%;
+    }
+    #uc-groups-details-page .group_left_panel_menu .title { width: 100%; } 
+    #uc-groups-details-page .tree-navigation .title h1 { display: block; }
+    #uc-groups-details-page .group_left_panel_menu .title h1 { margin-bottom:0; } 
+    #uc-groups-details-page.group_left_panel_menu .thumbnail img { height: 100px;  }
+    #uc-groups-details-page .content-wrap.ninecol>div.group-cms-wrapper  { padding-left:0;}
+    #uc-groups-details-page .threecol.tree-navigation { margin-bottom: 0; }
+
+    #uc-groups-details-page .top-union { min-width:0;}
+}
+
+#uc-groups-details-page p { font-size: 18px; margin-bottom: 1em; }
+#uc-groups-details-page h2 { font-size: 2em; display:block; }
+#uc-groups-details-page h3 { font-size: 1.8em; display:block; }
+#uc-groups-details-page blockquote { border-color: #ff7f40; }
+#uc-groups-details-page h1, #uc-groups-details-page h2, #uc-groups-details-page h3 { clear:both; }
+#uc-groups-details-page .thumbnail-image.original { width:unset; }
+#uc-groups-details-page .section.tab>h2 { display:none; }

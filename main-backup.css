@@ -1,0 +1,254 @@
+#eventcarousel .event-box .event-name {
+    position: relative;
+    float: none;
+    bottom: 0;
+}
+
+/* HV adds fixed height to events on What's On page to fix layout issue */
+.event-box {
+height:600px;
+}
+
+/* end of fix */
+
+#latestnewshome {
+	padding-top:35%;
+}
+
+
+.system-menu, .cart-account {
+	top:80px;
+}
+
+#placement_170655_0 {
+	margin-top:33px;
+}
+
+.myaccount-student-details{
+position:relative;
+}
+.tree-navigation ul li#my_details ul li, .tree-navigation ul li#my_details ul li.selected{
+background:none;
+}
+#guest_user_attributes_opt_in_of_union_commercial_emails+ p,#student_user_attributes_opt_in_of_union_commercial_emails +p {
+	font-size:18px;
+}
+.tree-navigation ul li#my_details{
+  padding:10px 0px 10px;
+}
+.tree-navigation ul li#user_profile.selected > a, .tree-navigation ul li#my_details.selected > a,.tree-navigation ul li#user_profile.selected li a, .tree-navigation ul li#my_details.selected li a{
+	color:#333
+}
+.uc-widget-upcoming-events-wrapper .upcoming-event-container .event-box .free-event-title{
+	text-align: left;
+    text-overflow: initial;
+    white-space: initial;
+}
+
+.uc-widget-upcoming-events-wrapper .uc-widget-upcoming-event-row .event-box .non-free-event-title{
+	height:58px;
+}
+
+@media handheld, only screen and (max-width: 1024px) and (min-width: 950px){
+
+  #eventcarousel .event-banner {
+    margin: 0px -10px 0px 0;
+    width: 100%;
+	}
+}
+
+@media handheld, only screen and (max-width: 1340px) {
+#eventcarousel .event-box {
+  	height:600px;
+    min-height:600px;
+  }
+}
+@media handheld, only screen and (max-width: 950px) {
+  #eventcarousel {
+  	height:auto;
+  }
+  #eventcarousel .event-box {
+  	height:auto;
+    min-height:auto;
+  }
+  
+  #event-homepage .event-banner img{
+  	position:Relative;
+    float:none
+  }
+  #eventcarousel .event-box .event-name{
+  	bottom:initial;
+    position:relative;
+    width: 100%;
+    min-height: auto;
+    height:auto;
+  }
+  .row #eventcarousel .event-details{
+ 	 margin-top:5px;
+    width:100%;
+  }
+  .row #eventcarousel .event-box .event-details p:first-child{
+  	height:auto;
+    min-height: auto;
+  }
+}
+.group-box{
+	min-height:215px;
+}
+.event-box .event-name, .uc-widget-upcoming-events-wrapper .uc-widget-upcoming-event-row .event-box .free-event-title {
+    font-size: 22px;
+    color: #251f5e;
+    font-family: 'intelobold',Helvetica,sans-serif;
+    font-weight: normal;
+}
+
+.widget-four.uc-without-og.uc-widget-articles-container ul.uc-widget-articles-list li .headline a, .widget-four.uc-without-og.uc-widget-articles-container ul.uc-widget-articles-list li .headline a{
+	font-family: 'intelobold',Helvetica,sans-serif;
+    font-weight: normal;
+}
+
+.content .row .content-wrap ul{
+font-size:18px;
+}
+
+.signin-block p {
+    display: block;
+}
+#latest-news {
+    margin-top: 30px;
+}
+
+#volunteering-buttons  .thumbnail-image{
+float:none;
+}
+
+#eventcarousel .event-box{
+min-height:500px;
+}
+.ui-widget.ui-widget-content{
+padding:0px;
+}
+
+.melink{
+	text-align:center;
+    margin-bottom:55px;
+}
+
+.melink a.moreEvents{
+	color: #251f5e;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: bold;
+    border: solid 2px #c1d4ec;
+    padding: 10px 15px;
+    transition: all .5s;
+  	text-decoration: none;
+}
+
+.melink a.moreEvents:hover{
+    color: #251f5e;
+    background: #c1d4ec;
+}
+
+/*top animation*/
+
+.row.header 
+{
+  -moz-animation: colorchange 20s infinite;
+  -o-animation: colorchange 20s infinite;
+  -ms-animation: colorchange 20s infinite;
+}
+
+
+
+@-moz-keyframes colorchange 
+{
+  0%   {background: #e7425f;}
+  15%  {background: #b688ba;}
+  40%  {background: #f47e47;}
+  65%  {background: #00b0aa;}
+  90%  {background: #6dc6eb;}
+  100% {background: #e7425f;}
+}
+@-o-keyframes colorchange 
+{
+  0%   {background: #e7425f;}
+  15%  {background: #b688ba;}
+  40%  {background: #f47e47;}
+  65%  {background: #00b0aa;}
+  90%  {background: #6dc6eb;}
+  100% {background: #e7425f;}
+}
+@-ms-keyframes colorchange 
+{
+  0%   {background: #e7425f;}
+  15%  {background: #b688ba;}
+  40%  {background: #f47e47;}
+  65%  {background: #00b0aa;}
+  90%  {background: #6dc6eb;}
+  100% {background: #e7425f;}
+}
+
+
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+   #union-logo a {
+        min-height:auto;
+   }
+  
+  .row.header{
+  	-ms-animation: none;
+    background-color:rgba(221, 80, 113, 1);
+  }
+}
+
+
+
+
+@supports (-ms-ime-align: auto) {
+  #union-logo a{
+  	background:none;
+  }
+  .row.header{
+  	-webkit-animation:none;
+  }
+}
+#myaccount-information .clubSubMenu{
+  display:block
+}
+.melink{
+margin-top:7px;
+}
+
+/* Hide the dots for the slider */
+ul.centered-btns_tabs.centered-btns1_tabs {
+    display: none;
+}
+/*Move advert inline with right side */
+.uc-leaderboard-advertisement {
+    right: 5px;
+}
+
+/*code to fix TOTUM banner_start*/
+
+@media screen and (max-width: 767px) {
+.wrapper .top-ad {
+top: 10px;
+}
+#placement_170655_0 {
+margin-top: 10px;
+}
+}
+@media screen and (max-width: 480px) {
+  .wrapper .top-ad {
+    top: 20px;
+  }
+}
+/*code to fix TOTUM banner_end*/
+
+
+.uc-page-class-find-funding .cards2by3 .page-details .page-title {
+  color: #00afab;
+}
+
+/*********************************************************************************************/

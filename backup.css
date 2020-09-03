@@ -1,5 +1,3 @@
-
-
 /* Version 1.8*/
 
 /* Resturcturing page and removing elements */
@@ -196,8 +194,10 @@
     #uc-groups-details-page .top-union { min-width:0;}
 }
 
+#uc-groups-details-page .group_left_panel_menu .title h1, #uc-groups-details-page .content-wrap .portlet .contentBoxes h2 { font-size: 1.8em; }
 #uc-groups-details-page p { font-size: 18px; margin-bottom: 1em; }
-#uc-groups-details-page h1 { font-size: 2.4em; margin-bottom: 1em; }
+#uc-groups-details-page .tab hr { width: 80%; margin: 3rem 0;  border: 0; height: 1px; background: #ccc; }
+#uc-groups-details-page h1 { font-size: 2.4em; margin-bottom: 0; }
 #uc-groups-details-page h2 { font-size: 2em; display:block; }
 #uc-groups-details-page h3 { font-size: 1.8em; display:block; }
 #uc-groups-details-page blockquote { border-color: #ff7f40; }
@@ -205,7 +205,7 @@
 #uc-groups-details-page .section.tab>h2 { display:none; }
 
 #uc-groups-details-page .tab-content-wrapper-box div {  overflow:auto; clear: both; }
-#uc-groups-details-page .tab-content-wrapper-box div .role {  display: block; font-size: 0.8em; color: #666;}
+#uc-groups-details-page .tab-content-wrapper-box div .role {  display: block; font-size: 0.8em; color: #ff7f40;}
 
 
 /* Tables */
@@ -217,3 +217,6 @@ table td, table th {    font-size: 1.8em; padding: 0.2em 0.5em; text-align: left
 /* Images */
 img[style*="float: left"] { margin: 5px 15px 0px 0px; }
 img[style*="float: right"] { margin: 5px 0px 0px 15px; }
+
+/* Join Button */
+.join-this-group.button-top { display:none; }
