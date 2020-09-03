@@ -1,0 +1,69 @@
+# Site settings
+title: Adam Bardsley  
+email: adam.bardsley@gmail.com
+url: https://adambardsley.co.uk
+description: "Adam Bardsley Tech Consultancy, Support you tio build, deploy and design modern day technology"
+keywords: "Web, Development, Agile, Consultancy"
+skills: "Consultancy - Development - Support"
+meta_author: Bardsley Adam
+
+# Google webmaster tools
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+disqus_shortname: myshortname
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: c4001a #80B3FF
+  primary-rgb: "77, 0, 10.2" #"128,179,255"
+  secondary: 4b4846 #FD6E8A
+  secondary-dark: 0f0906 #A2122F
+
+# Footer settings
+footer:
+  copyright: Adam Bardsley  
+  location: Location
+  social: Around the Web
+  credits: Credits
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/bardsley
+  - title: instagram
+    url: http://instagram.com/mrbardsley
+  - title: bitbucket
+    url: http://bitbucket.org/abards
+  - title: github
+    url: http://github.com/bardsley
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 11 Herbie Higgins Close
+  - line: Liverpool, L8 2YH
+
+# Credits content
+credits: 'This site was based on Freelancer, and open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+#for posts
+defaults:
+  - scope:
+      path: "/project"
+      type: "posts"
+    values:
+      permalink: "/project"
