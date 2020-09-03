@@ -59,6 +59,8 @@ credits: 'This site was based on Freelancer, and open source Bootstrap theme cre
 # Build settings
 markdown: kramdown
 permalink: pretty
+keep_files: [CNAME]
+destination: ../docs
 
 #for posts
 defaults:
