@@ -1,0 +1,682 @@
+.uc-sv-module-text-wrapper .author { display: none; } /* name of submitter of feedback hidden on listing page */
+
+/*   Colours 
+
+  Purple: 
+  rgb(79,43,105);
+  Blue:
+  rgb(0, 169, 224);
+  Pink: 
+  rgb(255, 91, 116);
+*/
+
+/* Before I arrived */
+
+#topmenu .top-menu .menu-navigation ul li a {
+  color: rgb(79, 43, 105);
+}
+
+/* * * * * * * * * * * * * * * * 
+
+  General Page Improvement
+
+* * * * * * * * * * * * * * * * */
+
+@media only screen and (max-width: 1023px) {
+  /* stopping the wrid font size on tablets */
+  body {
+    font-size: unset;
+  }
+}
+
+.important {
+    font-weight: bold;
+    padding: 1em;
+    margin-bottom: 1em;
+    background: rgba(255, 91, 116, 0.3);
+}
+
+table, table td, table th { border: solid 1px #333; border-collapse: collapse;}
+table td, table th { padding: 0.5em 1em; }
+caption { background: rgb(79,43,105); color: #fff; padding: 10px; font-weight: bold; font-size: 1.1em;}
+
+blockquote { border-color: rgba(79,43,105,0.5); }
+.content .row .content-wrap blockquote p:last-child { margin-bottom:0; }
+a.button {
+  background: rgb(0, 169, 224);;
+  color: #FFFFFF;
+  border: 0;
+  padding: 0.4em 0.8em;
+  font-size: 1.1em;
+  text-decoration: none;
+  display:block;
+  height: 1.5em;
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+}
+
+.content .row .content-wrap .important {
+  padding-left: 50px; 
+  background: url('https://s3-eu-west-1.amazonaws.com/nusdigital/image/images/273926/original/info.png') #477fb3 no-repeat 0 0 ;
+}
+.content .row .content-wrap .important p {
+  color: #fff;
+}
+
+/* * * * * * * * * * * * * * * * 
+
+  Menu and Other Account Elements 
+
+* * * * * * * * * * * * * * * * */
+
+/* Move the menu and place logo inside haning on the header */
+
+.nav-wrap>ul {
+  margin-left: 111px;
+}
+
+.top-submenu-wrapper ul {
+  margin-left: 10px;
+}
+
+@media only screen and (min-width: 80px) {
+  #union-logo {
+    margin: -40px 5px 0 20px;
+    border: solid 5px #fff;
+    width: auto;
+    max-height: 80px;
+    padding: 0;
+    border-radius: 30000px;
+  }
+  #union-logo a img {
+    margin-left: 0;
+  }
+}
+
+.shopping-cart-menu {
+  display: none;
+}
+
+.profile-setting a.profile-name .salutation {
+  display: inline-block;
+}
+
+.profile-setting a.profile-name .user-name {
+  line-height: 1.1em;
+}
+
+.profile-setting {
+  margin-right: 17px;
+  margin-top: 10px;
+}
+
+.page-search .search-box .search-box-wrapper {
+  margin-right: 17px;
+}
+
+@media screen aND (max-width: 980px) {
+  .page-search {
+    height: 25px;
+    left: 0;
+    right: 0px;
+    top: 42px;
+    z-index: 0;
+  }
+}
+
+@media screen aND (max-width: 767px) {
+.page-search {
+    height: 25px;
+    left: 0;
+    right: 200px;
+    top: 30px;
+    z-index: 0;
+    position: absolute;
+  }
+}
+
+@media screen aND (max-width: 685px) {
+  .page-search {
+    height: 25px;
+    left: 0;
+    right: 200px;
+    top: 68px;
+    z-index: 0;
+    position: absolute;
+  }
+}
+
+@media screen aND (max-width: 555px) {
+  .page-search {
+    display:none;
+  }
+}
+
+
+
+#notice_and_error #notice {
+  top: -1em !important;
+  left: 0;
+  width: 90%;
+  margin-left: 5%;
+  padding: 15px 15px 15px 25px;
+  box-sizing: border-box;
+  font-weight: bold;
+  font-size: 1em;
+  color: #fff;
+  border: 0;
+  background-image: none;
+}
+
+#notice_and_error #notice.success {
+  background-color: rgba(46, 134, 40, 0.9);
+}
+
+#notice_and_error #notice a.close-notice:before {
+  content: "×";
+  color: #fff;
+  display: block;
+  font-size: 2em;
+  text-indent: 0;
+  width: 25px;
+  height: 25px;
+}
+
+#notice_and_error #notice .close-notice {
+  background: none;
+  width: 22px;
+  height: 22px;
+}
+
+/* * * * * * * * * * * * * * * * 
+
+  Front page
+
+* * * * * * * * * * * * * * * * */
+
+.section.stripe h2, .section h2 {
+  background-color: rgb(79, 43, 105);
+  color: #fff;
+  letter-spacing: 0.1em;
+  padding-left: 0.5em;
+  font-size: 1.8em;
+  margin: 0 20px;
+  text-align: center;
+}
+
+.column-wrap {
+  padding: 25px 20px;
+}
+
+#pre-footer .page-title {
+  background-color: rgb(79, 43, 105);
+  ;
+  display: block;
+  padding: 5px 10px;
+  color: #fff;
+  font-weight: bold;
+}
+
+#pre-footer .thumbnail-image {
+  width: unset;
+}
+
+/* * * * * * * * * * * * * * * * 
+
+  Social media
+
+* * * * * * * * * * * * * * * * */
+
+.social-media {
+  padding: 5px 10px;
+}
+
+.social-media ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.social-media ul li {
+  min-width: 50%;
+}
+
+.social-media ul li a {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+  /*   border: solid 1px red;/ */
+}
+
+.social-media-icon {
+  width: 61px;
+}
+
+#college-logo {
+  height: 55px;
+  padding: 5px
+}
+
+.attribution {
+  font-size: 0.6em;
+  text-align: right;
+  margin-top: 50px;
+}
+
+.attribution a {
+  color: #999;
+  text-decoration: none;
+}
+
+/* * * * * * * * * * * * * * * * 
+
+  Main Carousel
+
+* * * * * * * * * * * * * * * * */
+
+/* This makes each original a quarter 247px but same heeight as a two by two */
+
+.grid-carousel a {
+  width: 247px;
+  height: 296px;
+}
+
+/* * * * * * * * * * * * * * * * 
+
+  Front page Student Council 
+
+* * * * * * * * * * * * * * * * */
+
+#student-council.section .page-details {
+  padding-left: 10px;
+  color: #222;
+}
+
+#student-council.section .page-details .page-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  display: block;
+}
+
+#student-council.section .page-details .page-summary {
+  display: block;
+}
+
+#student-council.section .custom-title {
+  color: #fff;
+  background-color: rgb(255, 91, 116);
+  padding: 5px 10px;
+  text-align: center;
+  font-size: 0.9em;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.column .column-content {
+  min-height: unset;
+}
+
+#student-council .grid-original {
+  width: 300px;
+}
+
+#student-council .grid-original a {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+#student-council .grid-original a .thumbnail-image {
+  float: unset;
+  width: 92px;
+}
+
+#student-council .grid-carousel a span.page-details {
+  position: unset;
+  background: none;
+  color: #333;
+  ;
+}
+
+#student-council .grid-carousel a span.page-details span.page-summary, #student-council .grid-carousel a span.page-details span.page-title {
+  color: #333;
+  background: none;
+  margin: 0;
+  padding: 0;
+}
+
+#student-council .grid-carousel ul {
+  height: auto;
+}
+
+#student-council .grid-carousel {
+  height: 110px;
+}
+
+/* * * * * * * * * * * * * * * * 
+
+  Page CSS
+
+* * * * * * * * * * * * * * * * */
+
+.page-content-html .content .content-wrap>div {
+  background-image: none;
+}
+
+.page-content-html .content .left-nav-content .tree-navigation {
+  background: rgb(79, 43, 105);
+}
+
+.page-content-html .content .left-nav-content .tree-navigation h3 {
+  padding: 0.4em 0;
+}
+
+.page-content-html .content .left-nav-content .tree-navigation a {
+  color: #fff;
+}
+
+.page-content-html .content .content-wrap h2 {
+  color: #fff;
+  text-shadow: unset;
+  text-align: left;
+  padding-left: 1rem;
+}
+
+.page-content-html .content-wrap {
+  position: relative;
+  top: -20px;
+}
+
+.page-content-html .content .content-wrap h1:first-of-type {
+  background-image: none;
+  padding: 0;
+  font-size: 2.5em;
+  font-weight: light;
+  border: none;
+}
+
+.breadcrumb {
+  border: none;
+  margin: 0;
+}
+
+.page-content-html .content .content-wrap ol li, .page-content-html .content .content-wrap ul li {
+  margin-bottom: 1em;
+}
+
+/* * * * * * * * * * * * * * * * 
+
+  Student Voice Module
+
+* * * * * * * * * * * * * * * * */
+
+/* Hide elements */
+
+.sv-button.feedback,
+/*  Course feedback Button */
+
+.uc-action-link {
+  /* course feedback section */
+  display: none;
+}
+
+.uc-sv-module .uc-sv-twelvecol {
+  background: none;
+}
+
+.uc-sv-module .uc-sv-twelvecol h3 {
+  color: rgb(0, 169, 224);
+}
+
+.uc-sv-search-button input, .sv-button {
+  background-color: rgb(0, 169, 224);
+}
+
+#uc-sv-main-wrapper h1.uc-heading-title {
+  font-size: 2.5em;
+}
+
+.uc-sv-comment-saveButton, .uc-sv-button .buttonLink {
+  background-color: rgb(0, 169, 224);
+  background-image: none;
+  border-radius: unset;
+  -webkit-border-radius: unset;
+  padding: 10px 20px;
+  text-shadow: none;
+}
+
+#uc-sv-nav-tab-panel #uc-sv-main-navcontainer ul li.active a {
+  color: rgb(0, 169, 224);
+  text-shadow: none;
+  letter-spacing: 0.1em;
+}
+
+.uc-sv-module-idea-wrapper a.uc-sv-click-like-dislike {
+  background-color: rgb(0, 169, 224);
+  background-image: unset;
+  letter-spacing: 0.1em;
+}
+
+.uc-sv-module-details-content-wrapper {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+@media only screen and (min-width: 767px) {
+  .uc-sv-module-details-content-wrapper .uc-sv-module-voting-details {
+    position: absolute;
+    right: 0;
+    top: 100px;
+  }
+  .uc-sv-module-details-content-wrapper {
+    margin-right: 260px;
+  }
+}
+
+.uc-text-like {
+  background-color: #2e8628;
+}
+
+.uc-text-dislike {
+  background-color: #EA3E2B;
+}
+
+.official-response {
+  border: solid 1px #aaa;
+  background: #ddd;
+  padding: 20px 20px 10px;
+}
+
+.official-response:before {
+  content: "Current Progress";
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+#uc-sv-main-wrapper .uc-sv-module-details-content-wrapper {
+  font-size: 1em;
+  margin-left: 0.5em;
+}
+
+.uc-sv-category-field-holder ul li label.uc-sv-bgorange {
+  background-color: rgba(0, 169, 224, .74);
+}
+
+
+/* * * * * * * * * * * * * * * * 
+
+  Staff Profiles
+
+* * * * * * * * * * * * * * * * */
+
+.staff-profile {
+  display: flex;
+  flex-direction: row;
+  float: left;
+  margin: 0 20px 20px 0;
+  width: 330px;
+}
+
+.staff-profile .pic {
+  width: 148px;
+  height: 148px;
+  flex-shrink: 0;
+}
+.staff-profile .details h2 {
+  width: calc(100% - 20px);
+}
+.staff-profile .details {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  
+}
+.staff-profile .email a {
+  color: #333; text-decoration: none;
+}
+
+/* * * * * * * * * * * * * * * * 
+
+  Groups CSS
+
+* * * * * * * * * * * * * * * * */
+
+.group a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin-bottom: 1em;
+}
+
+.group a img {
+  margin-right: 1em;
+    width: 66px;
+  
+}
+
+.group a .title {
+  font-weight: bold;
+  color: #333;
+  font-size: 1.5em;
+}
+
+.group a .title:after { 
+  content: " \25BA";
+  font-size: 0.7em;
+  vertical-align: middle;
+}
+
+
+#uc-groups-details-page .content-wrap>div {
+  background-image: none;
+}
+
+#uc-groups-details-page .tree-navigation {
+  float: unset;
+  width: 100%;
+    background: none;
+    margin-bottom: 0;
+}
+#uc-groups-details-page .group_left_panel_menu {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+
+#uc-groups-details-page .tree-navigation h1 { 
+  font-size: 2.2em; 
+  padding: 0;
+}
+
+#uc-groups-details-page .tree-navigation .thumbnail img { 
+  border: solid 4px rgb(79,43,105); 
+  border-radius: 200000px;
+  height: 90px;
+}
+#uc-groups-details-page .tree-navigation .selected { border: none;}
+
+#uc-groups-details-page .group-category uc-tab-content-menu { display:none; }
+#uc-groups-details-page .group-category li { display:content; }
+#uc-groups-details-page .group-category h4 { display:none; }
+#uc-groups-details-page .group-category li { display:none; }
+#uc-groups-details-page .group-category li .typeCategory { display: block; }
+#uc-groups-details-page .title { flex-grow: 1; }
+
+#uc-groups-details-page .content-wrap {
+  width: 95%; float: unset;
+}
+
+#uc-groups-details-page .content-wrap .contentBoxes h2 {
+  margin-top:0;
+  background: rgb(79, 43, 105);
+  color: #fff;
+  padding-left: 0.7em;
+}
+
+#uc-groups-details-page .content-wrap .contentBoxes p {
+  font-family:unset;
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+
+#uc-groups-details-page .content-wrap .contentBoxes {
+  margin-left: 120px;
+  margin-top: -50px
+}
+
+#uc-groups-details-page .content-wrap .contentBoxes ul {
+  margin-left: 2em;
+}
+#uc-groups-details-page .content-wrap .contentBoxes li {
+  margin-bottom: 1em;
+}
+
+/* Specific Styles for the cusotm group listing paGE */
+.uc-page-class-current-groups .section.default-body { display: flex; flex-wrap: wrap; padding-top: 2em; }
+.uc-page-class-current-groups .section.default-body .group { width: 300px; margin-right: 20px;}
+
+.join-this-group.button-bottom { display: none; }
+
+.join-this-group.button-top { width: 100%; margin-top: -45px; }
+.join-this-group.button-top a { border-radius: 0; background: rgb(255, 91, 116); text-shadow: none; padding-left: 0.6em; float: right; box-shadow: none; height: 23px; font-size: 1em; padding-bottom:7px;}
+@media screen and (min-width:1024px) { .join-this-group.button-top { margin-top: -44px; }}
+
+.uc-page-class-current-groups .section.default-body h2,
+.uc-page-class-current-groups .section.default-body p { width: 100%; }
+
+#bottom-advert .column-wrap { padding:0; }
+#bottom-advert .thumbnail-image { width:100%;}
+
+/* * * * * * * * * * * * * * * * 
+
+  Mobile Tweaks CSS
+
+* * * * * * * * * * * * * * * * */
+
+@media screen and (max-width: 690px) {
+  .uc-leaderboard-advertisement { display: none; }
+}
+
+
+@media screen and (max-width: 769px) {
+  .page-content-html .left-nav-content { display: none; }
+  
+  
+  body[class^="union-group-class-"] #uc-groups-details-page .tree-navigation .thumbnail img, 
+  body[class*=" union-group-class-"] #uc-groups-details-page .tree-navigation .thumbnail img {
+    width: 48px;
+    height: 48px;
+  }
+
+  body[class^="union-group-class-"] #uc-groups-details-page .tree-navigation ul li,
+  body[class^=" union-group-class-"] #uc-groups-details-page .tree-navigation ul li {
+    margin-right:0;
+  }
+  
+  #uc-groups-details-page .content-wrap .contentBoxes {
+    margin:0;
+  }
+}
+
