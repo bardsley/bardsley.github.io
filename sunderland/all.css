@@ -1,0 +1,535 @@
+#eventcarousel .event-box .event-name {
+    position: relative;
+    float: none;
+    bottom: 0;
+}
+
+/* HV adds fixed height to events on What's On page to fix layout issue */
+.event-box {
+height:600px;
+}
+
+/* end of fix */
+
+#latestnewshome {
+	padding-top:35%;
+}
+
+
+.system-menu, .cart-account {
+	top:80px;
+}
+
+#placement_170655_0 {
+	margin-top:33px;
+}
+
+.myaccount-student-details{
+position:relative;
+}
+.tree-navigation ul li#my_details ul li, .tree-navigation ul li#my_details ul li.selected{
+background:none;
+}
+#guest_user_attributes_opt_in_of_union_commercial_emails+ p,#student_user_attributes_opt_in_of_union_commercial_emails +p {
+	font-size:18px;
+}
+.tree-navigation ul li#my_details{
+  padding:10px 0px 10px;
+}
+.tree-navigation ul li#user_profile.selected > a, .tree-navigation ul li#my_details.selected > a,.tree-navigation ul li#user_profile.selected li a, .tree-navigation ul li#my_details.selected li a{
+	color:#333
+}
+.uc-widget-upcoming-events-wrapper .upcoming-event-container .event-box .free-event-title{
+	text-align: left;
+    text-overflow: initial;
+    white-space: initial;
+}
+
+.uc-widget-upcoming-events-wrapper .uc-widget-upcoming-event-row .event-box .non-free-event-title{
+	height:58px;
+}
+
+@media handheld, only screen and (max-width: 1024px) and (min-width: 950px){
+
+  #eventcarousel .event-banner {
+    margin: 0px -10px 0px 0;
+    width: 100%;
+	}
+}
+
+@media handheld, only screen and (max-width: 1340px) {
+#eventcarousel .event-box {
+  	height:600px;
+    min-height:600px;
+  }
+}
+@media handheld, only screen and (max-width: 950px) {
+  #eventcarousel {
+  	height:auto;
+  }
+  #eventcarousel .event-box {
+  	height:auto;
+    min-height:auto;
+  }
+  
+  #event-homepage .event-banner img{
+  	position:Relative;
+    float:none
+  }
+  #eventcarousel .event-box .event-name{
+  	bottom:initial;
+    position:relative;
+    width: 100%;
+    min-height: auto;
+    height:auto;
+  }
+  .row #eventcarousel .event-details{
+ 	 margin-top:5px;
+    width:100%;
+  }
+  .row #eventcarousel .event-box .event-details p:first-child{
+  	height:auto;
+    min-height: auto;
+  }
+}
+.group-box{
+	min-height:215px;
+}
+.event-box .event-name, .uc-widget-upcoming-events-wrapper .uc-widget-upcoming-event-row .event-box .free-event-title {
+    font-size: 22px;
+    color: #251f5e;
+    font-family: 'intelobold',Helvetica,sans-serif;
+    font-weight: normal;
+}
+
+.widget-four.uc-without-og.uc-widget-articles-container ul.uc-widget-articles-list li .headline a, .widget-four.uc-without-og.uc-widget-articles-container ul.uc-widget-articles-list li .headline a{
+	font-family: 'intelobold',Helvetica,sans-serif;
+    font-weight: normal;
+}
+
+.content .row .content-wrap ul{
+font-size:18px;
+}
+
+.signin-block p {
+    display: block;
+}
+#latest-news {
+    margin-top: 30px;
+}
+
+#volunteering-buttons  .thumbnail-image{
+float:none;
+}
+
+#eventcarousel .event-box{
+min-height:500px;
+}
+.ui-widget.ui-widget-content{
+padding:0px;
+}
+
+.melink{
+	text-align:center;
+    margin-bottom:55px;
+}
+
+.melink a.moreEvents{
+	color: #251f5e;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: bold;
+    border: solid 2px #c1d4ec;
+    padding: 10px 15px;
+    transition: all .5s;
+  	text-decoration: none;
+}
+
+.melink a.moreEvents:hover{
+    color: #251f5e;
+    background: #c1d4ec;
+}
+
+/*top animation*/
+
+.row.header 
+{
+  -moz-animation: colorchange 20s infinite;
+  -o-animation: colorchange 20s infinite;
+  -ms-animation: colorchange 20s infinite;
+}
+
+
+
+@-moz-keyframes colorchange 
+{
+  0%   {background: #e7425f;}
+  15%  {background: #b688ba;}
+  40%  {background: #f47e47;}
+  65%  {background: #00b0aa;}
+  90%  {background: #6dc6eb;}
+  100% {background: #e7425f;}
+}
+@-o-keyframes colorchange 
+{
+  0%   {background: #e7425f;}
+  15%  {background: #b688ba;}
+  40%  {background: #f47e47;}
+  65%  {background: #00b0aa;}
+  90%  {background: #6dc6eb;}
+  100% {background: #e7425f;}
+}
+@-ms-keyframes colorchange 
+{
+  0%   {background: #e7425f;}
+  15%  {background: #b688ba;}
+  40%  {background: #f47e47;}
+  65%  {background: #00b0aa;}
+  90%  {background: #6dc6eb;}
+  100% {background: #e7425f;}
+}
+
+
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+   #union-logo a {
+        min-height:auto;
+   }
+  
+  .row.header{
+  	-ms-animation: none;
+    background-color:rgba(221, 80, 113, 1);
+  }
+}
+
+
+
+
+@supports (-ms-ime-align: auto) {
+  #union-logo a{
+  	background:none;
+  }
+  .row.header{
+  	-webkit-animation:none;
+  }
+}
+#myaccount-information .clubSubMenu{
+  display:block
+}
+.melink{
+margin-top:7px;
+}
+
+/* Hide the dots for the slider */
+ul.centered-btns_tabs.centered-btns1_tabs {
+    display: none;
+}
+/*Move advert inline with right side */
+.uc-leaderboard-advertisement {
+    right: 5px;
+}
+
+/*code to fix TOTUM banner_start*/
+
+@media screen and (max-width: 767px) {
+.wrapper .top-ad {
+top: 10px;
+}
+#placement_170655_0 {
+margin-top: 10px;
+}
+}
+@media screen and (max-width: 480px) {
+  .wrapper .top-ad {
+    top: 20px;
+  }
+}
+/*code to fix TOTUM banner_end*/
+
+
+.uc-page-class-find-funding .cards2by3 .page-details .page-title {
+  color: #00afab;
+}
+
+/*********************************************************************************************/
+
+/* Version 1.8*/
+
+/* Resturcturing page and removing elements */
+
+#uc-group-homepage #left-content { display: none; }
+
+#uc-group-homepage .wrap .content-wrap.home-content-wrap.subsites.ninecol.last { width: unset; }
+
+#uc-group-homepage #right-content { width: unset;  display: flex; flex-wrap: wrap; }
+
+#uc-group-homepage #right-content h1 {
+    margin: 10px 25px 10px 16rem;
+}
+
+#uc-group-homepage #group-events {
+    display: none;
+}
+
+#uc-group-homepage .group-type-name {
+    max-width: 15rem;
+}
+
+#uc-group-homepage .content-wrap.ninecol>div.group-search {
+    width: calc(55% - 45px);
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#uc-group-homepage .search-box-wrapper {
+    padding: 5px;
+}
+
+/* #uc-group-homepage .uc-middle-panel-for-group-cat { display: contents; } /* IE fix in JS */
+
+#uc-group-homepage #your-societies .twelvecol { display: flex; flex-direction: row; }
+
+/* left hand menu with group types listed  */
+
+#uc-group-homepage .types-list {
+    width: 15rem;
+    margin-top: -80px;
+}
+
+@media handheld, only screen and (max-width: 950px) {
+    #uc-group-homepage .types-list { margin-top: -150px; }
+    #uc-group-homepage .search.group-search,
+    #uc-group-homepage #right-content h1 {
+        margin: 10px 25px 10px 16rem;
+    }
+    #uc-group-homepage .group-types ul li { text-align: left;}
+}
+
+#uc-group-homepage .types-list .group-types, #uc-group-homepage .types-list .group-types-wrapper {
+    background: #251f5e;
+}
+
+#uc-group-homepage .types-list .group-types ul li a {
+    color: #fff;
+}
+
+#uc-group-homepage .types-list .group-types ul li.active a {
+    color: #251f5e;
+}
+
+#uc-group-homepage .types-list li {
+    padding: 0.5rem 1rem;
+}
+
+/* Group listing */
+
+.uc-group-list-page-wrapper {
+    display: contents;
+    position: unset;
+    bottom: 0;
+    float: unset;
+}
+
+.category-box-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.group-box {
+    width: 270px;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-bottom: 0px;
+}
+
+.group-box .group-name {
+    display: block;
+    width: unset;
+    color: #ff7f40;
+    font-size: 1.4em;
+    font-weight: bold;
+    font-family: 'intelobold', Helvetica, sans-serif;
+    padding-top: 110px;
+}
+
+.group-box .group-banner {
+    display: block;
+    top: unset;
+    position: unset;
+    right: unset;
+    color: #4e4d4d;
+    font-size: 21px;
+    overflow: visible;
+    margin: 0;
+    float: unset;
+    position: absolute;
+    top: 0;
+    border-radius: 10%;
+    border-width: 5px;
+    border-color: rgba(33, 18, 97, 0.5);
+    border-style: solid;
+}
+
+.group-box .group-details {
+    width: 100%;
+}
+
+@media handheld, only screen and (max-width: 1339px) and (min-width: 1225px) {
+    .group-box:nth-child(odd) {
+        margin-left: 0%;
+    }
+}
+
+@media handheld, only screen and (max-width: 1339px) and (min-width: 1225px) {
+    .group-box:nth-child(even) {
+        margin-left: 0%;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    #uc-group-homepage #right-content .uc-middle-panel-for-group-cat {
+        display: block;
+    }
+}
+
+/* Group Details Page */
+
+/* Navigation element */
+#uc-groups-details-page .ui-widget-header { background-image: none; background-color: rgba(0,175,170,0.2); color: #fff;}
+#uc-groups-details-page .ui-state-active, 
+#uc-groups-details-page .ui-widget-content .ui-state-active, 
+#uc-groups-details-page .ui-widget-header .ui-state-active  { 
+    background-color: #00afaa; 
+}
+#uc-groups-details-page .ui-state-default a, 
+#uc-groups-details-page .ui-state-default a:link, 
+#uc-groups-details-page .ui-state-default a:visited { color: rgba(0,175,170,1); }
+
+#uc-groups-details-page .ui-state-active a
+#uc-groups-details-page .ui-widget-content .ui-state-active a, 
+#uc-groups-details-page .ui-widget-header .ui-state-active a { 
+    color: #fff;
+}
+
+/*  Main menu */
+.group .tree-navigation ul li,
+#uc-groups-details-page .tree-navigation ul li { list-style: none; background-image:none; text-indent:unset; margin-right:0;}
+.group .tree-navigation ul.group-category li, .group .tree-navigation ul.group-category ul,
+#uc-groups-details-page .tree-navigation ul.group-category li, #uc-groups-details-page .tree-navigation ul.group-category ul { padding-left: 0; margin-left:0;}
+.group .group-category>li,
+#uc-groups-details-page .group-category>li { display:none; }
+.group .group-category>li:nth-of-type(1),
+#uc-groups-details-page .group-category>li:nth-of-type(1) { display:block; }
+.group .group-category>li:nth-of-type(1) h4,
+#uc-groups-details-page .group-category>li:nth-of-type(1) h4 { display:none; }
+.group .group-category  ul.typeCategory,
+#uc-groups-details-page .group-category  ul.typeCategory { display: flex; flex-wrap: wrap; }
+.group .group-category  ul.typeCategory li,
+#uc-groups-details-page .group-category  ul.typeCategory li { background-image: none;  background-position: 0 0; background-color: #e54360; color: #fff; display: block; padding:2px 7px; border-radius: 3px; margin:2px 5px; font-size: 0.8rem;}
+.group .group-category li.group-awards,
+#uc-groups-details-page .group-category li.group-awards { display:block; }
+.group .tree-navigation ul li.selected a img,
+#uc-groups-details-page .tree-navigation ul li.selected a img { margin-left: 0; }
+.group .group-cms-wrapper .top-container,
+#uc-groups-details-page .group-cms-wrapper .top-container { display: none; }
+.group .threecol.tree-navigation ,
+#uc-groups-details-page .threecol.tree-navigation { border: none; }
+@media screen and (max-width: 980px) {
+    #uc-groups-details-page .group_left_panel_menu { 
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #uc-groups-details-page .content-wrap {
+        width:100%;
+    }
+    #uc-groups-details-page .group_left_panel_menu .title { width: 100%; } 
+    #uc-groups-details-page .tree-navigation .title h1 { display: block; }
+    #uc-groups-details-page .group_left_panel_menu .title h1 { margin-bottom:0; } 
+    #uc-groups-details-page.group_left_panel_menu .thumbnail img { height: 100px;  }
+    #uc-groups-details-page .content-wrap.ninecol>div.group-cms-wrapper  { padding-left:0;}
+    #uc-groups-details-page .threecol.tree-navigation { margin-bottom: 0; }
+
+    #uc-groups-details-page .top-union { min-width:0;}
+}
+
+#uc-groups-details-page .group_left_panel_menu .title h1, #uc-groups-details-page .content-wrap .portlet .contentBoxes h2 { font-size: 1.8em; }
+#uc-groups-details-page p { font-size: 18px; margin-bottom: 1em; }
+#uc-groups-details-page .tab hr { width: 80%; margin: 3rem 0;  border: 0; height: 1px; background: #ccc; }
+#uc-groups-details-page h1 { font-size: 2.4em; margin-bottom: 0; }
+#uc-groups-details-page h2 { font-size: 2em; display:block; }
+#uc-groups-details-page h3 { font-size: 1.8em; display:block; }
+#uc-groups-details-page blockquote { border-color: #ff7f40; }
+#uc-groups-details-page .thumbnail-image.original { width:unset; }
+#uc-groups-details-page .section.tab>h2 { display:none; }
+
+#uc-groups-details-page .tab-content-wrapper-box div {  overflow:auto; clear: both; }
+#uc-groups-details-page .tab-content-wrapper-box div .role {  display: block; font-size: 0.8em; color: #ff7f40;}
+
+
+/* Tables */
+table { border-collapse: collapse; max-width: 100%; width: 100%; caption-side: bottom; }
+caption { font-size: 1.3em; color: #999; font-weight: normal; font-style: italic; }
+table th { background-color: #251f5e; color: #fff; }
+table td, table th {    font-size: 1.8em; padding: 0.2em 0.5em; text-align: left; border: solid 1px #251f5e;  }
+
+/* Images */
+img[style*="float: left"] { margin: 5px 15px 0px 0px; }
+img[style*="float: right"] { margin: 5px 0px 0px 15px; }
+
+/* Join Button added*/
+.join-this-group.button-top { display:none; }
+
+/* Problem joining error */
+.uc-group-membership-type-row div#notice.warning {
+  padding:1em 1em 1em 60px;
+  background-size: 40px; background-position: 10px 10px; 
+}
+
+.uc-group-membership-type-row div#notice.warning h2 { 
+  font-size: 2.2em; color: inherit; margin:0; padding:0;
+}
+
+.uc-group-membership-type-row div#notice.warning p { 
+  font-size: 1.4em;
+}
+
+#uc-groups-details-page .tab-content ul {
+  margin: 0 0 1em 1em; padding: 0 0 1em 1em;
+  font-size: 1.4em;
+}
+
+#uc-groups-details-page .tab-content>.uc-page-wrap a {
+  text-decoration: underline; color: #e54360;
+}
+
+/*Remove space above more events*/
+
+.event-box {
+  height: 520px;
+}
+
+
+.uc-widget-upcoming-events-wrapper .uc-widget-upcoming-event-row .upcoming-event-container .event-box {
+  margin-bottom: 0;
+}
+
+
+.uc-widget-upcoming-events-wrapper .uc-widget-upcoming-event-row .event-box .non-free-event-title {
+  height: 30px;
+  bottom: 20px;
+}
+
+.event-box .event-name, .uc-widget-upcoming-events-wrapper .uc-widget-upcoming-event-row .event-box .non-free-event-title {
+  bottom: 20px;
+  height: 30px;
+}
+
+
+
