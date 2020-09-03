@@ -9,5 +9,5 @@ project-date: August 2020
 client: Sunderland Students' Union
 website: https://sunderlandsu.co.uk/groups
 category: CSS and Javascript development and Site training
-description: Working with the activities team to both mordenise this section of theirt union cloud site whilst fitting in with the overall Su theme. After working on the overall style we undertook training to support the team to develop and maintain their societies presence.
+description: Working with the activities team to both mordenise this section of their union cloud site whilst fitting in with the overall SU theme. After working on the overall style we undertook training to support the team to develop and maintain their societies presence.
 ---

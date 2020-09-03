@@ -9,5 +9,5 @@ project-date: June 2014
 client: City of Bristol College
 website: https://cobcsu.unioncloud.org
 category: Union Cloud Theme Development
-description: A short project to take the City of Bristol college from a basic Union cloud theme within a short time frame.
+description: A short project to take the City of Bristol college from a basic Union cloud theme to a fully fledged site within a short time frame.
 ---

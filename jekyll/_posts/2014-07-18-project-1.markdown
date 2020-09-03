@@ -9,5 +9,5 @@ project-date: Feb 2020
 client: Personal Project
 website: https://thebaddriver.club
 category: Application Development
-description: A small project to start holding drivers accountable for their actions. Based around the frustation ofg being a dog walker and a cyclist. Uses the VueJS stack and relatime updates alongside a Progresive Web App.
+description: A small project to start holding drivers accountable for their actions. Based around the frustation ofg being a dog walker and a cyclist. Uses the VueJS stack and realtime updates alongside a Progresive Web App.
 ---
