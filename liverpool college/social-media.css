@@ -1,0 +1,8 @@
+#social-media .social-media img {  width: 48px; margin-right: 0.5em; }
+#social-media #social-media-wrap { display: flex; flex-wrap: wrap; padding-top: 0.5em;}
+#social-media .uc-page-wrap { flex: 1 0 11rem;  }
+#social-media .social-media {  width: 100%; margin-bottom: 1em; }
+#social-media .social-media a > * { vertical-align:  middle; }
+#social-media .social-media a {  text-decoration: none; color: #224; font-weight: bold; font-size: 1.3em;  }
+
+
