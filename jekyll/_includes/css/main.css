@@ -54,7 +54,7 @@ hr.star-primary:after {
     position: relative;
     top: -.8em;
     padding: 0 .25em;
-    font-family: FontAwesome;
+    font-family: 'Font Awesome 5 Free';
     font-size: 2em;
 }
 
@@ -278,6 +278,16 @@ section.success {
       max-width: 23.5%;
     }
   } */
+
+#skills .portfolio-item h3 {
+    text-align: center;
+}
+@media (min-width: 640px) {
+    #skills .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item { flex: 1 0 47%; max-width: 47%; }
+}
+@media (min-width: 960px) {
+    #skills .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item { flex: 1 0 30%; max-width: 30%; }
+}
 
 .btn-outline {
     margin-top: 15px;
