@@ -289,7 +289,7 @@ section.success {
 #services .portfolio-item h3 {
     text-align: center;
 }
-#services .portfolio-item h3 span { display:block;}
+#services .portfolio-item h3 span { display:block; margin-bottom: 0.4em; }
 @media (min-width: 640px) {
     #services .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item { flex: 1 0 47%; max-width: 47%; }
 }
