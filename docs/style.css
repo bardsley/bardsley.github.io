@@ -286,14 +286,15 @@ section.success {
     }
   } */
 
-#skills .portfolio-item h3 {
+#services .portfolio-item h3 {
     text-align: center;
 }
+#services .portfolio-item h3 span { display:block;}
 @media (min-width: 640px) {
-    #skills .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item { flex: 1 0 47%; max-width: 47%; }
+    #services .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item { flex: 1 0 47%; max-width: 47%; }
 }
 @media (min-width: 960px) {
-    #skills .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item { flex: 1 0 30%; max-width: 30%; }
+    #services .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item { flex: 1 0 31%; max-width: 31%; }
 }
 
 .btn-outline {
