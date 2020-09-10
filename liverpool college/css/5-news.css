@@ -1,4 +1,4 @@
-/* Second Column  */
+/* News   */
 #two-column { margin-top: 1em; }
 
 #right-column h3 {
@@ -26,6 +26,10 @@
 }
 #latest-articles .article-widget.with-image-description .top-articles { font-size: 1em; }
 #latest-articles .top-articles .headline { overflow: visible; width: 100%; white-space: unset; }
+#latest-articles .article-widget .top-articles li .article-content .date a, #latest-articles .article-widget.with-image-description .top-articles li .date a {
+  font-weight: bold;
+}
+
 #latest-articles .article-widget .top-articles li .article-content .article-description { line-height: 1.3em; }
 #latest-articles .article-widget .top-articles li .article-thumbnail { width: 125px; }
 #latest-articles .article-widget .top-articles li .article-content { padding-left: 130px; }

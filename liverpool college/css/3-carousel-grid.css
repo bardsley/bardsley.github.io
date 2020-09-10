@@ -1,2 +1,4 @@
 /* Grid carousel */
+.grid-carousel { height: 380px; }
+.grid-carousel ul { height: 380px; }
 .grid-carousel .grid-original a { width: 380px; height: 380px; }

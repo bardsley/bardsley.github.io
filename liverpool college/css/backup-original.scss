@@ -1,0 +1,404 @@
+.page-content-html .row.content{
+    margin-top:45px;
+    }
+    
+    
+    /* 
+    -----------------------------------------------------------------
+     @import must be at the top of the stylesheet (Dale Davies CoLC) 
+    -------------------------------------- --------------------------
+    */
+    
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+    
+    #union-logo h1{
+    padding-top:20px;
+    }
+    
+    /* 
+    --------------------------------------
+     Styles Updated By Adam (UnionCloud) 
+    -------------------------------------- 
+    */
+    
+    .system-menu{
+    margin-top:-25px;
+    }
+    
+    .row .grid .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal, .row .grid .jcarousel-skin-tango .jcarousel-next-disabled-horizontal {
+        display:none !important
+    }
+    .uc-poweredby-nusdigital-logo {
+        margin-top:15px;
+    }
+    #executive-committee {
+        margin-right:-2px;
+    }
+    
+    /* Officer rotator */
+     .stripe .jcarousel-skin-tango .jcarousel-clip-horizontal {
+        width: 100%;
+    }
+    #meet-your-elected-student-officers .jcarousel-skin-tango .jcarousel-item-horizontal {
+        margin-right: 5px;
+    }
+    #meet-your-elected-student-officers .thumbnail-image {
+        width:100%;
+        padding:0;
+    }
+    #meet-your-elected-student-officers .page-details {
+        position: absolute;
+        width: 100%;
+        background: #00aeef;
+        padding: 5px 0;
+        bottom: 22px;
+    }
+    #meet-your-elected-student-officers .page-summary, #meet-your-elected-student-officers .page-title {
+        color: #fff;
+    }
+    
+    
+    
+    /* 
+    --------------------------------------
+     Styles Updated By Dale Davies (CoLC) 
+    -------------------------------------- 
+    */
+    
+    .cart-account {
+        position: absolute;
+        top: 10px;
+        z-index: 1000;
+    }
+    
+    html{
+      zoom:105%;
+    }
+    
+    html body,
+    h2,
+    strong,
+    em,
+    .portletTitles h2, h1,
+    .content .row .content-wrap h2,.more-article-block-wrapper h3,
+    .more-article-block 
+    .menu,
+    .tree-navigation,
+    .tree-navigation ul,
+    .tree-navigation .nav-level-one li, .tree-navigation .nav-level-two li, .tree-navigation .nav-level-three li, .tree-navigation .nav-level-four li,
+    .tree-navigation h3,
+    .tree-navigation ul.nav-level-one li h3 a,
+    .tree-navigation-structure #uc-left-navigation,
+    .content .row .content-wrap h1,
+    .content .row .content-wrap p,
+    .content .row .content-wrap ul,
+    .stripe h2,
+    .stripe .stripe-wrap a span.page-details,
+    .uc-student-voice-widget-category li.selected a, .uc-student-voice-widget-category li.selected a:visited,
+    #latest-articles .top-articles,
+    #latest-articles .article-widget .top-articles li .article-content .date a, #latest-articles .article-widget.with-image-description .top-articles li .date a,
+    #latest-articles .article-widget.with-image-description .top-articles .headline a,
+    #latest-articles .article-widget.with-image-description .top-articles li .article-description,
+    .uc-widget-student-voices-wrapper .uc-sv-widget-title a,
+    .uc-widget-student-voices-wrapper .uc-sv-widget-row-desc,
+    .uc-student-voice-widget-more-link a, .uc-student-voice-widget-more-link a:hover, .uc-student-voice-widget-more-link a:visited,
+    .more-article-block .more-article-block-wrapper ul,
+    .more-article-block .more-article-block-wrapper ul li span, .more-article-block .more-article-block-wrapper ul li span a,
+    .uc-articles-tags, .uc-events-tags, .uc-groups-tags, .uc-resources-tags,
+    .contentContainer .backButton,
+    #uc-sv-main-wrapper h1,
+    #uc-sv-nav-tab-panel #uc-sv-main-navcontainer ul li.active a,
+    #uc-sv-main-wrapper,
+    .uc-sv-category-field-holder ul,
+    .uc-sv-category-field-holder ul li label.uc-sv-bgorange,
+    .uc-sv-idea label, .uc-sv-petition label, .uc-dr-concern label, .uc-dr-praise label,
+    #uc-sv-left-panel .uc-sv-left-panel-wrapper .page-separator,
+    #uc-sv-main-wrapper .uc-sv-module-idea-wrapper h2,
+    .uc-sv-module-text-wrapper,
+    #uc-sv-main-wrapper .uc-sv-module-details-content-wrapper,
+    .content .uc-sv-comment-box h2,
+    .uc-sv-comment-box,
+    .system-menu,
+    .confirm-email-block .confirm-link-message, .reset-password-block .confirm-link-message, .accountlock-password-block .confirm-link-message, .reset-password-block .warning, .confirm-email-block .warning, .accountlock-password-block .warning, .signin-block .existing-user .user-email-id, .registration-final-step, .signin-block, .change-password-block, .confirmation-email-block, .unlock-block, .reset-password-block, .accountlock-password-block, .problem-registering-block,
+    .signin-block h3.block-title, .signin-block .inputs li label.label,
+    .forgot-password a,
+    .verifyTickets .title h1, #shopping-cart .title h1,
+    #search-result h2,
+    #search-result .src-result .result-body p, #search-result .src-result .result-body ol, #search-result .src-result .result-body ul,
+    #search-result h2>span
+    {
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    strong,
+    .portletTitles h2, h1,
+    .content .row .content-wrap h2,
+    .more-article-block .more-article-block-wrapper h3,
+    .more-article-block .more-article-block-wrapper ul li span, 
+    .more-article-block .more-article-block-wrapper ul li span a,
+    .contentContainer .backButton,
+    #uc-sv-nav-tab-panel #uc-sv-main-navcontainer ul li.active a
+    #uc-sv-main-wrapper h1,
+    .uc-sv-idea label, .uc-sv-petition label, .uc-dr-concern label, .uc-dr-praise label,
+    #uc-sv-left-panel .uc-sv-left-panel-wrapper .page-separator,
+    #uc-sv-main-wrapper .uc-sv-module-idea-wrapper h2,
+    .system-menu a.uc-sign-link,
+    .signin-block h3.block-title, .signin-block .inputs li label.label,
+    .verifyTickets .title h1, #shopping-cart .title h1,
+    #search-result h2,
+    .uc-widget-student-voices-wrapper .uc-sv-widget-title a
+    {
+        font-weight:700
+    }
+    
+    #search-result h2>span {
+        height:auto;
+    }
+    
+    #uc-sv-main-wrapper,
+    #search-result,
+    .uc-heading-title{
+        padding:0
+    }
+    #uc-sv-content-container,
+    .confirm-email-block .confirm-link-message, .reset-password-block .confirm-link-message, .accountlock-password-block .confirm-link-message, .reset-password-block .warning, .confirm-email-block .warning, .accountlock-password-block .warning, .signin-block .existing-user .user-email-id, .registration-final-step, .signin-block, .change-password-block, .confirmation-email-block, .unlock-block, .reset-password-block, .accountlock-password-block, .problem-registering-block,
+    .uc-widget-student-voices-wrapper,
+    #search-result .src-result
+    {
+        margin:0;
+    }
+    
+    .uc-student-voice-widget-more-link {
+    padding:0;
+    left:10px;
+    top:10px;
+    position:relative;
+        font-size: 0.65em;
+        font-weight:700
+    }
+    .uc-student-voice-widget-more-link a, .uc-student-voice-widget-more-link a:hover, .uc-student-voice-widget-more-link a:visited {
+     font-weight:700
+    }
+    .uc-widget-student-voices-wrapper .uc-student-voice-jcarousel .jcarousel-prev-vertical {
+        right:10px;
+    }
+    .uc-widget-student-voices-wrapper .uc-student-voice-jcarousel .jcarousel-next-vertical {
+        right:45px;
+    }
+    
+    .uc-widget-student-voices-wrapper .uc-sv-widget-like-dislike-wrapper {
+        zoom:80%;
+    }
+    
+    .uc-sv-widget-description-noimage {
+        padding-right: 95px;
+    }
+    
+    
+    
+     ul.uc-student-voice-widget-category {
+        background:#000000;
+    }
+    #have-your-say-column-content, .uc-widget-student-voices-wrapper .jcarousel-container-vertical {
+        background:#FFFFFF;
+    }
+    .tree-navigation {
+        background-image:none
+    }
+    .tree-navigation.page-heading-level-one {
+        background:#00aeef;
+    }
+    .tree-navigation ul.nav-level-one h3 {
+        padding-top:10px;
+    }
+    .tree-navigation ul.nav-level-one li h3 a {
+        background:none;
+    }
+    .hitarea {
+        display:none;
+    }
+    #uc-left-navigation li:first-of-type {
+        border-top:none;
+    }
+    #uc-left-navigation li a {
+        background:none;
+        padding-left:5px
+    }
+    #uc-left-navigation li ul li a, #uc-left-navigation li ul li.last a {
+        background:none;
+        padding-left:20px
+    }
+    .profile-setting a.profile-name {
+        line-height:1.4em;
+    }
+    .profile-setting a.profile-name .user-name {
+        display:inline
+    }
+    .profile-name-wrapper {
+        box-shadow:none;
+        -webkit-box-shadow:none;
+    }
+    #union-logo a img {
+        margin-left:0;
+    }
+    .menu ul li.first-menu span {
+        padding-left:0;
+    }
+    .stripe {
+        padding-top:0;
+        background:none;
+    }
+    
+    .centered-btns_tabs {
+        display:none
+    }
+    .section.stripe h2, .section.column h2 {
+        margin-top:0
+    }
+    .stripe .jcarousel-skin-tango .jcarousel-next-horizontal {
+        right:0;
+        width:50px;
+    }
+    .stripe .jcarousel-skin-tango .jcarousel-prev-horizontal {
+        left:0;
+        width:50px
+    }
+    .stripe .stripe-wrap a span.thumbnail-image, .stripe .stripe-wrap a, .stripe .stripe-carousel ul {
+        height:auto;
+    }
+    .stripe-carousel {
+        width:100%
+    }
+    .section.slider, .section.stripe {
+        margin-bottom:35px
+    }
+    .uc-student-voice-widget-wrapper {
+        padding-top:5px
+    }
+    ul.uc-student-voice-widget-category {
+        border-bottom:none !important;
+        background-color:#e8e8e8;
+    }
+    #latest-articles .jcarousel-clip-vertical, #latest-articles .top-articles, #latest-articles .article-widget.with-image-description .top-articles li {
+        height:auto !important;
+    }
+    #latest-articles .more-articles {
+        display:none;
+    }
+    #latest-articles .article-widget.with-image-description .top-articles li .article-description {
+        font-size:0.9em
+    }
+    #latest-articles .article-widget .top-articles li .article-thumbnail {
+        left: -10px;
+        width: 70px;
+    }
+    #latest-articles .article-widget .top-articles li .article-content {
+    padding-left:70px;
+    }
+    
+    .column .column-content {
+    min-height:305px   
+    }
+    
+    .uc-poweredby-nusdigital-logo {
+        margin:0;
+        border:none;
+        position:absolute;
+        bottom:0;
+        width:100%;
+    }
+    .threecol.left-nav-content {
+        float:right;
+        margin-right:0;
+    }
+    html {
+        background:#fff;
+        height:100%
+    }
+    body {
+        min-height:100%;
+        position:relative;
+    }
+    
+    
+    .page-search {
+        left:auto;
+        top: 0px;
+    }
+    
+    .wrapper {
+        padding-bottom:60px;
+        background:none;
+    }
+    .wrapper:before{
+        content:'';
+        height:40px;
+        background:#00aeef;
+        width:100%;
+        display:block;
+    }
+    .header-wrap {
+        padding-top:10px;
+    }
+    
+    
+    .content .row .content-wrap.ninecol {
+        width:75%;
+        padding-right:25px;
+        box-sizing:border-box;
+    }
+    .content .row .content-wrap.ninecol > div {
+        background:none;
+        padding-left:0
+    }
+    
+    
+    
+    
+    @media only screen and(min-width : 980px) {
+        .page-content-html .content {
+            width: 980px;
+        }
+    }
+    @media only screen and(max-width: 767px) {
+        .onecol, .twocol, .threecol, .fourcol, .fivecol, .sixcol, .sevencol, .eightcol, .ninecol, .tencol, .elevencol, .twelvecol {
+            width:100%
+        }
+        .content .row .content-wrap.ninecol {
+            width: 100%;
+            padding:0
+        }
+        .tree-navigation-structure {
+            margin-bottom:30px
+        }
+        .content .row {
+            margin:0;
+            width:100% !important;
+        }
+        #union-logo {
+            top:60px;
+            width:100%;
+            text-align:center
+        }
+        #union-logo a img {
+            max-width:none;
+            max-width:none;
+        }
+        .page-search {
+            display:none !important;
+        }
+        .header-wrap,
+      .header {
+         padding-top:0;
+        }
+    }
+    
+    /* --- DISABLE NUS COMMS ON REGISTRATION FORM --- */
+    
+    li#student_user_attributes_opt_in_nus_commercial_emails_input {
+        display: none;
+    }
+    
+    li#student_user_attributes_opt_in_nus_communication_emails_input {
+        display: none;
+    }

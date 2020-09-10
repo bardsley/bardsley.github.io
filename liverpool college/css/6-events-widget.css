@@ -1,0 +1,16 @@
+/* Front Page events Widget */
+.uc-widget-upcoming-events #uc-widget-upcoming-events-left-panel { display:none; }
+.uc-widget-upcoming-events #uc-widget-upcoming-events-right-panel { width: 100%; background: none;}
+.uc-widget-upcoming-events .search-box-wrapper { width: 100%; }
+.uc-widget-upcoming-events .search-box-wrapper .search-input { font-size: 1.1em; height: 1.2em; width: calc(100% - 30px); }
+
+.uc-widget-upcoming-events-wrapper .uc-widget-upcoming-event-row .upcoming-event-container { float: unset; width: unset; }
+.uc-widget-upcoming-events-wrapper .uc-widget-upcoming-event-row .upcoming-event-container { float: unset; width: unset; }
+.uc-widget-upcoming-events-wrapper .uc-widget-upcoming-event-row .upcoming-event-container a.event-box { min-height: unset; border: none; }
+.uc-widget-upcoming-events-wrapper .uc-widget-upcoming-event-row .upcoming-event-container .event-banner { float: left; max-width: 60px; }
+.uc-widget-upcoming-events-wrapper .uc-widget-upcoming-event-row .upcoming-event-container .event-details { float: unset; text-align: left; padding-top: 0.5em;}
+.uc-widget-upcoming-events-wrapper .uc-widget-upcoming-event-row .upcoming-event-container .event-details p { text-transform: uppercase; color: var(--brand-blue); font-weight:bold; }
+.uc-widget-upcoming-events-wrapper .uc-widget-upcoming-event-row .upcoming-event-container .event-name { float: unset; overflow: visible; text-align: left; font-size: 1.4em; padding-top:0; text-transform: none; line-height: 1em; }
+
+.uc-widget-upcoming-events-wrapper .uc-widget-upcoming-event-footer { background: none;}
+.uc-widget-upcoming-events-wrapper .uc-widget-upcoming-event-pagination { float: unset; }

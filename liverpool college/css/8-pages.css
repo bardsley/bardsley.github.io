@@ -1,0 +1,45 @@
+/* Page Styles  */
+
+.page-content-html .threecol.left-nav-content { 
+  float: left; max-width: 14rem;
+}
+
+.tree-navigation-structure #uc-left-navigation {
+  padding:0;
+  margin:0;
+}
+#uc-left-navigation li {
+  padding: 0 0;
+  border: none;
+}
+
+#uc-left-navigation li a {
+  padding: 0.5em 1em;
+  display: block;
+  background-color: var(--pale-blue);
+  border-color: #fff; border-width: 4px;
+}
+
+#uc-left-navigation li a.selected.page { background-color: var(--lighter-blue); color: #fff;}
+
+.page-content-html .threecol.left-nav-content li {
+  font-size: 1.2em;
+}
+
+.content .row .content-wrap.ninecol { 
+  font-size: 1.4em;
+  line-height: 1.2em;
+  padding: 0 0 0 16rem;
+  float: unset;
+  width: unset;
+}
+
+.content .row .content-wrap.ninecol h1 {
+  background: none;
+  padding-left:0;
+  font-weight: bold;
+  font-size: 1.8em;
+  border-color: var(--brand-blue);
+  border-width: 3px;
+  padding-bottom: 0.4em;
+}

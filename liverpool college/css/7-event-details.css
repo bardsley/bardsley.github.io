@@ -1,0 +1,10 @@
+/* Events Details Page */
+#uc-events-details-page .button-top,
+[id^=union-event-id] .left-nav-content { display: none; }
+
+#uc-events-details-page { width: 100%; }
+#uc-events-details-page h2 {background: none; padding-left: 0; font-size: 1.8em; font-weight: bold;}
+#uc-events-details-page { font-size: 1.4em; }
+#uc-events-details-page .add-to-calendar {  flex: 0 0 12.8em;} 
+#uc-events-details-page .add-to-calendar label.title { height: unset; width: unset;  font-size: 1.1em; line-height: unset;  padding:0.5em;}
+#uc-events-details-page .calendar-options { min-width: 12.3em; }
