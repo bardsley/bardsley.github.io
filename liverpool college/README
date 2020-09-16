@@ -1,0 +1,2 @@
+ // Combines files and copies to clipboard
+ type css\*.css | clip 

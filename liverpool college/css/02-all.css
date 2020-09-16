@@ -1,0 +1,63 @@
+
+  /* Header */
+  #union-logo { margin:0; padding: 0; height: auto; }
+  #union-logo h1 { padding: 0; }
+  
+  /* System Menu */
+  .system-menu { font-size: 1.2em; padding-right: 1em; }
+  .shopping-cart-menu { display: none; }
+  .cart-account { position: unset; } 
+  .profile-setting { width: unset; }
+  #user-profile-details { width: unset; }
+  .profile-setting a.profile-name { height: unset; font-size: 1.2em; }
+  .profile-setting a.profile-name.collapsed, 
+  .profile-setting a.profile-name.expanded { background-position: 100% 5px; padding-right: 1.5em; }
+  .profile-setting a.profile-name.expanded { background-position-y: -25px}
+  
+  .profile-setting .profile-drop-down-menu { width: 100%; font-size: 1.2em; top: 2em; }
+  .profile-setting .profile-drop-down-menu ul li a { padding: 0.5em 1em; border: none; }
+  .profile-setting .profile-drop-down-menu { background-color: var(--lighter-blue); }
+  
+  /* Navigation Menu */
+  .wrapper::before { display: none; }
+  .menu { position: relative; height: auto; margin-bottom: 1em; }
+  .menu ul li span , .menu ul li.first-menu span { padding:  1em; }
+  .menu { font-size: 1.1em; }
+  .menu { background-color: var(--brand-blue); }
+  .menu ul li span { background-image: none; }
+  .menu ul li { background-image: none; border: none; border-left: solid 1px #fff; text-align: center; }
+  
+  /* Submenu */
+  .menu ul li .top-submenu-wrapper ul { width: 20em; }
+  .menu ul li.last-menu .top-submenu-wrapper ul { right: -4.1em; left: unset; }
+  
+  /* Union Cloud Interface */
+  #student_view_notice #notice.error, 
+  #student_view_notice #notice.success {
+    top: -3em;
+    left: 2em;
+    right: 2em;
+    width: unset;
+    max-width: 980px;
+    margin: 0;
+    padding: 1em 2em 1em 2.5em;
+    font-size: 1.1em;
+  }
+  
+  @media screen and (min-width: 980px) { #student_view_notice { margin: 0 auto; width: 980px;} }
+  
+  #student_view_notice #notice a {
+    width: 22px; background-size: 100%;
+    height: 22px;
+  }
+  .edit-mode-page .clear { display:none;}
+  
+  .uc-widget-upcoming-events-wrapper .uc-widget-upcoming-event-footer .uc-widget-upcoming-event-pagination .previous_page, 
+  .uc-widget-upcoming-events-wrapper .uc-widget-upcoming-event-footer .uc-widget-upcoming-event-pagination .next_page {
+    transform: rotate(90deg);
+  }
+  
+  /* Layout College Specific */
+  #hide-titles h2 { display:none; } 
+  .thumbnail-image { width: 100%;}
+  

@@ -43,3 +43,18 @@
   border-width: 3px;
   padding-bottom: 0.4em;
 }
+
+/* Pages Menu */
+.page-content-html .threecol.left-nav-content #uc-left-navigation li ul { padding-left: 2em; background-color: #f5f5f5;}
+.page-content-html .threecol.left-nav-content #uc-left-navigation li li {
+  font-size: 1em;
+  list-style-type: disc;
+  list-style-position: outside;
+  padding-left: 1em;
+  border-top: solid 4px #fff;
+}
+.page-content-html .threecol.left-nav-content #uc-left-navigation li li:marker {
+ border-top: solid 4px #fff;
+} 
+
+.page-content-html .threecol.left-nav-content #uc-left-navigation li li a { border: none;}  

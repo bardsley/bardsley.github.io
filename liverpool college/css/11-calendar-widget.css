@@ -1,0 +1,39 @@
+/* Calendar Widget */
+#livcoll-default .cal-widget .calendar table caption {
+  height: unset ; 
+  background-color: var(--brand-blue);
+  font-weight: bold; 
+}
+
+
+#livcoll-default .cal-widget .calendar table tbody tr td { height: 4em; }
+#livcoll-default .cal-widget .calendar table tbody tr td .date { height: 4em; line-height: 4em;}
+#livcoll-default .cal-widget .calendar table tbody tr td.with-events .date::after { 
+  background-color: var(--brand-blue); 
+  width: 10px; height: 10px;
+  right: 7px; top: 7px;
+}
+
+#livcoll-default .cal-widget .calendar table tbody tr td.today {
+  background-color: var(--lightest-blue);
+}
+#livcoll-default .cal-widget .calendar table tbody tr td.today .date { 
+  border: unset; 
+}
+
+#livcoll-default .cal-widget .calendar table tbody tr td.selected-date .date {
+  border: solid 2px var(--brand-blue); 
+}
+
+#livcoll-default .cal-widget .calendar { max-height:unset; min-height: unset;}
+#livcoll-default .cal-widget .listing { max-height: unset; }
+
+#livcoll-default .cal-widget .listing .event-item .details .event-name {
+  font-size: 1.8em;
+  margin-bottom: 0; line-height: 1.1em;
+}
+
+#livcoll-default .cal-widget .listing .event-item .details .event-time { 
+  font-size: 1.1em; font-weight: bold; text-transform: uppercase; color: var(--brand-blue);
+  margin-top: 0; padding-top:0;
+}

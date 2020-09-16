@@ -1,0 +1,25 @@
+/* Profile Page */
+#myaccount-information .tree-navigation,
+#myaccount-information .tree-navigation li a{ font-size: 1.1em; }
+
+#myaccount-information .threecol.tree-navigation #my_details li .selected,
+#myaccount-information .threecol.tree-navigation #my_nominations li .selected,
+#myaccount-information .threecol.tree-navigation #my_password li .selected,
+#myaccount-information .threecol.tree-navigation #my_shopping li .selected,
+#myaccount-information .threecol.tree-navigation #my_subscriptions li .selected,
+#myaccount-information .threecol.tree-navigation #my_tickets li .selected { color: #fff;  }
+
+#myaccount-information .portlet .title h1 { font-size: 1.8em; background: none; padding-left: 0; }
+#myaccount-information .myaccount-student-details .portlet, .myaccount-change-password .portlet, .myaccount-subscription-details .portlet { background: none; }
+
+#myaccount-information .contentBoxes .contentBoxes .table { font-size: 1em; }
+#myaccount-information .my-nominations-grid .wice-grid td.actions a, .my-nominations-grid .wice_grid td.actions a { font-size: 1em; background: var(--brand-blue); padding: 3px 6px; color: #fff; text-decoration: none}
+#myaccount-information .contentBoxes .contentBoxes .table td { padding: 5px 10px; }
+
+.uc-past-nominations-wrapper { display: block; }
+#myaccount-information h2 a {
+  background-color: var(--brand-blue);
+}
+#myaccount-information .info {
+  font-size: 1em; padding: 1em 1em 1em 3em ;  
+}

@@ -1,0 +1,19 @@
+/* Footer */
+.bottom, .bottom-union {
+  background: #333; 
+  color: #fff;
+  overflow: visible;
+}
+.wrapper { padding-bottom: 0; }
+.column .column-content { min-height: unset; }
+#footer-wrap { overflow: visible;  padding: 2em 2em 6em;}
+
+
+#footer-wrap a, #footer-wrap p, #footer-wrap .uc-page-wrap .page-title { color: #fff; text-decoration:none; }
+#footer-wrap p:nth-child(n+1) { margin-top: 0.75em; }
+#footer-wrap #map-column-content img { float: right; margin-right: 1em;}
+
+@media screen and (min-width: 980px) {
+  #footer-wrap { width: 980px; margin-left: calc(50% - 490px); }  
+}
+
