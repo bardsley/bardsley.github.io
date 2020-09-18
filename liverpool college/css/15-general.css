@@ -1,0 +1,12 @@
+a.button { 
+  background: var(--brand-blue);
+  color: #fff;
+  font-weight: bold;
+  padding: .5em 1em;
+  font-size: 1.1em;
+  margin: 1em 0;
+  float: unset;
+  display: block;
+  width: 12em;
+  text-align: center;
+}

@@ -1,0 +1,1 @@
+javascript:void(document.getElementsByClassName('uc-overlay').item(0).style.display='none')
