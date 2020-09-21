@@ -1,3 +1,15 @@
+/* Not Mobile */
+@media screen and (min-width: 768px) {
+  .top-wrap {
+    padding-top: 40px;
+  }
+  .uc-leaderboard-advertisement {
+    width: 600px;
+    left: 90px;
+  }
+
+}
+
 /*  Mobile  View */
 @media screen and (max-width: 768px) {
   .uc-leaderboard-advertisement { 
@@ -11,7 +23,7 @@
     width: 100% !important;
     max-width:unset;
   }
-  .row.header { border: solid 1px red; 
+  .row.header {
     padding-top: 80px;
     height: 90px;
   }
@@ -21,7 +33,7 @@
   .row.header #union-logo img { 
     padding: 15px 0 0 10px;
   }
-  #full-width { padding-top: 0px; }
+  #full-width { padding-top: 50px; }
   .menu {
     height: 70px;
   }
@@ -33,13 +45,3 @@
   #new-main-menu-wrap { height: 70px;}
 }
 
-@media screen and (min-width: 768px) {
-  .top-wrap {
-    padding-top: 40px;
-  }
-  .uc-leaderboard-advertisement {
-    width: 600px;
-    left: 90px;
-  }
-
-}

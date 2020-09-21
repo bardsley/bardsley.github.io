@@ -1,8 +1,24 @@
 /* Page Styles  */
 
-.page-content-html .threecol.left-nav-content { 
-  float: left; max-width: 14rem;
+.content .row .content-wrap.ninecol { 
+  font-size: 1.4em;
+  line-height: 1.5em;
+  padding: 0 0 1rem ;
+  float: unset;
+  width: unset;
 }
+
+@media only screen and (min-width: 767px) {
+  .page-content-html .threecol.left-nav-content { 
+    float: left; max-width: 14rem;
+  }
+
+  .content .row .content-wrap.ninecol { 
+    padding: 0 0 0 13rem ;
+  }
+}
+
+
 
 .tree-navigation-structure #uc-left-navigation {
   padding:0;
@@ -26,13 +42,6 @@
   font-size: 1.2em;
 }
 
-.content .row .content-wrap.ninecol { 
-  font-size: 1.4em;
-  line-height: 1.2em;
-  padding: 0 0 0 16rem;
-  float: unset;
-  width: unset;
-}
 
 .content .row .content-wrap.ninecol h1 {
   background: none;
