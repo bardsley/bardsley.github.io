@@ -1,0 +1,29 @@
+
+
+  function getRandomInt(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+function scrollOfficers() { 
+  var elm = $('.no-rotate ul');
+  var elm_count = $('.no-rotate ul li').length;
+  var targetIndex = getRandomInt(1,elm_count - 1);
+  elm.jcarousel('scroll',targetIndex);
+  return targetIndex;
+}
+
+function delayedScrollOfficers() {
+  setTimeout(scrollOfficers,1500);
+  $('.no-rotate ul').on('jcarousel:create', function(event,carousel){ console.log('no-rotate'); })
+  $('.slider ul').on('jcarousel:create', function(event,carousel){ console.log('slider'); })
+  $('.auto-stripe ul').on('jcarousel:create', function(event,carousel){ console.log('auto-stripe'); })
+  $('.auto-rotate ul').on('jcarousel:create', function(event,carousel){ console.log('auto-rotate'); })
+  $('.grid ul').on('jcarousel:create', function(event,carousel){ console.log('grid'); })
+}
+
+/* Load the code and apply page changes when page is ready */
+$(function() {
+   delayedScrollOfficers();
+});

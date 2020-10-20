@@ -1,0 +1,21 @@
+/* Officer Stripe */
+#your-officers { height: 20rem;}
+#your-officers .stripe-carousel ul.jcarousel-list li a { background: none; width: 170px; height: auto;}
+#your-officers .stripe-carousel ul.jcarousel-list li a * {   font-size: 1em;}
+#your-officers .stripe-carousel ul.jcarousel-list li a .page-summary, 
+#your-officers .stripe-carousel ul.jcarousel-list li a .page-details, 
+#your-officers .stripe-carousel ul.jcarousel-list li a .thumbnail-image { width: 100%; margin:0;}
+#your-officers .stripe-carousel ul.jcarousel-list li a .thumbnail-image img { width: 90%; margin-left: 5%; }
+#your-officers .stripe-carousel ul.jcarousel-list li a .page-title { color: var(--brand-blue); font-weight: bold; } 
+
+
+#vacant-positions { height: 20rem;}
+#vacant-positions .stripe-carousel ul.jcarousel-list li a { background: none; width: 170px; height: auto;}
+#vacant-positions .stripe-carousel ul.jcarousel-list li a * {   font-size: 1em;}
+#vacant-positions .stripe-carousel ul.jcarousel-list li a .page-summary, 
+#vacant-positions .stripe-carousel ul.jcarousel-list li a .page-details, 
+#vacant-positions .stripe-carousel ul.jcarousel-list li a .thumbnail-image { width: 100%; margin:0;}
+#vacant-positions .stripe-carousel ul.jcarousel-list li a .thumbnail-image img { width: 90%; margin-left: 5%; }
+#vacant-positions .stripe-carousel ul.jcarousel-list li a .page-title { color: var(--brand-blue); font-weight: bold; } 
+
+#uc-page-id-meet-your-executive-officers #your-officers { height: 30rem;}

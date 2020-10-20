@@ -1,6 +1,6 @@
 /* News   */
 #two-column { margin-top: 1em; }
-
+#left-column h3,
 #right-column h3 {
   text-transform: uppercase;
   background: none; color: var(--brand-blue); font-weight: bold; font-size: 2.2em; text-align: left; font-family: 'CenturyGothicBold'; padding: 5px 0 10px; margin-bottom: 10px;

@@ -10,3 +10,10 @@ a.button {
   width: 12em;
   text-align: center;
 }
+
+blockquote { border-color: var(--brand-blue); background-color: var(--lightest-blue); padding-top: 1rem;}
+
+.warning, .information, .useful { border-left-width: 10px; border-left-style: solid; padding: 1rem 2rem 0.5rem 5rem; }
+.warning { border-color: #ff7c00; background: url(https://nusdigital.s3.amazonaws.com/image/images/289577/original/warning.png) #ffb067 no-repeat 1rem 1rem; }
+.information { border-color: #3B5998;  background: url(https://nusdigital.s3.amazonaws.com/image/images/289586/original/information.png) #9EAFD4 no-repeat 1rem 1rem; }
+.useful { border-color: #168E5B; background: url(https://nusdigital.s3.amazonaws.com/image/images/289587/original/useful.png) #65D8A7 no-repeat 1rem 1rem; }
