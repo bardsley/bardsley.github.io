@@ -1,11 +1,11 @@
 ---
 layout: default
 modal-id: 2
-date: 2020-03-15
+date: 2020-06-05
 img: cobcsu.png
 alt: City of Bristol College SU
 title: City of Bristol College
-project-date: June 2014
+project-date: June 2020
 client: City of Bristol College
 website: https://cobcsu.unioncloud.org
 category: Union Cloud Theme Development

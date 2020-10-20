@@ -1,0 +1,13 @@
+---
+layout: default
+modal-id: 6
+date: 2020-07-27
+img: bubblebud.png
+alt: Bubble Bud
+title: Bubble Bud
+project-date: July 2020
+client: Bubble Bud
+website: https://bubblebud.life/
+category: Online App Development
+description: App Launch.
+---

@@ -1,0 +1,13 @@
+---
+layout: default
+modal-id: 4
+date: 2020-09-10
+img: liverpool.png
+alt: City of Liverpool College
+title: City of Liverpool College
+project-date: Sept 2020
+client: F.E. College
+website: https://www.colcsu.org.uk/
+category: Website Development & Training
+description: Working with the S.U. Team at the college to transform their site into something matching their branding whilst maintaining the standard setup of the underlying UnionCloud software. The development work was then complemented with training to support the hand over for new staff around looking after the site, communicating with members and running elections.
+---
