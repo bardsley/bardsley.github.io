@@ -1,0 +1,85 @@
+/* Stylesheet work by Adam Bardsley Dec 2020 */
+
+/* File: 001 subsite general */
+
+/* General Usage */
+:root {
+  --light-blue: #81BDD5;
+  --main-blue: #3889AB;
+  --dark-blue: #094E6A;
+  --main-yellow: #FFDE59;
+}
+
+/* Resets */
+#unioncloud-sub-site-option { margin-top:0; }
+#unioncloud-sub-site-option * { box-sizing: border-box; }
+#union-logo,
+#unioncloud-sub-site-option .header-wrap,
+#unioncloud-sub-site-option .search,
+#unioncloud-sub-site-option .page-search,
+#unioncloud-sub-site-option .search-box-wrapper,
+#unioncloud-sub-site-option .cart-account,
+#unioncloud-sub-site-option .page-search .search-box .search-box-wrapper .search-button{ 
+  position:unset; left:unset; right:unset; top:unset; bottom:unset; 
+  width:unset; height:unset;
+  margin:unset; padding:unset; 
+}
+
+/* Debug options */
+/* #unioncloud-sub-site-option .row.header,
+#unioncloud-sub-site-option #student_view_notice,
+#unioncloud-sub-site-option .uc-leaderboard-advertisement,
+#unioncloud-sub-site-option .row.content,
+#unioncloud-sub-site-option .left-nav-content,
+#unioncloud-sub-site-option .twelvecol 
+ { border: dashed 2px; } */
+
+#unioncloud-sub-site-option .row.header { border-color: red; }
+#unioncloud-sub-site-option #student_view_notice { border-color: orange; }
+#unioncloud-sub-site-option .uc-leaderboard-advertisement { border-color: yellow; }
+#unioncloud-sub-site-option .row.content { border-color: lime; }
+#unioncloud-sub-site-option .left-nav-content { border-color: green;}
+
+/* Update the widths to be 100% */
+#unioncloud-sub-site-option .row.header,
+#unioncloud-sub-site-option .row.content
+{ width:100%; }
+
+/* Header */
+#unioncloud-sub-site-option .row.header { padding:0; }
+#unioncloud-sub-site-option .header-wrap * { float:unset;}
+#unioncloud-sub-site-option .header-wrap {
+  background-color: var(--dark-blue); color: #fff;
+  padding: 0.6em;
+}
+
+#unioncloud-sub-site-option .header-wrap { display:flex; flex-grow: 1;}
+#unioncloud-sub-site-option .search.page-search, #unioncloud-sub-site-option .clear{ display:none;}
+#unioncloud-sub-site-option .header-wrap>* { flex-grow:1}
+#unioncloud-sub-site-option .cart-account { display:flex; }
+#unioncloud-sub-site-option .item-count { width: 2rem;}
+#unioncloud-sub-site-option .cart-account { width: auto;}
+#unioncloud-sub-site-option .profile-setting {flex-grow: 1; }
+#unioncloud-sub-site-option .profile-setting .profile-name-wrapper { width:unset; }
+#unioncloud-sub-site-option .profile-setting a.profile-name,
+#unioncloud-sub-site-option .profile-drop-down-menu { height:auto;}
+
+#unioncloud-sub-site-option #union-logo a { text-decoration: none; display:block; color: inherit; }
+#unioncloud-sub-site-option #union-logo a h1 { display:block; font-size: 1em; font-weight:light; letter-spacing: 0.1em;  padding:unset; color: inherit;  }
+#unioncloud-sub-site-option #union-logo a h1:before { content: 'Return to ' }
+
+/* Hero Image */
+#unioncloud-sub-site-option .row.top-subsite {
+  width: 100%; background: var(--main-blue);
+  min-height: 200px; color: #fff;
+  padding-top: 10px;
+}
+#unioncloud-sub-site-option #hero-wrap { padding: 1em; }
+#unioncloud-sub-site-option #hero-wrap .edit-mode-page { display:flex; }
+#unioncloud-sub-site-option #hero-wrap .edit-mode-page>* { flex-grow: 1; color: inherit;}
+#unioncloud-sub-site-option #hero-wrap .edit-mode-page h1 span { display:block; }
+#unioncloud-sub-site-option #hero-wrap .edit-mode-page h1 span { font-size: 2.3em; line-height: 0.9em;}
+#unioncloud-sub-site-option #hero-wrap .edit-mode-page h1 span.subtitle { font-size: 1.3em; line-height: 0.9em; margin-top: 1em;}
+
+
+#unioncloud-sub-site-option #hero img { min-width: 250px;}
