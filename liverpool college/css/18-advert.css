@@ -1,0 +1,37 @@
+@media only screen and (min-width: 767px) and (max-width: 980px) {
+  .uc-leaderboard-advertisement {
+    width: calc(100% - 340px);
+    left: 70px;
+  }
+  .top-ad {
+    margin-left:0;
+    margin-right: 10px;
+    width: calc(100% - 20px);
+    
+  }
+  .top-ad a {
+    width: 100%;
+    display: block;
+    margin-top: 20px;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .top-ad a img {
+    width: 100%;
+  }  
+  .row.header {
+    padding-top: 13.8%; /* 104px */
+  }
+}
+
+/* Strange HTML sturcture for header fix */
+@media screen and (max-width: 520px) {
+  .row.header .system-menu { padding-top: 84px; }
+  #union-logo { padding-top: 5px; }
+}
+@media screen and (max-width: 444px) {
+  .row.header .system-menu { padding-top: 94px; }
+  #union-logo { padding-top: 15px; }
+}

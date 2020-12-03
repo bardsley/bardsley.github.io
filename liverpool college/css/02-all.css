@@ -14,7 +14,7 @@
   .profile-setting a.profile-name.expanded { background-position: 100% 5px; padding-right: 1.5em; }
   .profile-setting a.profile-name.expanded { background-position-y: -25px}
   
-  .profile-setting .profile-drop-down-menu { width: 100%; font-size: 1.2em; top: 2em; }
+  .profile-setting .profile-drop-down-menu { width: 100%; font-size: 1.2em; top: 1.9em; }
   .profile-setting .profile-drop-down-menu ul li a { padding: 0.5em 1em; border: none; }
   .profile-setting .profile-drop-down-menu { background-color: var(--lighter-blue); }
   
