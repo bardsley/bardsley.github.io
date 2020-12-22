@@ -1,0 +1,50 @@
+/* File: 002 Frontpage Block  */
+
+#union-event-id-157965 #blocks h1,
+#union-event-id-157965 #blocks h2,
+#union-event-id-157965 #blocks h3 { margin:unset; line-height: 1em}
+
+#union-event-id-157965 #blocks-wrap { display:flex; flex-wrap: wrap;}
+
+
+#union-event-id-157965 #blocks-wrap .block {
+  background: var(--dark); padding: 1em;
+  height: 200px;
+}
+#union-event-id-157965 #blocks-wrap .block a,
+#union-event-id-157965 #blocks-wrap .block p a,
+#union-event-id-157965 #blocks-wrap .block h1 a,
+#union-event-id-157965 #blocks-wrap .block h2 a
+{ 
+  color: #fff; text-decoration:none; display: block;
+}
+#union-event-id-157965 #blocks-wrap .block { display:flex; flex-direction:column-reverse; flex-grow: 1}
+#union-event-id-157965 #blocks-wrap .block.main-pink { background-color: var(--main-pink); }
+#union-event-id-157965 #blocks-wrap .block.main-yellow { background-color: var(--main-yellow); }
+#union-event-id-157965 #blocks-wrap .block.dark-yellow { background-color: var(--dark-yellow); }
+#union-event-id-157965 #blocks-wrap .block.light-blue { background-color: var(--light-blue); }
+#union-event-id-157965 #blocks-wrap .block.light-pink{ background-color: var(--light-pink); }
+#union-event-id-157965 #blocks-wrap .block.main-blue{ background-color: var(--main-blue); }
+#union-event-id-157965 #blocks-wrap .block.dark-blue{ background-color: var(--dark-blue); }
+#union-event-id-157965 #blocks-wrap .block.main-green{ background-color: var(--main-green); }
+#union-event-id-157965 #blocks-wrap .block.dark-pink{ background-color: var(--dark-pink); }
+
+
+#union-event-id-157965 #blocks-wrap .block.light-pink *,
+#union-event-id-157965 #blocks-wrap .block.main-yellow *,
+#union-event-id-157965 #blocks-wrap .block.light-blue *
+{ color: var(--dark);}
+
+/* Media Queries */
+@media screen and (max-width: 600px) {
+  #union-event-id-157965 #blocks-wrap>* { width: 100%; }
+}
+@media screen and (min-width: 600px) {
+  #union-event-id-157965 #blocks-wrap>* { width: 50%; }
+}
+@media screen and (min-width: 768px) {
+  #union-event-id-157965 #blocks-wrap>* { width: 33.333%; }
+}
+@media screen and (min-width: 1024px) {
+  #union-event-id-157965 #blocks-wrap>* { width: 25%; }
+}

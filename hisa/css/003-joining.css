@@ -1,0 +1,19 @@
+/* File: 003 Joining */
+
+.sub-site-page-html .event::before { 
+    display:block; 
+    content: 'Select a registration option';
+    background: var(--main-blue);
+    padding: 1em;
+    font-size: 2em; letter-spacing: 0.05em;
+    color: #fff;
+    font-weight:bold;
+  }
+
+.sub-site-page-html #memberShipDisplay .memberShipType .selectButton { background-color: var(--main-blue);}
+.sub-site-page-html #memberShipDisplay .memberShipType.selectedMembership .selectButton { color: #fff; background-color: var(--main-pink); }
+/* .sub-site-page-html .selectButton::after { content: ' an Option'; } */
+
+.sub-site-page-html .contentBoxes .pricePlan,
+.sub-site-page-html .contentBoxes>h2  { display:none; }
+

@@ -617,3 +617,6 @@ z-index: -100;
     top: 13px;
     z-index: 1000;
 }
+
+/* Added to change JS inserted Social Media */
+.social-media { padding: 1em 0.8em 0; margin-bottom:-1em; }

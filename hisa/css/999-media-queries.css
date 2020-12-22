@@ -1,0 +1,16 @@
+/* Media Queries Front Page */
+@media screen and (max-width: 720px) {
+  #union-event-id-157965 #hero-wrap .edit-mode-page {
+    flex-direction: column;
+  } 
+  #union-event-id-157965 #hero-wrap .edit-mode-page>* { text-align:center;}
+  #union-event-id-157965 #hero-wrap .edit-mode-page h1 span { font-size: 1.7em; } 
+  #union-event-id-157965 #hero-wrap .edit-mode-page h1 span.subtitle { font-size: 1.1em; } 
+  #union-event-id-157965 #hero-wrap .edit-mode-page .logo { float:unset; }
+}
+@media screen and (max-width: 768px) {
+  .sub-site-page-html #union-event-id-157965 .content, 
+  .sub-site-home-html #union-event-id-157965 .content {
+    padding:unset; margin:unset
+  } 
+}

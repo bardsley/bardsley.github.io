@@ -1,0 +1,28 @@
+#calendar.schedule tbody .days:nth-of-type(2),
+  #calendar.schedule tbody .days:nth-of-type(3),
+  #calendar.schedule tbody .days:nth-of-type(4),
+  #calendar.schedule tbody .days:nth-of-type(5),
+  #calendar.schedule tbody .wday-6,
+  #calendar.schedule tbody .wday-0,
+  #calendar.schedule tbody .weekdays th:nth-of-type(6),
+  #calendar.schedule tbody .weekdays th:nth-of-type(7)
+  { display:none; }
+
+  #calendar.schedule caption { display:none;}
+  #calendar.schedule tr.weekdays,
+  #calendar.schedule .event { background-color: #094E6A; border: none; border-radius: 0; }
+  #calendar.schedule .event {border-bottom: solid 5px #3889AB;}
+  #calendar.schedule td { padding:0;}
+  #calendar.schedule .event * { color: #fff; }
+  #calendar.schedule .event-desc { font-weight:bold; }
+
+
+  #calendar.schedule .date { box-sizing: border-box; width: 100%; border-radius:0; margin:0; padding:0.1em 0; height:unset;
+   background-color: #3889AB; color: #fff;
+  }
+@media (min-width: 768px) {
+  #calendar.schedule tr,weekdays {
+    grid-template-columns: repeat(5, 1fr);  
+  }
+  
+}

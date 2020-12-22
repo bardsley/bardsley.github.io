@@ -1,0 +1,11 @@
+/* Page styles */
+#union-event-id-157965 .content-wrap { margin:0 ;}
+#union-event-id-157965 .inside-border-padding h1 { 
+  background: var(--main-blue); color: #fff; 
+  padding: 1.5em 1em;
+  font-size: 2.5em;
+  line-height: 1.3em;
+}
+@media (min-width: 768px) {
+  #union-event-id-157965 .default-body { padding: 1em 2.5em; }
+}

@@ -1,0 +1,66 @@
+.sv-button.feedback,
+.uc-action-link { display:none; }
+
+.uc-sv-search-button input,
+.sv-button
+{ background-color: var(--main-pink); }
+
+#uc-widget-student-voices-177479 { margin-top:0; }
+ul.uc-student-voice-widget-category,
+ul.uc-student-voice-widget-category li,
+ul.uc-student-voice-widget-category li.selected
+{ 
+  background-color: var(--main-pink); background-image:none;
+  padding:1em 0.5em 0.5em; 
+  border: none;
+}
+ul.uc-student-voice-widget-category li a { 
+  font-size: 2.5em;
+}
+ul.uc-student-voice-widget-category li a:before {
+  content: 'YOUR '
+}
+
+.uc-widget-student-voices-177479 { margin:unset;}
+
+.uc-widget-student-voices-wrapper .sv-widget-no-content { font-size: 1.5em; }
+.uc-widget-student-voices-wrapper .sv-widget-no-content:after { content: ' for the conference'}
+
+.uc-widget-student-voices-wrapper .jcarousel-container-vertical,
+.uc-student-voice-widget-wrapper .jcarousel-clip-vertical { height: auto; }
+.jcarousel-container-vertical { border-radius:0 !important; }
+
+.uc-student-voice-widget-wrapper { display:flex; flex-direction: column}
+.uc-student-voice-widget-wrapper>* { float:unset !important; }
+.jcarousel-next-vertical,
+.jcarousel-prev-vertical { position: unset; top:unset; width: 5% !important; flex-grow: 0;}
+
+.uc-widget-student-voices-wrapper .uc-student-voice-jcarousel .jcarousel-prev-vertical  { 
+  background-position: 50% -30px; margin-top: 1em;}
+.uc-widget-student-voices-wrapper .uc-student-voice-jcarousel .jcarousel-next-vertical  {  
+  background-position: 50% 0; margin-top: 1em; }
+
+.uc-student-voice-jcarousel { display: flex !important; }
+.uc-student-voice-jcarousel .uc-student-voice-widget-wrapper { width:95%; }
+.jcarousel-clip-vertical { width: 100%; }
+.jcarousel-item-vertical { width: 100%; }
+.jcarousel-list.jcarousel-list-vertical { height: 500px !important;}
+
+.jcarousel-container-vertical { border-radius: 0 !important; }
+.uc-student-voice-widget-more-link { background: var(--main-pink);  padding: 1em;  }
+.uc-student-voice-widget-more-link a, 
+.uc-student-voice-widget-more-link a:hover, 
+.uc-student-voice-widget-more-link a:visited { font-weight: bold; color: #fff; letter-spacing: 0.15em; }
+
+.uc-student-voice-widget-wrapper li { padding-top: 10px; padding-bottom: 15px; font-size: 0.9em;}
+.uc-widget-student-voices-wrapper .uc-sv-widget-title a { font-size: 1.1em; }
+.uc-widget-student-voices-wrapper .uc-sv-widget-description { font-size: inherit;}
+
+
+/* Trial for no scroll */
+.uc-student-voice-jcarousel .uc-student-voice-widget-wrapper { width:100% !important; }
+.jcarousel-next-vertical,
+.jcarousel-prev-vertical { display:none !important; }
+.uc-widget-student-voices-wrapper .uc-sv-widget-like-dislike-wrapper { right: 10px;}
+
+.jcarousel-clip-vertical { z-index: unset; }

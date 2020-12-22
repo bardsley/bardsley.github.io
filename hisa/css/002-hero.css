@@ -1,0 +1,18 @@
+/* Hero Image */
+#union-event-id-157965 .row.top-subsite {
+    width: 100%; background: var(--main-blue);
+    min-height: 200px; color: #fff;
+    padding-top: 10px;
+  }
+  #union-event-id-157965 #hero-wrap { padding: 1em; }
+  #union-event-id-157965 #hero-wrap .edit-mode-page { display:flex; }
+  #union-event-id-157965 #hero-wrap .edit-mode-page>* { flex-grow: 1; color: inherit;}
+  #union-event-id-157965 #hero-wrap .edit-mode-page .logo { float:right; }
+  #union-event-id-157965 #hero-wrap .edit-mode-page h1 span { display:block; }
+  #union-event-id-157965 #hero-wrap .edit-mode-page h1 span { font-size: 2.3em; line-height: 0.9em;}
+  #union-event-id-157965 #hero-wrap .edit-mode-page h1 span.subtitle { font-size: 1.3em; line-height: 0.9em; margin-top: 1em;}
+  #union-event-id-157965 #hero img { min-width: 250px;}
+  
+  
+  
+  
