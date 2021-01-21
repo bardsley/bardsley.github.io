@@ -1,0 +1,93 @@
+/* #calendar .wday-1 .event.event-4, 
+#calendar .wday-1 .event.event-5,
+#calendar .wday-1 .event.event-6,
+#calendar .wday-1 .event.event-7,
+#calendar .wday-3 .event.event-6,
+#calendar .wday-3 .event.event-7,
+#calendar .wday-3 .event.event-8,
+#calendar .wday-3 .event.event-9{ 
+    width: calc(50% - 1.25em);
+}
+#calendar.schedule .day
+{ position:relative;}
+
+
+
+#calendar.schedule .wday-1 .event.event-6,
+#calendar.schedule .wday-1 .event.event-6,
+#calendar.schedule .wday-3 .event.event-6,
+#calendar.schedule .wday-3 .event.event-8{
+    position: absolute;
+    left: 50.95%;
+}
+#calendar.schedule .wday-1 .event.event-5 {
+    top: 15.2em;
+}
+
+#calendar.schedule .wday-1 .event.event-6 {
+    top: 22.7em;
+}
+
+#calendar.schedule .wday-3 .event.event-6 {
+    top: 25.3em;
+}
+
+#calendar.schedule .wday-3 .event.event-8 {
+    top: 36.9em;
+}
+ */
+
+/* #calendar.schedule .wday-1 .event.event-5,
+#calendar.schedule .wday-1 .event.event-6{ 
+    background: var(--main-pink); 
+    border-bottom-color: var(--dark-pink);
+}
+
+#calendar.schedule .wday-1 .event.event-7,
+#calendar.schedule .wday-1 .event.event-8{ 
+    background: var(--main-green);
+    border-bottom-color: var(--dark-green);
+}
+
+
+#calendar.schedule .wday-3 .event.event-5,
+#calendar.schedule .wday-3 .event.event-6{ 
+    background: var(--main-pink); 
+    border-bottom-color: var(--dark-pink);
+}
+
+#calendar.schedule .wday-3 .event.event-7,
+#calendar.schedule .wday-3 .event.event-8 { 
+    background: var(--main-green);
+    border-bottom-color: var(--dark-green);
+}
+
+#calendar.schedule .wday-4 .event.event-7,
+#calendar.schedule .wday-4 .event.event-8,
+#calendar.schedule .wday-4 .event.event-9{ 
+    background: var(--main-pink); 
+    border-bottom-color: var(--dark-pink);
+}
+
+#calendar.schedule .wday-4 .event.event-10,
+#calendar.schedule .wday-4 .event.event-11 { 
+    background: var(--main-green);
+    border-bottom-color: var(--dark-green);
+}
+
+#calendar.schedule .wday-1 .event.event-10,
+#calendar.schedule .wday-4 .event.event-1,
+#calendar.schedule .wday-4 .event.event-2
+{
+    background: var(--dark-yellow);
+    border-bottom-color: #f1d300;
+    border-bottom-color: var(--main-yellow);
+}
+
+#calendar.schedule .wday-5 .event
+{
+    background: var(--light-blue);
+    border-bottom-color: #f1d300;
+    border-bottom-color: var(--main-blue);
+}
+#calendar.schedule .wday-5 .event * { color: var(--dark); } */

@@ -1,0 +1,43 @@
+.content .row .content-wrap .speaker { margin-bottom: 2em; }
+.content .row .content-wrap .speaker h2 {
+ font-size: 3em;
+ margin-bottom:0;
+}
+.content .row .content-wrap .speaker h3 { 
+  margin-bottom: 1em;
+}
+
+.content .row .content-wrap .speaker { display: flex; }
+.content .row .content-wrap .speaker .details { flex-shrink: 100; margin-left: 2em;}
+
+.content .row .content-wrap .speaker .party { font-size: 0.5em; display:block;}
+
+.content .row .content-wrap .speaker .photos { display: flex; width: 300px; flex-direction: column; padding-bottom:5rem;}
+
+
+@media only screen and (max-width:1024px) {
+  .content .row .content-wrap .speaker img { max-width: 150px; max-height: 150px; }
+  .content .row .content-wrap .speaker h2 { line-height: 0.7em; }
+  .content .row .content-wrap .speaker .photos {width: 150px;}
+}
+
+@media only screen and (max-width:600px) {
+  .content .row .content-wrap .speaker { flex-direction: column; justify-content: center; }
+  .content .row .content-wrap .speaker img { 
+    max-width: 200px; max-height: 200px;; 
+    align-self: center;
+  }
+  .content .row .content-wrap .speaker .details h2 { text-align: center; }
+  .content .row .content-wrap .speaker { margin-right: 2em; }
+  .content .row .content-wrap .speaker .photos { flex-direction: row; justify-content:center; width: 100%; padding-bottom:0}
+  .content .row .content-wrap .speaker .photos img { max-width: 150px; max-height: 150px; }
+}
+
+#union-event-id-157965 .default-body h1 {
+  background: unset;
+  color: var(--dark-blue);
+  font-size: 4.2em;
+  padding: 1em 0 0;
+  margin: 0 0 0.8em;
+  border-bottom: solid 5px var(--light-blue);
+}

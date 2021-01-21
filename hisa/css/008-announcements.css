@@ -1,0 +1,47 @@
+/* Announcement Bar */
+
+.uc-slider-wrapper .uc-rslides_container {
+    float: unset;
+    /* position: relative; */
+    /* width: 100%; */
+}
+
+#union-event-id-157965 #announce * { float:unset; }
+#union-event-id-157965 #announce img { /*! height: 100%; */ max-width:200px; }
+#union-event-id-157965 #announce .uc-slider-wrapper .uc-slider-banner { width: 100%; }
+
+#union-event-id-157965 #announce .uc-slider-banner { display:none; }
+#union-event-id-157965 #announce .uc-link-block { display:flex; text-decoration:none; }
+
+#union-event-id-157965 #announce .uc-link-block>span:first-child>span:first-child,
+#union-event-id-157965 #announce .uc-link-block>span:first-child {display:contents;}
+
+
+#union-event-id-157965 #announce .uc-link-block .page-summary { height: 100%; background-color: var(--dark-pink); 
+    padding:40px 40px; font-size: 2.3em; text-align:left; line-height: 1em; }
+#union-event-id-157965 #announce .uc-slider-wrapper .uc-rslides { border-radius:unset; }
+
+#union-event-id-157965 #announce .uc-slider-wrapper .uc-rslides {
+    filter:unset;
+}
+#union-event-id-157965 #announce .centered-btns_tabs.centered-btns1_tabs {
+     background: var(--dark-pink);
+}
+#union-event-id-157965 #announce .uc-slider-wrapper .uc-rslides_container .centered-btns_tabs a { background: rgba(0,0,0,0.5); }
+#union-event-id-157965 #announce .uc-slider-wrapper .uc-rslides_container .centered-btns_here a {
+    background-color: #fff;
+}
+
+@media screen and (max-width: 720px) {
+    #union-event-id-157965 #announce .uc-link-block { flex-direction: column; }
+    #union-event-id-157965 #announce .uc-link-block .page-details span{padding-top: 200px; text-align: center;}
+    #union-event-id-157965 #announce .uc-link-block img { max-width:unset; border-radius: 100%; 
+        box-shadow: 0 10px 10px #0005;
+        position: absolute; width:200px;
+        margin-left: calc(50% - 100px);
+        margin-top:-60px;
+    }
+    #union-event-id-157965 #announce .uc-link-block { overflow: visible; }
+    #union-event-id-157965 #hero #hero-wrap { padding-bottom: 80px; }
+    #union-event-id-157965 #announce .uc-slider-wrapper .uc-rslides { overflow:visible; }
+}

@@ -24,5 +24,74 @@
   #calendar.schedule tr,weekdays {
     grid-template-columns: repeat(5, 1fr);  
   }
-  
 }
+@media (min-width: 768px) {
+  #agenda { height: 1500px;}
+}
+
+.legend  { display:flex; flex-wrap:wrap; }
+.content .row .content-wrap .legend h2 { margin:0; padding:10px 10px; color: #fff; background: var(--dark); }
+.legend span { display: block; padding: 10px 20px;}
+.legend span.options_available_a { background-color: var(--main-pink); color: #fff; }
+.legend span.options_available_b { background-color: var(--main-green); color: #fff; }
+.legend span.optional {  background-color: var(--dark-yellow); color: #fff; }
+.legend span.social {  background-color: var(--light-blue); color: var(--dark); }
+
+#calendar.schedule .wday-1 .event.event-5,
+#calendar.schedule .wday-1 .event.event-6{ 
+    background: var(--main-pink); 
+    border-bottom-color: var(--dark-pink);
+}
+
+#calendar.schedule .wday-1 .event.event-7,
+#calendar.schedule .wday-1 .event.event-8{ 
+    background: var(--main-green);
+    border-bottom-color: var(--dark-green);
+}
+
+
+
+#calendar.schedule .wday-3 .event.event-5,
+#calendar.schedule .wday-3 .event.event-6{ 
+    background: var(--main-pink); 
+    border-bottom-color: var(--dark-pink);
+}
+
+#calendar.schedule .wday-3 .event.event-7,
+#calendar.schedule .wday-3 .event.event-8 { 
+    background: var(--main-green);
+    border-bottom-color: var(--dark-green);
+}
+
+#calendar.schedule .wday-4 .event.event-8,
+#calendar.schedule .wday-4 .event.event-9,
+#calendar.schedule .wday-4 .event.event-10{ 
+    background: var(--main-pink); 
+    border-bottom-color: var(--dark-pink);
+}
+
+#calendar.schedule .wday-4 .event.event-11,
+#calendar.schedule .wday-4 .event.event-12 { 
+    background: var(--main-green);
+    border-bottom-color: var(--dark-green);
+}
+
+#calendar.schedule .wday-1 .event.event-11,
+#calendar.schedule .wday-2 .event.event-9,
+#calendar.schedule .wday-2 .event.event-10,
+#calendar.schedule .wday-3 .event.event-10,
+#calendar.schedule .wday-3 .event.event-11,
+#calendar.schedule .wday-4 .event.event-1,
+#calendar.schedule .wday-4 .event.event-2,
+#calendar.schedule .wday-4 .event.event-13
+{
+    background: var(--dark-yellow);
+    border-bottom-color: var(--main-yellow);
+}
+
+#calendar.schedule .wday-5 .event
+{
+    background: var(--light-blue);
+    border-bottom-color: var(--main-blue);
+}
+#calendar.schedule .wday-5 .event * { color: var(--dark); }
