@@ -1,0 +1,38 @@
+/* Meet the officers */
+#say-hello-to-this-years-officers h2 {
+  color: var(--brand-pink);
+  font-weight: bold;
+  font-family: 'lineto-circular-black',sans-serif
+}
+#say-hello-to-this-years-officers { 
+  width: 100%;
+  max-width:920px;
+  margin: 0 auto;
+}
+
+#say-hello-to-this-years-officers-wrap { 
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+}
+
+#say-hello-to-this-years-officers-wrap .column-content {
+  width: 20%;
+}
+
+#say-hello-to-this-years-officers-wrap .column-content div div p {
+  margin:0; font-size: 0.8em;
+}
+#say-hello-to-this-years-officers-wrap .column-content div div p:nth-child(1) {
+  margin-bottom:10px;
+}
+#say-hello-to-this-years-officers-wrap .column-content div div p:nth-child(2) a,
+#say-hello-to-this-years-officers-wrap .column-content div div p:nth-child(3) a,
+#say-hello-to-this-years-officers-wrap .column-content div div p:nth-child(4) a
+{ 
+  color: var(--brand-pink);
+  margin:0; padding:0;
+}
+#say-hello-to-this-years-officers-wrap .column-content div div p:nth-child(2) a {
+  font-weight:bold; 
+}

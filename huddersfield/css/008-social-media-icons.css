@@ -1,0 +1,10 @@
+/* Social Media Icons */
+
+#top-social-links-above-menu { max-width: 980px; margin:0 auto; }
+.social-media-holder {
+  padding-top:20px; 
+}
+.social-media-holder a { text-decoration: none; }
+.social-media-holder .icon {
+  width: 24px; height:auto;
+}

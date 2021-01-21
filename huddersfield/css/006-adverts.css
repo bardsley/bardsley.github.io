@@ -1,0 +1,24 @@
+/* Advert movement */
+
+.uc-leaderboard-advertisement {
+/*   border: solid 1px red; */
+  position:absolute;
+  top:4.6em;
+  right:0;
+  width:100%
+}
+
+.uc-leaderboard-advertisement > div {
+/*   border: solid 1px green; */
+  width: 720px;
+  margin: 0 auto;
+  padding-left: 245px;
+}
+
+@media screen and (max-width:720px) {
+  .uc-leaderboard-advertisement { position: relative; top:0; }
+  .uc-leaderboard-advertisement > div { width: 100%; padding:0;}
+
+  .home-content-html #main-scroller { margin-top:0;}
+  .home-content-html #main-scroller #main-scroller-wrap .ui-tabs-nav { display:none; }
+}

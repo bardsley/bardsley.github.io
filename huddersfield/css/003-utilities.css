@@ -1,0 +1,16 @@
+/*================================================================*/
+/* utility sheet */
+/*================================================================*/
+
+
+.clearfix:after,
+#breadcrumb-container ul:after,
+.group-widget .top-groups:after,
+.threecol.left-nav-content.tree-navigation ul.group-category > li ul.typeCategory:after,
+#event-homepage .event-container:after,
+.page-content-html .wrapper .row.content .featured-news-block-content .featured-image:after,
+#re-skin-2016-footer #quicklinks-column-content ul:after {
+    content: ' ';
+    display: table;
+    clear: both;
+}

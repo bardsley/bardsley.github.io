@@ -1,0 +1,20 @@
+/* Body restucture */
+.content  { 
+  max-width: 960px;
+  margin: -20px auto;
+  padding:20px;
+  float:unset;
+  background: var(--backing-grey);
+}
+
+.content #main-scroller,
+.content #main-scroller-wrap {
+  background: none;
+}
+
+/* Scroller */
+
+#main-scroller .jcarousel-prev-horizontal,
+#main-scroller .jcarousel-next-horizontal { 
+  visibility: hidden;
+}

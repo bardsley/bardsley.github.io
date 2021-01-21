@@ -1,0 +1,10 @@
+/* Social Media Feeds */
+#keep-up-to-date-with-us h2 {
+    color: var(--brand-pink);
+    font-weight: bold;
+    font-family: 'lineto-circular-black',sans-serif
+  }
+
+#keep-up-to-date-with-us .column-wrap { 
+  width: 95%; max-width:unset; 
+}
