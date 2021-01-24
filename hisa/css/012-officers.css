@@ -1,0 +1,5 @@
+/* Officers  */
+
+.officers { display: flex; flex-wrap: wrap;}
+.officer { max-width: 30%; min-width: 550px; margin-right: 2em;}
+.content .row .content-wrap .officer h2 { font-size: 1.6em; height: 3em;}

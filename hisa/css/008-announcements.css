@@ -10,6 +10,8 @@
 #union-event-id-157965 #announce img { /*! height: 100%; */ max-width:200px; }
 #union-event-id-157965 #announce .uc-slider-wrapper .uc-slider-banner { width: 100%; }
 
+#union-event-id-157965 #announce .uc-slider-wrapper .uc-rslides_container .centered-btns_tabs { margin-top:0; }
+
 #union-event-id-157965 #announce .uc-slider-banner { display:none; }
 #union-event-id-157965 #announce .uc-link-block { display:flex; text-decoration:none; }
 

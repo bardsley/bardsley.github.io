@@ -48,3 +48,28 @@
 @media screen and (min-width: 1024px) {
   #union-event-id-157965 #blocks-wrap>* { width: 25%; }
 }
+
+/* When Twitter is live */
+#twitter-widget-0 { visibility: hidden !important; display: none !important; }
+/*
+@media screen and (max-width: 600px) {
+  #union-event-id-157965 #blocks-wrap>* { width: 100%; }
+}
+@media screen and (min-width: 600px) {
+  #union-event-id-157965 #blocks-wrap>* { width: 100%; }
+  .event-cms-wrapper { display:flex; }
+  .event-cms-wrapper #blocks { width:50%; }
+  #twitter-widget-0 { max-height: 2450px;}
+}
+@media screen and (min-width: 768px) {
+  #union-event-id-157965 #blocks-wrap>* { width: 50%; }
+  .event-cms-wrapper { display:flex; }
+  .event-cms-wrapper #blocks { width:66.666%; }
+  #twitter-widget-0 { max-height: 1250px;}
+}
+@media screen and (min-width: 1024px) {
+  #union-event-id-157965 #blocks-wrap>* { width: 33.3333%; }
+  .event-cms-wrapper { display:flex; }
+  .event-cms-wrapper #blocks { width:75%; }
+  #twitter-widget-0 { max-height: 850px;}
+}/**/

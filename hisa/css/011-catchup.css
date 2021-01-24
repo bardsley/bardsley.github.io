@@ -1,0 +1,13 @@
+/* Tiles for cartchup on the week */
+
+.tiles { display:flex; flex-wrap: wrap; }
+.tiles a { display:block; min-width: 300px; width: 20%; 
+  color: #fff; background:red;
+  font-size: 1.4em; text-decoration:none; font-weight:bold; line-height: 1.1em;
+  padding: 1em; margin: 0 1em 1em 0;
+}
+
+.tiles a:nth-child(3n-2) { background: var(--main-blue); }
+.tiles a:nth-child(3n-1) { background: var(--dark-blue); }
+.tiles a:nth-child(3n) { background: var(--light-blue); }
+

@@ -11,6 +11,14 @@
 #union-event-id-157965 .policy .details p,
 #union-event-id-157965 .policy .details li { margin-bottom: 1em;}
 
+/* Table of contents */
+
+#union-event-id-157965 .intro { display: flex; }
+#union-event-id-157965 #table-of-contents { margin-left: 2em; }
+#union-event-id-157965 #table-of-contents p { margin: 0 0 0.2em;  }
+#union-event-id-157965 #table-of-contents a { color: var(--main-pink); text-decoration:none; }
+#union-event-id-157965 #table-of-contents h2 { margin:0; padding:0; }
+
 @media screen and (max-width: 1234px) {
   #union-event-id-157965 .policy .details { flex-wrap: wrap; }
   #union-event-id-157965 .policy .details .core { display:flex; flex-direction: column;}
@@ -19,9 +27,10 @@
 }
 
 @media screen and (max-width: 720px) {
+  #union-event-id-157965 .intro,
   #union-event-id-157965 .policy .details { flex-direction: column; }
+  #union-event-id-157965 #table-of-contents {margin-left:0; }
   #union-event-id-157965 .policy .details div { width: 95%; }
   #union-event-id-157965 .policy .details div.facts { margin-left:0;}
   #union-event-id-157965 .policy .details div.change { margin-right:0;}
 }
-
