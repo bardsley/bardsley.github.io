@@ -1,0 +1,36 @@
+
+/*_*_*  General Styles Used across all elements of site *_*_*/
+
+/* 
+Build command to combine CSS and copy to clipboard
+Should be run from dir below 'css'
+- Windows: type css\*.css | clip
+- OSX: cat css\*.css | pbcopy 
+*/
+
+/* Removed as not used  */
+.uc-mob-src-close-icon, .uc-mob-src-icon,
+.cart-account .shopping-cart-menu,
+.clear { display:none; }
+
+/* Variables */ 
+:root {
+  --brand-teal: #73afb7;
+  --brand-blue: #556390;
+  --brand-text: #fff;
+  --brand-backing: #c4e6e3;
+  --dark-backing: #333339;
+  --button-orange: #e37d16;
+  --notice-success: #36a852;
+  --notice-error: #ce1f0d;
+  --separator: rgba(255,255,255,0.2);
+}
+
+/* Accesibility */
+
+#skiplink-container { text-align: center; background: var(--brand-blue); color: var(--brand-text); }
+#skiplink-container div { text-align: left; margin: 0 auto; max-width: 960px; }
+#skiplink-container .skiplink { display: -moz-inline-stack; display: inline-block; margin: 0.75em 0 0 30px; }
+.skiplink { position: absolute; left: -9999em; }
+
+#hidden-homepage p { margin:0; padding:0; } /* On hompage add a content anchor to skip menus, branding and adverts */

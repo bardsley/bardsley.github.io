@@ -1,0 +1,49 @@
+
+/*_*_* Elements withint the header block at top *_*_*/
+
+/* Account box */
+.cart-account .profile-setting { background: var(--brand-blue); width: 200px; align-self: flex-end;}
+.cart-account .profile-setting .profile-name-wrapper{ padding: 0.6em 1em; border-bottom: solid 1px var(--brand-backing);}
+.cart-account .profile-setting a { color: var(--brand-text); text-decoration:none; }
+.cart-account .profile-drop-down-menu {  max-width: 100%; position:relative; display:none; /* <- Overridden via JS */ z-index:1000 } 
+.cart-account .profile-drop-down-menu ul { padding:0; list-style-type: none; margin:0; background: var(--brand-blue); }
+.cart-account .profile-drop-down-menu ul li { border-bottom: solid 1px var(--brand-backing); padding: 5px 10px}
+
+/* Signin link */
+
+.system-menu a { 
+  color: var(--brand-text); background: var(--brand-blue); text-decoration:none;
+  display:block; padding: 0.5em 1em;
+}
+
+/* Search Box */
+.search { max-width: 100%; }
+.search-box  {  font-size: 1em; width: 100%; padding: 0 0.5em 0 1em; }
+.search-box-wrapper { display:flex; align-items: end; align-content: end; }
+.search-box-wrapper > * { padding: 0.4em 1em; }
+.search-box-wrapper .search-input { flex-grow:1; margin-right: 0.5em; font-size: inherit; border: 1px solid var(--brand-blue); width: 50%;}
+.search-box-wrapper .search-button { font-size: 0.95em; border: 1px solid var(--brand-blue); background: var(--brand-blue); color: var(--brand-text); position:relative; top:-1px;}
+
+/* Advertising */
+.uc-leaderboard-advertisement { position: absolute; top:0; width: 100%; }
+.uc-leaderboard-advertisement:after { content: 'advert'; font-size: 0.6em; background: #666; color: #fff; display:block; margin-top: -5px; padding: 1px 4px; text-align: right; }
+.uc-leaderboard-advertisement a { display: block; padding:0; margin:0;}
+.uc-leaderboard-advertisement img { width: 100%; height: auto; margin:0; padding:0;}
+body { margin-top: 13%;}
+
+@media screen and (min-width:737px) {
+  body { margin-top: 0;}
+  .wrapper { position: relative; }
+  .uc-leaderboard-advertisement { 
+    position: absolute; max-width: 728px; width: 75%;
+    right:1em;
+    top: 70px;
+    height: 40px;
+    max-height:100%;
+  }
+  .uc-leaderboard-advertisement .top-ad div,
+    .uc-leaderboard-advertisement .top-ad div a { max-height:100%; height: 100%;}
+  .uc-leaderboard-advertisement img { max-width: 100%; max-height:100%; }
+  .uc-leaderboard-advertisement:after { display:none;}
+}
+

@@ -1,0 +1,24 @@
+
+/*_*_* Account pages within pseudo admin *_*_*/
+
+/* Account Page */
+#myaccount-information { display:flex; }
+#myaccount-information .tree-navigation { 
+  width: 25%; margin: 1em 2em 0em 2em; 
+  padding: 1em;
+  color: var(--brand-text);
+  background: var(--dark-backing);
+}
+
+#myaccount-information .tree-navigation h3 { margin:0; }
+
+#myaccount-information .tree-navigation ul { list-style:none; padding:0;}
+#myaccount-information .tree-navigation ul ul { 
+  margin-top: 0.5em; 
+  list-style-type: " \279E   ";
+  list-style-position: inside;
+  color: var(--separator);
+}
+#myaccount-information .tree-navigation li { padding: 0.5em 0 0.5em 0; border-top: solid 1px var(--separator);}
+#myaccount-information .tree-navigation a { color: var(--brand-text); text-decoration:none; }
+

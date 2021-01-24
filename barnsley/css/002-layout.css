@@ -1,0 +1,33 @@
+
+/*_*_*  Layout Files, position and size of content blocks *_*_*/
+
+/* Structured Mobile First */
+body { 
+  padding:0; margin:0; 
+  font-family: sans-serif;
+}
+html * { box-sizing: border-box; }
+
+.row.header { background: var(--brand-backing);}
+.row.header .header-wrap { 
+  display: flex; max-width: 100%; flex-wrap: wrap;
+  padding: 30px 10px 10px;
+/*   justify-content: space-between; */
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.cart-account { flex-grow: 1; }
+
+.row.header #union-logo { width: 25%; max-width: 120px; }
+.row.header #union-logo h1 { margin:0; padding:0;}
+.row.header #union-logo img { width: 100%; }
+
+
+.row.header .cart-account { max-width: 80%; margin-left: 5%; display:flex;justify-content: flex-end;}
+.row.header .system-menu { max-width: 80%; margin-left: 5%; display:flex; justify-content: flex-end; flex-grow: 10;}
+
+/* .row.bottom,
+.row.content { display:none; } */
+.grid-carousel { width: 100%; height: 200px;}
+

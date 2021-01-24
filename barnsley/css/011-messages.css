@@ -1,0 +1,37 @@
+
+/*_*_* Message from the system *_*_*/
+
+/* Cookie Notice */
+.uc-cookie-block {
+  background: var(--dark-backing); color: #fff;
+  padding: 1em;
+  font-size: 0.8em;
+}
+.uc-cookie-block h2 { font-size: 1.2em; }
+.uc-cookie-block a { color:var(--button-orange); text-decoration:none; }
+
+.uc-cookie-block a.uc-cookie-continue-class { display:block; text-align:right; 
+  background:var(--button-orange); color: #fff; padding: 0.5em 1em;
+  z-index: 10000; 
+  position: absolute;
+  right: 1.5em;
+}
+.row.header .header-wrap { clear:right; }
+.uc-cookie-block a.uc-cookie-continue-class:before { content: 'Accept and '}
+.uc-cookie-block a.uc-cookie-continue-class:after { content: ' \21A6'; }
+
+/* System Messages */
+
+#student_view_notice #notice { margin:0; padding: 1em 3em 1em 1em; position: relative; color: #fff;  background-color: var(--dark-backing);}
+#student_view_notice #notice.success { background-color: var(--notice-success); }
+#student_view_notice #notice.error { background-color: var(--notice-error); }
+
+
+#student_view_notice .close-notice:before { content: '\00D7'; display:block; width: 100%; text-align:center; padding:4px 4px 4px 0 ; font-weight:bold;}
+#student_view_notice .close-notice { border: solid 3px #fff;
+  position: absolute; top:20%; right:1em;
+  display: block; overflow:hidden; 
+  width: 30px; height: 30px;
+  border-radius: 100%;
+  color: #fff; text-decoration:none;   
+}
