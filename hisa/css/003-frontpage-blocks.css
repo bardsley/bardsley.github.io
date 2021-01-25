@@ -50,8 +50,9 @@
 }
 
 /* When Twitter is live */
-#twitter-widget-0 { visibility: hidden !important; display: none !important; }
-/*
+
+/* #twitter-widget-0 { visibility: hidden !important; display: none !important; } */
+
 @media screen and (max-width: 600px) {
   #union-event-id-157965 #blocks-wrap>* { width: 100%; }
 }

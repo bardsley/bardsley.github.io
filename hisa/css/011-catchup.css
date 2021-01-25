@@ -1,6 +1,8 @@
 /* Tiles for cartchup on the week */
 
+/* 
 .tiles { display:flex; flex-wrap: wrap; }
+.tiles h2 { width: 100%;}
 .tiles a { display:block; min-width: 300px; width: 20%; 
   color: #fff; background:red;
   font-size: 1.4em; text-decoration:none; font-weight:bold; line-height: 1.1em;
@@ -11,3 +13,42 @@
 .tiles a:nth-child(3n-1) { background: var(--dark-blue); }
 .tiles a:nth-child(3n) { background: var(--light-blue); }
 
+ */
+
+#tileset { display: flex; flex-wrap: wrap; }
+.tiles { display: block; 
+  color: #fff; background:red;
+  padding: 1em;
+}
+/* #tileset .tiles:nth-child(3n-2) { background: var(--dark-blue); }
+#tileset .tiles:nth-child(3n-1) { background: var(--dark-pink); }
+#tileset .tiles:nth-child(3n) { background: var(--dark-green); } */
+
+#tileset .tiles:nth-child(2n-1) { background: var(--dark-blue); }
+#tileset .tiles:nth-child(2n) { background: var(--main-blue); }
+
+#tileset .tiles h2 { font-size: 2em; color: #fff; margin:0;}
+#tileset .tiles a { display:block; text-decoration:none; color: #fff;  margin-bottom: 0.5em; }
+
+
+/* Media Queries */
+@media screen and (max-width: 600px) {
+  #tileset .tiles { width:100%;}
+}
+@media screen and (min-width: 600px) and (max-width:767px) {
+  #tileset .tiles { width: 50%; }
+  #tileset .tiles { background: var(--dark-blue); }
+
+  #tileset .tiles:nth-child(3) { background: var(--main-blue); } 
+  #tileset .tiles:nth-child(4) { background: var(--dark-blue); } 
+  
+
+}
+@media screen and (min-width: 868px) {
+   #tileset .tiles{ width: 33.333%; }
+}
+@media screen and (min-width: 1331px) {
+  #tileset .tiles{ width: 20%; }
+}
+
+/* When Twitter is live */
