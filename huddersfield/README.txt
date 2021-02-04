@@ -11,6 +11,9 @@ Notes
 - 4 years of old sccripts and contents in the site (not surwe if true for main)
 - Mobile menu appears broken
 
+Questions
+===========
+- Any similarity betweenn two environments
 
 Recommendations
 ===============

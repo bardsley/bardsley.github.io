@@ -1,0 +1,3134 @@
+<!DOCTYPE html>
+<html lang=""><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="http://localhost:8080/favicon.ico">
+    <title>perk-coverage</title>
+  <link href="http://localhost:8080/js/about.js" rel="prefetch"><link href="perk-coverage_files/aboutauthcharacterperks.js" rel="prefetch"><link href="http://localhost:8080/js/auth.js" rel="prefetch"><link href="http://localhost:8080/js/character.js" rel="prefetch"><link href="perk-coverage_files/characterperks.js" rel="prefetch"><link href="perk-coverage_files/perks.js" rel="prefetch"><link href="http://localhost:8080/perks.f629119693cdc580ecb1.hot-update.js" rel="prefetch"><link href="perk-coverage_files/app.js" rel="preload" as="script"><link href="perk-coverage_files/chunk-vendors.js" rel="preload" as="script"><style type="text/css">.footer[data-v-40ab164b] {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: var(--footer);
+  color: var(--footer-text);
+}
+.footer a[data-v-40ab164b] {
+    text-decoration: none;
+    color: var(--footer-text);
+}
+.footer .section[data-v-40ab164b]:last-child {
+    border-right: none;
+}
+.footer .section[data-v-40ab164b] {
+    max-width: 33%;
+    padding: 1em;
+    margin: 0;
+}
+.footer .section h2[data-v-40ab164b] {
+      font-size: 1.2em;
+      margin: 1em 1em 0.5em 0;
+      border-bottom: solid 1px var(--gentle-edge);
+      padding-bottom: 0.6em;
+}
+.footer .section ul[data-v-40ab164b] {
+      list-style: none;
+      margin: 0 0 1em 0;
+      padding: 0;
+}
+.footer .section li[data-v-40ab164b] {
+      margin-bottom: 0.3em;
+}
+.footer .section li[data-v-40ab164b]:after {
+      content: ' \279E';
+      color: var(--gentle-edge);
+}
+</style><style type="text/css">:root {
+  --item-border-width: 3px;
+  --nav: #1a1a1a;
+  --footer: #1a1a1a;
+  --footer-text: #efeeee;
+  --gentle-edge: rgba(255,255,255,0.1);
+  --background: rgb(222, 212, 212);
+  --links: rgb(191, 50, 50);
+  --active: rgb(212, 30, 30);
+}
+body {
+  background: var(--background);
+  padding: 5rem 0 18rem 0;
+}
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+  box-sizing: border-box;
+}
+#app * {
+    box-sizing: border-box;
+}
+#app a {
+    color: var(--links);
+    text-decoration: none;
+}
+#app #nav {
+    background: var(--nav);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+}
+#app #nav a {
+      font-weight: bold;
+      color: var(--links);
+      padding: 30px 30px;
+}
+#app #nav a.router-link-exact-active {
+        color: var(--active);
+        background: var(--gentle-edge);
+}
+</style><style type="text/css">h3[data-v-469af010] {
+  margin: 40px 0 0;
+}
+ul[data-v-469af010] {
+  list-style-type: none;
+  padding: 0;
+}
+li[data-v-469af010] {
+  display: inline-block;
+  margin: 0 10px;
+}
+</style><script charset="utf-8" src="perk-coverage_files/aboutauthcharacterperks.js"></script><script charset="utf-8" src="perk-coverage_files/characterperks.js"></script><script charset="utf-8" src="perk-coverage_files/perks.js"></script><script charset="utf-8" src="perk-coverage_files/perks_003.js"></script><script charset="utf-8" src="perk-coverage_files/perks_002.js"></script></head>
+  <body>
+    <noscript>
+      <strong>We're sorry but perk-coverage doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"><div id="nav"><a href="http://localhost:8080/" class="router-link-active">Home</a><a href="http://localhost:8080/about" class="">About</a><a href="http://localhost:8080/auth/bungie" class="">Auth</a><a href="http://localhost:8080/character/select" class="">Character Select</a><a href="http://localhost:8080/perks" class="router-link-active">Perks</a></div><div> Hello perks for 2305843009661095016 <pre>{} </pre><pre>        {
+  "1": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "",
+      "hasIcon": false,
+      "name": "Weapon"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 3,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": true,
+    "groupedCategoryHashes": [
+      2,
+      3,
+      4
+    ],
+    "hash": 1,
+    "index": 0,
+    "isPlug": false,
+    "redacted": false,
+    "shortTitle": "Weapon",
+    "visible": false
+  },
+  "2": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "Weapons that cause Kinetic damage.",
+      "hasIcon": false,
+      "name": "Kinetic Weapon"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 2,
+    "index": 1,
+    "isPlug": false,
+    "itemTypeRegex": "type_weapon_(?!intrinsic).*",
+    "originBucketIdentifier": "weapon_primary",
+    "parentCategoryHashes": [
+      1
+    ],
+    "redacted": false,
+    "shortTitle": "Kinetic",
+    "visible": false
+  },
+  "3": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "Weapons that cause Energy damage (Arc, Solar, Void)",
+      "hasIcon": false,
+      "name": "Energy Weapon"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 3,
+    "index": 2,
+    "isPlug": false,
+    "itemTypeRegex": "type_weapon_(?!intrinsic).*",
+    "originBucketIdentifier": "weapon_special",
+    "parentCategoryHashes": [
+      1
+    ],
+    "redacted": false,
+    "shortTitle": "Energy",
+    "visible": false
+  },
+  "4": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "Weapons that pack a hefty punch.",
+      "hasIcon": false,
+      "name": "Power Weapon"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 4,
+    "index": 3,
+    "isPlug": false,
+    "itemTypeRegex": "type_weapon_(?!intrinsic).*",
+    "originBucketIdentifier": "weapon_heavy",
+    "parentCategoryHashes": [
+      1
+    ],
+    "redacted": false,
+    "shortTitle": "Power",
+    "visible": false
+  },
+  "5": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "",
+      "hasIcon": false,
+      "name": "Auto Rifle"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 6,
+    "groupCategoryOnly": false,
+    "hash": 5,
+    "index": 4,
+    "isPlug": false,
+    "itemTypeRegex": ".*_auto_rifle",
+    "redacted": false,
+    "shortTitle": "Auto Rifle",
+    "visible": false
+  },
+  "6": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "",
+      "hasIcon": false,
+      "name": "Hand Cannon"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 9,
+    "groupCategoryOnly": false,
+    "hash": 6,
+    "index": 5,
+    "isPlug": false,
+    "itemTypeRegex": ".*_hand_cannon",
+    "redacted": false,
+    "shortTitle": "Hand Cannon",
+    "visible": false
+  },
+  "7": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "",
+      "hasIcon": false,
+      "name": "Pulse Rifle"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 13,
+    "groupCategoryOnly": false,
+    "hash": 7,
+    "index": 6,
+    "isPlug": false,
+    "itemTypeRegex": ".*_pulse_rifle",
+    "redacted": false,
+    "shortTitle": "Pulse Rifle",
+    "visible": false
+  },
+  "8": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "",
+      "hasIcon": false,
+      "name": "Scout Rifle"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 14,
+    "groupCategoryOnly": false,
+    "hash": 8,
+    "index": 7,
+    "isPlug": false,
+    "itemTypeRegex": ".*_scout_rifle",
+    "redacted": false,
+    "shortTitle": "Scout Rifle",
+    "visible": false
+  },
+  "9": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "",
+      "hasIcon": false,
+      "name": "Fusion Rifle"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 11,
+    "groupCategoryOnly": false,
+    "hash": 9,
+    "index": 8,
+    "isPlug": false,
+    "itemTypeRegex": "type_weapon_fusion_rifle",
+    "redacted": false,
+    "shortTitle": "Fusion Rifle",
+    "visible": false
+  },
+  "10": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "",
+      "hasIcon": false,
+      "name": "Sniper Rifle"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 12,
+    "groupCategoryOnly": false,
+    "hash": 10,
+    "index": 9,
+    "isPlug": false,
+    "itemTypeRegex": ".*_sniper_rifle",
+    "redacted": false,
+    "shortTitle": "Sniper Rifle",
+    "visible": false
+  },
+  "11": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "",
+      "hasIcon": false,
+      "name": "Shotgun"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 7,
+    "groupCategoryOnly": false,
+    "hash": 11,
+    "index": 10,
+    "isPlug": false,
+    "itemTypeRegex": ".*_shotgun",
+    "redacted": false,
+    "shortTitle": "Shotgun",
+    "visible": false
+  },
+  "12": {
+    "blacklisted": false,
+    "deprecated": true,
+    "displayProperties": {
+      "description": "",
+      "hasIcon": false,
+      "name": "Machine Gun"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 8,
+    "groupCategoryOnly": false,
+    "hash": 12,
+    "index": 11,
+    "isPlug": false,
+    "itemTypeRegex": ".*_machinegun",
+    "redacted": false,
+    "shortTitle": "Machine Gun",
+    "visible": false
+  },
+  "13": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "",
+      "hasIcon": false,
+      "name": "Rocket Launcher"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 10,
+    "groupCategoryOnly": false,
+    "hash": 13,
+    "index": 12,
+    "isPlug": false,
+    "itemTypeRegex": ".*_rocket_launcher",
+    "redacted": false,
+    "shortTitle": "Rocket Launcher",
+    "visible": false
+  },
+  "14": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "",
+      "hasIcon": false,
+      "name": "Sidearm"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 17,
+    "groupCategoryOnly": false,
+    "hash": 14,
+    "index": 13,
+    "isPlug": false,
+    "itemTypeRegex": ".*_sidearm",
+    "redacted": false,
+    "shortTitle": "Sidearm",
+    "visible": false
+  },
+  "16": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "",
+      "hasIcon": false,
+      "name": "Quest Step"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 12,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 16,
+    "index": 14,
+    "isPlug": false,
+    "itemTypeRegex": "(type_step)|(type_chain_start)|(quest_type)|(type_quest)|(quest_global)",
+    "redacted": false,
+    "shortTitle": "Quest Step",
+    "visible": false
+  },
+  "17": {
+    "blacklisted": false,
+    "deprecated": true,
+    "displayProperties": {
+      "description": "",
+      "hasIcon": false,
+      "name": ""
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 13,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 17,
+    "index": 15,
+    "isPlug": false,
+    "itemTypeRegex": "type_step_complete",
+    "redacted": false,
+    "shortTitle": "",
+    "visible": false
+  },
+  "18": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "Used to buy new weapons and gear.",
+      "hasIcon": false,
+      "name": "Currencies"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 1,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 18,
+    "index": 16,
+    "isPlug": false,
+    "originBucketIdentifier": "currency.*",
+    "parentCategoryHashes": [
+      52
+    ],
+    "redacted": false,
+    "shortTitle": "Currencies",
+    "visible": false
+  },
+  "19": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "Icons and nameplates.",
+      "hasIcon": false,
+      "name": "Emblems"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 14,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 19,
+    "index": 17,
+    "isPlug": false,
+    "itemTypeRegex": ".*emblem.*",
+    "parentCategoryHashes": [
+      52
+    ],
+    "redacted": false,
+    "shortTitle": "Emblems",
+    "visible": false
+  },
+  "20": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "",
+      "hasIcon": false,
+      "name": "Armor"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 2,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": true,
+    "groupedCategoryHashes": [
+      45,
+      46,
+      47,
+      48,
+      49
+    ],
+    "hash": 20,
+    "index": 18,
+    "isPlug": false,
+    "redacted": false,
+    "shortTitle": "Armor",
+    "visible": false
+  },
+  "21": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "Warlock class helmets, chest, arms and legs",
+      "hasIcon": false,
+      "name": "Warlock"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 2,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 21,
+    "index": 19,
+    "isPlug": false,
+    "redacted": false,
+    "shortTitle": "Warlock",
+    "visible": false
+  },
+  "22": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "Titan class helmets, chest, arms and legs",
+      "hasIcon": false,
+      "name": "Titan"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 0,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 22,
+    "index": 20,
+    "isPlug": false,
+    "redacted": false,
+    "shortTitle": "Titan",
+    "visible": false
+  },
+  "23": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "Hunter class helmets, chest, arms and legs",
+      "hasIcon": false,
+      "name": "Hunter"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 1,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 23,
+    "index": 21,
+    "isPlug": false,
+    "redacted": false,
+    "shortTitle": "Hunter",
+    "visible": false
+  },
+  "27": {
+    "blacklisted": false,
+    "deprecated": true,
+    "displayProperties": {
+      "description": "",
+      "hasIcon": false,
+      "name": ""
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 27,
+    "index": 22,
+    "isPlug": false,
+    "itemTypeRegex": ".*vanguard.*",
+    "redacted": false,
+    "shortTitle": "",
+    "visible": false
+  },
+  "28": {
+    "blacklisted": false,
+    "deprecated": true,
+    "displayProperties": {
+      "description": "",
+      "hasIcon": false,
+      "name": ""
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 28,
+    "index": 23,
+    "isPlug": false,
+    "itemTypeRegex": ".*pvp.*",
+    "redacted": false,
+    "shortTitle": "",
+    "visible": false
+  },
+  "31": {
+    "blacklisted": false,
+    "deprecated": true,
+    "displayProperties": {
+      "description": "",
+      "hasIcon": false,
+      "name": ""
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 31,
+    "index": 24,
+    "isPlug": false,
+    "itemTypeRegex": ".*exotic.*",
+    "redacted": false,
+    "shortTitle": "",
+    "visible": false
+  },
+  "32": {
+    "blacklisted": false,
+    "deprecated": true,
+    "displayProperties": {
+      "description": "",
+      "hasIcon": false,
+      "name": ""
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 7,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 32,
+    "index": 25,
+    "isPlug": false,
+    "itemTypeRegex": "type_message_.*",
+    "redacted": false,
+    "shortTitle": "",
+    "visible": false
+  },
+  "33": {
+    "blacklisted": false,
+    "deprecated": true,
+    "displayProperties": {
+      "description": "",
+      "hasIcon": false,
+      "name": ""
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 33,
+    "index": 26,
+    "isPlug": false,
+    "itemTypeRegex": "type_message_.*crm",
+    "redacted": false,
+    "shortTitle": "",
+    "visible": false
+  },
+  "34": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "",
+      "hasIcon": false,
+      "name": "Engrams"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 8,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 34,
+    "index": 27,
+    "isPlug": false,
+    "itemTypeRegex": "(type_engram.*)|(type_silver_engram)",
+    "originBucketIdentifier": "mission",
+    "redacted": false,
+    "shortTitle": "Engrams",
+    "visible": false
+  },
+  "35": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "Ammo, upgrades and powerups.",
+      "hasIcon": false,
+      "name": "Consumables"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 9,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "groupedCategoryHashes": [
+      2253669532,
+      2088636411,
+      2150402250,
+      3747263590,
+      2266591099,
+      2250046497,
+      2005599723,
+      3134521018
+    ],
+    "hash": 35,
+    "index": 28,
+    "isPlug": false,
+    "itemTypeRegex": "type_consumable.*",
+    "parentCategoryHashes": [
+      52
+    ],
+    "redacted": false,
+    "shortTitle": "Consumables",
+    "visible": false
+  },
+  "36": {
+    "blacklisted": false,
+    "deprecated": true,
+    "displayProperties": {
+      "description": "",
+      "hasIcon": false,
+      "name": ""
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 10,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 36,
+    "index": 29,
+    "isPlug": false,
+    "itemTypeRegex": "type_exchange_material.*",
+    "redacted": false,
+    "shortTitle": "",
+    "visible": false
+  },
+  "37": {
+    "blacklisted": false,
+    "deprecated": true,
+    "displayProperties": {
+      "description": "",
+      "hasIcon": false,
+      "name": ""
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 11,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 37,
+    "index": 30,
+    "isPlug": false,
+    "itemTypeRegex": "type_mission.*",
+    "redacted": false,
+    "shortTitle": "",
+    "visible": false
+  },
+  "39": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "Cosmetic shells for your Ghost.",
+      "hasIcon": false,
+      "name": "Ghost"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 24,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 39,
+    "index": 31,
+    "isPlug": false,
+    "itemTypeRegex": "type_ghost.*",
+    "originBucketIdentifier": "ghost",
+    "redacted": false,
+    "shortTitle": "Ghost",
+    "visible": false
+  },
+  "40": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "Used to upgrade weapons and gear.",
+      "hasIcon": false,
+      "name": "Materials"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 40,
+    "index": 32,
+    "isPlug": false,
+    "itemTypeRegex": "type_material.*",
+    "originBucketIdentifier": "consumable",
+    "parentCategoryHashes": [
+      52
+    ],
+    "redacted": false,
+    "shortTitle": "Materials",
+    "visible": false
+  },
+  "41": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "Add color and texture to existing armor.",
+      "hasIcon": false,
+      "name": "Shaders"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 19,
+    "grantDestinySubType": 20,
+    "groupCategoryOnly": false,
+    "hash": 41,
+    "index": 33,
+    "isPlug": false,
+    "itemTypeRegex": "type_shader.*",
+    "originBucketIdentifier": "shader",
+    "parentCategoryHashes": [
+      52
+    ],
+    "redacted": false,
+    "shortTitle": "Shaders",
+    "visible": false
+  },
+  "42": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "Spacecrafts used to traverse between destinations.",
+      "hasIcon": false,
+      "name": "Ships"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 21,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 42,
+    "index": 34,
+    "isPlug": false,
+    "itemTypeRegex": "type_ship",
+    "originBucketIdentifier": "ship",
+    "parentCategoryHashes": [
+      52
+    ],
+    "redacted": false,
+    "shortTitle": "Ships",
+    "visible": false
+  },
+  "43": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "Land vehicles used to quickly traverse a destination.",
+      "hasIcon": false,
+      "name": "Sparrows"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 22,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 43,
+    "index": 35,
+    "isPlug": false,
+    "itemTypeRegex": "type_vehicle.*",
+    "originBucketIdentifier": "vehicle",
+    "parentCategoryHashes": [
+      52
+    ],
+    "redacted": false,
+    "shortTitle": "Sparrows",
+    "visible": false
+  },
+  "44": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "Strike a pose.",
+      "hasIcon": false,
+      "name": "Emotes"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 23,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 44,
+    "index": 36,
+    "isPlug": false,
+    "itemTypeRegex": "type_emote.*",
+    "redacted": false,
+    "shortTitle": "Emotes",
+    "visible": false
+  },
+  "45": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "",
+      "hasIcon": false,
+      "name": "Helmets"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 26,
+    "groupCategoryOnly": false,
+    "hash": 45,
+    "index": 37,
+    "isPlug": false,
+    "itemTypeRegex": "type_armor.*",
+    "itemTypeRegexNot": "type_armor_mask.*",
+    "originBucketIdentifier": "head",
+    "parentCategoryHashes": [
+      20
+    ],
+    "redacted": false,
+    "shortTitle": "Helmets",
+    "visible": false
+  },
+  "46": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "",
+      "hasIcon": false,
+      "name": "Arms"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 27,
+    "groupCategoryOnly": false,
+    "hash": 46,
+    "index": 38,
+    "isPlug": false,
+    "itemTypeRegex": "type_armor.*",
+    "originBucketIdentifier": "arms",
+    "parentCategoryHashes": [
+      20
+    ],
+    "redacted": false,
+    "shortTitle": "Arms",
+    "visible": false
+  },
+  "47": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "",
+      "hasIcon": false,
+      "name": "Chest"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 28,
+    "groupCategoryOnly": false,
+    "hash": 47,
+    "index": 39,
+    "isPlug": false,
+    "itemTypeRegex": "type_armor.*",
+    "originBucketIdentifier": "chest",
+    "parentCategoryHashes": [
+      20
+    ],
+    "redacted": false,
+    "shortTitle": "Chest",
+    "visible": false
+  },
+  "48": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "",
+      "hasIcon": false,
+      "name": "Legs"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 29,
+    "groupCategoryOnly": false,
+    "hash": 48,
+    "index": 40,
+    "isPlug": false,
+    "itemTypeRegex": "type_armor.*",
+    "originBucketIdentifier": "legs",
+    "parentCategoryHashes": [
+      20
+    ],
+    "redacted": false,
+    "shortTitle": "Legs",
+    "visible": false
+  },
+  "49": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "",
+      "hasIcon": false,
+      "name": "Class Items"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 30,
+    "groupCategoryOnly": false,
+    "hash": 49,
+    "index": 41,
+    "isPlug": false,
+    "itemTypeRegex": "type_armor.*",
+    "originBucketIdentifier": "class",
+    "parentCategoryHashes": [
+      20
+    ],
+    "redacted": false,
+    "shortTitle": "Class Items",
+    "visible": false
+  },
+  "50": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "Builds for your characters.",
+      "hasIcon": false,
+      "name": "Subclasses"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 16,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 50,
+    "index": 42,
+    "isPlug": false,
+    "itemTypeRegex": "type_build.*",
+    "itemTypeRegexNot": "type_build_artifact.*",
+    "parentCategoryHashes": [
+      52
+    ],
+    "redacted": false,
+    "shortTitle": "Subclasses",
+    "visible": false
+  },
+  "51": {
+    "blacklisted": false,
+    "deprecated": true,
+    "displayProperties": {
+      "description": "These items are not currently in use.",
+      "hasIcon": false,
+      "name": "Blueprint"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 51,
+    "index": 43,
+    "isPlug": false,
+    "itemTypeRegex": "type_ship_blueprint",
+    "redacted": false,
+    "shortTitle": "Blueprint",
+    "visible": false
+  },
+  "52": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "",
+      "hasIcon": false,
+      "name": "Inventory"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": true,
+    "groupedCategoryHashes": [
+      19,
+      41,
+      42,
+      43,
+      18,
+      40,
+      35,
+      50,
+      56,
+      58
+    ],
+    "hash": 52,
+    "index": 44,
+    "isPlug": false,
+    "redacted": false,
+    "shortTitle": "Inventory",
+    "visible": false
+  },
+  "53": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "Quests that can be completed in Destiny.",
+      "hasIcon": false,
+      "name": "Quest"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 15,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 53,
+    "index": 45,
+    "isPlug": false,
+    "itemTypeRegex": "(.*quest.*)|(questline_item_type)",
+    "originBucketIdentifier": "(hidden)|(temporary)",
+    "redacted": false,
+    "shortTitle": "Quest",
+    "visible": true
+  },
+  "54": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "Make sure the pointy end faces toward your enemy.",
+      "hasIcon": false,
+      "name": "Sword"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 18,
+    "groupCategoryOnly": false,
+    "hash": 54,
+    "index": 46,
+    "isPlug": false,
+    "itemTypeRegex": "type_weapon_sword",
+    "redacted": false,
+    "shortTitle": "Sword",
+    "visible": true
+  },
+  "55": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "(Insert appropriate Jim Carrey quote here)",
+      "hasIcon": false,
+      "name": "Mask"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 19,
+    "groupCategoryOnly": false,
+    "hash": 55,
+    "index": 47,
+    "isPlug": false,
+    "itemTypeRegex": "type_armor_mask.*",
+    "redacted": false,
+    "shortTitle": "Mask",
+    "visible": false
+  },
+  "56": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "Item modifiers",
+      "hasIcon": false,
+      "name": "Mods"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 21,
+    "groupCategoryOnly": false,
+    "groupedCategoryHashes": [
+      1742617626,
+      3683250363,
+      3229540061,
+      3684181176,
+      3124752623
+    ],
+    "hash": 56,
+    "index": 48,
+    "isPlug": false,
+    "parentCategoryHashes": [
+      52
+    ],
+    "redacted": false,
+    "shortTitle": "Mods",
+    "visible": false
+  },
+  "57": {
+    "blacklisted": false,
+    "deprecated": true,
+    "displayProperties": {
+      "description": "Like, groovy man.",
+      "hasIcon": false,
+      "name": "Aura"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 18,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 57,
+    "index": 49,
+    "isPlug": false,
+    "originBucketIdentifier": "auras",
+    "redacted": false,
+    "shortTitle": "Aura",
+    "visible": true
+  },
+  "58": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "There are many Banners like it, but this one is mine.",
+      "hasIcon": false,
+      "name": "Clan Banner"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 17,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 58,
+    "index": 50,
+    "isPlug": false,
+    "originBucketIdentifier": "clan_banner",
+    "parentCategoryHashes": [
+      52
+    ],
+    "redacted": false,
+    "shortTitle": "Clan Banner",
+    "visible": true
+  },
+  "59": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "Customizations for your items!",
+      "hasIcon": false,
+      "name": "Mods"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 19,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "groupedCategoryHashes": [
+      4104513227,
+      1449602859,
+      152608020,
+      177260082,
+      874645359,
+      610365472,
+      303512563,
+      3448069192,
+      141186804
+    ],
+    "hash": 59,
+    "index": 51,
+    "isPlug": false,
+    "redacted": false,
+    "shortTitle": "Mods",
+    "visible": true
+  },
+  "141186804": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "Mods on items that provide Masterworks bonuses and challenges.",
+      "hasIcon": false,
+      "name": "Masterworks Mods"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 141186804,
+    "index": 52,
+    "isPlug": false,
+    "parentCategoryHashes": [
+      59
+    ],
+    "redacted": false,
+    "shortTitle": "Masterworks Mods",
+    "visible": false
+  },
+  "152608020": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "These mods can only be applied to Sparrows.",
+      "hasIcon": false,
+      "name": "Sparrow Mods"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": true,
+    "groupedCategoryHashes": [
+      2294843884,
+      319279448
+    ],
+    "hash": 152608020,
+    "index": 78,
+    "isPlug": false,
+    "itemTypeRegex": "type_vehicle_mod.*",
+    "parentCategoryHashes": [
+      59
+    ],
+    "redacted": false,
+    "shortTitle": "Sparrow Mods",
+    "visible": false
+  },
+  "153950757": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "When you'd rather that your explosions come in a bouncing variety.",
+      "hasIcon": false,
+      "name": "Grenade Launchers"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 23,
+    "groupCategoryOnly": false,
+    "hash": 153950757,
+    "index": 54,
+    "isPlug": false,
+    "itemTypeRegex": ".*_grenade_launcher",
+    "redacted": false,
+    "shortTitle": "Grenade Launchers",
+    "visible": false
+  },
+  "177260082": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "These are mods that can only be applied to your ship.",
+      "hasIcon": false,
+      "name": "Ship Mods"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": true,
+    "groupedCategoryHashes": [
+      208981632
+    ],
+    "hash": 177260082,
+    "index": 81,
+    "isPlug": false,
+    "itemTypeRegex": "type_ship_mod.*",
+    "parentCategoryHashes": [
+      59
+    ],
+    "redacted": false,
+    "shortTitle": "Ship Mods",
+    "visible": false
+  },
+  "208981632": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "These mods change your transmat effect when using this ship.",
+      "hasIcon": false,
+      "name": "Ship Mods: Transmat Effects"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 208981632,
+    "index": 82,
+    "isPlug": false,
+    "itemTypeRegex": "type_ship_mod_spawnfx",
+    "parentCategoryHashes": [
+      177260082,
+      59
+    ],
+    "redacted": false,
+    "shortTitle": "Ship Mods: Transmat Effects",
+    "visible": false
+  },
+  "268598612": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "Most often represented as rewards in game.",
+      "hasIcon": false,
+      "name": "Packages"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 25,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 268598612,
+    "index": 57,
+    "isPlug": false,
+    "itemTypeRegex": "type_package.*",
+    "redacted": false,
+    "shortTitle": "Packages",
+    "visible": false
+  },
+  "303512563": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "Mods that provide conditional bonuses while you meet some qualifications/challenge.",
+      "hasIcon": false,
+      "name": "Bonus Mods"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 303512563,
+    "index": 58,
+    "isPlug": false,
+    "itemTypeRegex": "(type_perk)|(type_armor_perk)",
+    "parentCategoryHashes": [
+      59
+    ],
+    "redacted": false,
+    "shortTitle": "Bonus Mods",
+    "visible": false
+  },
+  "319279448": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "These mods provide some non-speed related perk or ability to sparrows.",
+      "hasIcon": false,
+      "name": "Sparrow Mods: Perks"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 319279448,
+    "index": 80,
+    "isPlug": false,
+    "itemTypeRegex": "type_vehicle_mod_gameplay_function",
+    "parentCategoryHashes": [
+      152608020,
+      59
+    ],
+    "redacted": false,
+    "shortTitle": "Sparrow Mods: Perks",
+    "visible": false
+  },
+  "444756050": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "Custom bowstrings that modify the abilities of your bow.",
+      "hasIcon": false,
+      "name": "Weapon Mods: Bowstring"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 444756050,
+    "index": 114,
+    "isPlug": false,
+    "itemTypeRegex": "type_weapon_bowstring",
+    "parentCategoryHashes": [
+      610365472,
+      59
+    ],
+    "redacted": false,
+    "shortTitle": "Weapon Mods: Bowstring",
+    "visible": false
+  },
+  "610365472": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "Mods that can be applied to weapons.",
+      "hasIcon": false,
+      "name": "Weapon Mods"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": true,
+    "groupedCategoryHashes": [
+      2237038328,
+      1052191496,
+      3708671066,
+      3124752623,
+      3085181971,
+      1709863189,
+      1334054322,
+      3072652064,
+      4184407433,
+      3055157023,
+      2076918099,
+      3836367751,
+      2411768833,
+      3866509906,
+      444756050,
+      3360831066,
+      945330047
+    ],
+    "hash": 610365472,
+    "index": 95,
+    "isPlug": false,
+    "parentCategoryHashes": [
+      59
+    ],
+    "redacted": false,
+    "shortTitle": "Weapon Mods",
+    "visible": false
+  },
+  "713159888": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "Repeatable bounties that you can purchase from various vendors.",
+      "hasIcon": false,
+      "name": "Repeatable Bounties"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 32,
+    "groupCategoryOnly": false,
+    "hash": 713159888,
+    "index": 113,
+    "isPlug": false,
+    "redacted": false,
+    "shortTitle": "Repeatable Bounties",
+    "visible": false
+  },
+  "874645359": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "This represents benefits provided by a Clan Banner.",
+      "hasIcon": false,
+      "name": "Clan Banners"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": true,
+    "groupedCategoryHashes": [
+      1576735337,
+      1873949940
+    ],
+    "hash": 874645359,
+    "index": 84,
+    "isPlug": false,
+    "parentCategoryHashes": [
+      59
+    ],
+    "redacted": false,
+    "shortTitle": "Clan Banners",
+    "visible": false
+  },
+  "945330047": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "You could argue that all weapon mods affect gameplay, but these affect it in some way that isn't covered in other categories.  How's that for precision?",
+      "hasIcon": false,
+      "name": "Weapon Mods: Gameplay"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 945330047,
+    "index": 96,
+    "isPlug": false,
+    "itemTypeRegex": "type_weapon_mod_gameplay",
+    "parentCategoryHashes": [
+      610365472,
+      59
+    ],
+    "redacted": false,
+    "shortTitle": "Weapon Mods: Gameplay",
+    "visible": false
+  },
+  "964228942": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "This item allows you to deal damage with the 'Disruption' damage type attribute.",
+      "hasIcon": false,
+      "name": "Breaker: Disruption"
+    },
+    "grantDestinyBreakerType": 2,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 964228942,
+    "index": 122,
+    "isPlug": false,
+    "redacted": false,
+    "shortTitle": "Breaker: Disruption",
+    "visible": false
+  },
+  "1037516129": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "These mods can only be applied to Hunter class items.",
+      "hasIcon": false,
+      "name": "Armor Mods: Class/Hunter"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 1,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 1037516129,
+    "index": 69,
+    "isPlug": false,
+    "itemTypeRegex": "type_armor_mod_class_item_hunter",
+    "parentCategoryHashes": [
+      3196106184,
+      4104513227,
+      59
+    ],
+    "redacted": false,
+    "shortTitle": "Armor Mods: Class/Hunter",
+    "visible": false
+  },
+  "1052191496": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "These are mods that affect the damage of your weapon, in type and/or amount.",
+      "hasIcon": false,
+      "name": "Weapon Mods: Damage"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 1052191496,
+    "index": 98,
+    "isPlug": false,
+    "itemTypeRegex": "type_weapon_mod_all",
+    "parentCategoryHashes": [
+      610365472,
+      59
+    ],
+    "redacted": false,
+    "shortTitle": "Weapon Mods: Damage",
+    "visible": false
+  },
+  "1112488720": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "Rush a weakened enemy to activate a devastating final blow..",
+      "hasIcon": false,
+      "name": "Finishers"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 29,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 1112488720,
+    "index": 124,
+    "isPlug": false,
+    "itemTypeRegex": "type_finisher.*",
+    "redacted": false,
+    "shortTitle": "Finishers",
+    "visible": false
+  },
+  "1334054322": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "Because we're in the future, some weapons have batteries.  Don't ask me how they are charged.",
+      "hasIcon": false,
+      "name": "Weapon Mods: Batteries"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 1334054322,
+    "index": 103,
+    "isPlug": false,
+    "itemTypeRegex": "type_weapon_battery",
+    "parentCategoryHashes": [
+      610365472,
+      59
+    ],
+    "redacted": false,
+    "shortTitle": "Weapon Mods: Batteries",
+    "visible": false
+  },
+  "1362265421": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "These mods can only be applied to helmets.",
+      "hasIcon": false,
+      "name": "Armor Mods: Helmet"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 1362265421,
+    "index": 64,
+    "isPlug": false,
+    "itemTypeRegex": "type_armor_mod_helmet",
+    "parentCategoryHashes": [
+      4104513227,
+      59
+    ],
+    "redacted": false,
+    "shortTitle": "Armor Mods: Helmet",
+    "visible": false
+  },
+  "1378222069": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "An item that you can level up to unlock new mods specific to a season.",
+      "hasIcon": false,
+      "name": "Seasonal Artifacts"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 28,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 1378222069,
+    "index": 120,
+    "isPlug": false,
+    "itemTypeRegex": "type_seasonal_artifact",
+    "redacted": false,
+    "shortTitle": "Seasonal Artifacts",
+    "visible": false
+  },
+  "1404791674": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "Give your ghost a fancy holographic projection.",
+      "hasIcon": false,
+      "name": "Ghost Mods: Projections"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 1404791674,
+    "index": 76,
+    "isPlug": false,
+    "itemTypeRegex": "type_ghost_hologram",
+    "parentCategoryHashes": [
+      1449602859,
+      59
+    ],
+    "redacted": false,
+    "shortTitle": "Ghost Mods: Projections",
+    "visible": false
+  },
+  "1449602859": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "These mods can only be applied to Ghosts.",
+      "hasIcon": false,
+      "name": "Ghost Mods"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": true,
+    "groupedCategoryHashes": [
+      4176831154,
+      1826038950,
+      1404791674
+    ],
+    "hash": 1449602859,
+    "index": 74,
+    "isPlug": false,
+    "itemTypeRegex": "type_ghost_mod.*",
+    "parentCategoryHashes": [
+      59
+    ],
+    "redacted": false,
+    "shortTitle": "Ghost Mods",
+    "visible": false
+  },
+  "1504945536": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "Yet another type of laser rifle.",
+      "hasIcon": false,
+      "name": "Linear Fusion Rifles"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 22,
+    "groupCategoryOnly": false,
+    "hash": 1504945536,
+    "index": 56,
+    "isPlug": false,
+    "itemTypeRegex": ".*_fusion_rifle_line",
+    "redacted": false,
+    "shortTitle": "Linear Fusion Rifles",
+    "visible": false
+  },
+  "1576735337": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "These are perks provided by clan banners.",
+      "hasIcon": false,
+      "name": "Clan Banners: Perks"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 1576735337,
+    "index": 85,
+    "isPlug": false,
+    "itemTypeRegex": "(type_clan_perk)|(clan_perk)",
+    "parentCategoryHashes": [
+      874645359,
+      59
+    ],
+    "redacted": false,
+    "shortTitle": "Clan Banners: Perks",
+    "visible": false
+  },
+  "1650311619": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "These mods can only be applied to Titan class items.",
+      "hasIcon": false,
+      "name": "Armor Mods: Class/Titan"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 0,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 1650311619,
+    "index": 67,
+    "isPlug": false,
+    "itemTypeRegex": "type_armor_mod_class_item_titan",
+    "parentCategoryHashes": [
+      3196106184,
+      4104513227,
+      59
+    ],
+    "redacted": false,
+    "shortTitle": "Armor Mods: Class/Titan",
+    "visible": false
+  },
+  "1709863189": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "These represent different blades that can be applied to a sword.",
+      "hasIcon": false,
+      "name": "Weapon Mods: Sword Blades"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 1709863189,
+    "index": 102,
+    "isPlug": false,
+    "itemTypeRegex": "type_weapon_sword_blade",
+    "parentCategoryHashes": [
+      610365472,
+      59
+    ],
+    "redacted": false,
+    "shortTitle": "Weapon Mods: Sword Blades",
+    "visible": false
+  },
+  "1742617626": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "These are Ornaments that can only be applied to armor.",
+      "hasIcon": false,
+      "name": "Armor Mods: Ornaments"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": true,
+    "groupedCategoryHashes": [
+      3683250363,
+      3229540061,
+      3684181176
+    ],
+    "hash": 1742617626,
+    "index": 70,
+    "isPlug": false,
+    "itemTypeRegex": ".*type_armor_skin.*",
+    "parentCategoryHashes": [
+      56,
+      52,
+      4104513227,
+      59
+    ],
+    "redacted": false,
+    "shortTitle": "Armor Mods: Ornaments",
+    "visible": false
+  },
+  "1784235469": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "Bounties are brief missions that you can pick up from NPCs in the world.",
+      "hasIcon": false,
+      "name": "Bounties"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 26,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 1784235469,
+    "index": 116,
+    "isPlug": false,
+    "redacted": false,
+    "shortTitle": "Bounties",
+    "traitId": "inventory_filtering.bounty",
+    "visible": false
+  },
+  "1793728308": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "This item allows you to deal damage with the 'Shield piercing' damage type attribute.",
+      "hasIcon": false,
+      "name": "Breaker: Piercing"
+    },
+    "grantDestinyBreakerType": 1,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 1793728308,
+    "index": 121,
+    "isPlug": false,
+    "redacted": false,
+    "shortTitle": "Breaker: Piercing",
+    "visible": false
+  },
+  "1826038950": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "These mods represent \"Tracker\" abilities that can be applied to Ghosts.",
+      "hasIcon": false,
+      "name": "Ghost Mods: Trackers"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 1826038950,
+    "index": 77,
+    "isPlug": false,
+    "itemTypeRegex": "type_ghost_mod_tracker",
+    "parentCategoryHashes": [
+      1449602859,
+      59
+    ],
+    "redacted": false,
+    "shortTitle": "Ghost Mods: Trackers",
+    "visible": false
+  },
+  "1873949940": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "These represent the 'staff' of the clan banner, which has its own benefits.",
+      "hasIcon": false,
+      "name": "Clan Banners: Staff"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 1873949940,
+    "index": 86,
+    "isPlug": false,
+    "itemTypeRegex": "(type_clan_staff)|(clan_staff)",
+    "parentCategoryHashes": [
+      874645359,
+      59
+    ],
+    "redacted": false,
+    "shortTitle": "Clan Banners: Staff",
+    "visible": false
+  },
+  "1875601085": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "Make your armor sparkle.",
+      "hasIcon": false,
+      "name": "Armor Mods: Glow Effects"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 1875601085,
+    "index": 118,
+    "isPlug": false,
+    "itemTypeRegex": "type_armor_glow.*",
+    "parentCategoryHashes": [
+      4104513227,
+      59
+    ],
+    "redacted": false,
+    "shortTitle": "Armor Mods: Glow Effects",
+    "visible": false
+  },
+  "2005599723": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "This represents items involved in quests related to Osiris.",
+      "hasIcon": false,
+      "name": "Prophecy Offerings"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 2005599723,
+    "index": 93,
+    "isPlug": false,
+    "itemTypeRegex": "type_mercury_collectible",
+    "parentCategoryHashes": [
+      35,
+      52
+    ],
+    "redacted": false,
+    "shortTitle": "Prophecy Offerings",
+    "visible": false
+  },
+  "2076918099": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "Some weapons don't have barrels as much as tubes from which missiles are launched.  These are variations of such tubes.",
+      "hasIcon": false,
+      "name": "Weapon Mods: Launch Tubes"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 2076918099,
+    "index": 107,
+    "isPlug": false,
+    "itemTypeRegex": "type_weapon_launchtube",
+    "parentCategoryHashes": [
+      610365472,
+      59
+    ],
+    "redacted": false,
+    "shortTitle": "Weapon Mods: Launch Tubes",
+    "visible": false
+  },
+  "2088636411": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "These are items that you turn in for reputation at Vendors.",
+      "hasIcon": false,
+      "name": "Reputation Tokens"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 2088636411,
+    "index": 88,
+    "isPlug": false,
+    "itemTypeRegex": "type_faction_token",
+    "parentCategoryHashes": [
+      35,
+      52
+    ],
+    "redacted": false,
+    "shortTitle": "Reputation Tokens",
+    "visible": false
+  },
+  "2150402250": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "Everyone loves raisins, right?",
+      "hasIcon": false,
+      "name": "Gag Prizes"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 2150402250,
+    "index": 89,
+    "isPlug": false,
+    "itemTypeRegex": "type_gag_prize",
+    "parentCategoryHashes": [
+      35,
+      52
+    ],
+    "redacted": false,
+    "shortTitle": "Gag Prizes",
+    "visible": false
+  },
+  "2237038328": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "These represent properties that are intrinsic to weapons, and generally cannot be removed or replaced.",
+      "hasIcon": false,
+      "name": "Weapon Mods: Intrinsic"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 2237038328,
+    "index": 97,
+    "isPlug": false,
+    "itemTypeRegex": "type_weapon_intrinsic",
+    "parentCategoryHashes": [
+      610365472,
+      59
+    ],
+    "plugCategoryIdentifier": "intrinsics",
+    "redacted": false,
+    "shortTitle": "Weapon Mods: Intrinsic",
+    "visible": false
+  },
+  "2250046497": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "And I don't mean handheld information devices.  Well, I guess I do.  It's a long story.",
+      "hasIcon": false,
+      "name": "Prophecy Tablets"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 2250046497,
+    "index": 92,
+    "isPlug": false,
+    "itemTypeRegex": "type_mercury_artifact",
+    "parentCategoryHashes": [
+      35,
+      52
+    ],
+    "redacted": false,
+    "shortTitle": "Prophecy Tablets",
+    "visible": false
+  },
+  "2253669532": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "Grab these from Cayde-6 and go on a treasure hunt!",
+      "hasIcon": false,
+      "name": "Treasure Maps"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 2253669532,
+    "index": 87,
+    "isPlug": false,
+    "itemTypeRegex": "type_treasure_map",
+    "parentCategoryHashes": [
+      35,
+      52
+    ],
+    "redacted": false,
+    "shortTitle": "Treasure Maps",
+    "visible": false
+  },
+  "2266591099": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "This represents items that can be used in infusion.",
+      "hasIcon": false,
+      "name": "Infusion Materials"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 2266591099,
+    "index": 91,
+    "isPlug": false,
+    "itemTypeRegex": "type_infusion_fodder",
+    "parentCategoryHashes": [
+      35,
+      52
+    ],
+    "redacted": false,
+    "shortTitle": "Infusion Materials",
+    "visible": false
+  },
+  "2294843884": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "These mods boost the speed of sparrows.",
+      "hasIcon": false,
+      "name": "Sparrow Mods: Speed"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 2294843884,
+    "index": 79,
+    "isPlug": false,
+    "itemTypeRegex": "type_vehicle_mod_gameplay_speed",
+    "parentCategoryHashes": [
+      152608020,
+      59
+    ],
+    "redacted": false,
+    "shortTitle": "Sparrow Mods: Speed",
+    "visible": false
+  },
+  "2411768833": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "These are the various types of scopes that can be applied to weapons.",
+      "hasIcon": false,
+      "name": "Weapon Mods: Scopes"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 2411768833,
+    "index": 109,
+    "isPlug": false,
+    "itemTypeRegex": "type_weapon_scope",
+    "parentCategoryHashes": [
+      610365472,
+      59
+    ],
+    "redacted": false,
+    "shortTitle": "Weapon Mods: Scopes",
+    "visible": false
+  },
+  "2423200735": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "This represents a related set of items.  Note that these sets may have incomplete data.",
+      "hasIcon": false,
+      "name": "Item Sets"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 2423200735,
+    "index": 83,
+    "isPlug": false,
+    "itemTypeRegex": "type_set",
+    "redacted": false,
+    "shortTitle": "Item Sets",
+    "visible": false
+  },
+  "2489664120": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "A more different kind of rifle.",
+      "hasIcon": false,
+      "name": "Trace Rifles"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 25,
+    "groupCategoryOnly": false,
+    "hash": 2489664120,
+    "index": 53,
+    "isPlug": false,
+    "itemTypeRegex": ".*_beam_rifle",
+    "redacted": false,
+    "shortTitle": "Trace Rifles",
+    "visible": false
+  },
+  "2906646562": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "This item allows you to deal damage with the 'Stagger' damage type attribute.",
+      "hasIcon": false,
+      "name": "Breaker: Stagger"
+    },
+    "grantDestinyBreakerType": 3,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 2906646562,
+    "index": 123,
+    "isPlug": false,
+    "redacted": false,
+    "shortTitle": "Breaker: Stagger",
+    "visible": false
+  },
+  "2955376534": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "These mods can only be applied to Warlock class items.",
+      "hasIcon": false,
+      "name": "Armor Mods: Class/Warlock"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 2,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 2955376534,
+    "index": 68,
+    "isPlug": false,
+    "itemTypeRegex": "type_armor_mod_class_item_warlock",
+    "parentCategoryHashes": [
+      3196106184,
+      4104513227,
+      59
+    ],
+    "redacted": false,
+    "shortTitle": "Armor Mods: Class/Warlock",
+    "visible": false
+  },
+  "3041770480": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "Items that allow you to modify the challenges available to you in an activity.",
+      "hasIcon": false,
+      "name": "Challenge Cards"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 3041770480,
+    "index": 117,
+    "isPlug": false,
+    "itemTypeRegex": "type_consumable_challenge_ticket",
+    "redacted": false,
+    "shortTitle": "Challenge Cards",
+    "visible": false
+  },
+  "3055157023": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "This represents modifications to the stock of your weapon.  Hopefully it has a nice dividend reinvestment plan to go with it.",
+      "hasIcon": false,
+      "name": "Weapon Mods: Stocks"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 3055157023,
+    "index": 106,
+    "isPlug": false,
+    "itemTypeRegex": "type_weapon_stock",
+    "parentCategoryHashes": [
+      610365472,
+      59
+    ],
+    "redacted": false,
+    "shortTitle": "Weapon Mods: Stocks",
+    "visible": false
+  },
+  "3072652064": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "Different variations of guards on swords.",
+      "hasIcon": false,
+      "name": "Weapon Mods: Sword Guards"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 3072652064,
+    "index": 104,
+    "isPlug": false,
+    "itemTypeRegex": "type_weapon_sword_guard",
+    "parentCategoryHashes": [
+      610365472,
+      59
+    ],
+    "redacted": false,
+    "shortTitle": "Weapon Mods: Sword Guards",
+    "visible": false
+  },
+  "3085181971": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "These represent alterations to the round, long part of the gun where bullets come out.  Or lasers I guess because we're in the future.",
+      "hasIcon": false,
+      "name": "Weapon Mods: Barrels"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 3085181971,
+    "index": 101,
+    "isPlug": false,
+    "itemTypeRegex": "type_weapon_barrel",
+    "parentCategoryHashes": [
+      610365472,
+      59
+    ],
+    "redacted": false,
+    "shortTitle": "Weapon Mods: Barrels",
+    "visible": false
+  },
+  "3109687656": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "These items are not actually ones you can obtain in the game, but rather are used to display information.",
+      "hasIcon": false,
+      "name": "Dummies"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 20,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 3109687656,
+    "index": 111,
+    "isPlug": false,
+    "redacted": false,
+    "shortTitle": "Dummies",
+    "visible": false
+  },
+  "3124752623": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "This represents ways to make your weapons look prettier.",
+      "hasIcon": false,
+      "name": "Weapon Mods: Ornaments"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 3124752623,
+    "index": 100,
+    "isPlug": false,
+    "itemTypeRegex": "type_weapon_mod_skin",
+    "parentCategoryHashes": [
+      56,
+      52,
+      610365472,
+      59
+    ],
+    "redacted": false,
+    "shortTitle": "Weapon Mods: Ornaments",
+    "visible": false
+  },
+  "3134521018": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "Redeemable for great Adventure, or something.",
+      "hasIcon": false,
+      "name": "Adventure Tokens"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 3134521018,
+    "index": 94,
+    "isPlug": false,
+    "itemTypeRegex": "type_replayable_adventure",
+    "parentCategoryHashes": [
+      35,
+      52
+    ],
+    "redacted": false,
+    "shortTitle": "Adventure Tokens",
+    "visible": false
+  },
+  "3196106184": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "These mods can only be applied to your class item.",
+      "hasIcon": false,
+      "name": "Armor Mods: Class"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "groupedCategoryHashes": [
+      1650311619,
+      2955376534,
+      1037516129
+    ],
+    "hash": 3196106184,
+    "index": 66,
+    "isPlug": false,
+    "itemTypeRegex": "type_armor_mod_class_item.*",
+    "parentCategoryHashes": [
+      4104513227,
+      59
+    ],
+    "redacted": false,
+    "shortTitle": "Armor Mods: Class",
+    "visible": false
+  },
+  "3229540061": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "These are Ornaments that can only be applied to Titan armor.",
+      "hasIcon": false,
+      "name": "Armor Mods: Ornaments/Titan"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 0,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 3229540061,
+    "index": 72,
+    "isPlug": false,
+    "itemTypeRegex": "type_armor_skin.*",
+    "parentCategoryHashes": [
+      56,
+      52,
+      1742617626,
+      4104513227,
+      59
+    ],
+    "redacted": false,
+    "shortTitle": "Armor Mods: Ornaments/Titan",
+    "visible": false
+  },
+  "3301210334": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "Dummy items used to wrap purchases so that they can safely be refunded before opened.",
+      "hasIcon": false,
+      "name": "Vendor-Wrapped Items"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 27,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 3301210334,
+    "index": 119,
+    "isPlug": false,
+    "redacted": false,
+    "shortTitle": "Vendor-Wrapped Items",
+    "visible": false
+  },
+  "3317538576": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "For those who prefer a silent takedown.",
+      "hasIcon": false,
+      "name": "Bows"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 31,
+    "groupCategoryOnly": false,
+    "hash": 3317538576,
+    "index": 112,
+    "isPlug": false,
+    "itemTypeRegex": "type_weapon_bow",
+    "redacted": false,
+    "shortTitle": "Bows",
+    "visible": false
+  },
+  "3360831066": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "Custom arrows that modify the abilities of your bow.",
+      "hasIcon": false,
+      "name": "Weapon Mods: Arrows"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 3360831066,
+    "index": 115,
+    "isPlug": false,
+    "itemTypeRegex": "type_weapon_arrow",
+    "parentCategoryHashes": [
+      610365472,
+      59
+    ],
+    "redacted": false,
+    "shortTitle": "Weapon Mods: Arrows",
+    "visible": false
+  },
+  "3448069192": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "Modifiers on an activity or event ticket, that provide you additional challenges.",
+      "hasIcon": false,
+      "name": "Ticket Mods"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 3448069192,
+    "index": 59,
+    "isPlug": false,
+    "itemTypeRegex": "type_ticket_mod",
+    "parentCategoryHashes": [
+      59
+    ],
+    "redacted": false,
+    "shortTitle": "Ticket Mods",
+    "visible": false
+  },
+  "3607371986": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "These mods can only be applied to leg armor.",
+      "hasIcon": false,
+      "name": "Armor Mods: Legs"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 3607371986,
+    "index": 65,
+    "isPlug": false,
+    "itemTypeRegex": "type_armor_mod_leg",
+    "itemTypeRegexNot": "type_armor_mod_legacy",
+    "parentCategoryHashes": [
+      4104513227,
+      59
+    ],
+    "redacted": false,
+    "shortTitle": "Armor Mods: Legs",
+    "visible": false
+  },
+  "3683250363": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "These are Ornaments that can only be applied to Hunter armor.",
+      "hasIcon": false,
+      "name": "Armor Mods: Ornaments/Hunter"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 1,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 3683250363,
+    "index": 71,
+    "isPlug": false,
+    "itemTypeRegex": "type_armor_skin.*",
+    "parentCategoryHashes": [
+      56,
+      52,
+      1742617626,
+      4104513227,
+      59
+    ],
+    "redacted": false,
+    "shortTitle": "Armor Mods: Ornaments/Hunter",
+    "visible": false
+  },
+  "3684181176": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "These are Ornaments that can only be applied to Warlock armor.",
+      "hasIcon": false,
+      "name": "Armor Mods: Ornaments/Warlock"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 2,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 3684181176,
+    "index": 73,
+    "isPlug": false,
+    "itemTypeRegex": "type_armor_skin.*",
+    "parentCategoryHashes": [
+      56,
+      52,
+      1742617626,
+      4104513227,
+      59
+    ],
+    "redacted": false,
+    "shortTitle": "Armor Mods: Ornaments/Warlock",
+    "visible": false
+  },
+  "3708671066": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "These represent modifications to the 'frame' of a gun.  Gun people will know better than I do what this means.",
+      "hasIcon": false,
+      "name": "Weapon Mods: Frame"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 3708671066,
+    "index": 99,
+    "isPlug": false,
+    "itemTypeRegex": "type_weapon_frame",
+    "parentCategoryHashes": [
+      610365472,
+      59
+    ],
+    "redacted": false,
+    "shortTitle": "Weapon Mods: Frame",
+    "visible": false
+  },
+  "3723676689": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "These mods can only be applied to chest armor.",
+      "hasIcon": false,
+      "name": "Armor Mods: Chest"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 3723676689,
+    "index": 63,
+    "isPlug": false,
+    "itemTypeRegex": "type_armor_mod_chest",
+    "parentCategoryHashes": [
+      4104513227,
+      59
+    ],
+    "redacted": false,
+    "shortTitle": "Armor Mods: Chest",
+    "visible": false
+  },
+  "3747263590": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "These represent items of interest in the story or missions of the game.",
+      "hasIcon": false,
+      "name": "Story Prizes"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 3747263590,
+    "index": 90,
+    "isPlug": false,
+    "itemTypeRegex": "type_story_prize",
+    "parentCategoryHashes": [
+      35,
+      52
+    ],
+    "redacted": false,
+    "shortTitle": "Story Prizes",
+    "visible": false
+  },
+  "3836367751": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "Our game has a grip of grips.  These are all the grips you can apply to weapons.",
+      "hasIcon": false,
+      "name": "Weapon Mods: Grips"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 3836367751,
+    "index": 108,
+    "isPlug": false,
+    "itemTypeRegex": "type_weapon_grip",
+    "parentCategoryHashes": [
+      610365472,
+      59
+    ],
+    "redacted": false,
+    "shortTitle": "Weapon Mods: Grips",
+    "visible": false
+  },
+  "3866509906": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "These are the various types of sights that can be applied to weapons.",
+      "hasIcon": false,
+      "name": "Weapon Mods: Sights"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 3866509906,
+    "index": 110,
+    "isPlug": false,
+    "itemTypeRegex": "type_weapon_sight",
+    "parentCategoryHashes": [
+      610365472,
+      59
+    ],
+    "redacted": false,
+    "shortTitle": "Weapon Mods: Sights",
+    "visible": false
+  },
+  "3872696960": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "These mods can only be applied to Gauntlets.",
+      "hasIcon": false,
+      "name": "Armor Mods: Gauntlets"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 3872696960,
+    "index": 62,
+    "isPlug": false,
+    "itemTypeRegex": "type_armor_mod_gauntlet",
+    "parentCategoryHashes": [
+      4104513227,
+      59
+    ],
+    "redacted": false,
+    "shortTitle": "Armor Mods: Gauntlets",
+    "visible": false
+  },
+  "3954685534": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "For the pew pew pews.",
+      "hasIcon": false,
+      "name": "Submachine Guns"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 24,
+    "groupCategoryOnly": false,
+    "hash": 3954685534,
+    "index": 55,
+    "isPlug": false,
+    "itemTypeRegex": ".*_submachinegun",
+    "redacted": false,
+    "shortTitle": "Submachine Guns",
+    "visible": false
+  },
+  "4062965806": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "These mods provide gameplay-altering benefits or effects.",
+      "hasIcon": false,
+      "name": "Armor Mods: Gameplay"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 4062965806,
+    "index": 61,
+    "isPlug": false,
+    "itemTypeRegex": "type_armor_mod_gameplay",
+    "parentCategoryHashes": [
+      4104513227,
+      59
+    ],
+    "redacted": false,
+    "shortTitle": "Armor Mods: Gameplay",
+    "visible": false
+  },
+  "4104513227": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "Mods that can be applied, or are intrinsic on, armor.",
+      "hasIcon": false,
+      "name": "Armor Mods"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "groupedCategoryHashes": [
+      4062965806,
+      3872696960,
+      3723676689,
+      1362265421,
+      3607371986,
+      3196106184,
+      1742617626,
+      1875601085
+    ],
+    "hash": 4104513227,
+    "index": 60,
+    "isPlug": false,
+    "parentCategoryHashes": [
+      59
+    ],
+    "redacted": false,
+    "shortTitle": "Armor Mods",
+    "visible": false
+  },
+  "4176831154": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "These mods represent perks or bonuses that can be applied to Ghosts.",
+      "hasIcon": false,
+      "name": "Ghost Mods: Perks"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 4176831154,
+    "index": 75,
+    "isPlug": false,
+    "parentCategoryHashes": [
+      1449602859,
+      59
+    ],
+    "plugCategoryIdentifier": "v300.ghosts.mods.perks",
+    "redacted": false,
+    "shortTitle": "Ghost Mods: Perks",
+    "visible": false
+  },
+  "4184407433": {
+    "blacklisted": false,
+    "deprecated": false,
+    "displayProperties": {
+      "description": "This is when you wrap your gun in an old issue of Time and... no, that's not it.  These are alterations to where your bullets are held.",
+      "hasIcon": false,
+      "name": "Weapon Mods: Magazines"
+    },
+    "grantDestinyBreakerType": 0,
+    "grantDestinyClass": 3,
+    "grantDestinyItemType": 0,
+    "grantDestinySubType": 0,
+    "groupCategoryOnly": false,
+    "hash": 4184407433,
+    "index": 105,
+    "isPlug": false,
+    "itemTypeRegex": "type_weapon_magazine",
+    "parentCategoryHashes": [
+      610365472,
+      59
+    ],
+    "redacted": false,
+    "shortTitle": "Weapon Mods: Magazines",
+    "visible": false
+  }
+}
+    </pre></div><div data-v-40ab164b="" class="footer"><div data-v-40ab164b="" class="section"><h2 data-v-40ab164b="">Cool Destiny2 Tools</h2><ul data-v-40ab164b=""><li data-v-40ab164b=""><a data-v-40ab164b="" href="https://www.braytech.org/">Braytech</a> <a data-v-40ab164b="" href="https://beta.braytech.org/">(Beta)</a></li><li data-v-40ab164b=""><a data-v-40ab164b="" href="https://www.light.gg/god-roll/roll-appraiser/">Light.gg Roll Appraiser</a></li><li data-v-40ab164b="">Destiny Recipes <a data-v-40ab164b="" href="https://destinyrecipes.com/vault">Vault Cleaner</a> &amp; <a data-v-40ab164b="" href="https://destinyrecipes.com/loot">Loot companion</a></li><li data-v-40ab164b=""><a data-v-40ab164b="" href="https://destinytracker.com/destiny-2/profile/steam/4611686018484097098/overview">Destiny Tracker</a></li><li data-v-40ab164b=""><a data-v-40ab164b="" href="https://data.destinysets.com/">Destiny Data Explorer</a></li><li data-v-40ab164b=""><a data-v-40ab164b="" href="https://guardian.report/?view=LOADOUT&amp;guardians=4611686018484097098,4611686018430675293,4611686018505197451">Guardian Report</a></li><li data-v-40ab164b="">Steam <a data-v-40ab164b="" href="https://steamdb.info/calculator/76561198008853293/?cc=uk">Database</a> <a data-v-40ab164b="" href="https://steamidfinder.com/lookup/abards/">ID Finder</a></li></ul></div><div data-v-40ab164b="" class="section"><h2 data-v-40ab164b="">Destiny2 Build &amp; Guide Articles</h2><ul data-v-40ab164b=""><li data-v-40ab164b=""><a data-v-40ab164b="" href="https://www.thegamer.com/destiny-2-10-builds-you-need-to-try-in-beyond-light/">10 Beyond Light builds</a></li><li data-v-40ab164b=""><a data-v-40ab164b="" href="https://screenrant.com/best-pve-titan-builds-destiny-2-beyond-light/">PVE Titan Builds</a></li><li data-v-40ab164b=""><a data-v-40ab164b="" href="https://screenrant.com/destiny-2-beyond-light-best-pve-hunter-builds/">PVE Hunter Builds</a></li><li data-v-40ab164b=""><a data-v-40ab164b="" href="https://www.thegamer.com/exotics-titans-destiny-2-ranked/">Titan Exotics Ranked</a></li><li data-v-40ab164b=""><a data-v-40ab164b="" href="https://www.thegamer.com/destiny-2-beyond-light-aspects-guide-find/">Stasis Aspect Guide</a></li><li data-v-40ab164b=""><a data-v-40ab164b="" href="https://www.pcgamer.com/uk/get-infinite-grenades-with-this-absurd-destiny-2-shadebinder-build/">Shadebinder Warlock</a></li></ul></div><div data-v-40ab164b="" class="section"><h2 data-v-40ab164b="">Perk Coverage v0.1.1</h2><p data-v-40ab164b="">This app is an experiment by <a data-v-40ab164b="" href="https://adambardsley.co.uk/">Adam</a> in using the destiny API to provide useful info to Destiny players</p></div></div></div>
+    <!-- built files will be auto injected -->
+  <script type="text/javascript" src="perk-coverage_files/chunk-vendors.js"></script><script type="text/javascript" src="perk-coverage_files/app.js"></script>
+
+</body></html>
