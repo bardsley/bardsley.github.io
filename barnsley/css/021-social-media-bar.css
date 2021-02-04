@@ -1,0 +1,20 @@
+.social-media-bar {
+  display:flex;
+  justify-content: center;
+  background: #333;
+}
+
+.social-media-bar a { display: block; width: 200px; background: #333; text-align:center; padding: 2em;margin: 1em;}
+.social-media-bar a svg { fill: #eee; }
+
+.social-media-bar a.facebook { background: var(--facebook);}
+.social-media-bar a.facebook:hover { background: var(--facebook-fade); }
+.social-media-bar a.facebook:hover svg { fill: #fff; }
+
+.social-media-bar a.twitter { background: var(--twitter); }
+.social-media-bar a.twitter:hover { background: var(--twitter-fade); }
+.social-media-bar a.twitter:hover svg { fill: #fff; }
+
+.social-media-bar a.youtube { background: var(--youtube); }
+.social-media-bar a.youtube:hover { background: var(--youtube-fade); }
+.social-media-bar a.youtube:hover svg { fill: #fff; }

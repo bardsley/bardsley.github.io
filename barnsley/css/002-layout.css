@@ -19,7 +19,7 @@ html * { box-sizing: border-box; }
 
 .cart-account { flex-grow: 1; }
 
-.row.header #union-logo { width: 25%; max-width: 120px; }
+.row.header #union-logo { width: 25%; max-width: 120px; margin-left:5%; }
 .row.header #union-logo h1 { margin:0; padding:0;}
 .row.header #union-logo img { width: 100%; }
 
@@ -31,3 +31,10 @@ html * { box-sizing: border-box; }
 .row.content { display:none; } */
 .grid-carousel { width: 100%; height: 200px;}
 
+
+/* Elements that should be in boxes e.g. login  */
+
+.change-password-block { 
+  max-width: 600px;
+  margin: 0 auto;
+}

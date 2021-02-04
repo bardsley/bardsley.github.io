@@ -11,7 +11,11 @@ Should be run from dir below 'css'
 /* Removed as not used  */
 .uc-mob-src-close-icon, .uc-mob-src-icon,
 .cart-account .shopping-cart-menu,
-.clear { display:none; }
+#uc-sv-content-container #uc-sv-right-panel .uc-action-link,
+#uc-sv-content-container #uc-sv-right-panel .feedback
+{ display:none; }
+/* Removed as outdated or not for display */
+.clear, .hidden { display:none; }
 
 /* Variables */ 
 :root {
@@ -19,11 +23,20 @@ Should be run from dir below 'css'
   --brand-blue: #556390;
   --brand-text: #fff;
   --brand-backing: #c4e6e3;
+  --brand-pink: #e40177;
+  --brand-yellow: #cadb2b;
   --dark-backing: #333339;
   --button-orange: #e37d16;
   --notice-success: #36a852;
   --notice-error: #ce1f0d;
   --separator: rgba(255,255,255,0.2);
+  
+  --facebook: rgba(59,89,153 ,1 );
+  --facebook-fade: rgba(59,89,153 ,0.5 );
+  --twitter: rgba(85,172,238 ,1); 
+  --twitter-fade: rgba(85,172,238 ,0.5); 
+  --youtube: rgba(205,32,31 ,1);
+  --youtube-fade: rgba(205,32,31 ,0.5);
 }
 
 /* Accesibility */
