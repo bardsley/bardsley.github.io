@@ -54,7 +54,7 @@ address:
   - line: Liverpool, L8 2YH
 
 # Credits content
-credits: 'This site was based on Freelancer, and open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'This site was based on Freelancer, an open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
 # Build settings
 markdown: kramdown

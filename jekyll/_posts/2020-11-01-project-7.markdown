@@ -9,5 +9,5 @@ project-date: Nov 2021
 client: Student Association
 website: https://www.hisa.uhi.ac.uk/hisa-con-2021
 category: Website Development & Training
-description: HISA wanted a dynamic presence as the challenge of 2020/21 meant their main student democratic and po9licy making conventionwent 100% onnline. We worked with them to produce a custom subsite built alongside UnionCloud to deliver leading up to and during the event.
+description: HISA wanted a dynamic presence as the challenge of 2020/21 meant their main student democratic and policy making convention went 100% online. We worked with them to produce a custom subsite built alongside UnionCloud to deliver leading up to and during the event.
 ---

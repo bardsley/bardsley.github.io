@@ -2,10 +2,10 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator>
-  <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2021-02-04T19:43:53+00:00</updated>
-  <id>http://localhost:4000/</id>
+  <link href="https://adambardsley.co.uk/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://adambardsley.co.uk/" rel="alternate" type="text/html" />
+  <updated>2021-02-04T20:05:03+00:00</updated>
+  <id>https://adambardsley.co.uk/</id>
 
   
     <title type="html">Adam Bardsley</title>
@@ -21,11 +21,11 @@
   
     <entry>
       <title type="html">Highland and Islands Students’ Association Convention</title>
-      <link href="http://localhost:4000/website%20development%20&%20training/2020/11/01/project-7/" rel="alternate" type="text/html" title="Highland and Islands Students' Association Convention" />
+      <link href="https://adambardsley.co.uk/website%20development%20&%20training/2020/11/01/project-7/" rel="alternate" type="text/html" title="Highland and Islands Students' Association Convention" />
       <published>2020-11-01T00:00:00+00:00</published>
       <updated>2020-11-01T00:00:00+00:00</updated>
-      <id>http://localhost:4000/website%20development%20&amp;%20training/2020/11/01/project-7</id>
-      <content type="html" xml:base="http://localhost:4000/website%20development%20&amp;%20training/2020/11/01/project-7/"></content>
+      <id>https://adambardsley.co.uk/website%20development%20&amp;%20training/2020/11/01/project-7</id>
+      <content type="html" xml:base="https://adambardsley.co.uk/website%20development%20&amp;%20training/2020/11/01/project-7/"></content>
 
       
       
@@ -55,11 +55,11 @@
   
     <entry>
       <title type="html">City of Liverpool College</title>
-      <link href="http://localhost:4000/website%20development%20&%20training/2020/09/10/project-4/" rel="alternate" type="text/html" title="City of Liverpool College" />
+      <link href="https://adambardsley.co.uk/website%20development%20&%20training/2020/09/10/project-4/" rel="alternate" type="text/html" title="City of Liverpool College" />
       <published>2020-09-10T00:00:00+01:00</published>
       <updated>2020-09-10T00:00:00+01:00</updated>
-      <id>http://localhost:4000/website%20development%20&amp;%20training/2020/09/10/project-4</id>
-      <content type="html" xml:base="http://localhost:4000/website%20development%20&amp;%20training/2020/09/10/project-4/"></content>
+      <id>https://adambardsley.co.uk/website%20development%20&amp;%20training/2020/09/10/project-4</id>
+      <content type="html" xml:base="https://adambardsley.co.uk/website%20development%20&amp;%20training/2020/09/10/project-4/"></content>
 
       
       
@@ -89,11 +89,11 @@
   
     <entry>
       <title type="html">Sunderland SU Groups Listing</title>
-      <link href="http://localhost:4000/css%20and%20javascript%20development%20and%20site%20training/2020/08/12/project-3/" rel="alternate" type="text/html" title="Sunderland SU Groups Listing" />
+      <link href="https://adambardsley.co.uk/css%20and%20javascript%20development%20and%20site%20training/2020/08/12/project-3/" rel="alternate" type="text/html" title="Sunderland SU Groups Listing" />
       <published>2020-08-12T00:00:00+01:00</published>
       <updated>2020-08-12T00:00:00+01:00</updated>
-      <id>http://localhost:4000/css%20and%20javascript%20development%20and%20site%20training/2020/08/12/project-3</id>
-      <content type="html" xml:base="http://localhost:4000/css%20and%20javascript%20development%20and%20site%20training/2020/08/12/project-3/"></content>
+      <id>https://adambardsley.co.uk/css%20and%20javascript%20development%20and%20site%20training/2020/08/12/project-3</id>
+      <content type="html" xml:base="https://adambardsley.co.uk/css%20and%20javascript%20development%20and%20site%20training/2020/08/12/project-3/"></content>
 
       
       
@@ -123,11 +123,11 @@
   
     <entry>
       <title type="html">Bubble Bud</title>
-      <link href="http://localhost:4000/online%20app%20development/2020/07/27/project-6/" rel="alternate" type="text/html" title="Bubble Bud" />
+      <link href="https://adambardsley.co.uk/online%20app%20development/2020/07/27/project-6/" rel="alternate" type="text/html" title="Bubble Bud" />
       <published>2020-07-27T00:00:00+01:00</published>
       <updated>2020-07-27T00:00:00+01:00</updated>
-      <id>http://localhost:4000/online%20app%20development/2020/07/27/project-6</id>
-      <content type="html" xml:base="http://localhost:4000/online%20app%20development/2020/07/27/project-6/"></content>
+      <id>https://adambardsley.co.uk/online%20app%20development/2020/07/27/project-6</id>
+      <content type="html" xml:base="https://adambardsley.co.uk/online%20app%20development/2020/07/27/project-6/"></content>
 
       
       
@@ -157,11 +157,11 @@
   
     <entry>
       <title type="html">Crusade Cloud</title>
-      <link href="http://localhost:4000/online%20app%20development/2020/07/07/project-5/" rel="alternate" type="text/html" title="Crusade Cloud" />
+      <link href="https://adambardsley.co.uk/online%20app%20development/2020/07/07/project-5/" rel="alternate" type="text/html" title="Crusade Cloud" />
       <published>2020-07-07T00:00:00+01:00</published>
       <updated>2020-07-07T00:00:00+01:00</updated>
-      <id>http://localhost:4000/online%20app%20development/2020/07/07/project-5</id>
-      <content type="html" xml:base="http://localhost:4000/online%20app%20development/2020/07/07/project-5/"></content>
+      <id>https://adambardsley.co.uk/online%20app%20development/2020/07/07/project-5</id>
+      <content type="html" xml:base="https://adambardsley.co.uk/online%20app%20development/2020/07/07/project-5/"></content>
 
       
       
@@ -191,11 +191,11 @@
   
     <entry>
       <title type="html">City of Bristol College</title>
-      <link href="http://localhost:4000/union%20cloud%20theme%20development/2020/06/05/project-2/" rel="alternate" type="text/html" title="City of Bristol College" />
+      <link href="https://adambardsley.co.uk/union%20cloud%20theme%20development/2020/06/05/project-2/" rel="alternate" type="text/html" title="City of Bristol College" />
       <published>2020-06-05T00:00:00+01:00</published>
       <updated>2020-06-05T00:00:00+01:00</updated>
-      <id>http://localhost:4000/union%20cloud%20theme%20development/2020/06/05/project-2</id>
-      <content type="html" xml:base="http://localhost:4000/union%20cloud%20theme%20development/2020/06/05/project-2/"></content>
+      <id>https://adambardsley.co.uk/union%20cloud%20theme%20development/2020/06/05/project-2</id>
+      <content type="html" xml:base="https://adambardsley.co.uk/union%20cloud%20theme%20development/2020/06/05/project-2/"></content>
 
       
       
@@ -225,11 +225,11 @@
   
     <entry>
       <title type="html">The Bad Driver Club</title>
-      <link href="http://localhost:4000/application%20development/2020/04/17/project-1/" rel="alternate" type="text/html" title="The Bad Driver Club" />
+      <link href="https://adambardsley.co.uk/application%20development/2020/04/17/project-1/" rel="alternate" type="text/html" title="The Bad Driver Club" />
       <published>2020-04-17T00:00:00+01:00</published>
       <updated>2020-04-17T00:00:00+01:00</updated>
-      <id>http://localhost:4000/application%20development/2020/04/17/project-1</id>
-      <content type="html" xml:base="http://localhost:4000/application%20development/2020/04/17/project-1/"></content>
+      <id>https://adambardsley.co.uk/application%20development/2020/04/17/project-1</id>
+      <content type="html" xml:base="https://adambardsley.co.uk/application%20development/2020/04/17/project-1/"></content>
 
       
       
