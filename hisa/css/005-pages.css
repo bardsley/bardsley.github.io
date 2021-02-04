@@ -9,3 +9,21 @@
 @media (min-width: 768px) {
   #union-event-id-157965 .default-body { padding: 1em 2.5em; }
 }
+
+#union-event-id-157965 .elements,
+#union-event-id-157965 .split { display:flex; }
+
+#union-event-id-157965 .elements>div { width: calc(50% - 2em); margin-right: 2em; }
+#union-event-id-157965 .details { margin-right: 3em; min-width: 50%;}
+
+#union-event-id-157965 .elements h2,
+#union-event-id-157965 .split h2 { font-size: 2.2em; }
+#union-event-id-157965 .faq p { margin:0; }
+#union-event-id-157965 .faq h3 { margin:1em 0 0; font-size: 1em; }
+
+#union-event-id-157965 .faq h3 br { display:none; }
+
+@media screen and (max-width: 900px) {
+  #union-event-id-157965 .elements,
+  #union-event-id-157965 .split{ flex-direction:column;}
+}

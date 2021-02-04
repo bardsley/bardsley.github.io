@@ -51,4 +51,6 @@
   #tileset .tiles{ width: 20%; }
 }
 
-/* When Twitter is live */
+
+#tileset .tiles h2 { margin-top:0;}
+#tileset .tiles p,#tileset .tiles p a { margin-bottom:0; }
