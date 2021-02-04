@@ -1,0 +1,13 @@
+---
+layout: default
+modal-id: 7
+date: 2020-11-01
+img: hisacon.png
+alt: Highland and Islands Students' Association
+title: Highland and Islands Students' Association Convention
+project-date: Nov 2021
+client: Student Association
+website: https://www.hisa.uhi.ac.uk/hisa-con-2021
+category: Website Development & Training
+description: HISA wanted a dynamic presence as the challenge of 2020/21 meant their main student democratic and po9licy making conventionwent 100% onnline. We worked with them to produce a custom subsite built alongside UnionCloud to deliver leading up to and during the event.
+---
