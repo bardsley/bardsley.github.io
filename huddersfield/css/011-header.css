@@ -1,0 +1,8 @@
+/* Header */
+.row.header { height:auto; }
+.row.header #union-logo { position:relative; top: 3em; left: 0.3em; margin-bottom:1em;}
+.row.header .system-menu { position: relative; top: 2em; right: 1em}
+
+.row.top-union,.row.top, #main-menu {
+    position: sticky; top: -50px; height:auto; z-index: 100;
+}

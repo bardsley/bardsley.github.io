@@ -1,0 +1,49 @@
+/* Meet the officers */
+#say-hello-to-this-years-officers { 
+  width: 100%; max-width:920px; margin: 0 auto;
+}
+#say-hello-to-this-years-officers, #say-hello-to-this-years-officers * { box-sizing: border-box;  }
+
+#say-hello-to-this-years-officers h2 {
+  color: var(--brand-pink);
+  font-weight: bold;
+  font-family: 'lineto-circular-black',sans-serif
+}
+
+#say-hello-to-this-years-officers-wrap { 
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+}
+
+#say-hello-to-this-years-officers-wrap .column-content { 
+  width: 18.8%; max-width 20%; min-height:unset;  /* 18.8 x 5 + 4 x 1.5% */
+  float:unset;  margin-bottom: 1em;
+}
+#say-hello-to-this-years-officers-wrap .column-content div.edit-mode-page img { width: 100%; height: auto; max-width: 210px;}
+#say-hello-to-this-years-officers-wrap .column-content div.edit-mode-page p { margin:0; font-size: 0.9em; }
+#say-hello-to-this-years-officers-wrap .column-content div.edit-mode-page p:nth-child(1) { margin-bottom:10px; }
+#say-hello-to-this-years-officers-wrap .column-content div.edit-mode-page p:nth-child(n+1) a
+{ 
+  color: var(--brand-pink);
+  margin:0; padding:0;
+}
+#say-hello-to-this-years-officers-wrap .column-content div.edit-mode-page p:nth-child(2) a {
+  font-weight:bold; 
+}
+
+@media screen and (max-width: 980px ) {
+  #say-hello-to-this-years-officers-wrap .column-content { width: 30%; margin-right: 1.5%; }
+  #say-hello-to-this-years-officers-wrap { width: auto; margin:0; }
+}
+
+@media screen and (max-width: 740px) {
+  #say-hello-to-this-years-officers-wrap .column-content {
+    width: 45%; margin-right: 1.5%;
+  }
+}
+
+#say-hello-to-this-years-officers * { box-sizing: border-box; }
+#say-hello-to-this-years-officers .clear { display:none;}

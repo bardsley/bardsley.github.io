@@ -1,0 +1,94 @@
+/* Navigation itself */
+
+#main-menu .nav-wrap {}
+
+#main-menu .nav-wrap li a {
+    font-family: 'lineto-circular-black', sans-serif;
+    font-size: 0.9em;
+}
+
+/* To change the size of the single item menu blocks */
+#main-menu .nav-wrap li div>a {
+    font-size: 1.4em;
+}
+
+/* Only target the main menu not submenus */
+#main-menu.menu>.menu-wrap>.nav-wrap>ul { display: flex; }
+#main-menu.menu>.menu-wrap>.nav-wrap>ul li {  float: unset;  flex-grow: 1; }
+#main-menu #searchscreenurl-menu-wrapper { display: none; }
+
+/* Navigation Menu */
+.row.top-union #main-menu,
+.row.top #main-menu { background-color: var(--brand-pink);     padding-left: 0;    width: 100%; }
+
+#main-menu-wrap { padding: 10px; }
+
+#main-menu-wrap .nav-wrap ul li a {
+    text-shadow: none;
+    color: var(--brand-text);
+}
+
+.nav-wrap {
+    width: 100%;
+}
+
+.row.top-union>div.top-union-wrap,
+.row.top>div.top-wrap {
+    max-width: 100%;
+}
+.row.top-union #main-menu .nav-wrap,
+.row.top #main-menu .nav-wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.top-submenu-wrapper {
+    margin-top: -44px;
+}
+
+#main-menu-wrap .nav-wrap, #main-menu-wrap .nav-wrap .top-submenu-wrapper ul li a {
+    background: var(--brand-pink);
+}
+
+#main-menu-wrap .nav-wrap .top-submenu-wrapper ul li a:hover {
+    background: var(--dark-pink)
+}
+
+#main-menu-wrap .nav-wrap ul li .top-submenu-wrapper ul {
+    border: solid 2px var(--dark-pink);
+    border-left: solid 20px var(--dark-pink);
+    left: 5px;
+    top: 0.6em;
+}
+
+#main-menu-wrap .nav-wrap ul li .top-submenu-wrapper ul li { border-right: none; }
+
+#main-menu-wrap { padding: 0; }
+#main-menu .top-menu-name-wrapper { padding-bottom: 0; }
+
+#main-menu {
+    bottom: 0;
+}
+
+#main-menu .nav-wrap ul li .top-menu-name-wrapper>* {
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+#main-menu .nav-wrap ul li .top-menu-name-wrapper>* a, #main-menu .nav-wrap ul li .top-menu-name-wrapper>a {
+    display: block;
+    padding: 0.5em 1em;
+}
+
+
+@media screen and (max-width: 767px) {
+    #main-menu { display:none; }
+    .wrapper > .row.header { padding:0; }
+    .wrapper > #mobileHeader { height: 3em; }
+    .wrapper > .row.header .system-menu { margin:0; float:unset; top:0; left:0; }
+    .wrapper > .row.header .system-menu-wrapper {  }
+    .wrapper > .row.header .system-menu-wrapper a { text-align:center; margin: 0 auto; display:block; float:unset; }
+    .row.top, .row.top-union { min-height:unset; }
+
+}
