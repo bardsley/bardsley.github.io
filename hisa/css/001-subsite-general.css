@@ -54,6 +54,8 @@
 #union-event-id-157965 .row.content { border-color: lime; }
 #union-event-id-157965 .left-nav-content { border-color: green;}
 
+#union-event-id-157965 .warning { display:none; }
+
 /* Update the widths to be 100% */
 #union-event-id-157965 .row.header,
 #union-event-id-157965 .row.content,

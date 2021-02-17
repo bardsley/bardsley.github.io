@@ -49,10 +49,11 @@
   #union-event-id-157965 #blocks-wrap>* { width: 25%; }
 }
 
-/* When Twitter is live */
+/* When Twitter is Offline */
 
-/* #twitter-widget-0 { visibility: hidden !important; display: none !important; } */
+#twitter-widget-0 { visibility: hidden !important; display: none !important; }
 
+/* When Twitter is live 
 @media screen and (max-width: 600px) {
   #union-event-id-157965 #blocks-wrap>* { width: 100%; }
 }
@@ -73,4 +74,4 @@
   .event-cms-wrapper { display:flex; }
   .event-cms-wrapper #blocks { width:75%; }
   #twitter-widget-0 { max-height: 850px;}
-}/**/
+}*/
