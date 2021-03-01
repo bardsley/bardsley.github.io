@@ -1,0 +1,33 @@
+/* Groups */
+
+/* #uc-group-homepage { max-width: 960px; margin: 0 auto; } */
+#uc-group-homepage .club-navigation { padding-top: 0.1em; background: var(--brand-purple); }
+#uc-group-homepage .club-navigation h3 { color: var(--brand-text); margin-left: 1.25em; font-size: 2em;}
+
+/* Navigation  */
+#uc-group-homepage .club-navigation ul { display: flex; list-style: none; margin-top:0; }
+#uc-group-homepage .club-navigation li { padding: 1em 1em 0.5em 1em; background: rgba(255,255,255,0.3); border-radius: 10px 10px 0 0 ; margin-right: 2px; }
+#uc-group-homepage .club-navigation li.active { background: #fff;}
+#uc-group-homepage .club-navigation li a { text-decoration: none; color: #222; font-weight: bold; color: var(--brand-yellow); }
+#uc-group-homepage .club-navigation li.active a { color: var(--brand-blue); }
+
+/* Layout */
+#uc-group-homepage .home-content-wrap { padding: 0 3em; }
+#uc-group-homepage h1 { display:none; }
+#uc-group-homepage .search { display: none;}
+
+/*  category grouping */
+
+/* option 1 */
+/* #uc-group-homepage .uc-middle-panel-for-group-cat { display: flex; align-items: baseline; }
+#uc-group-homepage .group-category-title h2 { margin:0 1em 1em 0; font-weight: normal; font-size: 1.3em; }
+#uc-group-homepage .group-category-title h2:after { content: ' sub categories'; } */
+
+/* option 2 */
+#uc-group-homepage .group-category-title h2 { display:none; }
+
+#uc-group-homepage .group-types-wrapper ul { display: flex; list-style: none; padding:0; margin:0;}
+#uc-group-homepage .group-types-wrapper ul li { margin-right: 0.5em; }
+#uc-group-homepage .group-types-wrapper ul li:after { content: ', '; }
+#uc-group-homepage .group-types-wrapper ul li:last-of-type:after { display:none; }
+#uc-group-homepage .group-types-wrapper ul li a { text-decoration: none; color: var(--brand-purple); font-weight:bold;} 

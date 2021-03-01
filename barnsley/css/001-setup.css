@@ -15,16 +15,19 @@ Should be run from dir below 'css'
 #uc-sv-content-container #uc-sv-right-panel .feedback
 { display:none; }
 /* Removed as outdated or not for display */
-.clear, .hidden { display:none; }
+.clear, .hidden, .display-none{ display:none; }
 
 /* Variables */ 
 :root {
   --brand-teal: #73afb7;
   --brand-blue: #556390;
+  --brand-blue-faded: rgba(85,99,144,0.5);
   --brand-text: #fff;
   --brand-backing: #c4e6e3;
   --brand-pink: #e40177;
+  --brand-pink-faded: rgba(228,1,119,0.3);
   --brand-yellow: #cadb2b;
+  --brand-purple: rgb(110,1,228);
   --dark-backing: #333339;
   --button-orange: #e37d16;
   --notice-success: #36a852;

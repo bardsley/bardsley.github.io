@@ -35,6 +35,70 @@
 #uc-sv-search-panel .uc-sv-category-wrapper ul li { margin-right: 1em; }
 .uc-sv-left-panel-wrapper { font-size: 1.2em;}
 
+/* Idea blocks */
+
+.uc-sv-left-panel-wrapper { display:flex; flex-wrap:wrap; }
+.uc-sv-left-panel-wrapper .page-separator { order: 1000; width: 100%; padding: 0.3em; margin: 1em 0;
+    background: var(--brand-backing); text-align:center; font-size: 0.8em; 
+}
+.uc-sv-module-idea-wrapper { max-width: 400px; order: 1;  padding:0; margin: 1em }
+.uc-sv-module-idea-wrapper > span { display:none}
+.uc-sv-module-idea-wrapper h2 { background: var(--brand-blue); margin:0;padding: 0.5em}
+.uc-sv-module-idea-wrapper h2 a { text-decoration:none; color: var(--brand-text);}
+.uc-sv-module-idea-wrapper .uc-sv-module-text-wrapper { 
+  background: var(--brand-blue-faded); color: var(--brand-text); 
+  padding: 0.2em 0.7em; display: flex;
+}
+.uc-sv-module-idea-wrapper .uc-sv-module-text-wrapper p { margin:0; font-size: 0.8em; margin-right: 0.5em; }
+
+.uc-sv-module-idea-wrapper .uc-sv-module-voting { display: flex; }
+.uc-sv-module-idea-wrapper .uc-sv-module-voting .uc-sv-click-like-dislike,
+.uc-sv-module-idea-wrapper .uc-sv-module-voting .uc-sv-module-voting-like,
+.uc-sv-module-idea-wrapper .uc-sv-module-voting .uc-sv-module-voting-dislike {
+  flex-grow: 1;
+  font-weight: bold; padding: 0.7em 1.2em; background: var(--brand-blue); color: var(--brand-text);
+} 
+.uc-sv-module-idea-wrapper .uc-sv-module-voting .uc-sv-module-voting-like { background: var(--notice-success); }
+.uc-sv-module-idea-wrapper .uc-sv-module-voting .uc-sv-module-voting-dislike { background: var(--notice-error); }
+.uc-sv-module-idea-wrapper .uc-sv-module-voting .uc-sv-click-like-dislike { background: var(--brand-pink); color: var(--brand-yellow); text-decoration: none; }
+
+.uc-sv-module-idea-wrapper .uc-sv-module-more { display: flex; flex-direction: row-reverse; align-items: flex-end;
+  background: var(--brand-blue); padding: 0.3em 0.7em}
+.uc-sv-module-idea-wrapper .uc-sv-module-more a { color: var(--brand-text); font-size: 0.8em; 
+  text-decoration:none; text-transform: capitalize; 
+}
+.uc-sv-module-idea-wrapper .uc-sv-module-more a.uc-sv-comments { margin-right: 0.5em; }
+.uc-sv-module-idea-wrapper .uc-sv-module-more a.uc-sv-more:after { content: ' Information \27A4'}
+
+
+/* Idea Display */
+
+.uc-sv-details-page { margin: 0 auto; max-width: 960px;}
+.uc-sv-details-page .uc-sv-module-details-header-wrapper h1{ 
+  background: var(--brand-pink); color:var(--brand-yellow);
+  padding: 0.5em 0.7em; font-size: 2.5em; margin-bottom:0;
+}
+.uc-sv-details-page .uc-sv-module-details-header-wrapper .uc-sv-module-text-wrapper{ 
+  background: var(--brand-pink-faded); 
+  margin-top:0; padding-left:1em; display:flex
+}
+.uc-sv-details-page .uc-sv-module-details-header-wrapper .uc-sv-module-text-wrapper p {
+  padding: 0.8em 0.7em; margin:0;
+}
+
+.uc-sv-details-page .uc-sv-module-details-header-wrapper span.uv-sv-details-header-idea { display:none; }
+
+/* Idea display Voting module */
+.uc-sv-module-voting-details { float:right; display:flex; flex-wrap:wrap; max-width: 200px; margin-left:1em; margin-bottom: 1em;}
+.uc-sv-module-voting-details div { font-size: 2.5em; font-weight: bold; text-align:center; width: 50%;}
+.uc-sv-module-voting-details div a { color: var(--brand-text); text-decoration: none; display: block; 
+  width: 100%; padding: 0.5em 0.8em; 
+}
+.uc-sv-module-voting-details div.uc-sv-module-voting-details-like { background: var(--notice-success); }
+.uc-sv-module-voting-details div.uc-sv-module-voting-details-dislike { background: var(--notice-error); }
+.uc-sv-module-voting-details:after { content: 'Click to vote!'; text-align:center; width: 100%; font-size: 0.8em;}
+.uc-sv-module-voting-details div span { display:none; }
+
 
 /* Hide mobile above a certain size */
 @media screen and (min-width: 620px ) {
@@ -52,3 +116,22 @@
   #uc-sv-right-panel span.text-left { display:none; }
 }
 
+/* Form */
+
+.uc-sv-module { max-width: 960px; margin: 0 auto; }
+.uc-sv-module h2 { margin:1em 0 0 ; }
+.uc-sv-module .form-heading-title { margin:0; font-weight:normal; }
+.uc-sv-module fieldset { padding:0; }
+.uc-sv-module form ol { list-style: none; padding:0; margin:0;}
+.uc-sv-module form ol li { margin-bottom: 1em; }
+.uc-sv-module form ol li input, 
+.uc-sv-module form ol li select { font-size: 1em; padding:0.3em }
+.uc-sv-module form ol li label { font-weight: bold;  display:block;}
+.uc-sv-module form ol li label abbr { color: var(--notice-error); text-decoration: none; }
+
+#student_voice_name { width: 90%;}
+.uc-sv-module .buttonLink { 
+  background: var(--brand-pink); color: var(--brand-yellow); 
+  border: none; padding: 0.5em 1em; text-decoration:none;
+}
+.uc-sv-module .backButton { background: var(--brand-teal); color: var(--brand-text);}
