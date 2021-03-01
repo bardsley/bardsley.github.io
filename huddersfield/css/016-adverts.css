@@ -1,5 +1,33 @@
 /* Advert movement */
 
+#top-advertisement {
+  position:relative;
+  width: 100%; 
+  height: 65px;
+  top: -10em;
+  margin: 0;
+  padding: 0;
+}
+#top-advertisement h2 {
+  display: none;
+}
+
+#top-advertisement-wrap {
+  margin: 0 auto;
+  position: relative;
+  max-width: 960px;
+}
+
+#top-advertisement #top-advertisement-wrap div div { 
+  position:relative; 
+}
+#top-advertisement #top-advertisement-wrap img {
+    width: 647px;
+    z-index: 0;
+    position: absolute;;
+    top:0; right:0;
+}
+
 .uc-leaderboard-advertisement {
 /*   border: solid 1px red; */
   position:absolute;
@@ -22,3 +50,4 @@
   .home-content-html #main-scroller { margin-top:0;}
   .home-content-html #main-scroller #main-scroller-wrap .ui-tabs-nav { display:none; }
 }
+

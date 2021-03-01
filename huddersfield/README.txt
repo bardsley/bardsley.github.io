@@ -1,12 +1,17 @@
-Changes
-============
-- Seperated out stylesheets
-- Drafted the Hud Helper utilities by drafting
-- Took all !important overrides out
-- Drafted second advert placement -> https://hudsu.unionclouduat.org/administrator/sites/104726/pages/98858/edit?locale=en
-- Drafted Random CSS in footer -> https://hudsu.unionclouduat.org/administrator/sites/104726/pages/100750/edit?locale=en
-- Disabled sticky menu 
-- Added main Hudsu css for font faces to top of dev site -> <link rel="stylesheet" media="screen" href="https://www.unioncloud.org/assets/blank_default/stylesheets/style-d29efd0280f2aedd3b61a40c5c18796d1e88fec7c2e584daf9fa03d13eb68f37.css" /> 
+
+CSS file usage
+==============
+Build command to combine CSS and copy to clipboard
+Should be run from dir below 'css'
+
+- Windows: in Powershell 
+    type css\*.css | clip
+
+- OSX: in Terminal
+    cat css\*.css | pbcopy 
+
+You can then paste into UnionCloud
+
 
 Notes
 ===========

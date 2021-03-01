@@ -1,13 +1,8 @@
-:root {
-    --brand-pink: #e72981;
-    --dark-pink: #af105a;
-    --brand-text: #ffffff;
-    --backing-grey: #ddd;
-}
 
 /*================================================================*/
 /* fonts sheet(s) */
 /*================================================================*/
+
 /*festivo*/
 @font-face {
     font-family: 'ActualFestivo';

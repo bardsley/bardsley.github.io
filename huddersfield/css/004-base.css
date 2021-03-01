@@ -1,5 +1,3 @@
-@charset "UTF-8";
-
 /* .content-wrap.home-content-wrap.subsites.twelvecol.last {
     background-color: #808080 ;
 }
@@ -17,7 +15,7 @@
 }
 .page-content-html .wrapper .row.content,
 .content-wrap.subsites {
-    font-family: quicksandbook, Arial, sans-serif;
+    font-family: 'lineto-circular-book', Arial, sans-serif;
     /*standard element spacing*/
     /*should this be non-relative units?*/
     /*  h1 {
@@ -104,7 +102,7 @@
 .page-content-html .wrapper .row.content p b,
 .content-wrap.subsites p strong,
 .content-wrap.subsites p b {
-    font-family: quicksandbold, Arial, sans-serif;
+    font-family: 'lineto-circular-book', Arial, sans-serif;
     font-weight: normal;
 }
 .page-content-html .wrapper .row.content sup,
@@ -125,7 +123,7 @@
 .content-wrap.subsites var,
 .content-wrap.subsites address,
 .content-wrap.subsites dfn {
-    font-family: quicksandbook_oblique, Arial, sans-serif;
+    font-family: 'lineto-circular-book', Arial, sans-serif;
 }
 .page-content-html .wrapper .row.content p,
 .page-content-html .wrapper .row.content ol,
@@ -139,25 +137,25 @@
 }
 .page-content-html .wrapper .row.content p.featured,
 .content-wrap.subsites p.featured {
-    font-family: festivo17, sans-serif;
+        font-family: 'lineto-circular-black', sans-serif; /* was festivo 17*/
     font-size: 1.75em;
     line-height: 1.1em;
 }
 .page-content-html .wrapper .row.content p.featured strong,
 .content-wrap.subsites p.featured strong {
-    font-family: festivo1, sans-serif;
+       font-family: 'lineto-circular-black', sans-serif; /* was festivo 1*/
     color: #444;
 }
 .page-content-html .wrapper .row.content p.featured2,
 .content-wrap.subsites p.featured2 {
-    font-family: festivo1, sans-serif;
+       font-family: 'lineto-circular-black', sans-serif; /* was festivo 1*/
     font-size: 1.75em;
     line-height: 1.2em;
     color: #333;
 }
 .page-content-html .wrapper .row.content p.featured2 strong,
 .content-wrap.subsites p.featured2 strong {
-    font-family: festivo1, sans-serif;
+       font-family: 'lineto-circular-black', sans-serif; /* was festivo 1*/
     color: #506276;
     padding: 0.1em 0.4em;
     background-color: #fbdfcd;
@@ -195,7 +193,7 @@
     display: block;
     padding: 0.5em 2em;
     border: none;
-    font-family: festivo1;
+    font-family: 'lineto-circular-black' /* was festivo 1*/;
     font-size: 1.5em;
     text-align: center;
     border-radius: 5px;
@@ -221,7 +219,7 @@
 .content-wrap.subsites .page-content-html .wrapper .row.content .beast-small,
 .page-content-html .wrapper .row.content .content-wrap.subsites .beast-small,
 .content-wrap.subsites .beast-small {
-    font-family: festivo3, sans-serif;
+       font-family: 'lineto-circular-black', sans-serif; /* was festivo 3*/
     font-size: 11em;
     line-height: 0.9em;
     margin-bottom: 0.25em;
@@ -292,7 +290,7 @@
 .content-wrap.subsites h4,
 .content-wrap.subsites h5,
 .content-wrap.subsites h6 {
-    font-family: festivo1, Arial, sans-serif;
+    font-family: 'lineto-circular-black' /* was festivo 1*/, Arial, sans-serif;
     font-weight: normal;
     /*color: $color_text_grey;*/
 }
@@ -307,7 +305,7 @@
 }
 /* .page-content-html .wrapper .row.content h1:first-of-type,
 .content-wrap.subsites h1:first-of-type {
-    font-family: festivo5, sans-serif;
+       font-family: 'lineto-circular-black', sans-serif; /* was festivo 5*/
     position: relative;
     font-size: 6em;
     line-height: 0.9em;
@@ -396,7 +394,7 @@
     font-size: 1em;
     color: #333;
     font-weight: normal;
-    font-family: quicksandbold, Arial, sans-serif;
+    font-family: 'lineto-circular-book', Arial, sans-serif;
     background: transparent;
     margin-top: 0;
     margin-left: 0;
@@ -431,7 +429,7 @@
 }
 .page-content-html .wrapper .row.content table caption,
 .content-wrap.subsites table caption {
-    font-family: festivo1, sans-serif;
+       font-family: 'lineto-circular-black', sans-serif; /* was festivo 1*/
     font-size: 1.5em;
     text-align: left;
     margin-bottom: 0.25em;
@@ -446,7 +444,7 @@
 .content-wrap.subsites table th {
     border-bottom: 2px solid #aaa;
     padding-right: 1em;
-    font-family: quicksandbold, Arial, sans-serif;
+    font-family: 'lineto-circular-book', Arial, sans-serif;
 }
 .page-content-html .wrapper .row.content table tfoot th,
 .content-wrap.subsites table tfoot th {
@@ -475,7 +473,7 @@
     left: 0;
     background-color: rgba(0, 0, 0, 0.4);
     color: #fff;
-    font-family: quicksandbook_oblique, Arial, sans-serif;
+    font-family: 'lineto-circular-book', Arial, sans-serif;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }
 /**************************************************************/
@@ -483,7 +481,7 @@
 /**************************************************************/
 
 body.home-content-html .wrapper .row.content {
-    font-family: festivo1, sans-serif;
+       font-family: 'lineto-circular-black', sans-serif; /* was festivo 1*/
 }
 /*================================================================*/
 /* buttons sheet */
@@ -516,7 +514,7 @@ body.home-content-html .wrapper .row.content {
 .threecol.left-nav-content.tree-navigation .clubSubMenu li a {
     padding: 0.5em 1em;
     color: #4dbcc5;
-    font-family: festivo1, sans-serif;
+       font-family: 'lineto-circular-black', sans-serif; /* was festivo 1*/
     -webkit-transition: 0.2s color;
     -moz-transition: 0.2s color;
     transition: 0.2s color;
@@ -528,7 +526,7 @@ body.home-content-html .wrapper .row.content {
     text-align: center;
     padding: 0.5em 1em;
     color: #4dbcc5;
-    font-family: festivo1, sans-serif;
+       font-family: 'lineto-circular-black', sans-serif; /* was festivo 1*/
     -webkit-transition: 0.2s background-color, 0.2s color;
     -moz-transition: 0.2s background-color, 0.2s color;
     transition: 0.2s background-color, 0.2s color;
@@ -550,7 +548,7 @@ body.home-content-html .wrapper .row.content {
     box-shadow: none;
     background-color: #bee1df;
     color: #ec008c;
-    font-family: festivo1, sans-serif;
+       font-family: 'lineto-circular-black', sans-serif; /* was festivo 1*/
     text-shadow: 3px 3px 0px #fff;
     font-size: 1.2em;
 }
@@ -605,7 +603,7 @@ div.tip-twitter {
     width: 0 ;
 }
 body {
-    font-family: festivo1, sans-serif;
+       font-family: 'lineto-circular-black', sans-serif; /* was festivo 1*/
 }
 .page-content-html .wrapper .row.content .signin-block tr {
     border-bottom: none;
@@ -614,7 +612,7 @@ body {
     /*@extend .btn-both;*/
 }
 #breadcrumb-container {
-    font-family: quicksandlight, Arial, sans-serif;
+    font-family: 'lineto-circular-book', , Arial, sans-serif; /* was quicksandlight */
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -643,7 +641,7 @@ body {
 
 .home-content-html .content-wrap.subsites h2,
 .more {
-    font-family: festivo1, sans-serif;
+       font-family: 'lineto-circular-black', sans-serif; /* was festivo 1*/
 }
 /*********/
 /*styling*/
@@ -652,7 +650,7 @@ body {
 
 html .wrapper .row.content .tree-navigation-structure {
     color: #222;
-    font-family: festivo1, sans-serif;
+       font-family: 'lineto-circular-black', sans-serif; /* was festivo 1*/
     /*nav page title*/
     /*main UL*/
 }
@@ -671,7 +669,7 @@ html .wrapper .row.content .tree-navigation-structure .tree-navigation .nav-leve
     line-height: 1.1em;
 }
 html .wrapper .row.content .tree-navigation-structure .tree-navigation .nav-level-one > li h3 a {
-    font-family: festivo3, sans-serif;
+       font-family: 'lineto-circular-black', sans-serif; /* was festivo 3*/
     color: #506276;
     padding-top: 0.2em;
     padding-bottom: 0.15em;
@@ -767,7 +765,7 @@ html .wrapper .row.content .tree-navigation-structure ul#uc-left-navigation li .
     background-color: #333;
     /*font-family: $font_festivo1;*/
     
-    font-family: quicksandbook, Arial, sans-serif;
+    font-family: 'lineto-circular-book', Arial, sans-serif;
     color: #fff;
     -webkit-transition: 0.2s background-color;
     -moz-transition: 0.2s background-color;
@@ -895,7 +893,7 @@ html .wrapper .row.content .tree-navigation-structure ul#uc-left-navigation li .
 .home-content-html #main-scroller #main-scroller-wrap .ui-widget-content .ui-state-default > a,
 .home-content-html #main-scroller #main-scroller-wrap .ui-widget-header .ui-state-default > a {
     color: #000;
-    font-family: festivo1, sans-serif;
+       font-family: 'lineto-circular-black', sans-serif; /* was festivo 1*/
     font-weight: normal;
     font-size: 1.7em;
     padding: 0.5em 0.8em;
@@ -1139,7 +1137,7 @@ html .wrapper .row.content .tree-navigation-structure ul#uc-left-navigation li .
     bottom: 0;
     padding: 7px 3px 0px 10px;
     background-color: #636362;
-    font-family: festivo1, sans-serif;
+       font-family: 'lineto-circular-black', sans-serif; /* was festivo 1*/
     color: #fff;
     padding-left: 10px;
     text-decoration: none;
@@ -1223,7 +1221,7 @@ html .wrapper .row.content .tree-navigation-structure ul#uc-left-navigation li .
 .uc-widget-student-voices-wrapper p.sv-widget-no-content {
     font-size: 2.4em;
     line-height: 1.1em;
-    font-family: festivo11, sans-serif;
+       font-family: 'lineto-circular-black', sans-serif; /* was festivo 11*/
     color: #bee1df;
 }
 .uc-widget-student-voices-wrapper p.sv-widget-no-content a {
@@ -1251,7 +1249,7 @@ html .wrapper .row.content .tree-navigation-structure ul#uc-left-navigation li .
     color: #fff;
     height: auto;
     padding: 2px 0;
-    font-family: quicksandbold, Arial, sans-serif;
+    font-family: 'lineto-circular-book', Arial, sans-serif;
     line-height: 1em;
     font-size: 1.4em;
     overflow: auto;
@@ -1447,7 +1445,7 @@ html .wrapper .row.content .tree-navigation-structure ul#uc-left-navigation li .
     font-size: 0.7em ;
     line-height: 0.8em;
     color: #fff ;
-    font-family: quicksandlight_oblique, Arial, sans-serif ;
+    font-family: 'lineto-circular-book', _oblique, Arial, sans-serif ; /* was quicksandlight */
     text-transform: capitalize ;
 }
 #twitter-widget li.jcarousel-item .event-content .name a,
@@ -1472,7 +1470,7 @@ html .wrapper .row.content .tree-navigation-structure ul#uc-left-navigation li .
 #dark-blue-box-wrap li.jcarousel-item .article-content .headline a {
     display: block;
     font-size: 0.7em;
-    font-family: quicksandbold, Arial, sans-serif;
+    font-family: 'lineto-circular-book', Arial, sans-serif;
     line-height: 1.2em;
     color: #fff;
 }
@@ -1563,7 +1561,7 @@ html .wrapper .row.content .tree-navigation-structure ul#uc-left-navigation li .
 /*navigation*/
 
 .nav-wrap ul li a {
-    font-family: festivo1, sans-serif;
+       font-family: 'lineto-circular-black', sans-serif; /* was festivo 1*/
     color: #ec008c;
     text-shadow: 3px 3px 0px #fff;
 }
@@ -1616,7 +1614,7 @@ html .wrapper .row.content .tree-navigation-structure ul#uc-left-navigation li .
 }
 .blockUI .loader-content h1 {
     font-size: 0.7em ;
-    font-family: quicksandbold, Arial, sans-serif ;
+    font-family: 'lineto-circular-black',  Arial, sans-serif ; /* was quicksandbold */
     font-weight: normal ;
     color: #636362 ;
     border-bottom: none ;
@@ -1724,7 +1722,7 @@ h1.group-type-name {
     border: none;
     margin: 0;
     margin-right: 40px;
-    font-family: festivo1, sans-serif;
+       font-family: 'lineto-circular-black', sans-serif; /* was festivo 1*/
     font-size: 1.8em;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -1758,7 +1756,7 @@ h1.group-type-name {
     display: block;
     padding: 0.3em 6%;
     width: 88%;
-    font-family: festivo1, sans-serif;
+       font-family: 'lineto-circular-black', sans-serif; /* was festivo 1*/
     font-size: 1.2em;
     color: #222;
     white-space: nowrap;
@@ -1848,7 +1846,7 @@ h1.group-type-name {
 .uc-event-page-wrapper > ul li .group-name,
 .uc-event-page-wrapper > ul li .event-name {
     font-size: 1.5em;
-    font-family: festivo1, sans-serif;
+       font-family: 'lineto-circular-black', sans-serif; /* was festivo 1*/
     color: #222;
     margin: 2%;
     white-space: nowrap;
@@ -1908,7 +1906,7 @@ h1.group-type-name {
     background: none;
 }
 .page-content-html .wrapper .row.content .tree-navigation ul li a {
-    font-family: festivo1, sans-serif;
+       font-family: 'lineto-circular-black', sans-serif; /* was festivo 1*/
     font-size: 1.2em;
     color: #222;
     padding: 0.3em 6%;
@@ -2033,7 +2031,7 @@ h1.group-type-name {
 #event-homepage #eventpromotioncarousel:before {
     position: relative;
     content: 'featured:';
-    font-family: festivo1;
+    font-family: 'lineto-circular-black' /* was festivo 1*/;
     font-size: 3em;
     color: #f18a48;
     z-index: 1;
@@ -2158,7 +2156,7 @@ h1.group-type-name {
     border-bottom: none;
 }
 #event-homepage #eventcarousel .event-details p:first-child {
-    font-family: quicksandbold, Arial, sans-serif;
+    font-family: 'lineto-circular-book', Arial, sans-serif;
     font-weight: normal;
     font-size: 1.2em;
     text-transform: uppercase;
@@ -2182,20 +2180,20 @@ h1.group-type-name {
 /*================================================================*/
 
 .threecol.left-nav-content.tree-navigation .latestEventLeftSide {
-    font-family: quicksandbook, Arial, sans-serif;
+    font-family: 'lineto-circular-book', Arial, sans-serif;
 }
 .threecol.left-nav-content.tree-navigation .latestEventLeftSide li {
     background: transparent;
 }
 .threecol.left-nav-content.tree-navigation .latestEventLeftSide li a {
     color: #4dbcc5;
-    font-family: festivo1, sans-serif;
+       font-family: 'lineto-circular-black', sans-serif; /* was festivo 1*/
     font-weight: normal;
     border-bottom: 2px dotted;
     margin-bottom: 0.5em;
 }
 .threecol.left-nav-content.tree-navigation .latestEventLeftSide li .eventVenue {
-    font-family: quicksandbold, Arial, sans-serif;
+    font-family: 'lineto-circular-book', Arial, sans-serif;
     font-weight: normal;
 }
 /*================================================================*/
@@ -2253,7 +2251,7 @@ h1.group-type-name {
     width: auto;
     height: 100%;
     text-align: center;
-    font-family: festivo3;
+    font-family: 'lineto-circular-black' /* was festivo 3*/;
     font-size: 3em;
     color: #333;
     -webkit-transform: rotate(-90deg);
@@ -2271,12 +2269,12 @@ h1.group-type-name {
 }
 .page-content-html .wrapper .row.content .featured-news-block-content h2.news-headline {
     font-size: 1.5em;
-    font-family: quicksandbold, Arial, sans-serif;
+    font-family: 'lineto-circular-book', Arial, sans-serif;
     text-transform: uppercase;
     line-height: 1.1em;
 }
 .page-content-html .wrapper .row.content .featured-news-block-content h2.news-headline .news-date-time a {
-    font-family: quicksandlight_oblique, Arial, sans-serif;
+    font-family: 'lineto-circular-book', _oblique, Arial, sans-serif; /* was quicksandlight */
     font-size: 0.9em;
     color: #636362;
     text-transform: capitalize;
@@ -2306,12 +2304,12 @@ h1.group-type-name {
     padding: 0;
     border-bottom: none;
     font-size: 15px ;
-    font-family: quicksandbook_oblique, Arial, sans-serif ;
+    font-family: 'lineto-circular-black', , Arial, sans-serif ; /* was quicksand_oblique */
     color: #636362;
 }
 #uc-articles-news .uc-articles-left-panel-navigation .uc-result-count span,
 #uc-articles-news .uc-articles-left-panel-navigation .uc-result-count strong {
-    font-family: quicksandbook_oblique, Arial, sans-serif;
+    font-family: 'lineto-circular-book', Arial, sans-serif;
     font-size: inherit;
     font-weight: normal;
 }
@@ -2325,7 +2323,7 @@ h1.group-type-name {
 }
 .uc-articles-list-block .uc-articles-block .uc-news-headline .uc-news-date-time a,
 .uc-articles-list-block .uc-articles-block .uc-news-headline h3 a {
-    font-family: quicksandbold, Arial, sans-serif;
+    font-family: 'lineto-circular-book', Arial, sans-serif;
     font-weight: normal;
 }
 .uc-articles-list-block .uc-articles-block .uc-news-headline h3 a {
@@ -2335,7 +2333,7 @@ h1.group-type-name {
 }
 .uc-articles-list-block .uc-articles-block .uc-news-headline .uc-news-date-time a {
     display: block;
-    font-family: quicksandlight_oblique, Arial, sans-serif;
+    font-family: 'lineto-circular-book', _oblique, Arial, sans-serif; /* was quicksandlight */
     font-size: 0.9em;
     color: #636362;
     text-transform: capitalize;
@@ -2343,7 +2341,7 @@ h1.group-type-name {
     margin-top: 5px;
 }
 .uc-articles-list-block .uc-articles-block .uc-articles-summary p {
-    font-family: quicksandbook, Arial, sans-serif;
+    font-family: 'lineto-circular-book', Arial, sans-serif;
     font-size: 1.1em;
     margin-top: 5px;
 }
@@ -2404,7 +2402,7 @@ h1.group-type-name {
 #e-shop .left-panel-navigation h2,
 #e-shop .right-panel-product-listing .count-product-found {
     text-shadow: none;
-    font-family: festivo1, sans-serif;
+       font-family: 'lineto-circular-black', sans-serif; /* was festivo 1*/
     font-weight: normal;
     font-size: 1rem;
     background: none;
@@ -2469,7 +2467,7 @@ h1.group-type-name {
     min-height: 80px;
 }
 #e-shop .right-panel-product-listing .product-block .product-price a {
-    font-family: festivo1, sans-serif;
+       font-family: 'lineto-circular-black', sans-serif; /* was festivo 1*/
     font-weight: normal;
     color: #ec6ea5;
 }
@@ -2550,7 +2548,7 @@ h1.group-type-name {
 }
 .row.header .system-menu,
 .row.header .cart-account {
-    z-index: 6;
+    z-index: 10101; /*  Always display critical element above other */
 }
 .row.header .search.page-search {
     z-index: 5;
@@ -2603,7 +2601,7 @@ h1.group-type-name {
     top: 30px;
     right: 340px;
     text-align: right;
-    font-family: quicksandbold, Arial, sans-serif;
+    font-family: 'lineto-circular-book', Arial, sans-serif;
     font-weight: 400;
     text-transform: lowercase;
     font-size: 1.1em;
@@ -2679,27 +2677,7 @@ h1.group-type-name {
     font-size: 0.6em;
     padding: 0.7em 0.6em 0.4em;
 }
-/***************/
-/*advert banner*/
-/***************/
 
-#top-advertisement {
-    margin: 0;
-    padding: 0;
-}
-#top-advertisement h2 {
-    display: none;
-}
-#top-advertisement img {
-    width: 647px;
-    position: absolute;
-    right: 0;
-    top: 85px;
-    z-index: 0;
-}
-.section.list.top-ad .list-wrap {
-    position: static;
-}
 /************/
 /*search box*/
 /************/
@@ -2707,8 +2685,8 @@ h1.group-type-name {
 .search.page-search {
     display: inline;
     position: absolute;
-    top: 30px;
-    right: 0;
+    top: 45px;
+    right: 260;
 }
 .search.page-search .search-box-wrapper {
     width: auto;
@@ -2828,14 +2806,14 @@ h1.group-type-name {
     height: 100%;
     right: 0;
     top: -60px;
-    font-family: festivo3, sans-serif;
+       font-family: 'lineto-circular-black', sans-serif; /* was festivo 3*/
     text-align: right;
     font-size: 260px;
     color: #333;
 }
 #re-skin-2016-footer #meta-and-social #meta-info-column-content p {
     margin-bottom: 0.2em;
-    font-family: quicksandlight, Arial, sans-serif;
+    font-family: 'lineto-circular-book', , Arial, sans-serif; /* was quicksandlight */
     font-size: 0.7em;
     color: #636362;
 }
@@ -2874,7 +2852,7 @@ h1.group-type-name {
     padding-top: 0px;
     border-radius: 100px;
     text-decoration: none;
-    font-family: quicksandbold;
+    font-family: 'lineto-circular-black', bold; /* was quicksandbold */
     font-size: 2em;
     line-height: 1.05em;
     cursor: pointer;
@@ -3011,16 +2989,17 @@ h1.group-type-name {
         margin: 0;
     }
     .wrapper > .row.header .search.page-search {
-        float: right;
+        /* float: right;
         clear: right;
         right: 10px;
-        top: 42px;
+        top: 42px; */
+        left: 1em;
     }
     .wrapper > .row.header .search.page-search .uc-sheff-mob-src {
         display: inline-block;
     }
     .wrapper > .row.header .search.page-search .search-box-wrapper {
-        position: static;
+        /* position: static; */
         display: inline-block;
     }
     .wrapper > .row.header .system-menu,
@@ -3041,7 +3020,7 @@ h1.group-type-name {
     .wrapper > .row.top,
     .wrapper > .row.top-union {
         position: absolute;
-        top: 0;
+        top: 20px;
         background-image: none;
     }
     .wrapper > .row.top #main-menu,
@@ -3060,6 +3039,7 @@ h1.group-type-name {
         right: 10px;
         top: 83px;
     }
+    .wrapper .row.content { margin-top:0; }
     #top-advertisement {
         position: absolute;
         bottom: 30px;
@@ -3893,7 +3873,7 @@ h1.group-type-name {
     display: none;
 }
 .uc-election-dashboard .uc-election-dashboard-navigation .uc-election-nav a.toggle-navigation {
-    font-family: "festivo1", Arial, Helvetica, sans-serif;
+    font-family: 'lineto-circular-black',  Arial, Helvetica, sans-serif; /* was festivo1 */
     font-size: 22px;
     font-style: normal;
     font-weight: normal;
@@ -3937,7 +3917,7 @@ h1.group-type-name {
 }
 .uc-election-dashboard .uc-election-dashboard-navigation ul li {
     display: inline-block;
-    font-family: "festivo1", Arial, Helvetica, sans-serif;
+    font-family: 'lineto-circular-black',  Arial, Helvetica, sans-serif; /* was festivo1 */
     font-size: 22px;
     font-style: normal;
     font-weight: normal
@@ -3994,7 +3974,7 @@ h1.group-type-name {
     position: relative
 }
 .uc-election-dashboard .uc-timeline .uc-timeline-headings a.toggle-timeline {
-    font-family: "festivo1", Arial, Helvetica, sans-serif;
+    font-family: 'lineto-circular-black',  Arial, Helvetica, sans-serif; /* was festivo1 */
     font-size: 20px;
     font-style: normal;
     font-weight: normal;
@@ -4089,7 +4069,7 @@ h1.group-type-name {
 .uc-election-dashboard .uc-timeline .uc-timeline-listing .uc-today i,
 .uc-election-dashboard .uc-timeline .uc-timeline-listing .uc-last-hour i {
     font-size: 18px;
-    font-family: "festivo1", Arial, Helvetica, sans-serif;
+    font-family: 'lineto-circular-black',  Arial, Helvetica, sans-serif; /* was festivo1 */
     display: block;
     text-align: center;
     color: #415a61;
@@ -4109,7 +4089,7 @@ h1.group-type-name {
 .uc-election-dashboard .uc-timeline .uc-timeline-listing .uc-last-day .uc-lh-count,
 .uc-election-dashboard .uc-timeline .uc-timeline-listing .uc-today .uc-lh-count,
 .uc-election-dashboard .uc-timeline .uc-timeline-listing .uc-yesterday .uc-lh-count {
-    font-family: "festivo1", sans-serif;
+    font-family: 'lineto-circular-black',  sans-serif; /* was festivo1 */
     font-weight: 600;
     font-size: 40px;
     color: #73DAFE
@@ -4118,7 +4098,7 @@ h1.group-type-name {
 .uc-election-dashboard .uc-timeline .uc-timeline-listing .uc-last-day .uc-text,
 .uc-election-dashboard .uc-timeline .uc-timeline-listing .uc-today .uc-text,
 .uc-election-dashboard .uc-timeline .uc-timeline-listing .uc-yesterday .uc-text {
-    font-family: "festivo1", sans-serif;
+    font-family: 'lineto-circular-black',  sans-serif; /* was festivo1 */
     font-size: 18px;
     color: #415a61
 }
@@ -4129,13 +4109,13 @@ h1.group-type-name {
 }
 .uc-election-dashboard .uc-avg-age-voter .uc-avg-age-voter-headings {
     background: #73dafe;
-    font-family: "festivo1", sans-serif
+    font-family: 'lineto-circular-black',  sans-serif /* was festivo1 */
 }
 .uc-election-dashboard .uc-avg-age-voter .uc-avg-age-voter-headings:after {
     color: #FFF
 }
 .uc-election-dashboard .uc-avg-age-voter .uc-avg-age-voter-wrapper {
-    font-family: "festivo1", sans-serif;
+    font-family: 'lineto-circular-black',  sans-serif; /* was festivo1 */
     font-size: 40px;
     color: #73dafe
 }
@@ -4147,7 +4127,7 @@ h1.group-type-name {
 .uc-election-dashboard .uc-avg-age-voter.full-width-view .uc-avg-age-voter-headings {
     padding: 0 15px;
     line-height: 100px;
-    font-family: "festivo1", sans-serif;
+    font-family: 'lineto-circular-black',  sans-serif; /* was festivo1 */
     font-size: 52px;
     position: relative;
     overflow: hidden;
@@ -4162,7 +4142,7 @@ h1.group-type-name {
 .uc-election-dashboard .uc-study-types .uc-study-types-headings {
     padding: 0 15px;
     line-height: 100px;
-    font-family: "festivo1", sans-serif;
+    font-family: 'lineto-circular-black',  sans-serif; /* was festivo1 */
     font-size: 52px;
     position: relative;
     overflow: hidden;
@@ -4190,7 +4170,7 @@ h1.group-type-name {
 }
 .uc-election-dashboard .uc-votes-voters .uc-votes-tabs ul li a,
 .uc-election-dashboard .uc-top-turnouts .uc-top-turnouts-tabs ul li a {
-    font-family: "festivo1", sans-serif;
+    font-family: 'lineto-circular-black',  sans-serif; /* was festivo1 */
     line-height: 40px;
     padding: 0 40px;
     display: inline-block
@@ -4198,14 +4178,14 @@ h1.group-type-name {
 .uc-election-dashboard .uc-leading-gender .heading-hint-text {
     color: #415a61;
     background-color: #fffdef;
-    font-family: "festivo1", sans-serif;
+    font-family: 'lineto-circular-black',  sans-serif; /* was festivo1 */
     line-height: 40px;
     padding: 0 25px
 }
 .uc-election-dashboard .uc-study-types .heading-hint-text {
     color: #415a61;
     background-color: #f1fbfe;
-    font-family: "festivo1", sans-serif;
+    font-family: 'lineto-circular-black',  sans-serif; /* was festivo1 */
     line-height: 40px;
     padding: 0 25px
 }
@@ -4215,11 +4195,11 @@ h1.group-type-name {
     padding: 25px
 }
 .uc-election-dashboard .highcharts-container svg {
-    font-family: "festivo1", Arial, Helvetica, sans-serif;
+    font-family: 'lineto-circular-black',  Arial, Helvetica, sans-serif; /* was festivo1 */
     font-size: 14px!important
 }
 .uc-election-dashboard .highcharts-container svg text {
-    font-family: "festivo1", sans-serif!important
+    font-family: 'lineto-circular-black',  sans-serif!important /* was festivo1 */
 }
 .uc-election-dashboard .uc-votes-voters .uc-votes-headings,
 .uc-election-dashboard .uc-votes-voters .uc-votes-tabs {
@@ -4269,12 +4249,12 @@ h1.group-type-name {
 .uc-election-dashboard .uc-votes-numerical-figures .uc-votes-cast .uc-count-fig,
 .uc-election-dashboard .uc-votes-numerical-figures .uc-voters-count .uc-count-fig {
     color: #73DAFE;
-    font-family: "festivo1", sans-serif
+    font-family: 'lineto-circular-black',  sans-serif /* was festivo1 */
 }
 .uc-election-dashboard .uc-votes-numerical-figures .uc-turnout-count p,
 .uc-election-dashboard .uc-votes-numerical-figures .uc-votes-cast p,
 .uc-election-dashboard .uc-votes-numerical-figures .uc-voters-count p {
-    font-family: "festivo1", sans-serif;
+    font-family: 'lineto-circular-black',  sans-serif; /* was festivo1 */
     font-size: 18px;
     color: #415a61
 }
@@ -4290,14 +4270,14 @@ h1.group-type-name {
 .uc-turnout-cell {
     display: table-cell;
     border-bottom: 1px dotted #73DAFE;
-    font-family: "quicksandbook";
+    font-family: 'lineto-circular-book', $1 /* was quicksandbook */;
     font-size: 21px;
     font-style: normal;
     font-weight: normal
 }
 .cell-one {
     width: 7%;
-    font-family: "quicksandbook"
+    font-family: 'lineto-circular-book', $1 /* was quicksandbook */
 }
 .cell-two {
     width: 50%;
@@ -4307,7 +4287,7 @@ h1.group-type-name {
     text-align: right;
     width: 10%;
     color: #666;
-    font-family: "quicksandbook"
+    font-family: 'lineto-circular-book', $1 /* was quicksandbook */
 }
 .cell-one span {
     background-color: #ccc;
@@ -4337,7 +4317,7 @@ h1.group-type-name {
     color: #415a61;
     background-color: #ffec5f;
     display: inline;
-    font-family: "festivo1";
+    font-family: 'lineto-circular-black', 1 /* was festivo */;
     font-size: 16px;
     font-style: normal;
     font-weight: normal;
@@ -4348,7 +4328,7 @@ h1.group-type-name {
     color: #415a61;
     background-color: #ffec5f;
     display: inline;
-    font-family: "festivo1";
+    font-family: 'lineto-circular-black', 1 /* was festivo */;
     font-size: 16px;
     font-style: normal;
     font-weight: normal;
@@ -4358,7 +4338,7 @@ h1.group-type-name {
 .uc-election-dashboard .uc-timeline .uc-cell-wrapper .uc-cell-left {
     display: table-cell;
     width: 70%;
-    font-family: "quicksandbook", sans-serif;
+    font-family: 'lineto-circular-book', $1 /* was quicksandbook */, sans-serif;
     font-size: 13px;
     font-style: normal;
     font-weight: normal;
@@ -4368,7 +4348,7 @@ h1.group-type-name {
 .uc-election-dashboard .uc-timeline .uc-cell-wrapper .uc-cell-right {
     display: table-cell;
     width: 30%;
-    font-family: "quicksandbook", sans-serif;
+    font-family: 'lineto-circular-book', $1 /* was quicksandbook */, sans-serif;
     font-size: 13px;
     font-style: normal;
     font-weight: normal;
@@ -4610,7 +4590,7 @@ h2.uc-election-name {
     background-color: #ffec5f;
     padding: 0 10px;
     font-size: 2em;
-    font-family: "festivo1", sans-serif;
+    font-family: 'lineto-circular-black',  sans-serif; /* was festivo1 */
     font-weight: normal;
     font-style: normal;
     line-height: 1.0;
@@ -4695,7 +4675,7 @@ h3.uc-cat-name {
     margin: 0;
     padding: 0 35px 10px 0;
     font-size: 1.5em;
-    font-family: "festivo1", Arial, Helvetica, sans-serif;
+    font-family: 'lineto-circular-black',  Arial, Helvetica, sans-serif; /* was festivo1 */
     font-weight: normal;
     font-style: normal;
     color: #415a61;
@@ -4705,7 +4685,7 @@ h3.uc-cat-name {
 .uc-cat-description {
     font-size: .9em;
     color: #415a61;
-    font-family: "quicksandbook", sans-serif;
+    font-family: 'lineto-circular-book', $1 /* was quicksandbook */, sans-serif;
     font-weight: normal;
     font-style: normal
 }
@@ -4713,7 +4693,7 @@ h3.uc-cat-name {
     background: url(default/elec-white-shadow-bg.png) no-repeat top center #f1fbfe;
     padding: 10px 0 0;
     margin: 10px 0 0;
-    font-family: "festivo1", Arial, Helvetica, sans-serif;
+    font-family: 'lineto-circular-black',  Arial, Helvetica, sans-serif; /* was festivo1 */
     font-size: 1.8em; font-weight: normal;
     font-style: normal
 }
@@ -4723,7 +4703,7 @@ h3.uc-cat-name {
 .uc-position-candidates h4,
 .uc-position-responsibilities h4,
 .uc-select-candidates h4 {
-    font-family: "festivo1", Arial, Helvetica, sans-serif;
+    font-family: 'lineto-circular-black',  Arial, Helvetica, sans-serif; /* was festivo1 */
     font-weight: normal;
     font-style: normal;
     background: #73DAFE;
@@ -4735,7 +4715,7 @@ h3.uc-cat-name {
     font-size: 1.2em;
 }
 strong {
-    font-family: "festivo1", Arial, Helvetica, sans-serif;
+    font-family: 'lineto-circular-black',  Arial, Helvetica, sans-serif; /* was festivo1 */
     font-weight: 500;
     font-style: normal
 }
@@ -4762,7 +4742,7 @@ strong {
 .uc-select-candidates dl dt {
     color: #666;
     float: left;
-    font-family: "festivo1", Arial, Helvetica, sans-serif;
+    font-family: 'lineto-circular-black',  Arial, Helvetica, sans-serif; /* was festivo1 */
     font-weight: normal;
     font-style: normal;
     margin: 0 10px 0 0;
@@ -4776,7 +4756,7 @@ strong {
 }
 .uc-candidates-preferences select {
     width: 60%;
-    font-family: "festivo1", Helvetica, sans-serif
+    font-family: 'lineto-circular-black',  Helvetica, sans-serif /* was festivo1 */
 }
 #uc-election-summary .uc-elec-summary-wrapper {
     background-color: #fffdef;
@@ -4784,7 +4764,7 @@ strong {
 #uc-election-summary .uc-elec-summary-wrapper h2 {
     color: #415a61;
     text-transform: uppercase;
-    font-family: "festivo1", Arial, Helvetica, sans-serif;
+    font-family: 'lineto-circular-black',  Arial, Helvetica, sans-serif; /* was festivo1 */
     font-weight: normal;
     font-style: normal;
     font-size: 1.2em;
@@ -4797,7 +4777,7 @@ strong {
     color: #415a61;
     background: url(default/elec-vot-status-heading-bg.png) no-repeat top center #ffec5f;
     text-transform: uppercase;
-    font-family: "festivo1", sans-serif;
+    font-family: 'lineto-circular-black',  sans-serif; /* was festivo1 */
     font-weight: normal;
     font-style: normal;
     font-size: 1.8em;
@@ -4808,7 +4788,7 @@ strong {
 .uc-pending-status,
 .uc-completed-status,
 .uc-total-status {
-    font-family: "festivo1", sans-serif;
+    font-family: 'lineto-circular-black',  sans-serif; /* was festivo1 */
     font-weight: normal;
     font-style: normal;
     margin: 0 0 20px
@@ -4858,7 +4838,7 @@ strong {
 .uc-elec-widget-one .uc-position-to-vote h4,
 .uc-elec-widget-two .uc-position-to-vote h4 {
     color: #e46315;
-    font-family: "festivo1", Arial, Helvetica, sans-serif;
+    font-family: 'lineto-circular-black',  Arial, Helvetica, sans-serif; /* was festivo1 */
     font-weight: normal;
     font-style: normal;
     font-size: 1.2em
@@ -4867,7 +4847,7 @@ strong {
 .uc-elec-widget-two .uc-position-to-vote .uc-position-to-vote-wrapper ul {
     padding: 0;
     margin: 0 20px;
-    font-family: "quicksandbook", Arial, Helvetica, sans-serif;
+    font-family: 'lineto-circular-book', $1 /* was quicksandbook */, Arial, Helvetica, sans-serif;
     font-weight: normal;
     font-style: normal;
     font-size: .9em
@@ -4884,7 +4864,7 @@ strong {
     color: #333;
     display: table;
     float: none;
-    font-family: "festivo1", Arial, Helvetica, sans-serif;
+    font-family: 'lineto-circular-black',  Arial, Helvetica, sans-serif; /* was festivo1 */
     font-weight: normal;
     font-style: normal;
     font-size: 1.2em;
@@ -4904,7 +4884,7 @@ strong {
     font-size: 13px;
     padding: 0;
     display: block;
-    font-family: 'festivo1', sans-serif;
+    font-family: 'lineto-circular-black', sans-serif; /* was festivo 1*/
     font-weight: bold;
     font-style: normal;
     text-transform: inherit;
@@ -4916,7 +4896,7 @@ strong {
     font-size: 13px;
     padding: 0;
     display: block;
-    font-family: 'festivo1', sans-serif;
+    font-family: 'lineto-circular-black', sans-serif; /* was festivo 1*/
     font-weight: bold;
     font-style: normal;
     text-transform: inherit;
@@ -4974,7 +4954,7 @@ strong {
 }
 .uc-position-details a {
     color: #36f;
-    font-family: "quicksandbook", Arial, Helvetica, sans-serif;
+    font-family: 'lineto-circular-book', $1 /* was quicksandbook */, Arial, Helvetica, sans-serif;
     font-weight: normal;
     font-style: normal;
     font-size: 1em
@@ -4985,14 +4965,14 @@ strong {
 .toggle-details {
     color: #415a61;
     float: right;
-    font-family: "quicksandbook", Arial, Helvetica, sans-serif;
+    font-family: 'lineto-circular-book', $1 /* was quicksandbook */, Arial, Helvetica, sans-serif;
     font-size: .9em;
     font-style: normal;
     font-weight: normal
 }
 .hide-minus {
     color: #415a61;
-    font-family: "quicksandbook", Arial, Helvetica, sans-serif;
+    font-family: 'lineto-circular-book', $1 /* was quicksandbook */, Arial, Helvetica, sans-serif;
     font-size: .9em;
     font-style: normal;
     font-weight: normal;
@@ -5000,7 +4980,7 @@ strong {
 }
 .show-plus {
     color: #36f;
-    font-family: "quicksandbook", Arial, Helvetica, sans-serif;
+    font-family: 'lineto-circular-book', $1 /* was quicksandbook */, Arial, Helvetica, sans-serif;
     font-size: .9em;
     font-style: normal;
     font-weight: normal;
@@ -5029,7 +5009,7 @@ strong {
 .view-manifesto-details h2 {
     color: #fff;
     background-color: #73dafe;
-    font-family: "festivo1", Arial, Helvetica, sans-serif;
+    font-family: 'lineto-circular-black',  Arial, Helvetica, sans-serif; /* was festivo1 */
     font-size: 1.5em;
     font-style: normal;
     font-weight: normal;
@@ -5046,7 +5026,7 @@ strong {
 }
 .view-manifesto-details-wrapper h1 {
     color: #333;
-    font-family: 'festivo1', Arial, sans-serif;
+    font-family: 'lineto-circular-black', Arial, sans-serif; /* was festivo 1*/
     font-size: 1.5em;
     margin: 0 0 10px;
     padding: 5px 0 10px 0;
@@ -5056,7 +5036,7 @@ strong {
 }
 .view-manifesto-details-wrapper h2 {
     color: #333;
-    font-family: 'festivo1', Arial, sans-serif;
+    font-family: 'lineto-circular-black', Arial, sans-serif; /* was festivo 1*/
     font-size: 1.3em;
     margin: 0 0 10px;
     padding: 5px 0 10px 0;
@@ -5066,7 +5046,7 @@ strong {
 }
 .view-manifesto-details-wrapper h3 {
     color: #333;
-    font-family: 'festivo1', Arial, sans-serif;
+    font-family: 'lineto-circular-black', Arial, sans-serif; /* was festivo 1*/
     font-size: 1.1em;
     margin: 0 0 10px;
     padding: 5px 0 10px 0;
@@ -5340,20 +5320,7 @@ only screen and (max-width: 470px) {
         background-position: 5px center
     }
 }
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-    @font-face {
-        font-family: 'quicksandbook';
-        src: url('fonts/CenturyGothic.svg') format('svg');
-        font-weight: normal;
-        font-style: normal
-    }
-    @font-face {
-        font-family: 'quicksandbook';
-        src: url('fonts/CenturyGothicBold.svg') format('svg');
-        font-weight: normal;
-        font-style: normal
-    }
-}
+
 #voting_stats_right_panel {
     position: relative
 }

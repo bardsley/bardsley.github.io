@@ -1,0 +1,12 @@
+/* Mobile Header */
+
+#mobileHeader {
+  margin-top:0; margin-left: 0;
+  background: var(--brand-pink)
+}
+
+#mobileHeader .mmdropdown .mmdropbtn { color: #fff; padding: 23px 0 0;}
+
+@media screen and (max-width: 767px) { 
+  #top-advertisement { display:none; }
+}

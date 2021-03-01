@@ -1,0 +1,22 @@
+@charset "UTF-8";
+:root {
+    --brand-pink: #e72981;
+    --dark-pink: #af105a;
+    --brand-text: #ffffff;
+    --backing-grey: #ddd;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+    @font-face {
+        font-family: 'quicksandbook';
+        src: url('fonts/CenturyGothic.svg') format('svg');
+        font-weight: normal;
+        font-style: normal
+    }
+    @font-face {
+        font-family: 'quicksandbook';
+        src: url('fonts/CenturyGothicBold.svg') format('svg');
+        font-weight: normal;
+        font-style: normal
+    }
+}

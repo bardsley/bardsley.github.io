@@ -13,7 +13,7 @@
 }
 
 /* Only target the main menu not submenus */
-#main-menu.menu>.menu-wrap>.nav-wrap>ul { display: flex; }
+#main-menu.menu>.menu-wrap>.nav-wrap>ul { display: flex; padding:0; margin:0;}
 #main-menu.menu>.menu-wrap>.nav-wrap>ul li {  float: unset;  flex-grow: 1; }
 #main-menu #searchscreenurl-menu-wrapper { display: none; }
 
@@ -59,6 +59,7 @@
     border-left: solid 20px var(--dark-pink);
     left: 5px;
     top: 0.6em;
+    padding-left:0;
 }
 
 #main-menu-wrap .nav-wrap ul li .top-submenu-wrapper ul li { border-right: none; }
@@ -78,7 +79,7 @@
 
 #main-menu .nav-wrap ul li .top-menu-name-wrapper>* a, #main-menu .nav-wrap ul li .top-menu-name-wrapper>a {
     display: block;
-    padding: 0.5em 1em;
+    padding: 0.5em 0.3em;
 }
 
 

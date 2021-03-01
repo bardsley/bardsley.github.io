@@ -20,27 +20,27 @@ $(document).ready(function () {
 });
 var topofDiv = $(".nav-wrap").offset().top; //gets offset of header
 var divheight = $(".nav-wrap").outerHeight(); //gets height of header
-$(window).scroll(function () {
+// $(window).scroll(function () {
 
-    if ($(window).scrollTop() < (topofDiv + divheight) && document.getElementsByClassName('nav-wrap')[0].style.position == "fixed") {
+//     if ($(window).scrollTop() < (topofDiv + divheight) && document.getElementsByClassName('nav-wrap')[0].style.position == "fixed") {
 
-        document.getElementsByClassName('nav-wrap')[0].style.position = "";
-        document.getElementsByClassName('nav-wrap')[0].style.top = "";
-        try {
-            document.getElementById('home-icon').remove();
-            document.getElementById('main-menu').getElementsByTagName('ul')[0].style.marginBottom = '0px';
-        } catch (err) { }
-    }
-    else if ($(window).scrollTop() > (topofDiv + divheight) && document.getElementsByClassName('nav-wrap')[0].style.position != "fixed") {
-        document.getElementsByClassName('nav-wrap')[0].style.position = "fixed";
-        document.getElementsByClassName('nav-wrap')[0].style.top = "0";
-        document.getElementById('main-menu').getElementsByTagName('ul')[0].style.marginBottom = '35px';
+//         document.getElementsByClassName('nav-wrap')[0].style.position = "";
+//         document.getElementsByClassName('nav-wrap')[0].style.top = "";
+//         try {
+//             document.getElementById('home-icon').remove();
+//             document.getElementById('main-menu').getElementsByTagName('ul')[0].style.marginBottom = '0px';
+//         } catch (err) { }
+//     }
+//     else if ($(window).scrollTop() > (topofDiv + divheight) && document.getElementsByClassName('nav-wrap')[0].style.position != "fixed") {
+//         document.getElementsByClassName('nav-wrap')[0].style.position = "fixed";
+//         document.getElementsByClassName('nav-wrap')[0].style.top = "0";
+//         document.getElementById('main-menu').getElementsByTagName('ul')[0].style.marginBottom = '35px';
         
 
-        $("#main-menu-wrap ul").first().prepend($('<li id="home-icon" class="no-child inactive"><div class="top-menu-name-wrapper"><a href="/" id="top-nav-level-one" class="top-nav-level-one-nomobilemenu ion-home"></a></div></li>'));
-        //document.getElementById('main-menu-wrap').getElementsByTagName('ul')[0].innerHTML = '<li id="home-icon" class="no-child inactive"><div class="top-menu-name-wrapper"><a href="/" id="top-nav-level-one" class="top-nav-level-one-nomobilemenu ion-home"></a></div></li>' + normalMenu;
-    }
-});
+//         $("#main-menu-wrap ul").first().prepend($('<li id="home-icon" class="no-child inactive"><div class="top-menu-name-wrapper"><a href="/" id="top-nav-level-one" class="top-nav-level-one-nomobilemenu ion-home"></a></div></li>'));
+//         //document.getElementById('main-menu-wrap').getElementsByTagName('ul')[0].innerHTML = '<li id="home-icon" class="no-child inactive"><div class="top-menu-name-wrapper"><a href="/" id="top-nav-level-one" class="top-nav-level-one-nomobilemenu ion-home"></a></div></li>' + normalMenu;
+//     }
+// });
 
 
 //MOBILE STICKY MENU
