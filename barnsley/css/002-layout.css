@@ -38,3 +38,5 @@ html * { box-sizing: border-box; }
   max-width: 600px;
   margin: 0 auto;
 }
+
+#dialog { display: none; }

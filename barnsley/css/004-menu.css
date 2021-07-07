@@ -12,7 +12,30 @@
 /* At this size the menu wont do the expand */
 @media screen and (min-width:737px) {
   #top-menu .phone-menu { display:none; }
-  #top-menu .nav-wrap { width: 100%; display:block; }
-  #top-menu .nav-wrap ul { display:flex; margin-top:0; justify-content: space-evenly; }
-  #top-menu .nav-wrap ul li { margin: 0 1em; padding:0; border:none;}
+  #top-menu .nav-wrap { width: 100%; display:block; z-index:1000;}
+  #top-menu .nav-wrap>ul { display:flex; margin-top:0; justify-content: space-evenly; flex-wrap:wrap;}
+  #top-menu .nav-wrap>ul>li { margin: 0 1em; padding:0; border:none; }
+
+  #top-menu .nav-wrap { position:relative; }
+  #top-menu .top-submenu-wrapper>ul { display:none; /*Overridden by JS*/
+    padding: 1em 0 0 0; 
+    position: absolute; top: 2em; margin: -0.8em 0 0 0;
+  }   
+  #top-menu .top-submenu-wrapper>ul>li { 
+    border-top: solid 1px var(--brand-text);
+    background: var(--brand-blue);
+    margin:0; padding: 0.5em 1em;
+  }
+
+}
+
+
+@media screen and (max-width:737px) {
+  /*   Top level menu items */ 
+  #top-menu .nav-wrap>ul>li>div:first-of-type a { font-weight:bold;  padding-top:1em;}
+  #top-menu .nav-wrap>ul>li>div:nth-of-type(2) { 
+    font-size: 0.9em;  padding-left: 1em;
+  }
+  .left-nav-content { display:none; }
+  .content-wrap { margin-left: 2.5%; margin-right: 2.5%; }
 }

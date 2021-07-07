@@ -1,3 +1,7 @@
+.bottom-union-wrap, .bottom-wrap { background: var(--dark-backing); color: #fff; color: var(--brand-text); }
+.bottom-union-wrap .edit-mode-page, .bottom-wrap .edit-mode-page { max-width: 980px; margin: 1em auto; padding: 4em 0; display: flex; }
+.bottom-union-wrap .address, .bottom-wrap .address { width: 50%; }
+.bottom-union-wrap .contact-info, .bottom-wrap .contact-info { width: 50%; }
 
 /*_*_* Onevoice Footer *_*_*/
 

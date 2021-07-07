@@ -1,0 +1,25 @@
+/* Event Page */
+
+.event-details-wrapper {
+  max-width:980px;
+  margin:0 auto; 
+}
+
+/* Hide Unused */
+.latestEventLeftSide,
+.clubSubMenu { display:none}
+
+/* Header image and title */
+.event-details-wrapper .left-nav-content { display:flex; margin-top: 1em; align-items: flex-start;}
+.event-details-wrapper .left-nav-content .thumbnail { order:1; }
+.event-details-wrapper .left-nav-content .title { order:2; margin-right: calc(168px + 1em); }
+
+.event-details-wrapper .left-nav-content .thumbnail { list-style:none; margin:0 1em 0 ; padding:0; }
+.event-details-wrapper .left-nav-content .thumbnail img { max-width: 96px; }
+
+#uc-events-details-page .contentBoxes { position:relative; }
+#uc-events-details-page .contentBoxes .eventheader { justify-content: flex-end;  padding-bottom:1em;
+  position:absolute; right:0; width:100%; top: -5em;
+}
+
+.eventheader h2 { display:none;}

@@ -1,0 +1,33 @@
+/* Group Page */
+
+#uc-groups-details-page { }
+#uc-groups-details-page .group_left_panel_menu ul { list-style:none; margin-left:0; padding-left:0;}
+#uc-groups-details-page .group_left_panel_menu ul.group-category li {display:none; }
+#uc-groups-details-page .group_left_panel_menu ul.group-category li:nth-of-type(1) { display:block; }
+#uc-groups-details-page .group_left_panel_menu .uc-tab-content-menu { display:none;} 
+
+#uc-groups-details-page .group_left_panel_menu { display: flex; flex-wrap:wrap; justify-content: center;  max-width:980px;
+  margin:0 auto;}
+#uc-groups-details-page .group_left_panel_menu > * { margin:0; }
+#uc-groups-details-page .group_left_panel_menu .title { order: 2; }
+#uc-groups-details-page .group_left_panel_menu .thumbnail { order: 1;}
+#uc-groups-details-page .group_left_panel_menu .group-category { order: 3; justify-self: flex-end;  flex-grow:1;}
+
+#uc-groups-details-page .group_left_panel_menu .thumbnail img { max-width: 96px; margin-right: 1em;}
+
+#uc-groups-details-page .group_left_panel_menu .title { margin-right: 1em; font-size: 1.4em; }
+#uc-groups-details-page .group_left_panel_menu .title h1 { margin:0;}
+
+#uc-groups-details-page .group_left_panel_menu .group-category h4 { margin: 0.5em 0 0 ;}
+
+#uc-groups-details-page .left-nav-content  { background: var(--brand-purple); padding: 1em; color:#fff;}
+
+#uc-groups-details-page .content-wrap { max-width:980px;
+  margin:0 auto;}
+
+#uc-groups-details-page .contentBoxes .button-top { display:none; }
+#uc-groups-details-page .button-top { display:block; }
+#uc-groups-details-page .button-top a { display:inline-block; 
+  text-decoration: none; color:#fff; background: var(--brand-purple); 
+  padding: 0.3em 0.5em;
+}

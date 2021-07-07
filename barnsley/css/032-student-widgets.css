@@ -1,0 +1,25 @@
+.uc-widget-student-voices-wrapper .uc-student-voice-widget-category { 
+  display: flex; list-style: none; padding:0; background: var(--brand-pink);
+   margin-bottom:0;
+}
+.uc-widget-student-voices-wrapper .uc-student-voice-widget-category li { margin-right: 0em; }
+.uc-widget-student-voices-wrapper .uc-student-voice-widget-category li a { display: block; padding: 0.5em 1em; color: var(--brand-yellow); text-decoratioN:none; font-weight: bold;}
+.uc-widget-student-voices-wrapper .uc-student-voice-widget-category li.selected { background: #fff; }
+.uc-widget-student-voices-wrapper .uc-student-voice-widget-category li.selected a { background: var(--brand-pink-faded); color: var(--brand-pink); }
+
+.uc-student-voice-widget-wrapper {
+  background: var(--brand-pink-faded); 
+}
+
+.uc-student-voice-widget-wrapper ul>li {
+  width: 100%; display:flex; padding: 1em; justify-content: space-between;
+}
+.uc-student-voice-widget-wrapper .uc-sv-widget-title a { font-weight:bold; color: var(--brand-pink-deep); text-decoration:none;}
+.uc-student-voice-widget-wrapper .uc-sv-widget-like-dislike-wrapper { width: 25%; margin-left: 1em; }
+.uc-student-voice-widget-wrapper .uc-sv-widget-like  { background: var(--notice-success); padding: 0.3em; text-align:center; color: #fff;}
+.uc-student-voice-widget-wrapper .uc-sv-widget-dislike  { background: var(--notice-error); padding: 0.3em; text-align:center;  color: #fff;}
+.uc-student-voice-widget-wrapper .uc-sv-widget-like:after { content: 'liked'; }
+.uc-student-voice-widget-wrapper .uc-sv-widget-dislike:after { content: 'disliked'; }
+.uc-student-voice-widget-more-link { background: var(--brand-pink); padding:0.4em; }
+.uc-student-voice-widget-more-link a { text-decoration: none; color: #fff; }
+

@@ -1,0 +1,35 @@
+.page-content-html .row.content .row { 
+  display: flex; 
+  max-width:980px;
+  margin:0 auto;
+}
+.page-content-html .row.content .row .left-nav-content { 
+  margin: 1em 1em 5em 0 ; 
+  min-width: 10em;
+  
+}
+
+.page-content-html .row.content .row .left-nav-content ul {
+  background: var(--brand-blue-faded); 
+}
+
+.page-content-html .row.content .row .left-nav-content ul { 
+  margin:0; padding:0; list-style:none; 
+}
+.page-content-html .row.content .row .left-nav-content ul>li {
+  padding: 0.5em ; margin:0;
+  border-bottom: solid 1px var(--brand-text);
+}
+.page-content-html .row.content .row .left-nav-content ul li a { 
+  text-decoration:none; color: #333; color: var(--brand-blue);
+  
+}
+
+.tree-navigation h3 { 
+  margin: 0em;
+}
+
+/* Main Page */
+.page-content-html .row.content .row .default-body { 
+   max-width:80%;
+}

@@ -1,0 +1,53 @@
+/* Events */
+
+/* Header & Menu */
+
+#event-homepage .heading {
+  background: var(--brand-blue-faded);
+  padding: 2.5em 2.5em 0 2.5em;
+}
+#event-homepage .heading h1 {
+  margin:0;
+}
+#event-homepage #left-panel ul { display:flex; margin:0; padding-left:2.2em; background: var(--brand-blue-faded);}
+#event-homepage #left-panel ul li { display:block; margin:0.3em;}
+#event-homepage #left-panel ul li a { display:block; padding:0.2em 0.5em; 
+  background: var(--brand-blue); color: #fff; text-decoration: none; 
+}
+#event-homepage #left-panel h3 { display:none; }
+
+#event-homepage .search { 
+  background: var(--brand-blue); padding: 1em 1em 1em 1.5em;
+}
+#event-homepage .search .search-button { border: solid 1px #fff; }
+
+
+/* Actual Listings  */
+#eventcarousel .event-type-title { padding: 1.5em 2em 0em;}
+#eventcarousel .event-type-title h2 { margin:0;}
+#eventcarousel .page-separator { padding-left: 2em;}
+#event-homepage {}
+#uc-event-right-panel-listing ul {
+  display: flex; flex-wrap: wrap; list-style: none; padding-left:2em; justify-content:center;
+}
+
+#uc-event-right-panel-listing ul li { border: solid 1px var(--brand-blue-faded); 
+  max-width: 400px; margin-right: 1%;
+   padding: 0.5em; margin-bottom: 0.66em;
+}
+#uc-event-right-panel-listing ul li .event-container a { display:flex; flex-wrap: wrap;
+  text-decoration:none; color: #113;
+  
+}
+
+#uc-event-right-panel-listing ul li .event-banner { order: 1; }
+#uc-event-right-panel-listing ul li .event-name { order: 2; }
+#uc-event-right-panel-listing ul li .event-details { order: 3; }
+
+#uc-event-right-panel-listing ul li .event-banner img { max-width: 64px; margin-right: 0.5em; }
+
+#uc-event-right-panel-listing ul li .event-name { font-size: 1.5em; width: calc(100% - 64px - 1em); }
+
+#uc-event-right-panel-listing ul li .event-details { padding: 1em 0;}
+#uc-event-right-panel-listing ul li .event-details p { margin:0 0 0.25em;}
+#uc-event-right-panel-listing ul li .event-details .venue { font-weight:bold;}

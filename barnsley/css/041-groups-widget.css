@@ -1,0 +1,46 @@
+/* Group Listing Widget */
+.uc-widget-groups .uc-widget-groups-left-panel {
+  background: var(--brand-purple); color: var(--brand-text);
+  padding:1em;  margin-top:1em;
+  
+}
+.uc-widget-groups .uc-widget-groups-left-panel h2 { margin:0 0 0.4em ;}
+
+.uc-widget-groups .uc-widget-group-search-box {
+  font-size: 1em; padding:0.2em 0.5em; border:none;
+  height: 1.75em
+}
+.uc-widget-groups .uc-widget-groups-summary { display:none; }
+.uc-widget-group-placeholder-186523 { overflow: hidden; }
+.uc-widget-groups .uc-widget-group-search-button { font-size: 1em;  letter-spacing:0.1em;
+  background:var(--brand-purple-faded);
+  border: none; height: 1.75em
+}
+
+.uc-widget-groups .uc-widget-groups-right-panel-wrapper>div   {
+  background: var(--brand-purple-faded);
+  position:relative;
+}
+
+.uc-widget-groups .reset-button-wrapper a { 
+  background: #fff; position:absolute; right:5px; top:-0.8em; 
+  border-radius: 50%; width: 1.5em; height: 1.5em;
+  display: flex; justify-content: center; align-items: center;
+  text-decoration: none;
+}
+.uc-widget-groups .uc-widget-groups-table { display:flex; flex-wrap:wrap; padding:1em;}
+.uc-widget-groups .uc-widget-group-row { display: contents; } 
+.uc-widget-groups .uc-widget-group-list { width:50%; }
+.uc-widget-groups .uc-widget-group-list a { text-decoration:none; }
+.uc-widget-groups .uc-widget-group-block { display:flex; color: var(--brand-purple-deep); }
+.uc-widget-groups .uc-widget-group-block .uc-widget-group-name { font-weight:bold; }
+.uc-widget-groups .uc-widget-group-block .uc-widget-group-details { font-size: 0.7em; }
+.uc-widget-groups .uc-widget-group-list img { border-radius: 50%; max-width: 64px; margin-right: 0.5em; }
+
+
+.uc-widget-groups .uc-widget-group-footer { background: var(--brand-purple); padding:0.2em; }
+.uc-widget-groups .uc-widget-group-pagination { width: 100%; display:flex; }
+.uc-widget-groups .uc-widget-group-pagination a { color: #fff; text-decoration: none; display:block; } 
+.uc-widget-groups .uc-widget-group-pagination a.previous-page {margin-right: 0.5em; }
+.uc-widget-groups .uc-widget-group-pagination a.widget-more-groups {flex-grow: 1; text-align: right; }
+.uc-widget-groups .uc-widget-group-pagination .disabled { color: rgba( 255,255,255,0.2); cursor:not-allowed;}

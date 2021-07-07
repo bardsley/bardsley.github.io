@@ -26,8 +26,11 @@ Should be run from dir below 'css'
   --brand-backing: #c4e6e3;
   --brand-pink: #e40177;
   --brand-pink-faded: rgba(228,1,119,0.3);
+  --brand-pink-deep: rgb(44, 8, 27);
   --brand-yellow: #cadb2b;
   --brand-purple: rgb(110,1,228);
+  --brand-purple-faded: rgb(212,179,247);
+  --brand-purple-deep: rgb(47, 11, 92);
   --dark-backing: #333339;
   --button-orange: #e37d16;
   --notice-success: #36a852;
