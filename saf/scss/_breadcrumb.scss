@@ -1,0 +1,12 @@
+#breadcrumb-container {
+    background: $hint-pink; width:100%; margin:0; max-width: 100%;
+    .breadcrumb { 
+        max-width: 1331px;
+        margin: 0 auto;
+        background:none;
+        a { color: $dark-pink; }
+
+        #crumbs li:last-of-type a { background:none; }
+    }
+}
+

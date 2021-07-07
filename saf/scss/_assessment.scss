@@ -1,0 +1,88 @@
+/* Assesment System */
+
+.row.content { min-height:unset; }
+
+.fw-assessment { 
+    * { float:unset; clear:unset;  }
+
+    .uc-vol-profile-tab-content {
+        display: flex;
+        flex-wrap:wrap; 
+        .uc-vol-tab-links { 
+            display:flex; 
+            width:100%;
+            border-bottom-color: $dark-pink;
+            background-color: $hint-pink;
+            a { display:block; border: none; }
+            a.selected { border: none; background-color: $dark-pink; }
+        }
+
+        >.clear {
+            display:flex;
+            width: 100%; 
+            #principle-activities {
+                padding-left: 30px; 
+                .float-right.add-activity {
+                    float:right;  border-color: $base-pink; background-color: $hint-pink; color: $dark-pink; font-weight:bold; 
+                }
+            }
+        }
+
+        .tree-navigation.threecol {
+            .selected { background-color: $dark-pink; }
+        }
+
+        h1 { color: $base-pink; border-color: $hint-pink;}
+        .download-assessment { width: 100%; }
+    }
+    .development-last-updated-by, #development-last-updated-by { width: 100%; }
+    .assessment-last-updated-by { 
+        width: 100%;   
+        border-radius: 10px; border: solid 1px $faded-info; 
+        .fw-info { border-radius: 8px 0 0 8px; background-color: $faded-info; color: $base-info; }
+        #assessment-last-updated-by { padding-top: 8px; color: $base-info; }
+    }
+
+    
+}
+
+.download-assessment { height:unset; }
+
+/* Buttons */
+.criteria-box .resources, .download-assessment  {
+    a.add-dev-plan, a {
+        border-color: $base-pink; background-color: $hint-pink; color: $dark-pink; font-weight:bold; 
+        padding: 0.9em 0.8em 0.9em 3.3em ;
+    }
+    .upload-resource { margin-left:1em; float:left;  }
+    
+}
+.criteria-box .clear{ clear:both; }
+.download-assessment a { background-position-y: -70px; }
+.criteria-box .resources a { background-position-y: -275px; }
+.criteria-box .resources a.add-dev-plan { padding-left:1.3em; }
+
+.row .buttonLink, .action.input_action input {
+    background-color: $base-pink;
+}
+
+
+#principle-details {
+    .description p { margin-bottom:1.3em; }
+    ul { padding-left: 1.5em; margin-top: 1em; }
+    h1 { font-size: 2.4em; color: $base-pink; font-weight:normal }
+    h2 { font-size: 1.8em; color: $base-pink; font-weight:normal }
+    .button { font-size: 1em; padding: 0.5em 2em;  border-radius: 2em; margin: 1em 0 0.5em 0; float:unset; display:inline-block; width:auto; background: $base-pink;}
+}
+
+.criteria-detailed { 
+    display: flex; flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 2em;
+    padding-bottom: 2em;
+    border-bottom: solid 2px $base-pink;
+
+    .details { width: 100%; }
+    .example-evidence { width: 48%; }
+    .example-questions { width: 48%; }
+}

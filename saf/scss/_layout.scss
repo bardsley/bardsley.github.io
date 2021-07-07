@@ -1,0 +1,89 @@
+.row.content { padding-top: 65px; }
+
+// Slider
+#hero-image {  width: 100%; background:$dark-purple; overflow: hidden; }
+#hero-image-wrap { margin: 0 auto; width: 1440px; max-width:100%; background:$dark-purple; }
+
+.jcarousel-container-horizontal { 
+    position: absolute !important; bottom: 20px; z-index:100; width: 100%;
+}
+.uc-rslides_container {  }
+
+.uc-slider-wrapper .uc-rslides_container {
+    padding-bottom: 0;
+
+    .centered-btns_nav.prev,.centered-btns_nav.next {
+        background-position-y: -10px;
+        border-radius: 50%;
+        height: 40px;
+    }
+}
+.signin-block {
+    span.error {
+        margin: 0 auto; 
+        * { box-sizing: border-box; }
+        width: 550px; top:70px; height: 2em; 
+            border: solid $faded-danger 3px;
+            background-color: $base-danger;
+            padding-left:1em;
+            color: $white; font-size: 1.1em; line-height: 2em;
+            background-image: none; 
+    }
+    #new_user { // Signin form
+        width: 30em; margin: 0 auto; 
+        * { box-sizing: border-box;}
+        #user_email,
+        #user_password,
+        #token-input-user_fw_organisation_ids { width: 100%; font-size: 1.4em; padding: 0.8em; box-shadow: none;  }
+        .token-input-list-facebook { 
+            font-size: 0.9em; 
+            .token-input-token-facebook { font-size: inherit; }
+        }
+        .password-block { 
+            width: 105%; margin: 0 -2.5%; 
+    
+        }
+        #user_submit_action .button { background-color: $base-orange;}
+    }
+}
+
+.uc-cookie-block { 
+    * { box-sizing: border-box; }
+    position:fixed; width: 30em; bottom: 2em; right: 2em; left:unset; 
+    background: $white; border-radius: 1.6em;
+    .uc-cookie-block-wrapper { 
+        width: 100%;
+        padding: 2em;
+
+        h2,p { color: $dark-grey; }
+        p { font-size: 1em; line-height: 1.5em; }
+        a.uc-cookie-find-more { text-decoration: underline; color: $base-orange; font-size: 1em }
+        #uc-cookie-continue-id { 
+            border: solid 1px $base-success; border-radius: 1em;  background-color: $faded-success; color: $white; background-position-x: 13px;
+            padding: 0.5em 1em 0.7em 2.4em ;
+            margin-top: 0.5em; display:inline-block; 
+        }
+    }
+}
+
+#student_view_notice {
+    #notice_and_error {
+        * { box-sizing: border-box;}
+        #notice { 
+            width: 980px; top:70px; height: 3em; 
+            border: solid $faded-success 3px;
+            background: $base-success;
+            padding-left:1em;
+            color: $white; font-size: 1.1em; line-height: 2em;
+            a::before { content: 'X';} 
+            a { 
+                display:block; 
+                background-image: url('https://nusdigital.s3.amazonaws.com/image/images/346271/original/close.png');
+                width: 30px; height: 30px;
+                background-size: 100%;
+               
+            }
+        }
+    }   
+    
+}

@@ -1,0 +1,28 @@
+body[class^="uc-page-class-"], div[class*=" uc-page-class-"] {
+    .row.content {
+        .row { 
+            display: flex;
+
+            .left-nav-content { 
+                width:unset;
+                max-width: 24%;
+                padding-right: 30px;
+
+                .tree-navigation { 
+                    background:none; 
+
+                    .nav-level-one h3 {
+                        margin:1em 0 0; padding:0;
+                        a { color: $base-pink; }
+                        a.selected { color: $white; background: $base-pink; padding: 0.5em 1em ;}
+                    }
+
+                }
+
+                #uc-left-navigation li { 
+                    border-color: $hint-pink;
+                }
+            }
+        }
+    }
+}

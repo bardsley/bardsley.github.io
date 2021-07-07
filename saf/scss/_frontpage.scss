@@ -1,0 +1,198 @@
+
+.content-wrap>.section.list { 
+    .list-wrap { 
+        max-width: 1440px; margin:0 auto; padding: 2em 2em;  
+        text-align: center;
+        font-size: 1.4em;
+        h1 { font-weight:normal; font-size: 2em; color:inherit; border:none; }
+        
+        .horizontal-buttons { display: flex; justify-content: center; margin-top: 2em; }
+        .horizontal-buttons a { display:block; 
+            border-radius: 2em; border: solid 2px $white;
+            color: $white; text-decoration: none; 
+            margin: 0 1em; padding: 1em 2em; 
+            min-width: 13em;
+
+        }
+    }
+}
+.section h2 {
+    color:inherit; font-size: 2em;
+}
+
+.section.column.mint,
+.section.list.mint {
+    background-color: $hint-mint;
+    .column-wrap,.list-wrap { 
+        color: $dark-mint;
+        .horizontal-buttons a { background-color: $base-mint; }
+    }
+}
+.section.column.orange,
+.section.list.orange {
+    background-color: $hint-orange;
+    .column-wrap,.list-wrap { 
+        color: $dark-orange;
+        .horizontal-buttons a { background-color: $base-orange; }
+    }
+}
+
+.section.column.pink,
+.section.list.pink {
+    background-color: $hint-pink;
+    .column-wrap,.list-wrap { 
+        color: $dark-pink;
+        .horizontal-buttons a { background-color: $base-pink; }
+    }
+}
+
+.content-wrap>.section.column { 
+    width: 100%; 
+    .column-wrap {
+        margin: 0 auto; max-width:1440px;
+        display:flex; flex-wrap: wrap;
+    }
+    
+}
+
+#video-and-news {
+    margin:2em 0;
+
+    #left-column-column-content { 
+        max-width: 560px;
+    }
+
+    
+    #right-column-column-content { 
+        max-width: 100%;
+        // width: calc(100% - 560px - 2em); 
+    }
+    
+
+    #latest-articles>div {
+        .article-widget .top-articles li .article-content .article-description,
+        .article-widget.with-image-description .top-articles li .article-description { font-size: 1.1em; line-height: 1.2em; }
+
+        .jcarousel-container-vertical { background: $hint-orange; }
+        .jcarousel-prev-vertical, .jcarousel-next-vertical { background-color: $base-orange; opacity:1; }
+        .jcarousel-next-vertical { bottom:0px; }
+        .jcarousel-nerxt-disabled-vertical, .jcarousel-prev-disabled-vertical { display:none; }
+        .article-widget { 
+            
+            color: $dark-orange;
+            height: 470px;
+            .jcarousel-clip-vertical { 
+                margin:29px 0; width:100%; height: 400px;
+            }
+
+            .top-articles li {
+                border-color: $dark-orange; margin:0; width:calc( 100% - 3em ); padding: 1.5em; 
+            }
+            .date a { color: $dark-orange; margin-bottom:0;}
+            .headline { margin-top:0; padding-top:0;}
+            .headline a { font-size: 1.6em; 
+                color: $dark-orange; 
+            }   
+            .article-thumbnail { display:none; }
+            .article-content { 
+                padding-left:0;
+            }
+        }
+
+        .more-articles::before { content: 'Show '; }
+        .more-articles { 
+            position: relative; top:unset; right:unset;
+            display:block; margin-top: 2.5em;
+            font-size: 1em; 
+        }
+        .more-articles::after { content: ' \00bb'; }
+    }
+}
+
+
+#podcasts-events { 
+    margin:5em 0 0 ;
+    padding-top:2em; 
+    h2 { padding-bottom:0; }
+    #podcaset-events-wrap { flex-wrap: nowrap; }
+    #podcasts-section-column-content {
+        width:400px; 
+        #podcast-player-wrapper { background: $white; padding: 1em; }
+        #podcast-list {
+            list-style:none; margin-bottom:1em; 
+            li a { display:block; background-color: $base-orange;  color: $white; margin-bottom: 0em; padding: 0.5em 1.5em; border-bottom: 1px solid $white; }
+            max-height: 21.5em; overflow-y:scroll; overflow-x: hidden; scrollbar-color: $dark-orange $base-orange;
+        }
+        #podcast-list::-webkit-scrollbar { background-color: $white; }
+        #podcast-list::-webkit-scrollbar-thumb { background-color: $base-orange; }
+    }
+    #events-column-content {    
+        flex-grow: 1;
+        
+        h2 { padding-bottom: 0; margin:0; }
+        .uc-widget-upcoming-events {
+
+            position:relative;  top: -1.2em;
+
+            .threecol { width: 100%;}
+            .ninecol { width:100%; }
+            .uc-upcoming-event-widget-title {
+                display:none; 
+            }
+            .uc-widget-upcoming-events-wrapper {
+
+                #uc-widget-upcoming-events-right-panel {
+                    background:none; 
+                    .with-image-description {
+                        padding:0;
+
+                        .eventsearch { position:absolute; top: 1.2em; }
+                    }
+                    
+                    .uc-widget-upcoming-event-footer { 
+                        background: none; padding-top:1em;
+                        .uc-widget-upcoming-event-pagination { float:left; }
+                    }
+
+                    .uc-widget-upcoming-event-row { 
+                        display: flex; flex-wrap:wrap;
+                        .upcoming-event-container { float:unset; * { float:unset; } }
+                        .upcoming-event-container { 
+                            border:none; max-width: 240px; margin-right: 1em; 
+                            .event-banner{ 
+                                margin:0 0 -4px 0; padding:0; background:red; 
+                                img{ padding:0; margin:0; }
+                            }
+
+                            .event-details { background: $base-orange; padding-top:1em; margin-top:0;}
+                            .event-name { 
+                                width: calc(100% - 2em); background: $base-orange; overflow:unset; 
+                                text-overflow: unset; font-size: 1em; white-space: normal; 
+                                padding: 0 1em 1em;
+                            }
+                        } 
+                    }
+                }
+                #uc-widget-upcoming-events-left-panel .tree-navigation { 
+                    background: none;
+                    margin-left: 14.4em; 
+                    h3 { color:inherit; border-bottom:none; }
+            
+                    ul { 
+                        display: flex; 
+                        li { 
+                            a { color: inherit; }
+                            border:none; background: rgba(255,255,255,0.3); border-radius: 0.5em; 
+                            padding: 0.5em 1em; margin: 0 0.2em 0 0;
+                        }
+                        li.selected { background: rgba(0,0,0,0.1); a { color: inherit; } }
+                    }
+                    
+                }
+
+            }
+                
+        }
+
+    }
+}

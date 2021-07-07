@@ -1,0 +1,25 @@
+.registration-form {
+    font-size: 1em; 
+    fieldset ol {
+        li.unionemail p,
+        li.nusemail p,
+        li.commercialemail p,
+        li.nusemail .label-unionemail-wrapper,
+        li.smipost .label-smipost-wrapper,
+        li.smipost p,
+        li.unioncommercialemail p,
+        li.userdataconsent p { font-size: 1em;}
+        .input  {
+            label { font-size: 1em; }
+            input { padding: 0.5em 1em; background-image:none; font-size: 1em;}
+            input:disabled { color: $base-grey; background: $hint-grey; }
+            #user_email { width: 25em; }
+        }
+    }
+    
+    
+    .user-profile-picture-wrapper {
+        display:none;
+    }
+}
+

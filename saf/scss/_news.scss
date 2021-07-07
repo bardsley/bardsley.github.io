@@ -1,0 +1,28 @@
+// body[class^="uc-page-class-"], div[class*=" uc-page-class-"] { 
+#uc-articles-news {
+ 
+    .uc-result-count { display:none; }
+
+    .uc-articles-page-wrapper { 
+        display:flex; flex-direction: column;
+        .uc-articles-wrapper { order: 1; }
+        .page-separator { order: 2; }
+        img[src^="https://www.unioncloud.org/assets/default"] { display:none; }
+
+        .featured-news-block {
+            h2.news-headline { font-size: 1.75em; }        
+            .featured-news-block-content { display: flex; flex-direction: column; justify-content: flex-end; min-height: 25em; }
+        }
+        
+        .uc-articles-row {
+            display:flex; 
+            .uc-articles-block { max-width:33%; width:unset; }
+        }
+
+        .uc-articles-list-block { 
+            .uc-news-headline h3 a, .uc-articles-summary { font-size: 1em; }
+            .uc-news-date-time a {  font-size: 0.8em; }
+         }
+    }
+
+}

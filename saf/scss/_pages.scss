@@ -1,0 +1,58 @@
+body[class^="uc-page-class-"], div[class*=" uc-page-class-"] { 
+
+    .row.content {
+        
+        .row { 
+            display: flex;
+            margin-top: 1em;
+            /* Menu styles loaded at this level so these only apply in 2 column mode */
+            >.content-wrap.ninecol {
+                max-width: 76%;
+                >div {
+                    padding-left: 48px;
+                    background-position: -10px top;
+                }
+            }
+
+            >.content-wrap,
+            >.content-wrap.ninecol {
+                width:unset;
+               
+                padding-left: 0px;
+
+                
+
+                .inside-border-padding>h1:first-of-type { margin:0; }
+
+                p { font-size: 1em; }
+                a { color: $base-pink; }
+                hr { background-color: $base-pink; border:none; height: 4px; margin: 2em 2em;}
+
+                // Headers 
+                h1,h2,h3,h4 { color: $dark-pink; border-color: $base-pink; padding:0 0 0.2em; margin: 1em 0 0.2em; }
+                h1 { font-size: 2.2em; }
+                h2 { font-size: 1.6em; }
+                h3 { font-size: 1.4em; }
+                h4 { font-size: 1.1em; }
+                h5 { font-size: 1em; }
+
+                input[type="submit"],input[type="button"],input[type="reset"],button {  
+                    background-color: $base-pink; border: none; padding: 0.4em 1em; font-size: 1em; cursor: pointer;
+                }
+                input,option,select { font-size: 1em; } 
+                textarea { font-size: 1.3em; }
+                input[type="submit"]:disabled,button:disabled { color: rgba(0,0,0,0.3); background-color: $faded-pink; cursor: not-allowed;}
+                input[type="reset"] { border: solid 1px $base-danger; color: $base-danger; background-color: unset; }
+
+                blockquote { 
+                    background: $hint-pink;
+                    padding: 1em; 
+                    margin-top: 1em;
+                    border-color: $base-pink;
+                    p:last-of-type { margin:0; }
+                }
+
+            }
+        }
+    }
+}

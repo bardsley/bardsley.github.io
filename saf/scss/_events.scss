@@ -1,0 +1,74 @@
+#event-homepage {
+
+    display:flex; flex-wrap:wrap;
+
+    .heading h1 { display:none; }
+
+    #left-panel { 
+        width: 100%; background: none;
+        margin-top:1em; 
+        .tree-navigation { padding:0; background: none; }  
+        h3 { display:none; }
+        ul { 
+            display:flex;
+            li { border-radius: 0.3em; border:none; }
+            li.selected { background: $base-orange; }
+        }
+    }
+
+    #right-panel { 
+        width: 100%; 
+        #eventcarousel { 
+            background:none; 
+            .event-type-title h2 { border: none; background:none; }
+
+            #uc-event-right-panel-listing ul {
+                display:flex; 
+                li { 
+                    
+                    max-width: 20em; 
+                    .event-container {
+                        width:auto;
+                        .event-box {
+                            * { box-sizing:border-box; }
+                            margin:0;
+                            * { float:unset;}
+                            display: flex; flex-direction: column;
+                            img { width: 100%;}
+                            .event-name { 
+                                text-overflow: unset; overflow: unset; white-space:normal; 
+                                background: $base-orange; padding:0.2em 1em; 
+                                width: 100%; min-height: 3em; order: 2
+                            }
+                            .event-banner { margin: 0 0 0; padding:0; width:100%; order: 1; margin-bottom: -3px; margin-right: -2px;}
+                            .event-details {
+                                order: 3;
+                                width: unset; margin: 0.5em 0 0 0;
+                                .venue::before { content: 'Location:'; font-weight:bold;}
+                                .venue {  }
+                                .event-status { display:none;}
+                                .event-date::before { content: 'When: '; font-weight:bold; }
+
+                            }
+                            
+                        }
+                    }
+                    
+                    margin-right: 1em;
+                    // border: solid 1px red; 
+                    box-shadow:         4px 4px 4px 2px #ddd;
+                }
+                
+            }
+        }
+    }
+}
+
+body[id^="union-event-id-"], div[id*=" union-event-id-"] { 
+    .threecol .title, .clubSubMenu { display:none; }
+    .event-details-wrapper { margin-top: 2em; }
+    .tree-navigation { 
+        ul.latestEventLeftSide li.selected, 
+        .thumbnail li.selected { border: none; }
+    }
+}

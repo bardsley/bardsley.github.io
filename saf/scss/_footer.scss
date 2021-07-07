@@ -1,0 +1,26 @@
+
+#saf-default {
+    .bottom, .bottom-union, .bottom-subsite { 
+        background-color: $base-pink;
+        border-top: 10px solid $dark-pink;
+        .section.powered-by {
+            background-color: $base-pink;
+            border-top:unset;
+        }
+    }
+
+    .column .column-content { min-height: unset;}    
+    .logos p { display:flex; align-items: center;}
+    .logos img { 
+        max-height: 120px; margin-right: 1em;
+    }
+    #nus-logo { height:80px; }
+    #sparqs-logo { height: 120px; }
+    #sfc-logo { height: 100px;}
+}
+
+.uc-poweredby-nusdigital-logo-wrapper { 
+    text-align:center;
+    .floatRight { float:unset; }
+    a { display:flex; justify-content: center; }
+}

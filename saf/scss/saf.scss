@@ -1,0 +1,26 @@
+@import 'variables.scss';
+@import 'header.scss';
+@import 'footer.scss';
+@import 'layout.scss';
+@import 'menu.scss';
+@import 'breadcrumb.scss';
+
+@import 'frontpage.scss';
+@import 'pages.scss';
+@import 'assessment.scss';
+@import 'events.scss';
+@import 'news.scss';
+@import 'resource-homepage.scss';
+@import 'registration.scss';
+@import 'podcasts_page.scss';
+
+@import 'media_query_fixes.scss';
+
+// General Reset 
+.content .row .content-wrap ul  ,
+.column .column-content { font-size: 1em; }
+p, s.content .row .content-wrap p { font-size: 1em; line-height: 1.4em; }
+.contentContainer { padding-top: 2em; }
+h1,h2,h3,h4 { color: $text-default;}
+
+

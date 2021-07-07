@@ -1,0 +1,69 @@
+#resource-homepage {
+    
+    .page-separator { display:none; }
+
+    .uc-document-list {
+        display: inline-flex; flex-wrap:wrap;
+        .uc-document-row {
+            display: inline-flex; flex-wrap:wrap;
+            .uc-document-block {
+                width: 40%; float:unset;
+                border: unset; -webkit-box-shadow: unset; 
+                .uc-doc-bg-ext,
+                .uc-doc-cover-image { float: left; margin-right: 0.5em; margin-bottom: 1.5em; }
+
+                .uc-document-titles h2 { font-size: 1.3em; }
+                
+                .uc-doc-upload-time,
+                .uc-resource-summary { font-size: unset; clear:none; }
+                
+                .uc-resource-show-download {
+                    display:flex; justify-content: flex-end; clear:left;
+                    .uc-resource-download-link, .uc-resource-details-link {
+                        background: $base-pink; padding: 0.5em 1em; font-size: 1em;  
+                        float:unset;
+                    }
+                }
+            }
+        }
+    }    
+    #load_more_doc a { box-shadow: none; background:none; display:block; width: 20em; margin: 0 auto; border-radius: 1em; border: solid 1px $base-pink; color: $base-pink; }
+}
+
+#uc-resource-details { 
+    * { box-sizing:border-box; }
+    .clear { clear:unset; }
+    h1 { display:none; }
+    .uc-resource-details-wrapper {
+        .uc-resource-name-summary { width: 80%; margin-left:0; float:left; }
+        .uc-resource-img { width: 20%; float:right; 
+            img{ width:100%; border: solid 1px $base-grey; }
+         }
+        .uc-resource-download-link { 
+            float:right; clear: right; width: 20%; 
+            font-size: 1em;
+            .uc-download-file-button { // Had to override using important as base styles use !important
+                border-color: orange !important; 
+                background-color: $base-orange !important; 
+                color: $white !important;
+                height: 2.8em !important;
+                padding: 1em !important; margin: 0.5em 0 !important;
+                line-height: 0.8em !important;
+            }
+            .uc-doc-extension { font-size: 0.8em; }
+        }
+        .uc-resource-date-time { clear:unset; border: none; 
+            .uc-doc-upload-time { clear:unset; }
+         }
+        .uc-resource-description { clear:unset; font-size: 1em; }
+        .uc-resources-tags { 
+            clear:unset; font-size: 1em; 
+            color: $dark-orange; 
+            .uc-resources-tags-heading  { 
+                margin-top: 1em; font-size: 1em;
+            }
+            p { }
+        }
+
+    }
+}
