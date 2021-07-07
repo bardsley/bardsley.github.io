@@ -1,0 +1,6 @@
+/* These have been applied direct and may have been post changes made after the contract */
+
+/* Fix 1 - AB asked by Lydia Blundell - Nominations Fix for mobile accoutn view - 9/4/21 */
+@media only screen and (max-width: 767px) {
+    .page-content-html .wrapper .row.content .my-nominations-grid .wice-grid td { padding-left: 45%; }
+}

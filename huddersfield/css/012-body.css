@@ -1,7 +1,7 @@
 /* Body restucture */
 .content  { 
   max-width: 960px;
-  margin: -90px auto; /* Advert space leads to a negative margin */
+  margin: -90px auto 0; /* Advert space leads to a negative margin */
   float:unset;
   background: var(--backing-grey);
 }

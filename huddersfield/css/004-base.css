@@ -1547,7 +1547,7 @@ html .wrapper .row.content .tree-navigation-structure ul#uc-left-navigation li .
     padding-top: 10px;
 }
 #latest-events .event-widget {
-    height: auto;
+    /* height: auto; */
 }
 #latest-events .event-widget .jcarousel-clip {
     height: 100%;

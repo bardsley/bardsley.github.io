@@ -1,0 +1,25 @@
+Huddersfiueldstudent.com - causing cookie issues and appears not top be sued anymore
+Remove the auto loading compleixty code, it shouldnt be needed and is a legacy
+Quality mark - doesnt work and is loading from an apparently unused server  http://dev.huddersfield.su/hudpress/aqm/index.php
+Old burger menu toggle drafted - https://www.huddersfield.su/administrator/sites/3521/pages/53549/edit?locale=en
+UIKit - hefty download and searching for it's usage. Disabling doesn't appewart to have any impact
+Nav redesign 2017 - adds a small (additional) menu icon on pages with submenus, it's confusing and unecessary and wastes r4esources loading it. Have left in as would need a replacement
+Sticky menu - remove?
+Auth token - randomly requests an Auth token from https://ta3design.com/HUDSU_API_TOKEN/ appears to be dead?
+Move JS loaded randomly in middle of footer, may be used for stylistic. remove and monitor
+Trab issue tracking removed - commented so can be renabled
+Disabled to welcome screen on old branding
+Disabled the loader from the top - easy to re-enable at https://www.huddersfield.su/administrator/sites/3521/pages/83619/edit
+Signin is main issue, causing cross domain stuff, might not be a trivial fix
+Unused additional menu - commented
+General feedback multiple piece of code doing same thing
+Large Header images
+
+Todo
+
+move the getPageTitle to somewhere always loaded, like maybe
+
+Page main script doesn't check for safety and fails. This means menu editing code at bottom never runs
+A different script elsewhere edits the menu so the menu works
+If the main script is repaired then this menu editing code will run twice, at best wasting energy and making debugging harder at worst (and currently) it will break the menu
+If removed will menu still work https://www.huddersfield.su/administrator/sites/3521/pages/83158/edit
