@@ -1,0 +1,533 @@
+/* =========
+   ELECTIONS
+   ========= */
+
+   #uc-evoting-election {
+    margin-top: 100px;
+}
+
+#uc-evoting-election:before {
+    content: 'Election Voting';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -40px;
+    font-family: "museo-sans", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color:$elections-base;
+    background:$elections-light-bg;
+}
+
+#uc-election-listing {
+    font-size: 18px;
+}
+
+#election-info-notice {
+    border-top: 3px solid$elections-base;
+    padding: 15px 20px;
+    background:$elections-light-bg;
+    margin-top: 20px;
+}
+
+#election-info-notice h4 {
+    color:$elections-base;
+    margin-bottom: 5px;
+}
+
+#election-info-notice p {
+    line-height: 1.4em;
+}
+
+.uc-election-wrapper {
+    background: none;
+    border: 0;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.uc-election-wrapper:last-child {
+    margin: 0;
+}
+
+h2.uc-election-name {
+    font-size: 32px;
+    font-family: "museo-sans", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color:$elections-base;
+}
+
+.evo-timer.hasCountdown {
+    width: auto;
+}
+
+.evo-timer.hasCountdown h3 {
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color:$elections-base;
+}
+
+.hasCountdown #timewrap {
+    text-align: center;
+}
+
+.hasCountdown p .digit {
+    float: none;
+    display: inline-block;
+}
+
+.hasCountdown .timer {
+    display: inline-block;
+    float: none;
+    padding: 0 4px 0 0;
+}
+
+.evo-timer.hasCountdown h4 {
+    margin: 0;
+    font-size: 12px;
+    color:$elections-base;
+}
+
+.uc-election-category-list {
+    padding: 20px 0 0 0;
+    margin: 0;
+}
+
+.uc-election-category {
+    box-shadow: none;
+    background:$elections-light-bg;
+    margin: 0 0 30px 0;
+    border-top: 3px solid$elections-base;
+    padding: 20px 25px;
+}
+
+.uc-election-category:last-child {
+    margin: 0;
+}
+
+h3.uc-cat-name {
+    font-family: "museo-sans", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color:$elections-base;
+    text-transform: none;
+    font-size: 24px;
+    padding: 0;
+    margin: 0 35px 15px 0;
+}
+
+.uc-cat-description {
+    font-size: 18px;
+    line-height: 1.4em;
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+    color: $brand-navy;
+}
+
+.toggle-category {
+    display: none;
+}
+
+.uc-cat-description .show-plus {
+    padding-left: 0;
+    background: none;
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+.uc-positions {
+    padding: 15px 20px;
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+    background: $white;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.toggle-details {
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+    color: $brand-blue-bright;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+.uc-position-content-wrapper {
+    margin: 0;
+}
+
+.uc-position-responsibilities {
+    margin-top: 15px;
+}
+
+.uc-position-candidates h4, .uc-position-responsibilities h4, .uc-select-candidates h4 {
+    background:$elections-base;
+    color: $white;
+    font-family: "museo-sans", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    padding: 8px 15px;
+}
+
+.uc-resp-content, .uc-candidates-content {
+    background:$elections-light-bg;
+    font-size: 18px;
+    padding: 15px;
+}
+
+.uc-resp-content p, .uc-candidates-content p, .uc-select-candidates-wrapper p {
+    margin-bottom: 5px;
+}
+
+.uc-resp-content p:last-child, .uc-candidates-content p:last-child, .uc-select-candidates-wrapper p:last-child {
+    margin: 0;
+}
+
+.uc-candidates-content ul li {
+    padding: 0;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.uc-candidates-content ul li:last-child {
+    margin: 0;
+}
+
+.uc-candidate-listing .uc-can-wrapper {
+    box-shadow: none;
+}
+
+.uc-position-details a {
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: $brand-blue-bright;
+}
+
+.uc-position-details a:before {
+    content: "\f24a";
+    margin-right: 5px;
+}
+
+.jqmOverlay {
+    display: none;
+}
+
+#view-manifesto-dailog.jqmWindow {
+    width: auto;
+    top: 0;
+    bottom: 0;
+    box-shadow: none;
+    padding: 0;
+    background: #000;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.view-manifesto-details {
+    background: $white;
+    width: 800px;
+    height: 500px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-top: 3px solid $elections-medium;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.75);
+}
+
+#view-manifesto-dailog .jqmClose {
+    right: calc((100% - 800px) /2);
+    top: calc((100% - 500px) / 2);
+    background: none;
+    text-indent: 0;
+    height: 50px;
+    padding: 3px 20px 0 0;
+    font-size: 24px;
+    white-space: nowrap;
+    text-align: right;
+    font-size: 0;
+    color: $elections-medium;
+}
+
+#view-manifesto-dailog .jqmClose:after {
+    content: "\f00d";
+    font-size: 24px;
+    line-height: 50px;
+}
+
+.view-manifesto-details h2 {
+    font-family: "museo-sans", Arial, Helvetica, sans-serif;
+    color: $elections-medium;
+    background:$elections-light-bg;
+    line-height: 50px;
+    margin: 0;
+    padding: 0 50px 0 20px;
+    border: 0;
+    font-weight: 700;
+}
+
+.view-manifesto-details-wrapper {
+    height: 420px;
+    padding: 15px 20px;
+}
+
+.view-manifesto-details-wrapper p {
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+    line-height: 1.4em;
+    margin-bottom: 1.3em;
+    font-size: 18px;
+    color: $brand-navy;
+}
+
+.view-manifesto-details-wrapper strong {
+    font-family: unset;
+    color: unset;
+}
+
+.view-manifesto-details-wrapper ul, .view-manifesto-details-wrapper ol {
+    font-size: 18px;
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+    color: $brand-navy;
+    line-height: 1.4em;
+}
+
+.view-manifesto-details-wrapper ul li {
+    margin: 0 0 0.6em 50px;
+    padding-left: 10px;
+}
+
+.uc-select-candidates-wrapper {
+    margin: 15px 0 0 0;
+    padding: 0;
+    background: none;
+    font-size: 18px;
+}
+
+.uc-can-preference-reset, .uc-can-preference-reset:hover {
+    float: right;
+    letter-spacing: normal;
+    color:$elections-base;
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.uc-candidates-preferences {
+    margin-top: 15px;
+}
+
+.uc-select-candidates dl dt {
+    padding: 0;
+    margin: 0 0 10px 0;
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color:$elections-base;
+    line-height: 40px;
+}
+
+.uc-select-candidates dl dd {
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+
+.uc-candidates-preferences select {
+    width: calc(100% - 80px);
+    font-size: 18px;
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+    height: 40px;
+    border: 1px solid$elections-base;
+    padding: 0 10px;
+}
+
+.uc-candidates-preferences select option:disabled {
+    color: #FFCDD2;
+}
+
+.uc-position-button {
+    margin-top: 15px;
+    padding: 0;
+}
+
+#uc-election-summary .uc-elec-summary-wrapper h2 {
+    color:$elections-base;
+    font-weight: 700;
+    font-family: "museo-sans", Arial, Helvetica, sans-serif;
+    margin: 0 0 10px 0;
+    text-transform: none;
+    font-size: 24px;
+}
+
+.uc-election-widget h3, #uc-election-summary .uc-elec-summary-wrapper .uc-election-status h3 {
+    background:$elections-base;
+    font-family: "museo-sans", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 8px 15px;
+}
+
+.uc-pending-status, .uc-completed-status, .uc-total-status {
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+    margin: 20px 0;
+    font-weight: 600;
+}
+
+.uc-pending-status ul, .uc-completed-status ul, .uc-total-status ul {
+    display: block;
+    text-align: center;
+}
+
+.uc-pending-status ul li, .uc-completed-status ul li, .uc-total-status ul li {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.uc-position-button a {
+    display: block;
+    margin-top: 15px;
+    padding: 0;
+    font-size: 18px;
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+    color:$elections-base;
+}
+
+.uc-position-button a:before {
+    content: '\f0a8';
+    margin-right: 10px;
+}
+
+.uc-position-button a.spoilBallotButton:before {
+    content: '\f057';
+}
+
+.success.evo-success-completed {
+    top: 95px;
+    margin: 0;
+    width: 1130px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background:$advice-medium;
+    color: $white;
+    font-size: 18px;
+    border: 0;
+}
+
+.uc-election-name-time p.success {
+    margin: 0;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background:$advice-medium;
+    color: $white;
+    font-size: 18px;
+    border: 0;
+}
+
+.uc-election-name-time p.success {
+    margin-top: 15px;
+}
+
+.success.evo-success-completed:before, .uc-election-name-time p.success:before {
+    content: "\f058";
+    margin-right: 10px;
+}
+
+.vote-completed {
+    font-size: 18px;
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    float: none;
+    margin: 0 0 15px 0;
+    color:$advice-base;
+}
+
+.uc-position-button a.modify-vote-button:after {
+    content: " Vote";
+}
+
+@keyframes election-fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes election-fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#election-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.5);
+    -webkit-animation: election-fadein linear 0.3s;
+    animation: election-fadein linear 0.3s;
+}
+
+@keyframes election-pushup {
+    from {
+        transform: translate(-50%, -40%);
+    }
+    to {
+        transform: translate(-50%, -50%);
+    }
+}
+
+@-webkit-keyframes election-pushup {
+    from {
+        transform: translate(-50%, -40%);
+    }
+    to {
+        transform: translate(-50%, -50%);
+    }
+}
+
+#election-overlay-window {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: $white;
+    width: 800px;
+    transform: translate(-50%, -50%);
+    padding: 20px 25px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
+    border-top: 5px solid$elections-base;
+    -webkit-animation: election-pushup ease-out 0.5s;
+    animation: election-pushup ease-out 0.5s;
+}
+
+#election-overlay h2, #election-overlay p {
+    text-align: center;
+    line-height: 1.4em;
+    margin-bottom: 1em;
+}
+
+#election-overlay p:last-child {
+    margin-bottom: 0;
+}
+
+#election-overlay h2 {
+    color:$elections-base;
+}
+
+#election-overlay p {
+    font-size: 18px;
+}
+
+#election-overlay a {
+    color:$elections-base;
+}
+
+#election-overlay a.more {
+    background:$elections-base;
+    color: $white;
+}
+
+#election-overlay a.more:before {
+    background:$elections-dark;
+    content: '\f0a8';
+}

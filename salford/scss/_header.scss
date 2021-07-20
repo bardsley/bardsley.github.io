@@ -1,0 +1,538 @@
+/* ======
+   HEADER
+   ====== */
+
+   .uc-cookie-block {
+    background: $brand-blue;
+}
+
+.uc-cookie-block .uc-cookie-block-wrapper {
+    width: 1030px;
+    padding: 15px 150px 15px 0;
+    position: relative;
+}
+
+.uc-cookie-block .uc-cookie-block-wrapper h2 {
+    font-family: inherit;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 0;
+    margin-bottom: 10px;
+    text-shadow: none;
+}
+
+.uc-cookie-block .uc-cookie-block-wrapper p {
+    font-family: inherit;
+    font-size: 16px;
+    margin: 0;
+}
+
+.uc-cookie-block .uc-cookie-block-wrapper a {
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.uc-cookie-block .uc-cookie-block-wrapper a.uc-cookie-continue-class {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    background: none;
+    display: inline-block;
+    background: $white;
+    padding: 15px 0;
+    color: $brand-blue;
+    width: 130px;
+    text-align: center;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 600;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+.uc-cookie-block .uc-cookie-block-wrapper a.uc-cookie-continue-class:before {
+    content: "\f0a9";
+    margin-right: 8px;
+}
+
+.header {
+    width: 100%;
+    height: 130px;
+    background: $brand-blue-bg;
+    margin-bottom: 93px;
+    transition: margin 0.5s ease;
+}
+
+.fixed-nav .header {
+    margin-bottom: 75px;
+}
+
+#union-logo {
+    position: absolute;
+    float: none;
+    top: 145px;
+    height: 60px;
+    width: 190px;
+    z-index: 1;
+}
+
+/*added to remove background colour from logo */ 
+#union-logo h1{
+    padding-top:0;
+    margin-top:-10px;
+    background: transparent;
+}
+#union-logo.transition-enabled {
+    transition: height 0.5s ease, width 0.5s ease;
+}
+
+.fixed-nav #union-logo {
+    position: fixed;
+    top: 15px;
+    z-index: 1001;
+    height: 42px;
+    width: 132px;
+}
+
+#union-logo a {
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    display: block;
+}
+
+#union-logo a h1 {
+    display: none;
+    margin-top:-10px;
+}
+
+.system-menu, .cart-account {
+    float: none;
+    right: 0;
+    margin: 0;
+    position: relative;
+    z-index: 1001;
+}
+
+.system-menu-wrapper .cart-account {
+    position: absolute;
+    float: left;
+    width: 45px;
+    top: -40px;
+}
+
+.shopping-cart-menu {
+    display: block;
+}
+
+.system-menu-wrapper, .profile-setting {
+    float: none;
+    position: absolute;
+    right: 0;
+    top: 130px;
+    width: auto;
+}
+
+.fixed-nav .system-menu-wrapper, .fixed-nav .profile-setting {
+    position: fixed;
+    top: 0;
+    right: calc((100% - 1170px) / 2);
+}
+
+.profile-name-wrapper {
+    width: auto;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background: none;
+    position: relative;
+}
+
+.system-menu a.uc-sign-link, .profile-setting a.profile-name {
+    color: $brand-blue;
+    font-weight: unset;
+    font-size: 0;
+    padding: 0 10px;
+    height: unset;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    line-height: 90px;
+    position: relative;
+    z-index: 2;
+}
+
+.system-menu a.uc-sign-link.transition-enabled, .profile-setting a.profile-name.transition-enabled {
+    transition: line-height 0.5s ease;
+}
+
+.fixed-nav .system-menu a.uc-sign-link, .fixed-nav .profile-setting a.profile-name {
+    line-height: 72px;
+}
+
+.system-menu a.uc-sign-link:before, .profile-setting a.profile-name:before {
+    font-size: 24px;
+    width: 24px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.system-menu a.uc-sign-link:before {
+    content: '\f090';
+}
+
+.profile-setting a.profile-name:before {
+    content: '\f2bd';
+}
+
+.profile-setting a.profile-name.collapsed {
+    background: none;
+}
+
+.profile-setting a.profile-name.expanded {
+    background: $brand-blue;
+}
+
+.profile-setting a.profile-name .user-name {
+    display: none;
+}
+
+.profile-drop-down-menu {
+    top: 90px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background: $brand-blue;
+    width: auto;
+    transition: top 0.5s ease;
+}
+
+.fixed-nav .profile-drop-down-menu {
+    top: 72px;
+}
+
+.profile-setting ul {
+    padding: 0;
+    font-size: inherit;
+    line-height: 34px;
+}
+
+.profile-setting ul li a {
+    border: 0;
+    padding: 0 12px;
+    white-space: nowrap;
+}
+
+.profile-setting ul li a:before {
+    width: 16px;
+    margin-right: 8px;
+}
+
+.dashboard-icon a:before {
+    content: "\f0e4";
+}
+
+.account-icon a:before {
+    content: "\f013";
+}
+
+.logout-icon a:before {
+    content: "\f08b";
+}
+
+.profile-setting ul li a:hover {
+    background: #0277BD;
+}
+
+.top, .top-union, .top-subsite {
+    background: $white;
+    margin: 0;
+}
+
+.top, .top-union {
+    height: 90px;
+    position: absolute;
+    top: 130px;
+    left: 0;
+    width: 100%;
+    border-bottom: 3px solid$activities-medium;
+    background: rgba(255, 255, 255, 0.95);
+    transition: height 0.5s ease;
+}
+
+.fixed-nav .top, .fixed-nav .top-union {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    height: 72px;
+    -webkit-backdrop-filter: blur(4px);
+}
+
+#top-navigation {
+    margin: 0;
+    padding: 0;
+    font-family: 'museo-sans', sans-serif;
+    font-size: 16px;
+    position: relative;
+}
+
+#top-navigation ul {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 44px;
+}
+
+#top-navigation ul li {
+    float: none;
+    position: static;
+}
+
+#top-navigation ul li .top-menu-name-wrapper {
+    position: relative;
+}
+
+.system-menu-wrapper:before, .profile-name-wrapper:before, #top-navigation ul li .top-menu-name-wrapper:before {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 0;
+    content: '';
+    background: $brand-blue-bg;
+    border: 0 solid $brand-blue;
+    transition: height 0.2s ease, border 0.2s ease;
+}
+
+.system-menu-wrapper:hover:before, .profile-name-wrapper:hover:before, #top-navigation ul li:hover .top-menu-name-wrapper:before {
+    height: calc(100% - 3px);
+    border-width: 3px 0 0 0;
+}
+
+#top-navigation ul li span {
+    background: none;
+    padding: 0;
+}
+
+#top-navigation ul li a {
+    line-height: 90px;
+    padding: 0 10px;
+    color: $brand-blue;
+    transition: line-height 0.5s ease;
+    position: relative;
+    z-index: 2;
+}
+
+.fixed-nav #top-navigation ul li a {
+    line-height: 72px;
+}
+
+#top-navigation .top-submenu-wrapper {
+    position: absolute;
+    top: 90px;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: top 0.5s ease;
+    height: 0;
+    overflow: hidden;
+}
+
+#top-navigation li:hover .top-submenu-wrapper {
+    height: auto;
+}
+
+.fixed-nav #top-navigation .top-submenu-wrapper {
+    top: 72px;
+}
+
+#top-navigation ul li ul {
+    position: relative;
+    top: 0;
+    border-bottom: 3px solid $brand-blue;
+    padding: 20px calc((100% - 1170px) / 2);
+    display: block !important;
+    width: auto;
+    overflow: hidden;
+    background: $brand-blue-bg;
+    transform: translateY(-100%);
+    transition: transform 0.3s ease 0.1s;
+}
+
+#top-navigation ul li:hover ul {
+    transform: translateY(0);
+}
+
+#top-navigation ul li ul:after {
+    top: 23px;
+    right: calc((100% - 1170px) / 2);
+    width: 500px;
+    display: block;
+    position: absolute;
+    color: $brand-blue;
+    text-align: right;
+    font-weight: 700;
+    font-size: 42px;
+}
+
+#top-navigation ul li ul li {
+    position: relative;
+    width: 30%;
+}
+
+#top-navigation ul li ul li a, .fixed-nav #top-navigation ul li ul li a {
+    padding: 10px 20px;
+    line-height: unset;
+    background: none;
+    text-transform: none;
+}
+
+#top-navigation ul li ul li a:before {
+    content: "\f105";
+    margin-right: 15px;
+}
+
+#top-navigation ul li ul li a:hover {
+    background: $brand-blue;
+    color: $white;
+}
+
+#adverts, .uc-leaderboard-advertisement {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.uc-leaderboard-advertisement {
+    top: 0;
+}
+
+#adverts {
+    top: -130px;
+}
+
+#adverts-wrap, .uc-leaderboard-advertisement .top-ad {
+    height: 90px;
+    width: 728px;
+    margin-top: 20px;
+    position: static;
+    overflow: hidden;
+}
+
+@keyframes wipe-notice-out {
+    from {
+        height: 34px;
+    }
+    to {
+        height: 0;
+    }
+}
+
+@-webkit-keyframes wipe-notice-out {
+    from {
+        height: 34px;
+    }
+    to {
+        height: 0;
+    }
+}
+
+#student_view_notice {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 3000;
+    overflow: hidden;
+}
+
+.notice {
+    width: 100%;
+    overflow: hidden;
+}
+
+p#notice.success {
+    padding: 0 calc((100% - 1170px) / 2);
+    width: 100%;
+    z-index: 3;
+    border: 0;
+    margin: 0;
+    line-height: 34px;
+    font-size: 16px;
+    color: #33691E;
+    background: #DCEDC8;
+    -webkit-animation: wipe-notice-out 0.4s ease 5s both;
+    animation: wipe-notice-out 0.4s ease 5s both;
+    overflow: hidden;
+    position: static;
+}
+
+#notice_and_error #error.error {
+    top: 0;
+    width: 100%;
+    z-index: 3;
+    line-height: 34px;
+    margin: 0;
+    border: 0;
+    padding: 0 calc((100% - 1170px) / 2);
+    font-size: 16px;
+    background:$elections-light-bg;
+    color: $brand-orange;
+    -webkit-animation: wipe-notice-out 0.4s ease 5s both;
+    animation: wipe-notice-out 0.4s ease 5s both;
+    overflow: hidden;
+    position: static;
+}
+
+p#notice.success:before {
+    content: "\f058";
+    margin-right: 6px;
+}
+
+#notice_and_error #error.error:before {
+    content: "\f06a";
+    margin-right: 6px;
+}
+
+p#notice.success a.close-notice {
+    width: 16px;
+    height: 16px;
+    top: 9px;
+    right: calc((100% - 1170px) / 2);
+    background: none;
+    color: #33691E;
+}
+
+#notice_and_error #error.error a.close-notice {
+    width: 16px;
+    height: 16px;
+    top: 9px;
+    right: calc((100% - 1170px) / 2);
+    background: none;
+    color: $brand-orange;
+}
+
+p#notice.success a.close-notice:before, #notice_and_error #error.error a.close-notice:before {
+    content: "\f00d";
+    display: block;
+    width: 16px;
+    text-align: right;
+    font-size: 20px;
+    margin-top: -4px;
+}

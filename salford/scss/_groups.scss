@@ -1,0 +1,673 @@
+/* ===========
+   GROUP PAGES
+   =========== */
+
+   #uc-group-homepage .left-nav-content {
+    position: absolute;
+}
+
+#uc-group-homepage #left-content {
+    border-bottom: 3px solid $brand-blue-bg;
+}
+
+#uc-group-homepage #left-content h3 {
+    display: none;
+}
+
+#uc-group-homepage #left-content ul {
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+    font-size: 0;
+}
+
+#uc-group-homepage #left-content ul li {
+    display: inline-block;
+}
+
+#uc-group-homepage #left-content ul li.active {
+    background: $brand-blue-bg;
+}
+
+#uc-group-homepage #left-content ul li a {
+    font-size: 24px;
+    color: $brand-blue;
+    padding: 3px 20px 0 20px;
+    line-height: 40px;
+    font-weight: 300;
+}
+
+#uc-group-homepage #left-content ul li.active a {
+    font-weight: 600;
+}
+
+#uc-group-homepage #left-content ul li a:before {
+    display: none;
+}
+
+#uc-group-homepage .search {
+    position: absolute;
+    top: 203px;
+    right: calc((100% - 1170px) / 2);
+    z-index: 1;
+}
+
+#uc-group-homepage .search-box .search-box-wrapper {
+    border: 1px solid $brand-blue-bg;
+    border-radius: 0;
+    padding: 0;
+    width: 298px;
+}
+
+.search-box .search-box-wrapper .search-input {
+    width: 258px;
+    padding: 0;
+    line-height: 28px;
+    padding: 0 0 0 10px;
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    height: 28px;
+}
+
+#uc-group-homepage .search-box-wrapper .search-button {
+    width: 30px;
+    height: 28px;
+    /* background: $brand-blue-bg url('//www2.salfordstudents.com/images/inpagesearch.png') no-repeat center; */
+    background-size: 14px;
+    cursor: pointer;
+}
+
+#uc-group-homepage .uc-no-groups-found, #uc-group-homepage .uc-no-groups-found .uc-no-groups-found-wrapper {
+    margin: 0;
+    padding: 0;
+}
+
+#uc-group-homepage .uc-no-groups-found .uc-no-groups-heading {
+    margin: 0 0 10px 0;
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+#uc-group-homepage .uc-no-groups-found p {
+    padding: 0;
+    font-size: 18px;
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+}
+
+.club-container {
+    margin: 106px auto 30px auto;
+    padding: 0;
+    border-radius: 0;
+    background: none;
+    position: relative;
+}
+
+.groups > .twelvecol {
+    margin: 0;
+    min-height: 500px;
+}
+
+.group-category-title {
+    display: none;
+}
+
+.types-list {
+    width: 300px;
+    float: none;
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+
+.group-types {
+    background: none;
+    border: 0;
+    margin: 0;
+}
+
+.group-types-wrapper {
+    min-height: 0;
+    background: none;
+    margin: 0;
+}
+
+.content-wrap .group-types ul {
+    font-size: 18px;
+    margin: 0;
+}
+
+.group-types ul li {
+    padding: 0;
+    white-space: initial;
+    margin: 0;
+    line-height: 1em;
+}
+
+.group-types ul li.active {
+    background: $brand-blue-bg;
+}
+
+.group-types ul li a, .group-types ul li.active a {
+    display: block;
+    padding: 5px 20px 5px 40px;
+    font-weight: 300;
+    color: $brand-blue;
+    position: relative;
+}
+
+.group-types ul li a:before {
+    content: "\f0da";
+    position: absolute;
+    top: 5px;
+    left: 20px;
+}
+
+.group-types ul li a:hover {
+    background: $brand-blue-bg;
+}
+
+.group-list {
+    width: auto;
+    padding-right: 330px;
+    float: none;
+}
+
+#uc-group-homepage .page-separator-wrapper {
+    display: none;
+}
+
+.categoryBox {
+    margin: 0;
+}
+
+#uc-group-homepage .uc-group-list-page-wrapper {
+    text-align: center;
+    padding-left: 12px;
+    margin: 0;
+}
+
+.group-box {
+    background: $brand-blue-bg;
+    border: 0;
+    float: none;
+    display: inline-block;
+    margin: 0 12px 20px 0;
+    width: 250px;
+    min-height: initial;
+    padding: 0;
+}
+
+.group-banner {
+    margin: 0;
+    float: none;
+    width: 250px;
+    height: 250px;
+}
+
+.group-box .group-name {
+    text-transform: none;
+    color: $white;
+    font-size: 18px;
+    font-weight: 600;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: $brand-blue;
+    background: rgba(0, 80, 160, 0.6);
+    padding: 10px 0;
+}
+
+.group-details {
+    display: none;
+}
+
+#uc-group-homepage #uc-more-group-search {
+    margin: 0;
+}
+
+#uc-groups-details-page .left-nav-content {
+    margin: 0;
+}
+
+.group_left_panel_menu .title h1 {
+    padding-right: calc((100% - 1170px) / 2 + 250px);
+    color: $brand-blue;
+    background: $brand-blue-bg;
+}
+
+.sub-site-home-html #uc-groups-details-page .tree-navigation .thumbnail, #uc-groups-details-page .group-category, #uc-join-group .group-category {
+    display: none;
+}
+
+#uc-groups-details-page .portlet {
+    box-sizing: border-box;
+    margin-top: 40px;
+    margin-bottom: 39px;
+}
+
+#uc-groups-details-page .contentBoxes h2:first-child {
+    display: none;
+}
+
+#uc-groups-details-page .top-container, #club-header .join-button {
+    position: absolute;
+    top: 40px;
+    right: calc((100% - 1170px) / 2);
+    text-transform: capitalize;
+}
+
+#uc-groups-details-page .top-container .fivecol {
+    display: none;
+}
+
+#uc-groups-details-page .top-container .sevencol {
+    width: auto;
+    float: none;
+    margin: 0;
+}
+
+#uc-groups-details-page .bottom-container, #uc-join-group .thumbnail {
+    display: none;
+}
+
+#club-header {
+    margin: 0;
+}
+
+.group-cms-wrapper {
+    margin: 0;
+}
+
+#club-content .ui-tabs .ui-tabs-nav {
+    margin-bottom: 30px;
+}
+
+#club-content .ui-widget-header, #club-content .ui-widget-header.ui-helper-reset {
+    padding: 0 calc((100% - 1170px) / 2);
+    background: $brand-blue;
+    border: 0;
+}
+
+#club-content .ui-state-default a, #club-content .ui-state-default a:link, #club-content .ui-state-default a:visited {
+    color: $white;
+}
+
+#club-content .ui-state-default.ui-state-active a, #club-content .ui-state-default.ui-state-active a:link, #club-content .ui-state-default.ui-state-active a:visited {
+    color: $brand-blue;
+}
+
+#club-info {
+    position: relative;
+}
+
+#club-info .club-details {
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 5;
+    padding: 15px 20px;
+    width: 350px;
+}
+
+.ui-widget-content #club-info .club-details p, .ui-widget-content #club-info .club-details p a, .ui-widget-content #club-info .club-details p a:hover, .section #club-info .club-details h3 {
+    color: $white;
+    text-shadow: 0 0 4px #000;
+}
+
+.section #club-info .club-details h3 {
+    margin-top: 1.3em;
+}
+
+.ui-widget-content #club-info .club-details p, .section #club-info .club-details h3:first-child {
+    margin: 0;
+}
+
+.ui-widget-content #club-info .club-details p a:before {
+    margin-right: 10px;
+}
+
+.ui-widget-content #club-info .club-details p a.email:before {
+    content: "\f0e0";
+}
+
+.ui-widget-content #club-info .club-details p a.facebook:before {
+    content: "\f230";
+}
+
+.ui-widget-content #club-info .club-details p a.twitter:before {
+    content: "\f099";
+}
+
+.ui-widget-content #club-info .club-details p a.instagram:before {
+    content: "\f16d";
+}
+
+#club-info .club-contacts {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 5;
+    padding: 15px 20px;
+    box-sizing: border-box;
+}
+
+#club-info .club-contacts p {
+    margin: 0;
+    text-align: center;
+}
+
+#club-info .club-contacts p, #club-info .club-contacts p a {
+    color: $white;
+}
+
+#club-info .club-contacts p a {
+    margin-right: 30px;
+    display: inline-block;
+}
+
+#club-info .club-contacts p a:last-child {
+    margin: 0;
+}
+
+#club-info .club-contacts p a:before {
+    margin-right: 10px;
+}
+
+#club-info .club-contacts p a.email:before {
+    content: "\f0e0";
+}
+
+#club-info .club-contacts p a.facebook:before {
+    content: "\f230";
+}
+
+#club-info .club-contacts p a.twitter:before {
+    content: "\f099";
+}
+
+#club-info .club-contacts p a.instagram:before {
+    content: "\f16d";
+}
+
+#uc-join-group .left-nav-content {
+    display: none;
+}
+
+#uc-join-group .portlet {
+    margin: 0 0 39px 0;
+}
+
+#new_group_membership #uc-join-group .contentBoxes h2 {
+    margin-bottom: 40px;
+}
+
+#new_group_membership .twelvecol, #new_group_membership .ninecol {
+    float: none;
+    width: auto;
+    margin: 0;
+}
+
+#new_group_membership fieldset {
+    margin: 0;
+}
+
+#memberShipDisplay {
+    border: 0;
+    padding: 0;
+    margin-bottom: 30px;
+    display: block;
+}
+
+#memberShipDisplay .uc-group-membership-type-row {
+    display: block;
+}
+
+.uc-group-membership-type-row #notice.warning {
+    border: 0;
+    background: $brand-orange;
+    margin: 0;
+    color: $white;
+    padding: 10px 20px;
+}
+
+.contentBoxes .uc-group-membership-type-row #notice.warning p {
+    font-size: 18px;
+    margin: 0;
+}
+
+.contentBoxes .uc-group-membership-type-row #notice.warning p:before {
+    content: '\f06a';
+    margin-right: 10px;
+}
+
+.contentBoxes .uc-group-membership-type-row #notice.warning p a {
+    color: $white;
+}
+
+#memberShipDisplay .memberShipType {
+    display: block;
+    width: auto;
+    background: none;
+    margin: 0;
+    border-color: $brand-blue-bg;
+    border-width: 1px 0 0 0;
+    padding: 15px 120px 15px 30px;
+    text-align: left;
+    box-shadow: none;
+}
+
+#memberShipDisplay .memberShipType:first-child {
+    border-width: 0;
+}
+
+#memberShipDisplay .uc-group-membership-type-row:nth-child(n+2) .memberShipType:first-child {
+    border-width: 1px 0 0 0;
+}
+
+#memberShipDisplay .memberShipType.selectedMembership {
+    background: $brand-blue-bg;
+}
+
+#memberShipDisplay .memberShipType input.radioButton {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    margin: 0;
+    padding: 0;
+}
+
+#new_group_membership .contentBoxes #memberShipDisplay .memberShipType h2 {
+    font-size: 24px;
+    padding: 0;
+    text-transform: none;
+    border: 0;
+    background: none;
+    margin: 0;
+}
+
+#memberShipDisplay .memberShipType .pricePlan {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 0;
+    padding: 0;
+}
+
+#memberShipDisplay .memberShipType .pricePlan .price {
+    font-weight: 600;
+    color: $brand-blue;
+}
+
+#memberShipDisplay .memberShipType .pricePlan .years {
+    display: none;
+}
+
+.membershipDescription {
+    padding: 0;
+    font-size: 1em;
+}
+
+.contentBoxes #memberShipDisplay .memberShipType .membershipDescription p {
+    margin: 0;
+}
+
+#expiry-info {
+    margin-top: 30px;
+    background: $brand-blue-bg;
+    border-style: solid;
+    border-color: $brand-blue;
+    border-width: 3px 0 0 0;
+    padding: 15px 25px;
+}
+
+#membership-options-info {
+    margin-top: 30px;
+    background:$activities-light-bg;
+    border-style: solid;
+    border-color:$activities-medium;
+    border-width: 3px 0 0 0;
+    padding: 15px 25px;
+}
+
+
+#expiry-info p, #membership-options-info h4, #membership-options-info p {
+    margin: 0;
+    text-align: center;
+}
+
+#membership-options-info h4 {
+    font-size: 18px;
+    color:$activities-base;
+}
+
+.selectButton {
+    display: none;
+}
+
+.group-confirmation-form {
+    padding: 0;
+}
+
+.group-confirmation-form legend.formLegend, .group-questions-form legend {
+    color: $brand-blue;
+    padding: 0;
+    font-size: 24px;
+    line-height: 1.4em;
+    text-transform: capitalize;
+    font-family: "museo-sans", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+    float: none;
+}
+
+#uc-join-group .formrow {
+    padding: 0;
+}
+
+.group-confirmation-form .formrow, #uc-join-group .group-confirmation-form .formrow {
+    margin-bottom: 20px;
+}
+
+.group-confirmation-form .formrow .labelCol {
+    color: $brand-navy;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.group-confirmation-form .formrow .mandatory {
+    position: static;
+    font-size: 18px;
+    margin-left: 0;
+}
+
+#new_group_membership .formrow .inputCol {
+    padding: 0;
+}
+
+.group-confirmation-form .formrow input.smalltext, .group-confirmation-form .formrow textarea {
+    width: calc(100% - 32px);
+    border: 1px solid #CFD8DC;
+}
+
+.group-confirmation-form .formrow input.smalltext:focus, .group-confirmation-form .formrow textarea:focus {
+    border-color: $brand-blue;
+    border-width: 1px 1px 1px 5px;
+}
+
+#new_group_membership textarea {
+    font-size: 18px;
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+}
+
+#new_group_membership p.error {
+    background:$elections-base;
+    color: $white;
+    margin: 0 auto 20px auto;
+    border: 0;
+    padding: 10px 20px;
+    font-size: 18px;
+    float: none;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#new_group_membership p.inline-errors {
+    padding: 0;
+    background: none;
+    color:$elections-base;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+#new_group_membership p.error:before, #new_group_membership p.inline-errors:before {
+    content: "\f06a";
+    margin-right: 10px;
+}
+
+.group-confirmation-form .uc-membership-question-block p {
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.maxlength-feedback {
+    font-size: 18px;
+    padding: 0;
+    margin: 10px 0;
+    font-style: italic;
+    color: #78909C;
+}
+
+.group-questions-form .formrow .labelCol {
+    padding: 0;
+    float: none;
+    width: auto;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.group-questions-form .formrow .inputCol {
+    display: inline;
+}
+
+.uc-membership-question-block .inputCol.single-select-question select {
+    font-size: 18px;
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+}
+
+.autotextarea {
+    width: calc(100% - 32px);
+    border: 1px solid #CFD8DC;
+    padding: 10px 15px;
+}
+
+.group .left-nav-content{
+    top:0;
+    width: 23%;
+    float: left; 
+}

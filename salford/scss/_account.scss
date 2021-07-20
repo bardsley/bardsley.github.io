@@ -1,0 +1,380 @@
+/* =============
+   ACCOUNT PAGES
+   ============= */
+
+   .portlet {
+    margin-bottom: 30px;
+}
+
+.portlet h1 {
+    margin: 0;
+}
+
+.title h1 {
+    background: none;
+    color: $brand-blue;
+    padding: 0;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.myaccount-subscriptions .contentBoxes, .myaccount-tickets .contentBoxes, .myaccount-change-password .contentBoxes, .myaccount-student-details .contentBoxes {
+    margin: 0;
+    position: relative;
+}
+
+.myaccount-change-password .registration-form-wrapper, .myaccount-student-details .registration-form-wrapper {
+    padding: 0;
+}
+
+#student_nationality {
+    padding: 10px 15px;
+    border: 1px solid #CFD8DC;
+}
+
+#questionnaire legend.formLegend {
+    padding: 0;
+    margin-top: 30px;
+}
+
+.registration-form-wrapper #questionnaire .fields .fields .formrow {
+    border: 0;
+}
+
+.myaccount-student-details legend.formLegend, #questionnaire legend.formLegend {
+    color: $brand-blue;
+    font-family: "museo-sans", Arial, Helvetica, sans-serif;
+    text-transform: none;
+    font-size: 24px;
+}
+
+.myaccount-student-details .formrow .dynamiclabel, #questionnaire .formrow .dynamiclabel {
+    font-weight: 600;
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: $brand-navy;
+}
+
+.contentBoxes p {
+    font-size: 18px;
+    line-height: 1.4em;
+    margin-bottom: 1.3em;
+}
+
+.registration-form .myaccount-student-details ol li.input label {
+    margin-top: 10px;
+}
+
+.for-student-update .user-profile-picture-wrapper, .for-admin-update .user-profile-picture-wrapper {
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+}
+
+.contentBoxes .hasCountdown p {
+    margin: 0 0 2px 0;
+}
+
+.contentBoxes h2 {
+    border: 0;
+    font-size: 18px;
+}
+
+.no-election-message {
+    padding: 0;
+}
+
+.uc-current-nominations {
+    margin-bottom: 15px;
+}
+
+.uc-past-nominations {
+    margin: 0;
+}
+
+.uc-current-nominations h2 a, .uc-past-nominations h2 a {
+    background: $brand-blue;
+    padding: 10px 20px;
+}
+
+.uc-current-nominations h2 a span.toggle-display, .uc-past-nominations h2 a span.toggle-display {
+    font-size: 18px;
+    right: 20px;
+}
+
+.uc-current-nominations-wrapper, .uc-past-nominations-wrapper {
+    padding-top: 15px;
+}
+
+span.info, p.info, #edit_evoting_nomination p.warning {
+    background: $brand-blue-bg;
+    color: $brand-blue;
+    font-size: 18px;
+    padding: 5px 15px;
+    border: 0;
+    margin: 0 0 15px 0;
+}
+
+span.info:before, p.info:before, #edit_evoting_nomination p.warning:before {
+    content: "\f05a";
+    margin-right: 10px;
+}
+
+.my-nominations-grid table {
+    font-size: 18px;
+}
+
+.my-nominations-grid .wice_grid thead {
+    border: 0;
+}
+
+.my-nominations-grid .wice_grid tr.wice_grid_title_row th, .my-nominations-grid .wice_grid tr.wice_grid_filter_row th {
+    padding: 5px 10px;
+    font-size: 18px;
+    background: $brand-blue-bg;
+}
+
+.my-nominations-grid .wice_grid td {
+    padding: 5px 10px;
+    border-bottom: 1px solid $brand-blue-bg
+}
+
+.my-nominations-grid .wice_grid tr:last-child td {
+    border: 0;
+}
+
+.my-nominations-grid .wice_grid td.actions a {
+    color: $brand-blue-bright;
+    font-size: 18px;
+    margin-right: 15px;
+    font-weight: 600;
+}
+
+.my-nominations-grid .wice_grid td.actions a:before {
+    content: "\f0a9";
+    margin-right: 10px;
+}
+
+.my-nominations-grid .wice_grid tfoot {
+    display: none;
+}
+
+.contentBoxes.uc-nomination-details h2 {
+    padding: 0;
+    margin-bottom: 5px;
+    font-size: 24px;
+    font-weight: 600;
+    color: $brand-navy;
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+}
+
+.contentBoxes.uc-nomination-details h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: $brand-blue;
+    padding: 0;
+}
+
+.contentBoxes.uc-nomination-details .uc-election-details h3 {
+    font-weight: 300;
+    color: $brand-navy;
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+}
+
+.uc-election-details-wrapper #uc-nomination-countdown-timer {
+    margin: 0;
+    box-shadow: none;
+}
+
+#uc-nomination-countdown-timer h3.open {
+    color: $brand-blue;
+    background: none;
+    font-size: 18px;
+    padding: 0;
+}
+
+#uc-nomination-countdown-timer h4 {
+    color: $brand-navy;
+}
+
+#uc-nomination-countdown-timer .hasCountdown .timer p .digit {
+    margin-left: 3px;
+}
+
+.uc-position-details, .uc-manifesto-guideline {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.uc-position-details h3 > a, .uc-manifesto-guideline h3 > a {
+    display: none;
+}
+
+.uc-position-details-wrapper, .uc-manifesto-guideline-wrapper {
+    display: block;
+}
+
+.uc-manifesto-guideline-wrapper, .uc-position-details-wrapper {
+    background: none;
+    padding: 0;
+}
+
+.uc-position-details .uc-position-details-wrapper {
+    margin: 0;
+}
+
+.contentBoxes.uc-nomination-details h4.uc-position-name {
+    display: none;
+}
+
+.uc-nomination-details ol li {
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.uc-nomination-details ol li label {
+    font-size: 18px;
+    padding: 0;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.uc-nomination-details ol li.string input {
+    padding: 0 15px;
+    border: 1px solid #CFD8DC;
+    box-shadow: none;
+    width: calc(100% - 32px);
+}
+
+.uc-nomination-details ol li.string input:focus {
+    border-color: $brand-blue;
+    border-width: 1px 1px 1px 5px;
+    padding-left: 11px;
+}
+
+.uc-nomination-details abbr {
+    text-decoration: none;
+}
+
+.uc-nomination-details ol li.uc-select-pic-option input {
+    top: 0;
+}
+
+.uc-nomination-details .uc-nomination-pic-selection ol li, .uc-nomination-details fieldset.inputs ol.uc-nomination-image-upload {
+    margin: 0;
+}
+
+#upload-new-picture {
+    font-size: 18px;
+}
+
+.uc-nomination-details p.inline-errors {
+    font-size: 18px;
+    padding: 0;
+    background: none;
+    color: $brand-orange;
+}
+
+.uc-nomination-details p.inline-errors:before {
+    content: "\f071";
+    margin-right: 10px;
+}
+
+#cke_evoting_nomination_manifesto {
+    margin-bottom: 10px;
+}
+
+p.inline-hints {
+    padding: 0;
+    background: none;
+}
+
+p.inline-hints:before {
+    content: "\f05a";
+    margin-right: 10px;
+}
+
+.uc-nomination-details fieldset.actions {
+    margin: 0;
+}
+
+.uc-nomination-details .back-button {
+    color: $brand-blue-bright;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.uc-nomination-details .back-button:before {
+    content: "\f0a8";
+    margin-right: 10px;
+}
+
+#evoting_nomination_submit_action {
+    margin-right: 20px;
+}
+
+.uc-nomination-details ol li.uc-withdraw-button-holder {
+    float: none;
+    margin: 0;
+    padding: 15px 0;
+}
+
+.uc-nomination-details ol li.uc-withdraw-button-holder::before {
+    font-size: 18px;
+    color: $brand-navy;
+    font-weight: 300;
+    content: 'or';
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+}
+
+.uc-nomination-details .withdraw-button {
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 600;
+    color: $brand-blue-bright;
+    vertical-align: middle;
+}
+
+div.jqi {
+    border-radius: 0;
+    border: 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    font-size: 18px;
+    padding: 10px 15px;
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+}
+
+div.jqi .jqicontainer {
+    font-weight: 300;
+}
+
+div.jqi .jqimessage {
+    color: $brand-navy;
+    line-height: 1.4em;
+}
+
+div.jqi button, div.jqi button:hover {
+    background: $brand-blue;
+    border: 0;
+    border-radius: 0;
+    text-shadow: none;
+    font-size: 18px;
+    line-height: 38px;
+    padding: 0 20px;
+    font-weight: 300;
+}
+
+div.jqi .jqiclose {
+    cursor: pointer;
+    font-weight: normal;
+    background: none;
+}
+
+div.jqi .jqiclose:before {
+    content: "\f00d";
+    line-height: 32px;
+    width: 32px;
+    text-align: center;
+    color: $brand-blue;
+}

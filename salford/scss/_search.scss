@@ -1,0 +1,90 @@
+/* ======
+   SEARCH
+   ====== */
+
+   #search-result {
+    margin: 0;
+    padding: 0;
+}
+
+#search-result .page-search-es {
+    background: $brand-blue;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding: 15px 0;
+}
+
+#search-result .search-box.uc-common-for-all .search-box-wrapper {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding: 0;
+    height: 40px;
+    width: 300px;
+}
+
+#search-result .search-box .search-box-wrapper .search-input {
+    width: calc(100% - 40px);
+    position: static;
+    padding: 0 15px;
+    box-sizing: border-box;
+    line-height: 40px;
+    height: 40px;
+}
+
+#search-result .search-box .search-box-wrapper .search-button {
+    position: static;
+    width: 40px;
+    background:$activities-medium;
+    display: inline-block;
+    background:$activities-medium url("//www.salfordstudents.com/assets/default/result-search-icon.png") no-repeat center center;
+    height: 40px;
+}
+
+#uc-search-more-panel {
+    margin-top: 40px;
+}
+
+#uc-search-more-panel .uc-search-page-separator {
+    display: none;
+}
+
+#search-result .src-result {
+    margin: 0 0 1.3em 0;
+    padding: 0;
+    border: 0;
+}
+
+#search-result h2 {
+    font-size: 32px;
+    text-transform: none;
+    margin-bottom: 10px;
+}
+
+#search-result h2 > span {
+    box-shadow: none;
+    background: $brand-blue-bg;
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: $brand-blue;
+    height: auto;
+    vertical-align: middle
+}
+
+#search-result .src-result .result-body p, #search-result .src-result .result-body ol, #search-result .src-result .result-body ul {
+    font-size: 18px;
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+    line-height: 1.4em;
+}
+
+#search-result .src-result .result-body p.search-listing-url {
+    font-size: inherit;
+}
+
+#search-result .pagination {
+    display: block;
+    margin: 40px auto;
+    font-size: 18px;
+}

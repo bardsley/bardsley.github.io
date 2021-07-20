@@ -1,0 +1,370 @@
+/* =========
+   BIG IDEAS
+   ========= */
+
+   #uc-sv-main-wrapper {
+    padding: 0;
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+#uc-sv-main-wrapper h1.uc-heading-title {
+    font-family: "museo-sans", Arial, Helvetica, sans-serif;
+    color: $student-voice-base;
+    background: $student-voice-light-bg;
+}
+
+.uc-sv-post-idea-petition {
+    top: 40px;
+    right: calc((100% - 1170px) / 2);
+}
+
+.content .uc-sv-post-idea-petition a, .uc-sv-post-idea-petition a {
+    width: auto;
+}
+
+#uc-sv-nav-tab-panel {
+    margin: 40px auto 30px auto;
+    background: none;
+}
+
+#uc-sv-nav-tab-panel #uc-sv-main-navcontainer {
+    padding: 0;
+    border-bottom: 3px solid $student-voice-light-bg;
+}
+
+#uc-sv-nav-tab-panel #uc-sv-main-navcontainer ul li {
+    display: inline-block;
+    font-size: 18px;
+}
+
+#uc-sv-nav-tab-panel ul li a {
+    padding: 3px 20px 0 20px;
+    color: $student-voice-base;
+    float: none;
+    display: inline-block;
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+    line-height: 40px;
+}
+
+#uc-sv-nav-tab-panel ul li a:hover {
+    background: $student-voice-light-bg;
+}
+
+#uc-sv-nav-tab-panel #uc-sv-main-navcontainer ul li.active a {
+    color: $student-voice-base;
+    display: inline-block;
+    float: none;
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    background: $student-voice-light-bg;
+}
+
+#uc-sv-search-panel .uc-sv-search-field {
+    float: none;
+    padding: 0;
+    display: inline-block;
+    width: 500px;
+    vertical-align: middle;
+}
+
+#uc-sv-search-panel .uc-sv-search-bar {
+    height: auto;
+    background: none;
+    border: 1px solid $student-voice-light-bg;
+}
+
+#uc-sv-search-panel .uc-sv-sfield {
+    width: calc(100% - 72px);
+    color: $brand-navy;
+    padding: 0 15px;
+    line-height: 40px;
+    margin: 0;
+    float: none;
+}
+
+#uc-sv-search-panel .uc-sv-search-bar .uc-sv-searchbutton {
+    position: static;
+    /* background: $student-voice-light-bg url('//www2.salfordstudents.com/images/bigideassearch.png') no-repeat center; */
+    background-size: 14px;
+    cursor: pointer;
+    float: right;
+    width: 40px;
+    height: 40px;
+}
+
+#uc-sv-mostpopular-panel {
+    float: none;
+    height: auto;
+    margin: 0;
+    display: inline-block;
+}
+
+#uc-sv-mostpopular-panel select {
+    margin: 0 0 0 15px;
+    border: 1px solid $student-voice-light-bg;
+}
+
+#uc-sv-search-panel .uc-sv-search-button {
+    display: none;
+}
+
+.uc-sv-category-wrapper {
+    margin: 30px 0;
+}
+
+.uc-sv-category-wrapper .uc-sv-category-field-holder {
+    float: none;
+    width: auto;
+    padding: 0;
+}
+
+.uc-sv-category-field-holder ul {
+    margin: 0;
+}
+
+.uc-sv-category-field-holder ul li {
+    display: inline-block;
+    float: none;
+}
+
+.uc-sv-category-field-holder ul li label, .uc-sv-category-field-holder ul li label.uc-sv-bgorange {
+    border: 1px solid $student-voice-base;
+    background: none;
+    font-size: 18px;
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    display: inline-block;
+    color: $student-voice-base;
+    padding: 8px 15px;
+    line-height: 1em;
+    margin: 0 8px 8px 0;
+}
+
+.uc-sv-category-field-holder ul li label.uc-sv-bgorange {
+    background: $student-voice-base;
+    color: $white;
+}
+
+.uc-sv-category-field-holder ul li label.uc-sv-bgorange:before {
+    content: '\f00c';
+    margin-right: 8px;
+    font-size: 16px;
+}
+
+#uc-sv-content-container .uc-sv-legends {
+    display: none;
+}
+
+#uc-sv-left-panel {
+    float: none;
+    width: auto;
+    min-height: unset;
+    margin-bottom: 39px;
+}
+
+#uc-sv-left-panel .uc-sv-left-panel-wrapper .page-separator {
+    display: none;
+}
+
+.uc-sv-module-idea-wrapper {
+    background: $student-voice-light-bg;
+    margin-bottom: 30px;
+    padding: 15px 130px 15px 90px;
+    position: relative;
+}
+
+.uv-sv-petition-icon, .uv-sv-idea-icon {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    text-indent: 0;
+    font-size: 0;
+    margin: 0;
+    top: 15px;
+    left: 20px;
+    background: none;
+    text-align: center;
+}
+
+.uv-sv-petition-icon:before, .uv-sv-idea-icon:before {
+    font-size: 50px;
+    color: $student-voice-base;
+}
+
+.uv-sv-petition-icon:before {
+    content: '\f044';
+}
+
+.uv-sv-idea-icon:before {
+    content: '\f0eb';
+}
+
+#uc-sv-main-wrapper .uc-sv-module-idea-wrapper h2 {
+    padding: 0;
+    min-height: 0;
+    font-family: "museo-sans", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: $brand-navy;
+}
+
+.content .uc-sv-module-idea-wrapper a, .uc-sv-module-idea-wrapper a, .uc-sv-module-idea-wrapper a:hover {
+    color: $brand-navy;
+    text-decoration: none;
+}
+
+.uc-sv-module-text-wrapper {
+    margin: 5px 0 20px 0;
+    padding: 0;
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+}
+
+.uc-sv-module-text-wrapper p.author {
+    font-size: 18px;
+    padding: 0;
+    margin: 0 20px 0 0;
+    display: inline-block;
+    color: $brand-navy;
+}
+
+.uc-sv-author-name {
+    margin-left: 5px;
+    color: $brand-blue-bright;
+}
+
+.uc-sv-module-idea-wrapper p.time {
+    display: inline-block;
+    padding: 0;
+    font-size: 18px;
+    color: $brand-navy;
+}
+
+.uc-sv-module-more {
+    float: none;
+    margin: 0;
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+}
+
+.uc-sv-module-more a.uc-sv-more {
+    float: none;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.uc-sv-module-more a.uc-sv-comments {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+    background: none;
+    padding: 0;
+    font-size: 18px;
+    cursor: pointer;
+    color: $brand-navy;
+}
+
+.uc-sv-module-more a.uc-sv-comments:hover {
+    cursor: pointer;
+    color: $brand-navy;
+}
+
+.uc-sv-module-more a.uc-sv-comments:before {
+    margin-right: 10px;
+    content: '\f086';
+}
+
+.uc-sv-module-voting {
+    top: 15px;
+    right: 20px;
+    bottom: unset;
+    width: auto;
+}
+
+.uc-sv-module-voting .uc-sv-module-voting-like, .uc-sv-module-voting .uc-sv-module-voting-dislike, .uc-sv-module-voting .uc-sv-module-voting-votenow {
+    float: none;
+    background: none;
+    display: inline-block;
+    height: auto;
+    width: auto;
+    margin-left: 20px;
+}
+
+.uc-sv-module-voting .uc-sv-module-voting-like:before, .uc-sv-module-voting .uc-sv-module-voting-dislike:before, .uc-sv-module-voting .uc-sv-module-voting-votenow:before {
+    display: block;
+    line-height: 40px;
+    font-size: 40px;
+}
+
+.uc-sv-module-voting .uc-sv-module-voting-like {
+    color:$advice-base;
+}
+
+.uc-sv-module-voting .uc-sv-module-voting-like:before {
+    content: "\f164";
+}
+
+.uc-sv-module-voting .uc-sv-module-voting-dislike {
+    color:$elections-base;
+}
+
+.uc-sv-module-voting .uc-sv-module-voting-dislike:before {
+    content: "\f165";
+}
+
+.uc-sv-module-voting .uc-sv-module-voting-votenow, .uc-sv-module-voting .uc-sv-module-voting-votenow span {
+    color: $student-voice-base;
+}
+
+.uc-sv-module-voting .uc-sv-module-voting-votenow:before {
+    content: "\f2d4";
+}
+
+.uc-sv-module-idea-wrapper a.uc-sv-click-like-dislike, .uc-sv-module-idea-wrapper a.uc-sv-click-votenow {
+    display: none;
+}
+
+.uc-sv-module-voting .uc-sv-module-voting-like span, .uc-sv-module-voting .uc-sv-module-voting-dislike span, .uc-sv-module-voting .uc-sv-module-voting-votenow span {
+    padding: 0;
+    font-size: 14px;
+    line-height: 30px;
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+#uc-sv-right-panel {
+    width: auto;
+    float: none;
+    clear: both;
+}
+
+.uc-sv-details-page #uc-sv-content-container {
+    width: auto;
+}
+
+.uc-sv-module-border-idea {
+    border: 0;
+    min-height: unset;
+}
+
+.uv-sv-details-header-idea, .uv-sv-details-header-petition {
+    display: none;
+}
+
+#uc-sv-main-wrapper h1, #uc-sv-main-wrapper .uc-sv-module-border-idea.uc-sv-has-timer h1, #uc-sv-main-wrapper .uc-sv-module-border-petition.uc-sv-has-timer h1 {
+    font-family: "museo-sans", Arial, Helvetica, sans-serif;
+    color: $student-voice-base;
+    background: $student-voice-light-bg;
+    margin-bottom: 30px;
+}
+
+.uc-sv-details-page .uc-sv-module-text-wrapper {
+    margin: 0 auto;
+}
+
+.uc-sv-module-text-wrapper p.categories {
+    font-size: 18px;
+}
+
+.uc-sv-details-page .evo-timer.hasCountdown {
+    top: 128px;
+    right: calc((100% - 1170px) / 2);
+}

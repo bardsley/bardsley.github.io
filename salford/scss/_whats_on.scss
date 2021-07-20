@@ -1,0 +1,128 @@
+/* ==================
+   NEW WHATS ON PAGES
+   ================== */
+
+   #events-listing-tabs {
+    margin-bottom: 40px;
+    border-bottom: 3px solid$events-light-bg;
+    display: flex;
+    flex-direction: row;
+}
+
+#events-listing-tabs li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    flex: 0 0 auto;
+}
+
+#events-listing-tabs li a {
+    font-size: 24px;
+    color: $events-base;
+    padding: 3px 20px 0 20px;
+    line-height: 40px;
+    display: block;
+    text-align: center;
+}
+
+#events-listing-tabs li a.selected {
+    font-weight: 600;
+    background:$events-light-bg;
+}
+
+#events-listing .loading-icon {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    display: block;
+}
+
+#events-listing .loading-icon .loading-rings {
+    stroke: $events-base;
+}
+
+#events-listing p.message {
+    color: #607D8B;
+    font-size: 24px;
+    text-align: center;
+}
+
+#events-listing .day {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    margin-bottom: 2em;
+}
+
+#events-listing .day .date {
+    flex: 0 0 180px;
+    text-align: center;
+}
+
+#events-listing .day .date h3 {
+    font-size: 24px;
+}
+
+#events-listing .day .date h3.number {
+    font-size: 42px;
+}
+
+#events-listing .day .events {
+    flex: 1 0 0;
+    border-left: 3px solid$events-light-bg;
+}
+
+#events-listing .day .events a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 0 1em 20px;
+}
+
+#events-listing .day .events a:last-child {
+    margin-bottom: 0;
+}
+
+#events-listing .day .events a .image {
+    flex: 0 0 250px;
+    height: 140px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-right: 20px;
+    background:$events-light-bg;
+}
+
+#events-listing .day .events a .image img {
+    width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    transition: opacity 0.1s linear;
+    opacity: 0;
+}
+
+#events-listing .day .events a .image img.visible {
+    opacity: 1;
+}
+
+#events-listing .day .events a .image i {
+    color: $events-base;
+}
+
+#events-listing .day .events a .info {
+    flex: 1 0 0;
+}
+
+#events-listing .day .events a p {
+    margin: 0;
+    color: $brand-navy;
+}
+
+#events-listing .day .events a p.price {
+    flex: 0 0 auto;
+    font-weight: 600;
+    margin-left: 20px;
+    text-align: right;
+}

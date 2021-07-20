@@ -1,0 +1,194 @@
+/* ========================
+   SMALL DESKTOP RESPONSIVE
+======================== */
+
+@media (max-width: 1199px) {
+ .header-wrap, .nav-wrap, .default-body, .contentContainer, .body-width-wrap, #home-sabbatical-officers-wrap, #uc-group-homepage #left-content, .club-container, .has-shibboleth span.error, .signin-block, .confirmation-email-block #new_user, .confirmation-email-block .forgot-password, .account-activation-block, .change-password-block form, .unlock-block form, .unlock-block .forgot-password, .reset-password-block .warning, .reset-password-block .confirm-link-message, .reset-password-block .help-link, .confirm-email-block .warning, .confirm-email-block .confirm-link-message, .confirm-email-block .help-link, .accountlock-password-block .warning, .accountlock-password-block .confirm-link-message, .accountlock-password-block .help-link, .problem-registering-block, #event-homepage #left-panel, #event-homepage #right-panel, #uc-events-details-page, #uc-event-ticket-details .portlet, #uc-groups-details-page .portlet, #uc-join-group .group-questions-form, #uc-join-group .eventerrors, #uc-join-group .contentBoxes > .formrow, #club-content .tabs.ui-tabs .tab-content-wrapper-box, #uc-election-dashboard, #shopping-cart > .twelvecol > .twelvecol, .uc-customer-quick-login .uc-customer-quick-login-wrapper, .uc-payment-page-wrapper, #load_more_article, .uc-articles-listing, #uc-sv-nav-tab-panel, #uc-sv-content-container, .uc-sv-module, .uc-sv-module-text-wrapper, #uc-sv-main-wrapper .uc-sv-module-details-content-wrapper, #uc-sv-main-wrapper .uc-sv-module-details-advertisement-wrapper, .uc-sv-comment-box, #e-shop, #search-result .search-box.uc-common-for-all, #uc-search-more-panel, #search-result .pagination, #footer-links, #copyright-wrap {
+     width: 970px;
+ }
+ 
+ .uc-cookie-block .uc-cookie-block-wrapper {
+     width: 820px;
+ }
+ 
+ p#notice.success {
+     padding: 0 calc((100% - 970px) / 2);
+ }
+
+ p#notice.success a.close-notice, .fixed-nav .system-menu-wrapper, .fixed-nav .profile-setting, .uc-articles-right-panel-search {
+     right: calc((100% - 970px) / 2);
+ }
+
+ .header {
+     margin-bottom: 75px;
+     height: 100px;
+ }
+
+ #union-logo {
+     height: 42px;
+     width: 132px;
+     top: 115px;
+ }
+
+ #adverts {
+     top: -100px;
+ }
+
+ .uc-leaderboard-advertisement .top-ad, #adverts-wrap {
+     width: 468px;
+     height: 60px;
+ }
+
+ .top, .top-union {
+     height: 72px;
+     top: 100px;
+ }
+
+ #top-navigation {
+     font-size: 14px;
+ }
+
+ .system-menu-wrapper, .profile-setting {
+     top: 100px;
+ }
+
+ .system-menu a.uc-sign-link, .profile-setting a.profile-name, #top-navigation ul li a {
+     line-height: 72px;
+ }
+
+ .profile-drop-down-menu, #top-navigation .top-submenu-wrapper {
+     top: 72px;
+ }
+
+ #top-navigation ul li ul {
+     padding: 20px calc((100% - 970px) / 2);
+ }
+
+ #top-navigation ul li ul:after {
+     right: calc((100% - 970px) / 2);
+ }
+ 
+ h1, .has-shibboleth.uc-sso-center-align:before, .signin-block h2, .confirm-email-block h2, .change-password-block h2, .reset-password-block h2, .unlock-block h2, .accountlock-password-block h2, .confirmation-email-block h2, .sub-site-home-html .title h1, #uc-join-group .contentBoxes h2, #uc-event-ticket-details .title h1, #shopping-cart .title h1, .uc-customer-quick-login h2.uc-page-heading, .uc-payment-page:before, #uc-evoting-election:before, .uc-election-stats-wrapper:before, #uc-articles-details:before, #uc-sv-main-wrapper h1, #uc-sv-main-wrapper .uc-sv-module-border-idea.uc-sv-has-timer h1, #uc-sv-main-wrapper .uc-sv-module-border-petition.uc-sv-has-timer h1, .uc-cookie-info h1 {
+     padding: 40px calc((100% - 970px) / 2) 10px calc((100% - 970px) / 2);
+ }
+ 
+ h1:before, .left-nav-content {
+     left: calc((100% - 970px) / 2);
+ }
+
+ .tree-navigation-structure {
+     width: 200px;
+ }
+ 
+ .ninecol .default-body {
+     padding-left: 200px;
+     width: 740px;
+ }
+
+ .content p#error {
+     width: 930px;
+ }
+
+ #home-slideshow .tabs {
+     height: 537px;
+ }
+
+ #home-slideshow .tabs.ui-tabs .tab-content-wrapper-box {
+     height: 497px;
+ }
+
+ #home-slideshow .tabs .tab-content {
+     height: 497px;
+     width: 1253px;
+ }
+
+ #home-slideshow .tabs .tab-content img {
+     height: 497px !important;
+     width: 1253px !important;
+ }
+
+ #channel-nus-tab-content {
+     background-size: auto 497px;
+ }
+
+ #channel-nus-tab-content p {
+     padding-top: 128px;
+     width: calc(100% - 200px);
+     font-size: 26px;
+ }
+
+ #channel-nus-tab-content p:first-child {
+     width: 200px;
+ }
+
+ #home-slideshow #channel-nus-tab-content p:first-child img {
+     width: 150px !important;
+ }
+
+ #channel-nus-tab-content p iframe {
+     height: 240px !important;
+     width: 240px !important;
+ }
+
+ #home-slideshow .ui-tabs .ui-tabs-nav, #home-slideshow .ui-widget-header {
+     padding: 0 calc((100% - 970px) / 2);
+ }
+
+ #home-slideshow .ui-tabs .ui-tabs-nav li a {
+     line-height: 40px;
+     font-size: 18px;
+ }
+
+ .home-content-wrap .uc-widget-student-voices-wrapper .uc-sv-widget-title a {
+     font-size: 18px;
+ }
+
+ .group_left_panel_menu .title h1 {
+     padding-right: calc((100% - 970px) / 2 + 250px);
+ }
+
+ #uc-groups-details-page .top-container, .sub-site-home-html .tree-navigation .thumbnail, #club-header .join-button, #uc-events-details-page .top-container, .uc-sv-post-idea-petition {
+     right: calc((100% - 970px) / 2);
+ }
+
+ .success.evo-success-completed {
+     width: 930px;
+ }
+
+ #salford-welcome #subsite-navigation ul li ul {
+     padding: 20px calc((100% - 970px) / 2);
+ }
+
+ #salford-welcome #subsite-navigation ul #your-student-life-menu-wrapper ul li {
+     margin: 10px;
+ }
+
+ #salford-varsity #header {
+     background: #EFEBEA;
+ }
+
+ #salford-varsity #subsite-navigation ul li {
+     font-size: 16px;
+ }
+
+ #salford-varsity #subsite-navigation ul li a {
+     padding: 0 15px;
+ }
+
+ #salford-atmosphere #main-menu ul #home-menu-wrapper a {
+     background-size: auto 30px;
+     width: 200px;
+ }
+
+ #salford-atmosphere #main-menu ul li {
+     font-size: 14px;
+ }
+ 
+ #footer {
+     background-position: calc((100% - 797px) / 2) top;
+ }
+ 
+ #footer-links-wrap {
+     margin-right: 250px;
+ }
+}

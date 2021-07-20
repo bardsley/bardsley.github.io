@@ -1,0 +1,350 @@
+/* ========
+   ARTICLES
+   ======== */
+
+   #uc-articles-news {
+    padding: 0;
+}
+
+.uc-result-count, .uc-articles-page-wrapper .page-separator {
+    display: none;
+}
+
+.uc-articles-left-panel-navigation {
+    width: auto;
+    float: none;
+    margin-bottom: 39px;
+}
+
+#uc-articles-news .uc-articles-heading {
+    margin: 0;
+}
+
+.uc-articles-listing {
+    padding-right: 330px;
+    margin-top: 40px;
+    box-sizing: border-box;
+}
+
+.uc-articles-wrapper {
+    margin: 0;
+}
+
+.featured-news-block.featured-news-one, .featured-news-block.featured-news-two {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.featured-news-block.featured-news-two {
+    margin: 0 0 2% 0;
+}
+
+.featured-news-block .featured-image img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.featured-news-block h2 a {
+    color: $brand-blue;
+    font-family: "museo-sans", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 1em;
+}
+
+.featured-news-block h2.news-headline .news-date-time {
+    margin-top: 5px;
+}
+
+.featured-news-block h2.news-headline .news-date-time a, .uc-articles-block .uc-news-headline .uc-news-date-time a {
+    text-transform: none;
+    color: $brand-navy;
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.featured-news-block h2.news-headline .news-date-time a:before, .uc-articles-block .uc-news-headline .uc-news-date-time a:before {
+    content: "\f017";
+    margin-right: 10px;
+}
+
+.featured-news-block .featured-text, .uc-articles-block .uc-articles-summary {
+    display: none;
+}
+
+.uc-articles-block {
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.uc-articles-block:nth-child(4) {
+    margin: 0 0 2% 0;
+}
+
+.uc-articles-image img {
+    margin-bottom: 10px;
+}
+
+.uc-articles-list-block .uc-articles-block .uc-news-headline h3 {
+    margin-top: 5px;
+}
+
+.uc-articles-block .uc-news-headline h3 a {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    font-weight: inherit;
+}
+
+.uc-articles-right-panel-search {
+    width: 300px;
+    float: none;
+    position: absolute;
+    z-index: 2;
+    right: calc((100% - 1170px) / 2);
+    top: 140px;
+}
+
+.uc-articles-right-panel-search-wrapper {
+    background: none;
+}
+
+.content .uc-articles-right-panel-search-wrapper h2 {
+    display: none;
+}
+
+.uc-search-container {
+    margin: 0;
+}
+
+.uc-search-articles label {
+    display: none;
+}
+
+.uc-search-articles #search_keyword {
+    padding: 0 15px;
+    margin: 0;
+    border: 1px solid #CFD8DC;
+    font-size: 16px;
+    line-height: 26px;
+    height: 26px;
+    padding: 0 0 0 10px;
+    border: 1px solid $brand-blue-bg;
+    width: 258px;
+}
+
+.uc-search-articles .search-button {
+    width: 30px;
+    height: 28px;
+    /* background: $brand-blue-bg url('//www2.salfordstudents.com/images/inpagesearch.png') no-repeat center; */
+    background-size: 14px;
+    cursor: pointer;
+}
+
+.uc-search-articles .clear-button {
+    display: none;
+}
+
+.uc-search-container .uc-article-sort-by {
+    padding: 0;
+    margin-top: 1em;
+}
+
+.uc-article-sort-by:before {
+    content: 'Sort By';
+    font-family: "museo-sans", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: $brand-blue;
+    padding: 0;
+    font-size: 18px;
+    display: block;
+    margin-bottom: 0.3em;
+}
+
+#uc-article-sorting {
+    width: 100%;
+    font-size: 16px;
+    padding: 0 10px;
+    line-height: 26px;
+    height: 26px;
+    border: 1px solid $brand-blue-bg;
+}
+
+.uc-filter-block {
+    margin: 1em 0;
+}
+
+.uc-search-articles-filters h3 {
+    color: $brand-blue;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 700;
+    border-bottom: none;
+    padding: 0;
+    cursor: initial;
+    font-family: "museo-sans", Arial, Helvetica, sans-serif;
+    margin-bottom: 0.3em;
+}
+
+.uc-search-articles-filters h3 span, .uc-search-articles-filters h3.expanded span {
+    background: none;
+    padding: 0;
+}
+
+.uc-article-cat-filter-wrapper {
+    padding: 0;
+    max-height: initial;
+}
+
+.uc-filter-checkbox label, .uc-filter-checkbox label.active {
+    font-size: 18px;
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    color: $brand-blue;
+    background: none;
+    padding: 5px 20px 5px 26px;
+    line-height: initial;
+    min-height: initial;
+    position: relative;
+}
+
+.uc-filter-checkbox label {
+    background: none;
+}
+
+.uc-filter-checkbox label:before, .uc-filter-checkbox label.active:before {
+    width: 16px;
+    position: absolute;
+    top: 5px;
+    left: 0;
+}
+
+.uc-filter-checkbox label:before {
+    content: "\f096";
+}
+
+.uc-filter-checkbox label.active:before {
+    content: "\f046";
+}
+
+.uc-filter-checkbox label:hover, .uc-filter-checkbox label.active {
+    background: $brand-blue-bg;
+}
+
+.uc-articles-left-panel-navigation-wrapper > div#load_more_article {
+    margin: auto;
+    box-sizing: border-box;
+    padding-right: 330px;
+}
+
+#uc-articles-news #load_more_article a {
+    margin: 10px 0 0 0;
+}
+
+#uc-articles-details {
+    margin-top: 0;
+    padding-top: 140px;
+}
+
+#uc-articles-details:before {
+    content: 'Blog';
+    font-weight: 700;
+    color: $brand-blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-family: "museo-sans", Arial, Helvetica, sans-serif;
+}
+
+#uc-articles-details .portletTitles h1 {
+    background: none;
+    padding: 0;
+}
+
+.articleDetails {
+    margin: 0;
+}
+
+.articleDetails .time {
+    border: 0;
+    color: $brand-navy;
+    font-size: 18px;
+    font-style: normal;
+    margin: 10px 0 20px 0;
+    padding: 0;
+}
+
+.articleDetails .time:before {
+    content: "\f017";
+    margin-right: 10px;
+}
+
+.articleDetails .articles-image {
+    padding: 0;
+    margin: 0 25px 25px 0;
+}
+
+.article-backto-parent {
+    background: $brand-blue-bg;
+    padding: 10px 15px;
+}
+
+.uc-articles-tags {
+    color: $brand-blue;
+    font-weight: 300;
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.uc-articles-tags:last-child {
+    margin: 0;
+}
+
+.uc-articles-tags .uc-articles-tags-heading {
+    font-weight: 600;
+    margin: 0;
+    display: inline;
+}
+
+.uc-articles-tags p {
+    display: inline;
+    color: $brand-blue;
+}
+
+.articleDetails p {
+    line-height: inital;
+    font-size: 18px;
+}
+
+.article-backto-parent .backButton {
+    display: none;
+}
+
+.articles-full-banner-advert {
+    text-align: left;
+    padding: 0;
+    width: auto;
+    margin-top: 20px;
+}
+
+.advert-blocks {
+    text-align: left;
+}
+
+.contentContainer .advert-blocks h2, .contentContainer .advert-blocks h3 {
+    padding: 0;
+}
+
+.more-article-block-wrapper .article-listing li {
+    font-size: 18px;
+    line-height: 1.4em;
+    margin-bottom: 0.6em;
+    list-style: none;
+}
+
+.more-article-block-wrapper .article-listing li span, .more-article-block-wrapper .pagination {
+    display: none;
+}

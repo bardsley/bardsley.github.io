@@ -1,0 +1,635 @@
+/* ===========
+   EVENT PAGES
+   =========== */
+
+   #event-homepage {
+    padding-bottom: 39px;
+}
+
+#event-homepage .heading {
+    margin: 0 0 40px 0;
+}
+
+#event-homepage h1 {
+    background:$events-light-bg;
+    color: $events-base;
+}
+
+#event-homepage #left-panel {
+    float: none;
+    position: static;
+}
+
+#event-homepage #left-panel .club-navigation {
+    float: right;
+    width: 300px;
+    margin-top: 50px;
+}
+
+#event-homepage #left-panel h3 {
+    display: none;
+}
+
+#event-homepage #left-panel .tree-navigation ul li a {
+    color: $events-base;
+}
+
+#event-homepage #left-panel .tree-navigation ul li a:hover, #event-homepage #left-panel .tree-navigation ul li.selected a {
+    color: $events-base;
+    background:$events-light-bg;
+}
+
+#event-homepage #right-panel {
+    padding: 0;
+    float: none;
+}
+
+.eventsearch {
+    position: relative;
+    z-index: initial;
+}
+
+.eventsearch .search-box {
+    left: initial;
+}
+
+.eventsearch .search-box .search-box-wrapper {
+    border: 1px solid$events-light-bg;
+    border-radius: 0;
+    width: 298px;
+    padding: 0;
+}
+
+.eventsearch .search-box-wrapper .search-button {
+    width: 30px;
+    height: 28px;
+    /* background:$events-light-bg url('//www2.salfordstudents.com/images/eventsearch.png') no-repeat center; */
+    background-size: 14px;
+    cursor: pointer;
+}
+
+#event-homepage #right-panel > .clear {
+    clear: none;
+}
+
+#eventcarousel {
+    border-radius: 0;
+    background: none;
+    border: 0;
+    margin: 0 330px 0 0;
+    padding: 0;
+}
+
+.event-type-title, #event-homepage .page-separator-wrapper {
+    display: none;
+}
+
+#eventcarousel ul {
+    margin: 0;
+    text-align: center;
+}
+
+#eventcarousel li {
+    display: inline-block;
+    width: 266px;
+    margin: 0 16px 20px 0;
+    vertical-align: top;
+    padding: 0;
+    text-align: left;
+}
+
+#eventcarousel li:nth-child(3n) {
+    margin-right: 0;
+}
+
+#eventcarousel .event-container {
+    width: auto;
+}
+
+#eventcarousel .event-box {
+    float: none;
+    margin: 0;
+    width: auto;
+    border: 0;
+    background: none;
+    min-height: 0;
+    padding: 276px 0 0 0;
+    display: block;
+}
+
+.event-box .non-free-event-title, .event-box .free-event-title {
+    color: $events-base;
+    line-height: 1.4em;
+    font-size: 18px;
+    font-family: "museo-sans", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    white-space: initial;
+    overflow: initial;
+}
+
+.event-banner {
+    float: none;
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.event-banner img {
+    width: 100%;
+}
+
+#eventcarousel .event-details {
+    float: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 18px;
+    background: rgba(233, 30, 99, 0.5);
+    padding: 10px 15px;
+    margin: 0;
+    width: auto;
+    display: none;
+}
+
+#eventcarousel .event-details.new-date {
+    display: block;
+}
+
+.event-details p {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-weight: 600;
+    color: $white;
+    text-align: center;
+    line-height: 1em;
+}
+
+.event-details p.day, .event-details p.month {
+    font-size: 0.8em;
+}
+
+.event-details p.date {
+    font-size: 1.5em;
+}
+
+.free-event {
+    display: none;
+}
+
+.sub-site-home-html .threecol.tree-navigation {
+    float: none;
+    margin: 0 0 40px 0;
+}
+
+.sub-site-home-html .left-nav-content {
+    position: static;
+    width: auto;
+}
+
+.sub-site-home-html .title h1 {
+    color: #E41D61;
+    background:$events-light-bg;
+}
+
+.sub-site-home-html .tree-navigation .thumbnail {
+    position: absolute;
+    right: calc((100% - 1170px) / 2);
+    top: 138px;
+    width: 300px;
+}
+
+.sub-site-home-html .tree-navigation .latestEventLeftSide, .sub-site-home-html .tree-navigation .clubSubMenu {
+    display: none;
+}
+
+.sub-site-home-html .tree-navigation .thumbnail li.selected {
+    background: 0;
+    padding: 0;
+}
+
+.sub-site-home-html .tree-navigation ul li.selected a {
+    background: none;
+    padding: 0;
+}
+
+.sub-site-home-html .tree-navigation ul li a:before {
+    content: '';
+    display: none;
+}
+
+#uc-events-details-page {
+    padding-right: 330px;
+    box-sizing: border-box;
+}
+
+#uc-events-details-page .top-container {
+    position: absolute;
+    top: 40px;
+    right: calc((100% - 1170px) / 2);
+}
+
+#uc-events-details-page .top-container .sevencol {
+    width: auto;
+    min-height: 0;
+    float: none;
+    margin: 0;
+}
+
+.buy-this-now.button-top {
+    margin: 0;
+}
+
+#uc-events-details-page .top-container .fivecol {
+    display: none;
+}
+
+#uc-events-details-page .contentBoxes, #uc-events-details-page .contentBoxes.marginTop20 {
+    margin: 0 0 30px 0;
+}
+
+#uc-events-details-page .contentBoxes:first-child h2:first-child, #uc-events-details-page .contentBoxes:nth-child(3) {
+    display: none;
+}
+
+#uc-events-details-page .contentBoxes p {
+    text-align: justify;
+}
+
+#uc-events-details-page .contentBoxes:nth-child(2) p {
+    margin: 0;
+}
+
+#uc-events-details-page .contentBoxes ol, #uc-events-details-page .contentBoxes ul {
+    font-size: 18px;
+}
+
+#uc-events-details-page .contentBoxes h2 {
+    font-size: 32px;
+    color: #E41D61;
+}
+
+#uc-events-details-page .contentBoxes h3 {
+    color: #E41D61;
+    text-transform: none;
+}
+
+#uc-events-details-page .more {
+    background: $events-base;
+}
+
+#uc-events-details-page .more:before {
+    background:$events-dark;
+}
+
+.uc-event-terms-wrapper {
+    margin: 0;
+}
+
+#uc-events-details-page .bottom-container {
+    display: none;
+}
+
+#event-dialog.jqmCMSWindow {
+    top: 25%;
+    bottom: 25%;
+    max-width: 800px;
+    color: $brand-navy;
+    border: 2px solid $events-base;
+    -webkit-box-shadow: 0px 0px 20px 2px rgba(136,14,79,0.5);
+    -moz-box-shadow: 0px 0px 20px 2px rgba(136,14,79,0.5);
+    box-shadow: 0px 0px 20px 2px rgba(136,14,79,0.5);
+    overflow-y: scroll;
+}
+
+#event-dialog .jqmClose {
+    right: 0;
+    top: -2px;
+    background: $events-base;
+    color: $white;
+    text-indent: 0;
+}
+
+#event-dialog .jqmClose:before {
+    content: '\f00d';
+    line-height: 30px;
+    width: 30px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.event-content-display {
+    padding: 50px 25px 20px 25px;
+    height: auto;
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+}
+
+#uc-events-details-page .contentBoxes #event-dialog.jqmCMSWindow p {
+    margin-bottom: 1.4em;
+}
+
+#uc-events-details-page .contentBoxes #event-dialog.jqmCMSWindow p:last-child {
+    margin: 0;
+}
+
+.uc-require-signin .jqimessage {
+    font-size: 18px;
+}
+
+#uc-event-ticket-details {
+    margin-top: 0;
+    width: auto;
+}
+
+#uc-event-ticket-details .twelvecol {
+    margin: 0;
+    float: none;
+}
+
+#uc-event-ticket-details .threecol, #uc-event-ticket-details .ninecol {
+    width: auto;
+    float: none;
+    margin: 0;
+}
+
+#uc-event-ticket-details .title h1 {
+    margin-bottom: 40px;
+    background:$events-light-bg;
+    color: #E41D61;
+}
+
+#uc-event-ticket-details .thumbnail, #uc-event-ticket-details .latestEventLeftSide, #uc-event-ticket-details .clubSubMenu {
+    display: none;
+}
+
+.availableTickets {
+    display: block;
+    width: auto;
+    border-spacing: 0;
+}
+
+.availableTickets:before {
+    content: 'Quantity';
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: right;
+    padding-right: 228px;
+}
+
+.uc-event-ticket-type-row {
+    display: block;
+}
+
+.ticketInfo {
+    display: none;
+}
+
+.ticketsTypes {
+    display: block;
+    width: auto;
+    padding: 15px 350px 15px 0;
+    border-color:$events-light-bg;
+    margin: 0;
+    border-width: 1px 0 0 0;
+}
+
+.contentBoxes .ticketsTypes h2 {
+    padding: 0;
+    margin: 0;
+    text-shadow: none;
+    color: #E41D61;
+    font-size: 24px;
+}
+
+.leftticketBox .ticket-price {
+    font-weight: 700 !important;
+    font-size: inherit;
+    display: inline;
+}
+
+.availableTickets .static-ticket-block {
+    height: auto;
+    padding: 0;
+    margin: 0;
+    position: static;
+}
+
+.ticketsTypes .description {
+    padding: 0;
+}
+
+.availableTickets .static-ticket-block p {
+    font-size: 18px;
+    min-height: 0;
+    line-height: 1.4em;
+    margin: 0;
+}
+
+.ticketQuantityBox {
+    top: 20px;
+    right: 0;
+    bottom: initial;
+    left: initial;
+    text-align: right;
+}
+
+.ticketQuantityBox .marginLeft, .ticketQuantityBox .marginRight {
+    margin: 0;
+}
+
+.ticketQuantityBox > .floatLeft:first-child {
+    display: none;
+}
+
+.ticketQuantityBox .floatLeft, .ticketQuantityBox .price {
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.ticketQuantityBox > .floatLeft.marginLeft:first-child {
+    display: inline-block;
+}
+
+.reduceQtyBought, .reduceBuyQty, .increaseQtyBought, .increaseBuyQty, .reduceQtyBought:hover, .reduceBuyQty:hover, .increaseQtyBought:hover, .increaseBuyQty:hover {
+    width: 24px;
+    height: 40px;
+    background: none;
+    font-size: 24px;
+    color: #E41D61;
+    line-height: 40px;
+}
+
+.reduceQtyBought:before, .reduceBuyQty:before {
+    content: '\f068';
+}
+
+.increaseQtyBought:before, .increaseBuyQty:before {
+    content: '\f067'
+}
+
+#uc-event-ticket-details .ticketQuantity {
+    font-size: 24px;
+    color: #E41D61;
+    font-weight: 600;
+    width: 50px;
+    border: 0;
+}
+
+#uc-event-ticket-details .ticketQuantity:focus {
+    padding: 0 15px;
+}
+
+.availableTickets .ticketQuantityBox .ticketSold {
+    display: inline-block;
+    line-height: 40px;
+    padding: 0;
+    color: #E41D61;
+    visibility: visible;
+    background: 0;
+    font-size: 24px;
+}
+
+.ticket-sold-out-icon {
+    display: none;
+}
+
+.ticketQuantityBox .price {
+    margin-left: 20px;
+    font-size: 24px;
+    padding: 0;
+    text-align: right;
+    width: 170px;
+    line-height: 40px;
+}
+
+.ticketQuantityBox .price .finalfees {
+    padding: 0;
+    text-shadow: none;
+}
+
+.totalQuantityBought {
+    display: none;
+}
+
+.ticketButtons {
+    padding: 0;
+    text-align: right;
+    margin-top: 20px;
+}
+
+#uc-event-ticket-details .ticketButtons input {
+    display: inline-block;
+    background: #E41D61;
+}
+
+#uc-event-ticket-details .error {
+    margin: 0 0 30px 0;
+    float: none;
+    width: auto;
+    display: block;
+    border: 0;
+    background: $brand-orange;
+    color: $white;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+#uc-event-ticket-details .error:before {
+    content: '\f06a';
+    margin-right: 10px;
+}
+
+.ticket-print-block {
+    padding: 0;
+    border: 0;
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.ticket-print-block .event-left-details {
+    min-height: unset;
+}
+
+.ticket-print-block .event-name-date {
+    font-size: inherit;
+    font-weight: 600;
+}
+
+.ticket-print-block .eticket-title {
+    font-weight: 600;
+}
+
+.ticket-print-block .static-text {
+    margin: 0.4em 0 0 0;
+}
+
+.ticket-print-block .union-tc {
+    padding: 0;
+    margin: 0;
+    font-size: 0.8em;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+.ticket-print-block .event-right-details {
+    height: unset;
+}
+
+.event-right-details .event-logo {
+    padding-right: 0;
+    margin-bottom: 30px;
+}
+
+.event-right-details .event-logo img {
+    margin: 0;
+}
+
+.ticket-print-block .barcode-needed {
+    margin: 0;
+    text-align: right;
+}
+
+.ticket-print-block .barcode-needed .barcode {
+    float: none;
+    display: inline-block;
+}
+
+.ticket-print-block .barcode-needed .barcode div:last-child {
+    font-size: 18px !important;
+    padding-top: 10px;
+}
+
+.ticket-print-block .ticket-details {
+    padding: 0;
+    margin: 20px 0 0 0;
+}
+
+.ticket-print-block-right > #barcode-temp {
+    display: none;
+}
+
+.ticket-print-block-innerwrapper .line {
+    display: none;
+}
+
+.ticket-print-block .ticket-center {
+    margin: 30px 0 0 0;
+}
+
+.ticket-print-block .ticket-event-desc {
+    font-size: inherit;
+}
+
+.ticket-print-block .ticket-event-desc p {
+    line-height: 1.4em;
+    margin-bottom: 1.3em;
+}
+
+.event-ticket-print .backButton {
+    margin: 0;
+}

@@ -1,0 +1,188 @@
+/* =====
+   FORMS
+   ===== */
+
+   input[type='text'], input[type='email'], input[type='password'], input[type='tel'], textarea {
+    width: calc(100% - 32px);
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    border: 1px solid #CFD8DC;
+    transition: border 0.2s linear, padding-left 0.2s linear;
+    color: $brand-navy;
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
+input[type='text'], input[type='email'], input[type='password'], input[type='tel'] {
+    line-height: 40px;
+    height: 40px;
+    padding: 0 15px;
+}
+
+textarea {
+    padding: 10px 15px;
+    line-height: 1.3em;
+}
+
+input[type='text']:focus, input[type='email']:focus, input[type='password']:focus, input[type='tel']:focus, textarea:focus {
+    border-color: $brand-blue;
+    border-width: 1px 1px 1px 5px;
+    padding-left: 11px;
+    outline: none;
+}
+
+input[type='checkbox'] {
+    width: 18px;
+    height: 18px;
+}
+
+select {
+    font-size: 18px;
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+    padding: 10px 15px;
+    border: 1px solid #CFD8DC;
+    color: $brand-navy;
+}
+
+a.button, a.more, a.pdf-link, input[type='button'], input[type='submit'], #event-homepage #load-more-events a, .event-ticket-print .printButton, .contentContainer .event-ticket-print .backButton, #uc-group-homepage #uc-more-group-search a.uc-load-more-groups, .join-this-group.button-top a, #club-header .join-button a, .uc-payment-page #button-pay, .uc-payment-dialog-box #text-close, .uc-position-button a.first-vote-now-button, .uc-position-button a.modify-vote-button, .uc-nomination-details fieldset.actions .buttonLink.submit-button, .uc-election-dashboard .see-all-turnouts, #uc-articles-news #load_more_article a, .content .uc-sv-post-idea-petition a, .uc-sv-post-idea-petition a, .uc-sv-module-more a.uc-sv-more, .buy-this-now.button-top a {
+    display: block;
+    background: $brand-blue;
+    color: $white;
+    text-align: center;
+    padding: 0 10px;
+    font-size: 18px;
+    float: none;
+    position: relative;
+    height: 45px;
+    line-height: 45px;
+    overflow: hidden;
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+    text-indent: 0;
+    -webkit-appearance: none;
+    border-radius: 0;
+    box-shadow: none;
+    text-shadow: none;
+    font-weight: 300;
+    border: 0;
+}
+
+a.button.big, a.more.big {
+    font-size: 36px;
+    height: 90px;
+    line-height: 90px;
+}
+
+a.button[data-icon], a.more, a.pdf-link, #event-homepage #load-more-events a, .event-ticket-print .printButton, .contentContainer .event-ticket-print .backButton, #uc-group-homepage #uc-more-group-search a.uc-load-more-groups, .join-this-group.button-top a, #club-header .join-button a, .uc-position-button a.first-vote-now-button, .uc-position-button a.modify-vote-button, .uc-election-dashboard .see-all-turnouts, #uc-articles-news #load_more_article a, .content .uc-sv-post-idea-petition a, .uc-sv-post-idea-petition a, .uc-sv-module-more a.uc-sv-more, .buy-this-now.button-top a {
+    padding: 0 20px 0 70px;
+}
+
+a.button.big[data-icon], a.more.big {
+    padding: 0 40px 0 140px;
+}
+
+a.button[data-icon]:before, a.more:before, a.pdf-link:before, .signin-block li.action:before, .change-password-block .button-row:before, .unlock-block .button-row:before, #event-homepage #load-more-events a:before, .event-ticket-print .printButton:before, .contentContainer .event-ticket-print .backButton:before, #uc-group-homepage #uc-more-group-search a.uc-load-more-groups:before, .join-this-group.button-top a:before, #club-header .join-button a:before, .uc-position-button a.first-vote-now-button:before, .uc-position-button a.modify-vote-button:before, .uc-election-dashboard .see-all-turnouts:before, #uc-articles-news #load_more_article a:before, .content .uc-sv-post-idea-petition a:before, .uc-sv-post-idea-petition a:before, .uc-sv-module-more a.uc-sv-more:before, .buy-this-now.button-top a:before {
+    content: attr(data-icon);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #003C78;
+    transition: width 0.2s ease;
+    width: 50px;
+    line-height: 45px;
+    font-size: 18px;
+}
+
+a.button.big[data-icon]:before, a.more.big:before {
+    width: 100px;
+    line-height: 90px;
+    font-size: 36px;
+}
+
+a.more:before, .signin-block li.action:before, .change-password-block .button-row:before, .unlock-block .button-row:before, .uc-position-button a.first-vote-now-button:before, .uc-position-button a.modify-vote-button:before, .uc-election-dashboard .see-all-turnouts:before, .uc-sv-module-more a.uc-sv-more:before {
+    content: '\f0a9';
+}
+
+#event-homepage #load-more-events a:before, #uc-group-homepage #uc-more-group-search a.uc-load-more-groups:before, #uc-articles-news #load_more_article a:before {
+    content: '\f0ab';
+}
+
+.content .uc-sv-post-idea-petition a:before, .uc-sv-post-idea-petition a:before {
+    content: '\f044';
+}
+
+a.button[data-icon]:hover:before, a.more:hover:before, a.pdf-link:hover:before, .signin-block li.action:hover:before, .change-password-block .button-row:hover:before, .unlock-block .button-row:hover:before, #event-homepage #load-more-events a:hover:before, .event-ticket-print .printButton:hover:before, .event-ticket-print .backButton:hover:before, #uc-group-homepage #uc-more-group-search a.uc-load-more-groups:hover:before, .join-this-group.button-top a:hover:before, #club-header .join-button a:hover:before, .uc-position-button a.first-vote-now-button:hover:before, .uc-position-button a.modify-vote-button:hover:before, .uc-election-dashboard .see-all-turnouts:hover:before, #uc-articles-news #load_more_article a:hover:before, .content .uc-sv-post-idea-petition a:hover:before, .uc-sv-post-idea-petition a:hover:before, .uc-sv-module-more a.uc-sv-more:hover:before, .buy-this-now.button-top a:hover:before {
+    width: 100%;
+}
+
+a.more, .event-ticket-print .printButton, .contentContainer .event-ticket-print .backButton, .uc-sv-module-more a.uc-sv-more {
+    display: inline-block;
+    text-transform: capitalize;
+}
+
+a.pdf-link {
+    color: $brand-blue;
+    background: $brand-blue-bg;
+    text-transform: none;
+}
+
+a.pdf-link:before {
+    content: '\f1c1';
+    background: #B3CAE3;
+}
+
+#event-homepage #load-more-events a {
+    background: $events-base;
+}
+
+#event-homepage #load-more-events a:before {
+    background:$events-dark;
+}
+
+.buy-this-now.button-top a {
+    width: auto;
+    display: inline-block;
+    background: $events-base;
+    text-transform: capitalize;
+}
+
+.buy-this-now.button-top a:before {
+    background:$events-dark;
+    content: '\f145';
+}
+
+.event-ticket-print .printButton:before {
+    content: '\f02f'
+}
+
+.contentContainer .event-ticket-print .backButton:before {
+    content: '\f0a8'
+}
+
+.join-this-group.button-top a, #club-header .join-button a {
+    background:$activities-base;
+    width: auto;
+    text-transform: capitalize;
+}
+
+.join-this-group.button-top a:before, #club-header .join-button a:before {
+    background: #FF6F00;
+    content: '\f055';
+}
+
+#uc-group-homepage #uc-more-group-search a.uc-load-more-groups {
+    box-shadow: none;
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+}
+
+.uc-election-dashboard .see-all-turnouts {
+    display: inline-block;
+}
+
+.uc-nomination-details p.warning {
+    background: #FEEBEE;
+    border: 0;
+    padding: 10px 20px;
+    color: $brand-orange;
+}

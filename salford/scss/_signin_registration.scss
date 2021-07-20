@@ -1,0 +1,684 @@
+/* ======================
+   LOGIN AND REGISTRATION
+   ====================== */
+
+   .has-shibboleth.uc-sso-center-align {
+    width: 100%;
+    margin: 0;
+}
+
+.has-shibboleth.uc-sso-center-align span.error {
+    background: $brand-orange;
+    margin-top: 40px;
+    box-sizing: border-box;
+    border: 0;
+    color: $white;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.has-shibboleth.uc-sso-center-align span.error:before {
+    content: '\f06a';
+    margin-right: 10px;
+}
+
+.has-shibboleth.uc-sso-center-align:before {
+    content: 'Sign In';
+    display: block;
+    color: $brand-blue;
+    font-family: "museo-sans", Arial, Helvetica, sans-serif;
+}
+
+.has-shibboleth.uc-sso-center-align .signin-block {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.salford-signin, .guest-signin {
+    box-sizing: border-box;
+    padding: 50px 20px;
+    margin-bottom: 30px;
+}
+
+.salford-signin {
+    border: 6px solid $brand-blue;
+}
+
+.guest-signin {
+    border: 6px solid$activities-medium;
+}
+
+.salford-signin p, .guest-signin p {
+    font-size: 2.6em;
+    font-weight: 700;
+    font-family: "museo-sans", Arial, Helvetica, sans-serif;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.salford-signin p {
+    color: $brand-blue;
+}
+
+.guest-signin p {
+    color:$activities-medium;
+}
+
+.guest-signin a.more {
+    background:$activities-medium;
+}
+
+.guest-signin a.more:before {
+    background:$activities-base;
+}
+
+.salford-signin p:last-child, .guest-signin p:last-child {
+    margin: 0;
+}
+
+.signin-block p {
+    display: none;
+}
+
+.signin-block .uc-single-login p, .signin-block .row p {
+    display: block;
+}
+
+.uc-single-login {
+    padding-top: 130px;
+}
+
+.signin-block h2, .confirm-email-block h2 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.signin-block span.error, .signin-block p.error {
+    background:$elections-base;
+    color: $white;
+    max-width: 710px;
+    margin: 0 auto 20px auto;
+    border: 0;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.signin-block span.error:before, .signin-block p.error:before {
+    content: "\f06a";
+    margin-right: 10px;
+}
+
+.signin-block form  {
+    max-width: 750px;
+    margin: 0 auto 30px auto;
+}
+
+.signin-block fieldset, .signin-block .inputs li.password-block, .signin-block .inputs li.register, .signin-block .inputs li.links, .signin-block .inputs li.commit.button, .signin-block .buttons, .change-password-block, .unlock-block, .reset-password-block {
+    margin: 0;
+}
+
+.signin-block .inputs li {
+    margin-bottom: 20px;
+}
+
+.signin-block .inputs li input {
+    margin: 0;
+    box-shadow: none;
+}
+
+.signin-block .inputs .email {
+    display: none;
+}
+
+.signin-block .inputs #user_email_input.email {
+    display: block;
+}
+
+#user_email_input, #user_password_input {
+    position: relative;
+}
+
+.signin-block #user_email_input:before, .signin-block #user_password_input:before {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    line-height: 42px;
+    font-size: 16px;
+    display: block;
+    width: 16px;
+    text-align: center;
+}
+
+.signin-block #user_email_input:before {
+    content: "\f0e0";
+}
+
+.signin-block #user_email, .signin-block #user_password {
+    width: calc(100% - 65px);
+    padding: 0 15px 0 48px;
+}
+
+.signin-block #user_email:focus, .signin-block #user_password:focus {
+    padding-left: 44px;
+}
+
+.signin-block h3.block-title {
+    margin: 0 20px 0 0;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+    color: $brand-navy;
+    vertical-align: middle;
+}
+
+.signin-block .pwd_availability .radio-tag {
+    float: none;
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.signin-block .pwd_availability .radio-tag input {
+    margin: 0 5px 0 0;
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.signin-block .pwd_availability .radio-tag label {
+    font-size: 18px;
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0;
+    margin-right: 10px;
+}
+
+.signin-block .password-block {
+    background: none;
+    border-top: 0;
+    padding: 0;
+}
+
+.signin-block .password-block .password {
+    display: none;
+}
+
+.signin-block #user_password_input:before {
+    content: "\f13e";
+}
+
+.signin-block .password-block #user_password_input.password {
+    display: block;
+}
+
+.forgot-password {
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.forgot-password a {
+    color: $brand-blue-bright;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.signin-block .password-block li.links .action, .signin-block .register li.action, .change-password-block .button-row, .unlock-block .button-row {
+    position: relative;
+    float: none;
+    display: inline-block;
+    margin: 0;
+}
+
+.signin-block li.action:before, .change-password-block .button-row:before, .unlock-block .button-row:before {
+    pointer-events: none;
+    color: $white;
+    text-align: center;
+    z-index: 1;
+}
+
+.signin-block .inputs li.uc-back-button-hyper {
+    float: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+}
+
+.signin-block .inputs li.uc-back-button-hyper a {
+    font-weight: 300;
+    color: #78909C;
+}
+
+.signin-block .inputs li.uc-back-button-hyper a:before {
+    content: '\f0a8';
+    margin-right: 10px;
+}
+
+.myaccount-change-password .actions .action input, .signin-block .ask-button .highlight-button, .actions .action .update, .actions .action .button.create, .action.input_action input, .change-password-block .button-row .button, .unlock-block .button-row .button {
+    display: inline-block;
+    float: none;
+    background: $brand-blue;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 0 20px 0 70px;
+    text-shadow: none;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.change-password-block form {
+    margin: 30px auto;
+}
+
+.unlock-block form {
+    margin: 30px auto 20px auto;
+}
+
+.change-password-block .form-row, .confirmation-email-block .form-row, .unlock-block .form-row {
+    margin: 0 0 20px 0;
+}
+
+.change-password-block .form-row label, .confirmation-email-block .form-row label, .unlock-block .form-row label {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.change-password-block p.form-hints {
+    font-size: 18px;
+    line-height: 1.4em;
+}
+
+.change-password-block .form-row input, .confirmation-email-block .form-row input, .unlock-block .form-row input {
+    padding: 0 15px;
+    border: 1px solid #CFD8DC;
+    box-shadow: none;
+}
+
+.change-password-block .help-link {
+    display: block;
+    font-size: 18px;
+    color: $brand-blue-bright;
+    padding: 0;
+    margin: 20px 0 30px 0;
+}
+
+.unlock-block .forgot-password {
+    margin-bottom: 30px;
+    line-height: 1.4em;
+}
+
+.reset-password-block .warning, .confirm-email-block .warning, .accountlock-password-block .warning {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: $brand-navy;
+    background: none;
+    padding: 0;
+    font-size: 18px
+}
+
+.reset-password-block .confirm-link-message, .confirm-email-block .confirm-link-message, .accountlock-password-block .confirm-link-message {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: initial;
+}
+
+.reset-password-block .help-link, .confirm-email-block .help-link, .accountlock-password-block .help-link {
+    display: block;
+    color: $brand-blue-bright;
+    padding: 0;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.welcome-newuser {
+    padding-top: 130px;
+}
+
+.signin-block .heading, .change-password-block .heading, .confirmation-email-block .heading, .unlock-block .heading, .reset-password-block .heading, .accountlock-password-block .heading, .account-activation-block .heading {
+    font-size: 42px;
+}
+
+.signin-block .heading .welcome-text {
+    margin: 0;
+    font-size: inherit;
+}
+
+.signin-block .heading .user-email-id {
+    display: inline;
+    font-size: inherit;
+    margin: 0;
+}
+
+.signin-block .user-message, .accountlock-password-block {
+    padding: 0;
+    margin: 0;
+}
+
+.welcome-newuser h4 {
+    font-size: 32px;
+}
+
+.ask-button.for-guest-only {
+    box-shadow: none;
+    padding: 0;
+    margin: 15px 0 30px 0;
+    background: none;
+    text-align: center;
+}
+
+.signin-block .ask-button.for-guest-only form {
+    display: inline-block;
+    width: 26%;
+    margin: 0 10% 0 0;
+    vertical-align: top;
+    position: relative;
+}
+
+.signin-block .ask-button.for-guest-only form:last-child {
+    margin: 0;
+}
+
+.ask-button.for-guest-only .student-block1, .ask-button.for-guest-only .student-block2, .ask-button.for-guest-only .student-block3 {
+    float: none;
+    width: auto;
+    padding: 0;
+}
+
+.ask-button.for-guest-only .student-block1 h2, .ask-button.for-guest-only .student-block2 h2, .ask-button.for-guest-only .student-block3 h2 {
+    position: static;
+    padding: 0;
+    background: none;
+    font-size: 22px;
+    margin: 0 0 15px 0;
+}
+
+.ask-button.for-guest-only .student-block1 p, .ask-button.for-guest-only .student-block2 p, .ask-button.for-guest-only .student-block3 p  {
+    font-size: 18px;
+    font-weight: 300;
+    color: $brand-navy;
+}
+
+.signin-block .ask-button .highlight-button {
+    padding: 0 20px;
+}
+
+.ask-button.for-guest-only .or-block {
+    float: none;
+    color: $brand-blue;
+    top: 0;
+    left: 109%;
+    box-shadow: none;
+    background: $brand-blue-bg;
+    position: absolute;
+    margin-top: 22px;
+}
+
+.ask-button.for-guest-only .or-block p {
+    color: $brand-blue;
+    font-size: 18px;
+}
+
+.welcome-newuser .try-again-links {
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.welcome-newuser .try-again-links a {
+    display: none;
+    font-size: 18px;
+}
+
+.welcome-newuser .try-again-links a.red-colour-text {
+    display: block;
+    color: $brand-blue-bright;
+}
+
+.confirm-email-block {
+    padding-top: 100px;
+    margin: 0;
+}
+
+#registration-form-container {
+    padding: 0px;
+}
+
+#registration-form-container h2 {
+    padding: 0;
+    line-height: 1em;
+    margin-bottom: 20px;
+}
+
+.almost-done-msg {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0;
+}
+
+.account-act-msg {
+    font-size: 18px;
+}
+
+#registration-form-container p.form-error {
+    background:$elections-base;
+    color: $white;
+    margin: 20px 0 0 0;
+    padding: 10px 20px;
+    border: 0;
+    font-size: 18px;
+}
+
+#registration-form-container p.form-error:before {
+    content: "\f06a";
+    margin-right: 10px;
+}
+
+.for-student .user-profile-picture-wrapper, .for-guest .user-profile-picture-wrapper {
+    top: 0;
+    font-family: "proxima-nova",Arial,Helvetica,sans-serif;
+}
+
+.user-profile-picture-wrapper > label {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.registration-form ol li {
+    padding: 0;
+}
+
+.registration-form ol li.input label {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.registration-form abbr {
+    text-decoration: none; 
+}
+
+.registration-form fieldset .smalltext {
+    width: calc(50% - 32px);
+    border: 1px solid #CFD8DC;
+    padding: 0 15px;
+    box-shadow: none;
+}
+
+#student_user_attributes_dob_input legend label, #guest_user_attributes_dob_input legend label, #admin_user_attributes_dob_input legend label {
+    font-size: 18px;
+}
+
+.registration-form p.inline-hints {
+    font-size: 18px;
+    background: none;
+    padding-left: 0;
+    font-style: normal;
+}
+
+.registration-form p.inline-hints:before {
+    content: '\f05a';
+    margin-right: 10px;
+}
+
+.registration-form .phone .inline-hints {
+    display: none;
+}
+
+.registration-form #user_image_user_avatar_input p.inline-hints {
+    font-size: 14px;
+}
+
+.registration-form ol li.unionemail input, .registration-form ol li.nusemail input, .registration-form ol li.commercialemail input, .registration-form ol li.smipost input {
+    margin: 0;
+}
+
+.registration-form ol li.unionemail p, .registration-form ol li.nusemail p, .registration-form ol li.commercialemail p, .registration-form ol li.nusemail .label-unionemail-wrapper, .registration-form ol li.smipost .label-smipost-wrapper, .registration-form ol li.smipost p {
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.2em;
+    padding-left: 5px;
+}
+
+.show-plus, .hide-minus {
+    color: $brand-blue-bright;
+}
+
+.recaptchaLabel {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+p.form-hints {
+    font-size: 18px;
+    color: #000;
+}
+
+#recaptcha_widget .recaptcha_only_if_image, #recaptcha_widget .recaptcha_only_if_audio {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.registration-form .action.input_action input {
+    padding: 0 20px;
+}
+
+.registration-form li .inline-errors, p.recaptcha.inline-errors {
+    color:$elections-base;
+    font-size: 18px;
+    padding: 0;
+    line-height: 1em;
+    background: none;
+    margin: 0;
+}
+
+.registration-form li .inline-errors:before, p.recaptcha.inline-errors:before {
+    content: "\f06a";
+    margin-right: 10px;
+}
+
+.uc-evoting-reg-acc {
+    display: block;
+    font-size: 0.7em;
+}
+
+.uc-evoting-reg-acc .uc-or-span {
+    display: inline;
+    color: $brand-blue;
+}
+
+.uc-evoting-reg-acc a {
+    display: inline;
+    color: $brand-blue-bright;
+}
+
+#registration-form-container .heading h3 {
+    text-transform: none;
+    font-size: 18px;
+    font-weight: 800;
+    color: #000;
+    font-family: "proxima-nova",Arial,Helvetica,sans-serif;
+    padding: 0;
+}
+
+.dpa-message.warning p {
+    border: 0;
+    margin: 20px 0 0 0;
+    background: $brand-blue-bg;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: $brand-blue;
+}
+
+.registration-form ol li.input.nusemail label {
+    font-weight: 300;
+}
+
+fieldset#questionnaire, #questionnaire .fields > .fields .form-row {
+    border: 0;
+}
+
+#questionnaire .form-row .dynamic-label {
+    font-size: 18px;
+}
+
+.signin-block .ask-button #i_am_student.highlight-button {
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+.signin-block .ask-button .or-separator {
+    display: none;
+}
+
+.signin-block .ask-button .try-again-links {
+    float: none;
+}
+
+.signin-block .existing-user {
+    padding-top: 130px;
+}
+
+.signin-block .existing-user .user-email-id {
+    display: none;
+}
+
+.signin-block .existing-user .user-message {
+    font-size: 18px;
+}
+
+.signin-block .existing-user a.more {
+   margin-top: 20px; 
+}
+
+.signin-block .existing-user .ask-button {
+    padding: 0;
+    margin: 20px 0 30px 0;
+}
+
+.signin-block .existing-user .ask-button a {
+    font-size: 18px;
+    line-height: 1.3em;
+}
+
+.signin-block .existing-user .ask-button a:nth-child(2), .signin-block .existing-user .ask-button br:nth-child(3) {
+    display: none;
+}
+
+.signin-block .existing-user .ask-button .red-colour-text {
+    color: $brand-blue-bright;
+}
+
+.confirmation-email-block {
+    margin: 0;
+}
+
+.confirmation-email-block h2, .confirmation-email-block #new_user, .confirmation-email-block .forgot-password {
+    margin-bottom: 40px;
+}
+
+.confirmation-email-block .forgot-password {
+    line-height: 1.4em;
+}

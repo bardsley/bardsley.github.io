@@ -1,0 +1,462 @@
+ 
+/* =================
+   TABLET RESPONSIVE
+   ================= */
+
+   @media (max-width: 991px) {
+    body {
+        line-height: initial;
+    }
+  
+    .header-wrap, .nav-wrap, .default-body, .contentContainer, .body-width-wrap, #home-sabbatical-officers-wrap, #uc-group-homepage #left-content, .club-container, .has-shibboleth span.error, .signin-block, .confirmation-email-block #new_user, .confirmation-email-block .forgot-password, .account-activation-block, .change-password-block form, .unlock-block form, .unlock-block .forgot-password, .reset-password-block .warning, .reset-password-block .confirm-link-message, .reset-password-block .help-link, .confirm-email-block .warning, .confirm-email-block .confirm-link-message, .confirm-email-block .help-link, .accountlock-password-block .warning, .accountlock-password-block .confirm-link-message, .accountlock-password-block .help-link, .problem-registering-block, #event-homepage #left-panel, #event-homepage #right-panel, #uc-events-details-page, #uc-event-ticket-details .portlet, #uc-groups-details-page .portlet, #uc-join-group .group-questions-form, #uc-join-group .eventerrors, #uc-join-group .contentBoxes > .formrow, #club-content .tabs.ui-tabs .tab-content-wrapper-box, #uc-election-dashboard, #shopping-cart > .twelvecol > .twelvecol, .uc-customer-quick-login .uc-customer-quick-login-wrapper, .uc-payment-page-wrapper, #load_more_article, .uc-articles-listing, #uc-sv-nav-tab-panel, #uc-sv-content-container, .uc-sv-module, .uc-sv-module-text-wrapper, #uc-sv-main-wrapper .uc-sv-module-details-content-wrapper, #uc-sv-main-wrapper .uc-sv-module-details-advertisement-wrapper, .uc-sv-comment-box, #e-shop, #search-result .search-box.uc-common-for-all, #uc-search-more-panel, #search-result .pagination, #footer-links, #copyright-wrap {
+        width: 750px;
+    }
+    
+    .uc-cookie-block .uc-cookie-block-wrapper {
+        width: 600px;
+    }
+    
+    .uc-cookie-block .uc-cookie-block-wrapper p, .uc-cookie-block .uc-cookie-block-wrapper a {
+        font-size: 14px;
+    }
+    
+    p#notice.success {
+        padding: 0 calc((100% - 750px) / 2);
+    }
+    
+    .uc-leaderboard-advertisement .top-ad, #adverts, #social-links, p#notice.success a.close-notice, #uc-group-homepage .search, .uc-articles-right-panel-search {
+        right: calc((100% - 750px) / 2);
+    }
+  
+    .system-menu a.uc-sign-link, .profile-setting a.profile-name, #top-navigation ul li a {
+        padding: 0 5px;
+    }
+  
+    .system-menu a.uc-sign-link:before, .profile-setting a.profile-name:before {
+        font-size: 18px;
+        width: 18px;
+    }
+  
+    #top-navigation {
+        font-size: 12px;
+    }
+  
+    #top-navigation ul {
+        padding-right: 28px;
+    }
+  
+    #top-navigation ul li ul {
+        padding: 20px calc((100% - 750px) / 2);
+    }
+  
+    #top-navigation ul li ul:after {
+        right: calc((100% - 750px) / 2);
+        font-size: 32px;
+        width: 400px;
+    }
+  
+    #top-navigation ul li ul li a, .fixed-nav #top-navigation ul li ul li a {
+        padding: 10px 15px;
+    }
+  
+    #top-navigation ul li ul li a::before {
+        margin-right: 10px;
+    }
+    
+    h1, .has-shibboleth.uc-sso-center-align:before, .signin-block h2, .confirm-email-block h2, .change-password-block h2, .reset-password-block h2, .unlock-block h2, .accountlock-password-block h2, .confirmation-email-block h2, .sub-site-home-html .title h1, #uc-join-group .contentBoxes h2, #uc-event-ticket-details .title h1, #shopping-cart .title h1, .uc-customer-quick-login h2.uc-page-heading, .uc-payment-page:before, #uc-evoting-election:before, .uc-election-stats-wrapper:before, #uc-articles-details:before, #uc-sv-main-wrapper h1, #uc-sv-main-wrapper .uc-sv-module-border-idea.uc-sv-has-timer h1, #uc-sv-main-wrapper .uc-sv-module-border-petition.uc-sv-has-timer h1, .uc-cookie-info h1 {
+        padding: 40px calc((100% - 750px) / 2) 10px calc((100% - 750px) / 2);
+    }
+    
+    h1:before, .left-nav-content {
+        left: calc((100% - 750px) / 2);
+    }
+  
+    .tree-navigation-structure {
+        width: 180px;
+    }
+    
+    .tree-navigation ul li a, .tree-navigation ul li a:hover, #uc-left-navigation li a {
+        font-size: 16px;
+    }
+    
+    .ninecol .default-body {
+        padding-left: 200px;
+        width: 550px;
+    }
+  
+    .default-body .person-list li {
+        width: auto;
+        margin-right: 0;
+    }
+  
+    .content p#error {
+        width: 710px;
+    }
+  
+    .home-content-html .home-content-wrap {
+        max-width: 962px;
+    }
+  
+    #home-slideshow .tabs {
+        height: 425px;
+    }
+  
+    #home-slideshow .tabs.ui-tabs .tab-content-wrapper-box {
+        height: 385px;
+    }
+  
+    #home-slideshow .tabs .tab-content {
+        height: 385px;
+        width: 962px;
+    }
+  
+    #home-slideshow .tabs .tab-content img {
+        height: 385px !important;
+        width: 962px !important;
+    }
+  
+    #channel-nus-tab-content {
+        background-size: auto 385px;
+    }
+  
+    #channel-nus-tab-content p {
+        font-size: 20px;
+        width: calc(100% - 150px);
+        padding-top: 102px;
+    }
+  
+    #channel-nus-tab-content p:first-child {
+        width: 150px;
+    }
+  
+    #home-slideshow #channel-nus-tab-content p:first-child img {
+        width: 120px !important;
+    }
+    
+    #channel-nus-tab-content p iframe {
+        height: 180px !important;
+        width: 180px !important;
+    }
+  
+    #home-slideshow .ui-tabs .ui-tabs-nav, #home-slideshow .ui-widget-header {
+        padding: 0 calc((100% - 750px) / 2);
+    }
+  
+    #home-slideshow .ui-tabs .ui-tabs-nav li a {
+        line-height: 40px;
+        font-size: 16px;
+    }
+    
+    #home-sabbatical-officers li h3 {
+        font-size: 14px;
+        bottom: 15px;
+    }
+    
+    .home-content-wrap #latest-events .event-widget .top-events li .event-content .date a, .home-content-wrap #latest-events .event-widget.with-image-description .top-events li .date a {
+        font-size: 12px;
+        width: 20px;
+    }
+  
+    .ask-button.for-guest-only .or-block {
+        left: 104%
+    }
+  
+    .welcome-newuser h4 {
+        font-size: 30px;
+    }
+  
+    .home-content-wrap #latest-articles .article-widget .top-articles li .article-thumbnail {
+        width: 150px;
+    }
+  
+    .home-content-wrap #latest-articles .article-widget .top-articles li:nth-child(1) .article-content {
+        width: calc(100% - 165px);
+    }
+  
+    #eventcarousel li {
+        width: 250px;
+    }
+  
+    #uc-events-details-page {
+        padding-right: 230px;
+    }
+  
+    #event-dialog.jqmCMSWindow {
+        left: 10%;
+        right: 10%;
+    }
+  
+    #events-listing .day .date {
+        flex: 0 0 120px;
+    }
+  
+    #events-listing .day .date h3 {
+        font-size: 18px;
+    }
+  
+    #events-listing .day .date h3.number {
+        font-size: 32px;
+    }
+  
+    #events-listing .day .events a .image {
+        flex: 0 0 160px;
+        height: 90px;
+    }
+  
+    #events-listing .day .events a p.price {
+        max-width: 80px;
+    }
+  
+    #uc-group-homepage .search-box .search-box-wrapper, .eventsearch .search-box .search-box-wrapper {
+        width: 178px;
+    }
+  
+    .search-box .search-box-wrapper .search-input {
+        width: 138px;
+    }
+
+    .types-list, #event-homepage #left-panel .club-navigation {
+        width: 180px;
+    }
+  
+    .group-list {
+        padding-right: 200px;
+    }
+  
+    .group_left_panel_menu .title h1 {
+        padding-right: calc((100% - 750px) / 2 + 250px);
+    }
+  
+    .content-wrap .group-types ul {
+        font-size: 16px;
+    }
+  
+    #uc-groups-details-page .top-container, .sub-site-home-html .tree-navigation .thumbnail, #club-header .join-button, #uc-events-details-page .top-container, .uc-sv-post-idea-petition {
+        right: calc((100% - 750px) / 2);
+    }
+  
+    .sub-site-home-html .tree-navigation .thumbnail {
+        width: 200px;
+    }
+  
+    #uc-groups-details-page .portlet {
+        padding-right: 240px;
+    }
+  
+    .evo-timer.hasCountdown h3 {
+        text-align: center;
+        padding-bottom: 0;
+    }
+  
+    .toggle-details {
+        font-size: 14px;
+    }
+  
+    #view-manifesto-dailog .jqmClose {
+        right: calc((100% - 700px) / 2)
+    }
+  
+    .view-manifesto-details {
+        width: 700px;
+    }
+  
+    .success.evo-success-completed {
+        width: 710px;
+    }
+   
+    #election-overlay-window {
+        width: 600px;
+    }
+  
+    .uc-election-dashboard .uc-election-dashboard-navigation {
+        padding: 0;
+    }
+  
+    .uc-election-dashboard .uc-election-dashboard-navigation ul li {
+        font-size: 20px;
+    }
+  
+    .uc-election-dashboard .uc-votes-voters .uc-votes-tabs ul li a, .uc-election-dashboard .uc-top-turnouts .uc-top-turnouts-tabs ul li a {
+       font-size: 14px;
+       padding: 0 20px;
+    }
+  
+    .uc-election-dashboard .uc-leading-gender .heading-hint-text, .uc-election-dashboard .uc-study-types .heading-hint-text {
+        padding: 0 20px;
+        font-size: 14px;
+    }
+  
+    .uc-articles-listing {
+        padding-right: 220px;
+    }
+  
+    .uc-articles-block {
+        width: 22%;
+    }
+  
+    .uc-articles-right-panel-search {
+        width: 200px;
+    }
+  
+    .uc-search-articles #search_keyword {
+        width: 158px;
+    }
+  
+    .uc-articles-left-panel-navigation-wrapper > div#load_more_article {
+        padding-right: 220px;
+    }
+  
+    .uc-sv-module-voting {
+        margin-top: 0;
+    }
+  
+    #section-head.sabb .body-width-wrap {
+        padding-right: 270px;
+    }
+  
+    #section-head.sabb h2 {
+        font-size: 32px;
+    }
+  
+    #section-head.sabb h3 {
+        font-size: 24px;
+    }
+  
+    .default-body #section-head.sabb p {
+        font-size: 14px;
+    }
+  
+    .sabb-image {
+        width: 250px;
+    }
+  
+    #uc-cookie-policy-content {
+        padding-top: 180px;
+    }
+    
+    a.button {
+        font-size: 14px;
+    }
+  
+    #salford-welcome #subsite-navigation ul li span, #salford-welcome #subsite-navigation ul li a {
+        padding: 0 15px;
+        font-size: 20px;
+    }
+  
+    #salford-welcome #subsite-navigation ul li ul {
+        padding: 20px calc((100% - 750px) / 2);
+    }
+  
+    #salford-welcome #subsite-navigation ul li ul li {
+        flex: 0 0 355px;
+    }
+  
+    #salford-welcome #home-content-wrap .list-wrap {
+        padding: 40px 0;
+    }
+  
+    #salford-welcome .social-media {
+        flex-direction: column;
+    }
+  
+    #salford-welcome .social-media ul {
+        flex: 1 0 0;
+        order: 1;
+        text-align: center;
+    }
+  
+    #salford-welcome .social-media ul li {
+        width: 170px;
+        height: 170px;
+    }
+  
+    #salford-welcome .social-media ul li:first-child {
+        margin-left: 0;
+    }
+  
+    #salford-welcome .social-media ul li a {
+        height: 150px;
+    }
+  
+    #salford-welcome .social-media ul .fa {
+        line-height: 120px;
+    }
+  
+    #salford-welcome .social-media .snapchat-link img {
+        width: 100px;
+        height: 100px;
+        margin: 8px 20px;
+    }
+  
+    #salford-welcome .social-media #twitter-feed {
+        order: 2;
+    }
+  
+    #salford-welcome .info-box .box-image {
+        flex: 0 0 300px;
+    }
+  
+    #salford-varsity #unioncloud-sub-site-option .top-subsite {
+        margin-bottom: -180px;
+    }
+  
+    #salford-varsity #countdown-wrap .time.numerals {
+        width: 45px;
+    }
+  
+    #salford-varsity #header #countdown-wrap h3 {
+        font-size: 35px;
+    }
+  
+    #salford-varsity #subsite-navigation ul li {
+        font-size: 12px;
+        line-height: 40px;
+    }
+  
+    #salford-varsity #subsite-navigation ul li a {
+        padding: 0 10px;
+    }
+  
+    #salford-varsity #home-slideshow {
+        padding-top: 180px;
+        height: calc(70vh - 420px);
+        min-height: 300px;
+    }
+  
+    #salford-varsity #home-slideshow h2 {
+        font-size: 50px;
+    }
+  
+    #salford-varsity #home-slideshow h3 {
+        font-size: 30px;
+    }
+  
+    #salford-atmosphere #main-menu ul {
+        text-align: center;
+    }
+  
+    #salford-atmosphere #main-menu ul #home-menu-wrapper {
+        position: static;
+        display: block;
+    }
+  
+    #salford-atmosphere #main-menu ul #home-menu-wrapper a {
+        width: auto;
+    }
+    
+    #footer {
+        background-position: calc((100% - 577px) / 2) top;
+    }
+    
+    #footer-links-wrap {
+        margin-right: 0;
+    }
+    
+    #copyright {
+        font-size: 13px;
+    }
+  
+    /*#merry-christmas-tab-content .home-slideshow-slide #snow-scene-santa {
+        width: 88px;
+    }*/
+}

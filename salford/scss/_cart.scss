@@ -1,0 +1,581 @@
+
+/* =============
+   SHOPPING CART
+   ============= */
+
+   #shopping-cart {
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+    width: auto;
+}
+
+#shopping-cart > .twelvecol {
+    float: none;
+}
+
+#shopping-cart .title h1 {
+    margin-bottom: 40px;
+}
+
+#shopping-cart > .twelvecol > .twelvecol {
+    float: none;
+    margin: 0 auto;
+}
+
+#shopping-cart p {
+    font-size: 18px;
+}
+
+#shopping-cart .joinForm .formrow:first-child {
+    display: none;
+}
+
+#shopping_cart {
+    margin-bottom: 30px;
+}
+
+.orderHeaderRow {
+    background: $brand-blue-bg;
+    border: 0;
+    padding: 10px 15px;
+}
+
+.orderRow {
+    padding: 10px 15px;
+    border-bottom: 1px solid $brand-blue-bg;
+}
+
+.orderHeaderRow .removeOrder, .orderHeaderRow .productType, .orderHeaderRow .productName, .orderHeaderRow .productCategory, .orderHeaderRow .productQty, .orderHeaderRow .productPrice, .orderHeaderRow .Total, .orderRow .removeOrder, .orderRow .productType, .orderRow .productName, .orderRow .productCategory, .orderRow .productQty, .orderRow .productPrice, .orderRow .Total {
+    font-size: 18px;
+    text-align: center;
+}
+
+.orderHeaderRow .removeOrder, .orderHeaderRow .productType, .orderHeaderRow .productName, .orderHeaderRow .productCategory, .orderHeaderRow .productQty, .orderHeaderRow .productPrice, .orderHeaderRow .Total {
+    color: $brand-blue;
+    font-weight: 600;
+}
+
+.orderRow .removeOrder, .orderRow .productType, .orderRow .productName, .orderRow .productCategory, .orderRow .productQty, .orderRow .productPrice, .orderRow .Total {
+    line-height: 42px;
+}
+
+.orderHeaderRow .removeOrder, .orderHeaderRow .productQty, .orderHeaderRow .productPrice, .orderHeaderRow .Total, .orderRow .removeOrder, .orderRow .productQty, .orderRow .productPrice, .orderRow .Total {
+    width: 10%;
+}
+
+.orderHeaderRow .productType, .orderHeaderRow .productName, .orderHeaderRow .productCategory, .orderRow .productType, .orderRow .productName, .orderRow .productCategory {
+    width: 20%;
+}
+
+.orderRow .removeOrder .removeButton {
+    float: none;
+    display: inline-block;
+    background: none;
+    text-indent: 0;
+    height: 42px;
+    font-size: 0;
+}
+
+.orderRow .removeOrder .removeButton:before {
+    content: '\f1f8';
+    font-size: 24px;
+    line-height: 42px;
+    color:$elections-dark;
+}
+
+.transaction-total, .grandTotal {
+    float: none;
+}
+
+.transaction-total p, .grandTotal p {
+    padding: 0;
+    line-height: 1.4em;
+}
+
+.transaction-total .total, .grandTotal .total {
+    display: inline-block;
+    float: none;
+    font-weight: 600;
+}
+
+.transaction-total .help-tip {
+    background: none;
+    display: inline-block;
+    float: none;
+    height: auto;
+    width: auto;
+    text-indent: 0;
+    vertical-align: top;
+    margin-right: 10px;
+    font-size: 0;
+}
+
+.transaction-total .help-tip:before {
+    content: '\f059';
+    font-size: 18px;
+    color:$advice-medium;
+}
+
+#shopping-cart input.checkout-button {
+    display: inline-block;
+}
+
+.clear-cart-button {
+    display: block;
+    float: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.transaction-help-content-wrapper {
+    font-size: 18px;
+    padding: 20px 25px;
+}
+
+.transaction-help-content-wrapper h2 {
+    margin-bottom: 1.2em;
+}
+
+.uc-customer-quick-login {
+    background: none;
+}
+
+.uc-customer-quick-login h2.uc-page-heading {
+    color: $brand-blue;
+    text-align: left;
+}
+
+.uc-customer-quick-login .uc-customer-quick-login-wrapper {
+    padding: 40px 0;
+}
+
+.uc-customer-quick-login-wrapper p.info {
+    display: none;
+}
+
+.uc-customer-quick-login .ninecol .signin-block {
+    display: block;
+    width: auto;
+    font-size: 0;
+}
+
+.uc-customer-quick-login .ninecol .signin-block-wrapper {
+    display: block;
+}
+
+.uc-customer-quick-login .ninecol .fivecol {
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+    font-size: 1rem;
+    background: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin: 0;
+}
+
+.uc-customer-quick-login .ninecol .onecol {
+    display: inline-block;
+    width: 4%;
+    margin: 0;
+}
+
+.uc-customer-quick-login .ninecol .onecol .uc-or-option {
+    display: none;
+}
+
+.uc-customer-quick-login .uc-existing-user-login-wrapper, .uc-customer-quick-login .customer-left-screen-wrapper {
+    margin: 0;
+}
+
+.uc-customer-quick-login .uc-signed_inuser_msg, .uc-customer-quick-login .uc-unsigned_inuser_msg {
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.uc-customer-quick-login .has-shibboleth.uc-sso-center-align:before, .uc-customer-quick-login .signin-block .sixcol.last:before {
+    content: '';
+    display: none;
+}
+
+.uc-customer-quick-login .has-shibboleth.uc-sso-center-align .signin-block {
+    padding: 0;
+}
+
+.uc-customer-quick-login .ninecol .signin-block .sixcol {
+    width: 100%;
+    margin-right: 0;
+}
+
+.uc-customer-quick-login .salford-signin p, .uc-customer-quick-login .guest-signin p {
+    font-size: 1.8rem;
+}
+
+.uc-customer-quick-login .uc-form-row {
+    margin-bottom: 20px;
+}
+
+.uc-customer-quick-login .uc-form-row label {
+    padding: 0;
+    font-weight: inherit;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.uc-customer-quick-login .uc-form-row abbr {
+    text-decoration: none;
+    color:$elections-base;
+    margin-left: 5px;
+}
+
+.uc-customer-quick-login .uc-form-row input.smalltext {
+    padding: 0 15px;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    width: calc(100% - 32px);
+    border: 1px solid #cfd8dc;
+}
+
+.uc-customer-quick-login .uc-form-row input.smalltext:focus {
+    border-color: $brand-blue;
+    border-width: 1px 1px 1px 5px;
+    padding-left: 11px;
+}
+
+.uc-customer-quick-login .uc-form-row .form-error-msg.js-error {
+    background: none;
+    color:$elections-base;
+    font-size: inherit;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.uc-customer-quick-login .uc-form-row .form-error-msg.js-error:before {
+    margin-right: 5px;
+    content: '\f071';
+}
+
+.uc-customer-quick-login .uc-form-row .highlight-button {
+    text-transform: none;
+}
+
+.uc-customer-quick-login .uc-cart-details {
+    margin: 0;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.uc-customer-quick-login .uc-cart-details h2 {
+    background: $brand-blue;
+    font-size: 18px;
+    padding: 8px 12px;
+}
+
+.uc-customer-quick-login .uc-order-table-wrapper {
+    background: $brand-blue-bg;
+    padding: 2px 12px;
+}
+
+.uc-customer-quick-login .uc-order-table-wrapper #shopping_cart {
+    margin: 0;
+}
+
+.uc-customer-quick-login .uc-items-count {
+    display: none;
+}
+
+.uc-customer-quick-login .uc-order-details-table {
+    font-size: inherit;
+}
+
+.uc-customer-quick-login .uc-order-items {
+    background: none;
+}
+
+.uc-customer-quick-login .uc-order-items td {
+    padding: 10px 0;
+    border: 0;
+}
+
+.uc-customer-quick-login .uc-cart-eventtype-name {
+    padding: 5px 0 0 0;
+    font-size: inherit;
+}
+
+.uc-customer-quick-login .uc-transaction-row td, .uc-customer-quick-login .uc-vat-row td, .uc-customer-quick-login .uc-total-row td {
+    padding: 10px 0;
+    border-top: 1px solid $brand-blue;
+}
+
+.uc-customer-quick-login .uc-cart-link {
+    font-size: 14px;
+    color: #06c;
+}
+
+.uc-customer-quick-login .uc-cart-link:before {
+    margin-right: 5px;
+    content: '\f0a8';
+}
+
+#uc-payment-confirmation {
+    padding: 0;
+}
+
+#uc-payment-confirmation h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    border: 0;
+    color: $brand-blue;
+}
+
+#uc-payment-confirmation .error, #uc-payment-confirmation .success {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: $white;
+    border: 0;
+    padding: 10px 20px;
+}
+
+#uc-payment-confirmation .error:before, #uc-payment-confirmation .success:before {
+    margin-right: 10px;
+}
+
+#uc-payment-confirmation p.success {
+    background-color:$advice-medium;
+    background-image: none;
+}
+
+#uc-payment-confirmation p.success:before {
+    content: '\f058';
+}
+
+#uc-payment-confirmation p.error {
+    background-color: $brand-orange;
+    background-image: none;
+}
+
+#uc-payment-confirmation p.error:before {
+    content: '\f057';
+}
+
+#uc-payment-confirmation .order-no-placed, #uc-payment-confirmation .union-name-placed, #uc-payment-confirmation .union-contact-info {
+    font-size: 18px;
+    line-height: 1.3em;
+}
+
+#uc-payment-confirmation .order-no-placed {
+    margin-bottom: 20px;
+}
+
+.uc-order-container {
+    margin-top: 30px;
+}
+
+#uc-payment-confirmation #uc-order-listing h3, #uc-payment-confirmation #uc-share-purchases h3 {
+    padding: 0;
+    font-family: "museo-sans", Arial, Helvetica, sans-serif;
+}
+
+.uc-order-list-wrapper {
+    padding: 0;
+    background: none;
+}
+
+.uc-order-list-content {
+    padding: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.uc-order-list-wrapper .uc-acc-list {
+    margin-bottom: 20px;
+}
+
+.uc-order-list-wrapper .uc-acc-list h4 {
+    background: $brand-blue-bg;
+    font-family: "museo-sans", Arial, Helvetica, sans-serif;
+    padding: 10px 20px;
+}
+
+.uc-order-list-wrapper .uc-acc-list .uc-acc-content {
+    padding: 0 20px;
+    margin-top: 15px;
+}
+
+.item-description {
+    font-size: 18px;
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+}
+
+.order-name {
+    color: $brand-navy;
+    font-weight: 600;
+    padding: 0;
+}
+
+#event-tickets .order-name {
+    padding: 0;
+}
+
+.uc-acc-content dl dt {
+    float: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    border: 0;
+    color: $brand-navy;
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+    vertical-align: top;
+}
+
+.item-description strong {
+    font-size: 18px;
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+}
+
+.uc-acc-content dl dd {
+    border: 0;
+    padding: 0;
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    width: 24%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.uc-total-order {
+    background: $brand-blue-bg;
+    padding: 10px 20px;
+}
+
+.uc-total-order dl dt, .uc-total-order dl dd {
+    border: 0;
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: $brand-blue;
+    height: auto;
+    font-size: 18px;
+}
+
+.uc-total-order dl dd {
+    border-bottom: 1px solid $brand-blue;
+}
+
+.uc-total-order dl dd:last-child {
+    border: 0;
+}
+
+#uc-register-with-email {
+    padding: 15px 20px;
+    background:$activities-light-bg;
+    margin-bottom: 20px;
+}
+
+.contentContainer #uc-register-with-email h3 {
+    font-size: 1em;
+}
+
+.uc-register-with-email-wrapper {
+    -moz-box-shadow: 0;
+    -webkit-box-shadow: 0;
+    box-shadow: 0;
+    padding: 15px 20px;
+    margin: 10px 0 0 0;
+    border-top: 30px solid #FE8F00;
+}
+
+.uc-quick-user-email, .uc-quick-sharing-msg {
+    font-size: inherit;
+    margin: 0 0 0.6em 0;
+}
+
+.send-link-button {
+    margin: 0;
+}
+
+.uc-share-purchases-wrapper {
+    background:$activities-light-bg;
+    padding: 15px 20px;
+}
+
+.uc-share-purchases-content .etabs {
+    min-height: auto;
+    font-size: 18px;
+    border-bottom-color: #FE8F00;
+}
+
+.uc-share-purchases-content .tab {
+    float: none;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.tab.facebook-tab a, .tab.twitter-tab a {
+    text-indent: 0;
+    width: auto;
+}
+
+.tab.facebook-tab, .tab.facebook-tab.active {
+    padding: 0;
+}
+
+.tab.facebook-tab:before {
+    display: none;
+}
+
+.uc-share-purchases-content .tab.active a, .uc-share-purchases-content .tab.active a:hover {
+    color: $white;
+    font-weight: 600;
+    background: #FE8F00;
+}
+
+.uc-share-purchases-content .tab a, .uc-share-purchases-content .tab.active, .uc-share-purchases-content .tab a:hover, .uc-share-purchases-content .tab a.active {
+    text-transform: none;
+    color:$activities-base;
+}
+
+.uc-share-purchases-content .tab a, .uc-share-purchases-content .tab a:hover {
+    padding: 12px 15px 10px 15px;
+}
+  
+.tab.facebook-tab, .tab.facebook-tab.active, .tab.twitter-tab, .tab.twitter-tab.active {
+    background: none;
+    width: auto;
+}
+
+.tab.facebook-tab a:before, .tab.twitter-tab a:before {
+    margin-right: 10px;
+}
+
+.tab.facebook-tab a:before {
+    content: '\f230';
+}
+
+.tab.twitter-tab a:before {
+    content: '\f099';
+}
+
+.uc-share-purchases-content .tab-container .panel-container {
+    padding: 15px 20px;
+}
+
+#share-facebook-list p.select-message, #share-twitter-list p.select-message, #share-facebook-list p.order-name, #share-twitter-list p.order-name, .quick-sharing-msg {
+    color: $brand-navy;
+    font-size: 18px;
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+}
+
+.share-facebook-listing li .add-share-text, .share-twitter-listing li .add-share-text {
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+}
+
+.quick-breadcrumb, .quick-breadcrumb a {
+    color: $brand-blue-bright;
+    font-size: 18px;
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+}

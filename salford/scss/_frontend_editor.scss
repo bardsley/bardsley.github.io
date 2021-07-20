@@ -1,0 +1,117 @@
+/* ==================
+   FRONTEND EDIT MODE
+   ================== */
+
+   .menu ul li .edit-top-navigation {
+    left: -40px;
+    top: 2px;
+}
+
+.tree-navigation-structure .tree-navigation li i {
+    top: -4px;
+}
+
+#uc-left-navigation li .tree-tool-bar a::before {
+    content: '';
+    display: none;
+}
+
+#uc-left-navigation li .tree-tool-bar a:hover, #uc-left-navigation li.last .tree-tool-bar a:hover, #uc-page-id-student-voice #uc-left-navigation li .tree-tool-bar a:hover, #uc-page-id-student-voice #uc-left-navigation li.last .tree-tool-bar a:hover, #uc-page-id-elections #uc-left-navigation li .tree-tool-bar a:hover, #uc-page-id-elections #uc-left-navigation li.last .tree-tool-bar a:hover, #uc-page-id-activities #uc-left-navigation li .tree-tool-bar a:hover, #uc-page-id-activities #uc-left-navigation li.last .tree-tool-bar a:hover, #uc-page-id-sport #uc-left-navigation li .tree-tool-bar a:hover, #uc-page-id-sport #uc-left-navigation li.last .tree-tool-bar a:hover, #uc-page-id-events #uc-left-navigation li .tree-tool-bar a:hover, #uc-page-id-events #uc-left-navigation li.last .tree-tool-bar a:hover, #uc-page-id-advice #uc-left-navigation li .tree-tool-bar a:hover, #uc-page-id-advice #uc-left-navigation li.last .tree-tool-bar a:hover, #uc-page-id-bar-cafe-offers #uc-left-navigation li .tree-tool-bar a:hover, #uc-page-id-bar-cafe-offers #uc-left-navigation li.last .tree-tool-bar a:hover, #salford-atmosphere #uc-left-navigation li .tree-tool-bar a:hover, #salford-atmosphere #uc-left-navigation li.last .tree-tool-bar a:hover {
+    background: unset;
+}
+
+.edit-mode-page .clear {
+    clear: none;
+}
+
+.uc-adv-admin .edit-mode-page .tool-bar .tool-bar-shadow, .uc-adv-admin .tool-bar.uc-widget-icon-wrap .tool-bar-shadow {
+    float: none;
+    width: 100%;
+}
+
+.uc-adv-admin .content .row .content-wrap .tool-bar ol {
+    margin: 0;
+}
+
+.edit-mode-page .tool-bar li, .tool-bar-shadow div {
+    float: none;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.page-content-html.uc-adv-admin .inside-border-padding {
+    padding: 0;
+}
+
+.jqmCMSWindow.adv-cms-popup {
+    width: 100%;
+}
+
+.jqmCMSWindow.adv-cms-popup .jqmClose {
+    right: 20px;
+}
+
+.uc-adv-admin .cms-forms {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 15px 20px;
+    background: $brand-blue;
+}
+
+.uc-advance-cms-forms h3 {
+    padding: 0;
+    background: none;
+}
+
+.cms-forms #main_form {
+    padding: 0;
+}
+
+.uc-advance-cms-forms .form-fields {
+    left: 0;
+    right: 0;
+    padding: 10px 20px;
+}
+
+.uc-adv-admin .cms-forms .uc-adv-admin .inputs li.string input, .uc-adv-admin .cms-forms .inputs li.string input {
+    height: unset;
+    line-height: 2em;
+}
+
+#page_body_input, #page_page_css_input, #page_page_javascript_input {
+    margin: 0;
+    padding: 0;
+}
+
+.uc-adv-admin .uc-advance-cms-forms .buttonLink.saveButton {
+    line-height: unset;
+}
+
+.ui-datepicker .ui-datepicker-title select {
+    padding: 0;
+    border: 0;
+}
+
+.ui-widget-content .ui-datepicker-calendar .ui-state-default {
+    font-size: 14px;
+    text-align: center;
+}
+
+.ui-slider-horizontal .ui-slider-handle {
+    margin-left: -0.1em;
+}
+
+.ui-slider-horizontal {
+    margin: 10px 5px 2px 5px;
+    background: #CCC !important;
+}
+
+#adverts-wrap .uc-icons-wrapper, #adverts-wrap .tab-half-circle {
+    display: none;
+}
+
+#adverts-wrap .uc-adv-list .uc-list-border {
+    padding: 0;
+}

@@ -1,0 +1,88 @@
+/* =====================
+   ANNUAL AWARDS SUBSITE
+   ===================== */
+
+   #salford-annualawards #unioncloud-sub-site-option .content, #salford-annualawards .top-subsite {
+    background: url('https://s3-eu-west-1.amazonaws.com/nusdigital/image/images/112012/optimized/annual-awards-bg.jpg') center center;
+    background-size: cover;
+}
+
+#salford-annualawards .column .column-content {
+    min-height: 0;
+}
+
+#salford-annualawards #home-header {
+    padding: 30px 0;
+}
+
+#salford-annualawards #blurb-column-content {
+    padding-top: 40px;
+}
+
+#salford-annualawards #blurb-column-content, #salford-annualawards .content-wrap #blurb-column-content p {
+    text-align: right;
+}
+
+#salford-annualawards .top-subsite {
+    padding: 20px 0;
+    -webkit-box-shadow: inset 0px -3px 5px 0px rgba(0,0,0,0.23);
+    -moz-box-shadow: inset 0px -3px 5px 0px rgba(0,0,0,0.23);
+    box-shadow: inset 0px -3px 5px 0px rgba(0,0,0,0.23);
+}
+
+#salford-annualawards .top-subsite img {
+    max-height: 80px;
+}
+
+#salford-annualawards #site-navigation {
+    margin: 0;
+    padding: 20px 0;
+    font-family: "museo-sans", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+#salford-annualawards #site-navigation .nav-wrap {
+    width: auto;
+}
+
+#salford-annualawards #site-navigation ul {
+    text-align: right;
+}
+
+#salford-annualawards #site-navigation .nav-wrap ul li {
+    float: none;
+    display: inline-block;
+    line-height: 40px;
+}
+
+#salford-annualawards #site-navigation .nav-wrap ul li span {
+    padding: 0;
+    display: inline-block;
+    background: none;
+}
+
+#salford-annualawards #site-navigation .nav-wrap ul li a {
+    color: $brand-blue;
+    padding: 0 20px;
+}
+
+#salford-annualawards #site-navigation .nav-wrap ul li a:hover {
+    color: $white;
+    background: $brand-blue;
+}
+
+#salford-annualawards #site-navigation .nav-wrap ul li a:before {
+    margin-right: 5px;
+}
+
+#salford-annualawards #site-navigation #top-nav-level-one-nominate:before {
+    content: '\f044';
+}
+
+#salford-annualawards #site-navigation #top-nav-level-one-buy-tickets:before {
+    content: '\f145';
+}
+
+#salford-annualawards #site-navigation .nav-wrap ul li .top-submenu-wrapper {
+    display: none;
+}

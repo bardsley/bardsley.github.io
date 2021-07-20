@@ -1,0 +1,726 @@
+/* ===============
+   WELCOME SUBSITE
+   =============== */
+
+   #salford-welcome #subsite-navigation {
+    padding: 0;
+    margin: 0;
+    height: 100px;
+    background: #002A47;
+    position: relative;
+}
+
+#salford-welcome #subsite-navigation ul {
+    text-align: right;
+    padding-top: 20px;
+    font-size: 0;
+}
+
+#salford-welcome #subsite-navigation ul li {
+    float: none;
+    display: inline-block;
+    position: static;
+}
+
+#salford-welcome #subsite-navigation ul #home-menu-wrapper {
+    float: left;
+}
+
+#salford-welcome #subsite-navigation ul li:before {
+    display: none;
+}
+
+#salford-welcome #subsite-navigation ul li .top-menu-name-wrapper {
+    position: relative;
+}
+
+#salford-welcome #subsite-navigation ul li .top-menu-name-wrapper:before {
+    position: absolute;
+    z-index: 1;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 0;
+    top: unset;
+    bottom: 0;
+    background:$offers-base;
+    transition: height 0.3s ease;
+}
+
+#salford-welcome #subsite-navigation ul li:hover .top-menu-name-wrapper:before {
+    height: 100%;
+}
+
+#salford-welcome #subsite-navigation ul #home-menu-wrapper .top-menu-name-wrapper:before {
+    display: none;
+}
+
+#salford-welcome #subsite-navigation ul li span, #salford-welcome #subsite-navigation ul li a {
+    padding: 0 30px;
+    background: none;
+    color: $white;
+    cursor: pointer;
+    line-height: 80px;
+    font-size: 24px;
+    font-family: 'museo-sans', Arial, Helvetica, sans-serif;
+    position: relative;
+    z-index: 2;
+    transition: color 0.2s;
+}
+
+#salford-welcome #subsite-navigation ul #home-menu-wrapper a {
+    padding: 0;
+    background: url('//s3-eu-west-1.amazonaws.com/nusdigital/image/images/120705/optimized/welcome-2017-logo.png') no-repeat;
+    background-size: auto 60px;
+    width: 90px;
+    font-size: 0;
+}
+
+#salford-welcome #subsite-navigation ul li.has-child span:after {
+    content: '\f078';
+    margin-left: 10px;
+}
+
+#salford-welcome #subsite-navigation ul li .top-submenu-wrapper {
+    left: 0;
+    top: 100px;
+    right: 0;
+    height: 0;
+    position: absolute;
+    z-index: 10;
+    overflow: hidden;
+}
+
+#salford-welcome #subsite-navigation ul li:hover .top-submenu-wrapper {
+    height: auto;
+}
+
+#salford-welcome #subsite-navigation ul li ul {
+    width: auto;
+    border-bottom: 3px solid #002A47;
+    padding: 20px calc((100% - 1170px) / 2);
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: center;
+    visibility: hidden;
+    position: static;
+    transform: translateY(-100%);
+    opacity: 0;
+    transition: transform 0.2s ease-out, opacity 0.2s linear;
+}
+
+#salford-welcome #subsite-navigation ul li:hover ul {
+    visibility: visible;
+    transform: translateY(0);
+    opacity: 1;
+}
+
+#salford-welcome #subsite-navigation ul li ul li {
+    flex: 0 0 370px;
+    margin: 10px;
+}
+
+#salford-welcome #subsite-navigation ul #your-student-life-menu-wrapper ul li {
+    margin: 10px 11px;
+}
+
+#salford-welcome #subsite-navigation ul li ul li span, #salford-welcome #subsite-navigation ul li ul li a {
+    background: #002A47;
+    line-height: 1.3em;
+    padding: 20px 60px 20px 30px;
+    text-transform: none;
+    height: 150px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#salford-welcome #subsite-navigation ul li ul li a:after {
+    content: '\f054';
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    line-height: 1.2em;
+    transition: right 0.2s ease;
+}
+
+#salford-welcome #subsite-navigation ul li ul li a:hover:after {
+    right: 12px;
+}
+
+#salford-welcome .home-content-wrap .list {
+    margin: 0 auto;
+}
+
+#salford-welcome #home-header {
+    background: #002A47;
+}
+
+#salford-welcome #home-content-wrap #home-header .list-wrap {
+    padding: 50px 0;
+}
+
+#salford-welcome #home-header p {
+    margin: 0;
+    text-align: center;
+}
+
+#salford-welcome #home-header p img {
+    max-height: 600px;
+}
+
+#salford-welcome #home-content-wrap h2 {
+    text-align: center;
+    font-size: 42px;
+    padding: 30px 0;
+    margin: 0;
+}
+
+#salford-welcome #your-lineup h2 {
+    background:$offers-light-bg;
+    color:$offers-base;
+}
+
+#salford-welcome #your-union h2 {
+    background:$activities-light-bg;
+    color:$activities-base;
+}
+
+#salford-welcome #your-student-life h2 {
+    background:$events-light-bg;
+    color: $events-base;
+}
+
+#salford-welcome #stay-up-to-date-salfordwelcome h2 {
+    background:$advice-light-bg;
+    color:$advice-base;
+}
+
+#salford-welcome #home-content-wrap .list-wrap {
+    padding: 50px 0;
+}
+
+#salford-welcome .menu-row {
+    display: flex;
+    flex-direction: row;
+    flex: 1 0 auto;
+}
+
+#salford-welcome .menu-column {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+
+#salford-welcome .menu-row > * {
+    margin-right: 20px;
+}
+
+#salford-welcome .menu-row > *:last-child {
+    margin: 0;
+}
+
+#salford-welcome .menu-column > * {
+    margin-bottom: 20px;
+}
+
+#salford-welcome .menu-column > *:last-child {
+    margin: 0;
+}
+
+#salford-welcome .menu-row a, #salford-welcome .menu-column a {
+    flex: 1 0 150px;
+    background-color: #002A47;
+    background-size: 100% auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: $white;
+    min-height: 150px;
+    padding: 20px 60px 20px 30px;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    align-items: flex-end;
+    font-size: 24px;
+    line-height: 1.2em;
+    position: relative;
+    transition: background-size 0.2s ease;
+}
+
+#salford-welcome .menu-row a:hover, #salford-welcome .menu-column a:hover {
+    background-size: 105% auto;
+}
+
+#salford-welcome .menu-row a:after, #salford-welcome .menu-column a:after {
+    content: '\f054';
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    line-height: 1.2em;
+    transition: right 0.2s ease;
+}
+
+#salford-welcome .menu-row a:hover:after, #salford-welcome .menu-column a:hover:after {
+    right: 12px;
+}
+
+#salford-welcome .menu-column a.small-item {
+    flex: 1 0 auto;
+    min-height: unset;
+}
+
+#salford-welcome .menu-row a.big-item, #salford-welcome .menu-column a.big-item {
+    font-size: 38px;
+}
+
+#salford-welcome .menu-column a.small-item.shock-link:before, #salford-welcome .menu-column a.small-item.facebook-link:before {
+    margin-right: 20px;
+    position: relative;
+    top: -3px;
+}
+
+#salford-welcome .menu-column a.shock-link {
+    background: #00A1E4;
+}
+
+#salford-welcome .menu-column a.shock-link:before {
+    content: '\f144';
+}
+
+#salford-welcome .menu-column a.facebook-link {
+    background: #3B5998;
+}
+
+#salford-welcome .menu-column a.small-item.facebook-link:before {
+    content: '\f230';
+}
+
+#salford-welcome .menu-row a.highlight-link-day-1 {
+    background-image: url('https://s3-eu-west-1.amazonaws.com/nusdigital/event/logos/52445/original/atmosphere-quiz.png');
+    text-shadow: 2px 2px 4px #000;
+}
+
+#salford-welcome .menu-row a.highlight-link-day-2 {
+    background-image: url('https://s3-eu-west-1.amazonaws.com/nusdigital/event/logos/52447/original/bored-games.jpg');
+    text-shadow: 2px 2px 4px #000;
+}
+
+#salford-welcome .menu-row a.highlight-link-day-3 {
+    background-image: url('https://s3-eu-west-1.amazonaws.com/nusdigital/event/logos/52449/original/pool-tournament.jpg');
+    text-shadow: 2px 2px 4px #000;
+}
+
+#salford-welcome .menu-row a.highlight-link-day-4 {
+    background-image: url('https://s3-eu-west-1.amazonaws.com/nusdigital/event/logos/52452/original/bandioke.jpg');
+    text-shadow: 2px 2px 4px #000;
+}
+
+#salford-welcome .menu-row a.highlight-link-day-5 {
+    background-image: url('https://s3-eu-west-1.amazonaws.com/nusdigital/event/logos/52455/original/pub-games.jpg');
+    text-shadow: 2px 2px 4px #000;
+}
+
+#salford-welcome .menu-row a.highlight-link-day-6 {
+    background-image: url('https://s3-eu-west-1.amazonaws.com/nusdigital/event/logos/52457/original/cage-football.jpg');
+    text-shadow: 2px 2px 4px #000;
+}
+
+#salford-welcome .menu-row a.highlight-link-day-7, #salford-welcome .menu-row a.highlight-link-day-14 {
+    background-image: url('https://s3-eu-west-1.amazonaws.com/nusdigital/event/logos/52462/original/welcome-wristband.png');
+    text-shadow: 2px 2px 4px #000;
+}
+
+#salford-welcome .menu-row a.highlight-link-day-8 {
+    background-image: url('https://s3-eu-west-1.amazonaws.com/nusdigital/event/logos/52467/original/british-tea-party.jpg');
+    text-shadow: 2px 2px 4px #000;
+}
+
+#salford-welcome .menu-row a.highlight-link-day-9 {
+    background-image: url('https://s3-eu-west-1.amazonaws.com/nusdigital/event/logos/52472/original/pub-tour.jpg');
+    text-shadow: 2px 2px 4px #000;
+}
+
+#salford-welcome .menu-row a.highlight-link-day-10 {
+    background-image: url('https://s3-eu-west-1.amazonaws.com/nusdigital/event/logos/52480/original/the-house-party.jpg');
+    text-shadow: 2px 2px 4px #000;
+}
+
+#salford-welcome .menu-row a.highlight-link-day-11 {
+    background-image: url('https://s3-eu-west-1.amazonaws.com/nusdigital/event/logos/52484/original/activities-fair.jpg');
+    text-shadow: 2px 2px 4px #000;
+}
+
+#salford-welcome .menu-row a.highlight-link-day-12 {
+    background-image: url('https://s3-eu-west-1.amazonaws.com/nusdigital/event/logos/52501/original/priday.jpg');
+    text-shadow: 2px 2px 4px #000;
+}
+
+#salford-welcome .menu-row a.highlight-link-day-13 {
+    background-image: url('https://s3-eu-west-1.amazonaws.com/nusdigital/event/logos/52503/original/shock-saturday.png');
+    text-shadow: 2px 2px 4px #000;
+}
+
+#salford-welcome .menu-row a.atmosphere-link {
+    background-image: url('https://s3-eu-west-1.amazonaws.com/nusdigital/image/images/123670/optimized/welcome-menu-atmosphere.jpg');
+    text-shadow: 2px 2px 4px #000;
+}
+
+#salford-welcome .menu-row a.discounts-link {
+    background-image: url('https://s3-eu-west-1.amazonaws.com/nusdigital/image/images/123673/optimized/welcome-menu-discounts.jpg');
+    text-shadow: 2px 2px 4px #000;
+    background-size: auto 100%;
+}
+
+#salford-welcome .menu-row a.discounts-link:hover {
+    background-size: auto 105%;
+}
+
+#salford-welcome .menu-row a.campaigns-link {
+    background-image: url('https://s3-eu-west-1.amazonaws.com/nusdigital/image/images/123674/optimized/welcome-menu-campaigns.JPG');
+    text-shadow: 2px 2px 4px #000;
+}
+
+#salford-welcome .menu-row a.top-tips-link {
+    background-image: url('https://s3-eu-west-1.amazonaws.com/nusdigital/image/images/123678/optimized/welcome-menu-top-tips.jpg');
+    text-shadow: 2px 2px 4px #000;
+}
+
+#salford-welcome .menu-row a.things-to-do-link {
+    background-image: url('https://s3-eu-west-1.amazonaws.com/nusdigital/image/images/123675/optimized/welcome-menu-things-to-do.jpg');
+    text-shadow: 2px 2px 4px #000;
+}
+
+#salford-welcome .menu-row a.wristband-link {
+    background-image: url('https://s3-eu-west-1.amazonaws.com/nusdigital/image/images/123677/optimized/welcome-menu-wristband.jpg');
+    text-shadow: 2px 2px 4px #000;
+}
+
+#salford-welcome .menu-row a.events-link {
+    background-image: url('https://s3-eu-west-1.amazonaws.com/nusdigital/image/images/123676/optimized/welcome-menu-events.jpg');
+    text-shadow: 2px 2px 4px #000;
+}
+
+#salford-welcome .menu-row a.societies-link {
+    background-image: url('https://s3-eu-west-1.amazonaws.com/nusdigital/image/images/123682/optimized/welcome-menu-societies.jpg');
+    text-shadow: 2px 2px 4px #000;
+}
+
+#salford-welcome .menu-row a.getting-around-link {
+    background-image: url('https://s3-eu-west-1.amazonaws.com/nusdigital/image/images/123679/optimized/welcome-menu-getting-around.jpg');
+    text-shadow: 2px 2px 4px #000;
+}
+
+#salford-welcome .menu-row a.sport-link {
+    background-image: url('https://s3-eu-west-1.amazonaws.com/nusdigital/image/images/123681/optimized/welcome-menu-sport.jpg');
+    text-shadow: 2px 2px 4px #000;
+}
+
+#salford-welcome .menu-row a.reps-link {
+    background-image: url('https://s3-eu-west-1.amazonaws.com/nusdigital/image/images/123680/optimized/welcome-menu-reps.jpg');
+    text-shadow: 2px 2px 4px #000;
+}
+
+#salford-welcome .social-media {
+    display: flex;
+    flex-direction: row;
+}
+
+#salford-welcome .social-media #twitter-feed {
+    flex: 1 0 0%;
+}
+
+#salford-welcome .social-media #twitter-feed h3 {
+    font-size: 28px;
+    color: #00ACED;
+}
+
+#salford-welcome .social-media #twitter-feed div {
+    border-bottom: 2px solid$offers-light-bg;
+    padding: 15px 0;
+}
+
+#salford-welcome .social-media #twitter-feed div:last-child {
+    border: 0;
+}
+
+#salford-welcome .social-media #twitter-feed p {
+    margin: 0;
+    text-align: left;
+}
+
+#salford-welcome .social-media ul {
+    flex: 0 0 460px;
+    margin: 0;
+}
+
+#salford-welcome .social-media ul li {
+    padding: 0;
+    margin: 0 0 20px 20px;
+    display: inline-block;
+    vertical-align: top;
+    height: 210px;
+    width: 210px;
+    font-weight: 600;
+    font-size: 22px;
+    color: #000;
+    text-align: center;
+}
+
+#salford-welcome .social-media ul li a {
+    display: block;
+    padding: 10px;
+    height: 190px;
+    color: $white;
+}
+
+#salford-welcome .social-media .facebook-link {
+    background: #3B5998;
+}
+
+#salford-welcome .social-media .twitter-link {
+    background: #00ACED;
+}
+
+#salford-welcome .social-media .instagram-link {
+    background: #E95950;
+    background: radial-gradient(circle farthest-corner at 35% 90%, #FEC564, rgba(254, 197, 100, 0) 50%), radial-gradient(circle farthest-corner at 0 140%, #FEC564, rgba(254, 197, 100, 0) 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258CF, rgba(82, 88, 207, 0) 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258CF, rgba(82, 88, 207, 0) 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893DC2, rgba(137, 61, 194, 0) 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893DC2, rgba(137, 61, 194, 0) 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #D9317A, rgba(217, 49, 122, 0)), linear-gradient(#6559CA, #BC318F 30%, #E33F5F 50%, #F77638 70%, #FEC66D 100%);
+}
+
+#salford-welcome .social-media .snapchat-link {
+    background: $white;
+}
+
+#salford-welcome .social-media .snapchat-link a {
+    color: #000;
+}
+
+#salford-welcome .social-media ul .fa {
+    display: block;
+    line-height: 160px;
+    font-size: 100px;
+}
+
+#salford-welcome .social-media ul .fa:before {
+    margin-right: -30px;
+}
+
+#salford-welcome .social-media .snapchat-link img {
+    width: 130px;
+    height: 130px;
+    margin: 12px 30px;
+}
+
+#salford-welcome .uc-page-class-full-width .default-body {
+    margin-top: 0;
+}
+
+#salford-welcome .cover-photo {
+    height: 60vmin;
+    overflow: hidden;
+    min-height: 500px;
+    margin-bottom: -70px;
+    position: relative;
+}
+
+#salford-welcome .cover-photo p {
+    transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+#salford-welcome .cover-photo p img {
+    width: 100%;
+}
+
+#salford-welcome header {
+    background: $brand-blue;
+    text-align: center;
+    padding: 40px 60px;
+    box-sizing: border-box;
+    color: $white;
+    margin-bottom: 40px;
+    position: relative;
+    z-index: 5;
+}
+
+#salford-welcome #uc-page-id-bar-cafe-offers header {
+    background:$offers-base;
+}
+
+#salford-welcome #uc-page-id-activities header {
+    background:$activities-medium;
+}
+
+#salford-welcome #uc-page-id-advice-support header {
+    background:$advice-medium;
+}
+
+#salford-welcome #uc-page-id-events header {
+    background: $events-base;
+}
+
+#salford-welcome #uc-page-id-student-voice header {
+    background: $student-voice-base;
+}
+
+#salford-welcome header h1 {
+    color: inherit;
+    background: none;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 0.4em;
+}
+
+#salford-welcome header p {
+    margin: 0;
+    text-align: center;
+}
+
+#salford-welcome .info-box {
+    display: flex;
+    background: $brand-blue-bg;
+    padding: 30px 20px;
+    margin-bottom: 40px;
+}
+
+#salford-welcome #uc-page-id-events .info-box {
+    background:$events-light-bg;
+}
+
+#salford-welcome #uc-page-id-bar-cafe-offers .info-box {
+    background:$offers-light-bg;
+}
+
+#salford-welcome #uc-page-id-activities .info-box {
+    background:$activities-light-bg;
+}
+
+#salford-welcome #uc-page-id-advice-support .info-box {
+    background:$advice-light-bg;
+}
+
+#salford-welcome #uc-page-id-student-voice .info-box {
+    background: $student-voice-light-bg;
+}
+
+#salford-welcome .info-box .box-content, #salford-welcome .info-box .box-image {
+    padding: 0 15px;
+}
+
+#salford-welcome .info-box .box-content p:last-child, #salford-welcome .info-box .box-image p {
+    margin: 0;
+}
+
+#salford-welcome .info-box .box-content {
+    flex: 1 0 0;
+}
+
+#salford-welcome .info-box .box-image p {
+    text-align: center;
+}
+
+#salford-welcome .info-box .box-image {
+    flex: 0 0 378px;
+    align-self: center;
+}
+
+#salford-welcome #buy-wristband {
+    background:$events-light-bg;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#salford-welcome #buy-wristband p {
+    margin-bottom: 20px;
+    font-weight: 600;
+    line-height: 1em;
+    color: $events-base;
+    text-align: center;
+}
+
+#salford-welcome #buy-wristband #price {
+    font-size: 3em;
+    margin: 0;
+}
+
+#salford-welcome #buy-wristband p:last-child {
+    margin: 0;
+    font-weight: 300;
+    line-height: 1.4em;
+}
+
+#salford-welcome .default-body .row.banner {
+    background:$events-light-bg;
+    margin: 40px 0;
+    padding: 30px 0;
+}
+
+#salford-welcome .default-body .row.banner h2, #salford-welcome .default-body .row.banner h3, #salford-welcome .default-body .row.banner p {
+    text-align: center;
+}
+
+#salford-welcome .default-body .row.banner p:last-child {
+    margin: 0;
+}
+
+#salford-welcome .clubnight-box {
+    margin: 40px 0;
+    background:$events-light-bg;
+}
+
+#salford-welcome #uc-page-id-events .clubnight-box h2, #salford-welcome #uc-page-id-events .section .clubnight-box h2 {
+    background: $events-base;
+    color: $white;
+    margin: 0;
+    padding: 10px 25px;
+    text-align: center;
+}
+
+#salford-welcome .clubnight-box .box-info {
+    padding: 0 35px 30px 35px;
+}
+
+#salford-welcome .clubnight-box p {
+    text-align: center;
+}
+
+#salford-welcome .clubnight-box p:last-child {
+    margin: 0;
+}
+
+#salford-welcome #map-options {
+  background:$advice-light-bg;
+  color: $brand-blue;
+}
+
+#salford-welcome #map-options ul {
+  margin: 0;
+  text-align: center;
+}
+
+#salford-welcome #map-options ul li {
+  margin: 0 10px 0 0;
+  padding: 0;
+  display: inline-block;
+  line-height: 50px;
+}
+    
+#salford-welcome #map-options ul li:last-child {
+  margin-right: 0;
+}
+
+#salford-welcome #map-options i {
+  margin-right: 5px;
+}
+
+#salford-welcome #map-options input {
+  margin: 0 10px 0 0;
+}
+
+#salford-welcome #map-canvas {
+  width: 100%;
+  height: 500px;
+  position: relative;
+}

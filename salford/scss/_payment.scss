@@ -1,0 +1,151 @@
+/* ===============
+   PAYMENT GATEWAY
+   =============== */
+
+   .uc-payment-page {
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.uc-payment-page:before {
+    content: 'Payment';
+    font-family: "museo-sans", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: $brand-blue;
+    display: block;
+}
+
+.uc-payment-page-wrapper {
+    padding: 40px 0;
+}
+
+.uc-payment-page .uc-payment-amt-ref {
+    background: $brand-blue;
+    color: $white;
+    padding: 15px 25px;
+}
+
+.uc-payment-page .uc-payment-amt-ref .value-block, .uc-payment-page .uc-payment-page-title {
+    font-family: inherit;
+    font-weight: 600;
+}
+
+.uc-payment-page .uc-payment-page-title {
+    background: $brand-blue-bg;
+    color: $brand-blue;
+    padding: 15px 25px;
+}
+
+.uc-payment-page .uc-selected-option-gui {
+    border-left: 1px solid $brand-blue-bg;
+}
+
+.uc-payment-page .uc-selected-option-gui-wrapper {
+    padding: 0;
+}
+
+.uc-payment-page .form-container {
+    border: 0;
+}
+
+#payment-form {
+    background: $brand-blue-bg;
+    padding: 2em 2em 1em;
+    box-shadow: none;
+    border-radius: 5px;
+}
+
+#payment-form.visa {
+    background-color: #EB9F42;
+}
+
+.uc-payment-page .cardinfo-label {
+    font-size: 18px;
+    text-transform: none;
+}
+
+.uc-payment-page .input-wrapper {
+    background: $white;
+    border: 1px solid #CFD8DC;
+    box-shadow: none;
+    height: 40px;
+    padding: 0 15px;
+    border-radius: 0;
+    transition: border 0.2s linear, padding-left 0.2s linear;
+}
+
+.uc-payment-page .input-wrapper.braintree-hosted-fields-focused {
+    border-color: $brand-blue;
+    border-width: 1px 1px 1px 5px;
+    padding: 0 15px 0 11px;
+}
+
+.uc-payment-page #card-image {
+    top: 34px;
+    margin-bottom: 0;
+}
+
+.uc-payment-page .cardinfo-exp-month, .uc-payment-page .cardinfo-exp-year {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.uc-payment-page div#expiration-year {
+    margin: 0 0 1em 0;
+}
+
+.uc-payment-page .inline-hints-msg {
+    font-size: 12px;
+    padding: 0;
+    background: none;
+    color: inherit;
+    border-radius: 0;
+}
+
+.uc-payment-page .postal-code-braintree {
+    color: inherit;
+}
+
+.uc-payment-page .uc-pay-now-btn {
+    margin: 1em 0;
+}
+
+.uc-payment-page #button-pay {
+    width: 100%;
+    transition: opacity 0.2s linear;
+}
+
+.uc-payment-dialog-box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100000;
+}
+
+.uc-payment-dialog-box .bt-mask {
+    position: absolute;
+}
+
+.uc-payment-dialog-box .bt-modal-frame {
+    background: $white;
+    border-radius: 0;
+    border-top: 3px solid $brand-blue;
+}
+
+.uc-payment-dialog-box .bt-modal-header, .uc-payment-dialog-box .bt-modal-footer {
+    background: $brand-blue-bg;
+}
+
+.uc-payment-dialog-box .header-text {
+    font-family: "museo-sans", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: $brand-blue;
+    font-size: 18px;
+}
+
+.uc-payment-dialog-box .bt-modal-body {
+    border: 0;
+}

@@ -1,0 +1,43 @@
+/* ==========
+   SABB PAGES
+   ========== */
+
+   #uc-page-id-student-voice #section-head.sabb {
+    padding-bottom: 0;
+    overflow: hidden;
+    background: $student-voice-light-bg;
+}
+
+#uc-page-id-student-voice #section-head.sabb .body-width-wrap {
+    padding-right: 400px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#uc-page-id-student-voice #section-head.sabb h2 {
+    font-size: 48px;
+    color: $student-voice-base !important;
+}
+
+#uc-page-id-student-voice #section-head.sabb h3 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: $student-voice-base !important;
+}
+
+#uc-page-id-student-voice .default-body #section-head.sabb p {
+    text-align: left;
+    color: $brand-navy
+}
+
+#uc-page-id-student-voice #section-head.sabb a.more, #uc-page-id-student-voice #section-head.sabb a.button {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#uc-page-id-student-voice #section-head.sabb .sabb-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 380px;
+}

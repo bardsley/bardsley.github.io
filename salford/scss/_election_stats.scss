@@ -1,0 +1,546 @@
+/* ============
+   VOTING STATS
+   ============ */
+
+   .uc-election-stats-wrapper:before {
+    content: 'Voting Statistics';
+    display: block;
+    font-family: "museo-sans", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+#uc-election-dashboard {
+    padding: 0;
+    margin: 40px auto;
+}
+
+.uc-election-select-box {
+    text-align: center;
+}
+
+.uc-election-dashboard .uc-election-select-box label, .uc-election-dashboard .uc-election-select-box .hints-message {
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.uc-election-dashboard .uc-election-select-box label {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.uc-election-dashboard .uc-election-select-box .hints-message {
+    padding: 0;
+    margin: 10px 0;
+}
+
+.uc-election-dashboard .uc-election-dashboard-navigation-wrapper {
+    margin-bottom: 30px;
+}
+
+.uc-election-dashboard .uc-election-dashboard-navigation {
+    background: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 3px solid$elections-light-bg;
+}
+
+.uc-election-dashboard .uc-election-dashboard-navigation .uc-election-navigation-wrapper {
+    display: block;
+    width: auto;
+    margin: 0;
+}
+
+.uc-election-dashboard .uc-election-dashboard-navigation ul li {
+    font-size: 24px;
+    font-weight: 300;
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+}
+
+.uc-election-dashboard .uc-election-dashboard-navigation ul li.active {
+    background:$elections-light-bg;
+}
+
+.uc-election-dashboard .uc-election-dashboard-navigation ul li a, .uc-election-dashboard .uc-election-dashboard-navigation ul li.active a {
+    padding: 3px 20px 0 20px;
+    color:$elections-base;
+    line-height: 40px;
+}
+
+.uc-election-dashboard .uc-election-dashboard-navigation ul li a:hover {
+    background:$elections-light-bg;
+}
+
+.uc-election-dashboard .uc-top-turnouts, .uc-election-dashboard .uc-votes-numerical-figures, .uc-election-dashboard .uc-votes-voters, .uc-election-dashboard .uc-avg-age-voter, .uc-election-dashboard .uc-leading-gender, .uc-election-dashboard .uc-timeline, .uc-election-dashboard .uc-study-types {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.uc-election-dashboard .uc-timeline {
+    background:$elections-light-bg;
+}
+
+.uc-election-dashboard .uc-timeline .uc-timeline-headings {
+    background:$elections-base;
+}
+
+.uc-election-dashboard .uc-timeline .uc-timeline-headings a.toggle-timeline, .uc-election-dashboard .uc-avg-age-voter .uc-avg-age-voter-headings {
+    font-family: "museo-sans", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-transform: none;
+    font-size: 24px;
+    padding: 10px 50px 10px 15px;
+}
+
+.uc-election-dashboard .uc-timeline .uc-timeline-headings a.toggle-timeline:after, .uc-election-dashboard .uc-avg-age-voter .uc-avg-age-voter-headings:after, .uc-election-dashboard .uc-timeline .uc-timeline-wrapper.collapsed a.toggle-timeline:after {
+    top: 10px;
+    right: 15px;
+    background: none;
+    width: auto;
+    height: auto;
+}
+
+.uc-election-dashboard .uc-timeline .uc-timeline-headings a.toggle-timeline:after {
+    content: "\f017";
+    color: #E57373;
+}
+
+.uc-election-dashboard .uc-timeline .uc-timeline-wrapper.collapsed a.toggle-timeline:after {
+    content: "\f107";
+    color: $white;
+}
+
+.uc-election-dashboard .uc-timeline .uc-timeline-listing .uc-last-hour:before, .uc-election-dashboard .uc-timeline .uc-timeline-listing .uc-last-hour:after, .uc-election-dashboard .uc-timeline .uc-timeline-listing .uc-last-day:before, .uc-election-dashboard .uc-timeline .uc-timeline-listing .uc-last-day:after, .uc-election-dashboard .uc-timeline .uc-timeline-listing .uc-today:before, .uc-election-dashboard .uc-timeline .uc-timeline-listing .uc-today:after, .uc-election-dashboard .uc-timeline .uc-timeline-listing .uc-yesterday:before, .uc-election-dashboard .uc-timeline .uc-timeline-listing .uc-yesterday:after, .uc-election-dashboard .uc-timeline .uc-timeline-listing .uc-timeline-listing-wrapper:after {
+    display: none;
+}
+
+.uc-election-dashboard .uc-timeline .uc-timeline-listing .uc-timeline-listing-wrapper, .uc-election-dashboard .uc-avg-age-voter .uc-avg-age-voter-wrapper {
+    background: none;
+    padding: 10px 15px;
+}
+
+.uc-election-dashboard .uc-timeline .uc-timeline-listing .uc-last-hour, .uc-election-dashboard .uc-timeline .uc-timeline-listing .uc-last-day, .uc-election-dashboard .uc-timeline .uc-timeline-listing .uc-today, .uc-election-dashboard .uc-timeline .uc-timeline-listing .uc-yesterday {
+    border: 0;
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+
+.uc-election-dashboard .uc-timeline .uc-timeline-listing .uc-yesterday {
+    margin: 0;
+}
+
+.uc-election-dashboard .uc-timeline .uc-timeline-listing .uc-yesterday i, .uc-election-dashboard .uc-timeline .uc-timeline-listing .uc-last-day i, .uc-election-dashboard .uc-timeline .uc-timeline-listing .uc-today i, .uc-election-dashboard .uc-timeline .uc-timeline-listing .uc-last-hour i {
+    font-size: 18px;
+    font-family: "museo-sans", Arial, Helvetica, sans-serif;
+    display: block;
+    text-align: center;
+    color:$elections-base;
+    font-weight: 700;
+    margin-bottom: 0.4em;
+}
+
+.uc-election-dashboard .uc-timeline .uc-timeline-listing ul li {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+}
+
+.uc-election-dashboard .uc-timeline .uc-timeline-listing .uc-lh-voters, .uc-election-dashboard .uc-timeline .uc-timeline-listing .uc-lh-votes {
+    margin: 0;
+}
+
+.uc-election-dashboard .uc-timeline .uc-timeline-listing .uc-last-hour .uc-lh-count, .uc-election-dashboard .uc-timeline .uc-timeline-listing .uc-last-day .uc-lh-count, .uc-election-dashboard .uc-timeline .uc-timeline-listing .uc-today .uc-lh-count, .uc-election-dashboard .uc-timeline .uc-timeline-listing .uc-yesterday .uc-lh-count {
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    color:$elections-base;
+}
+
+.uc-election-dashboard .uc-timeline .uc-timeline-listing .uc-last-hour .uc-text, .uc-election-dashboard .uc-timeline .uc-timeline-listing .uc-last-day .uc-text, .uc-election-dashboard .uc-timeline .uc-timeline-listing .uc-today .uc-text, .uc-election-dashboard .uc-timeline .uc-timeline-listing .uc-yesterday .uc-text {
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: $brand-navy;
+}
+
+.uc-election-dashboard .uc-avg-age-voter {
+    background:$events-light-bg;
+}
+
+.uc-election-dashboard .uc-avg-age-voter .uc-avg-age-voter-headings {
+    background: $events-base;
+}
+
+.uc-election-dashboard .uc-avg-age-voter .uc-avg-age-voter-headings:after {
+    content: "\f1fd";
+    color: #F06292;
+}
+
+.uc-election-dashboard .uc-avg-age-voter .uc-avg-age-voter-wrapper {
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: $events-base;
+}
+
+.uc-election-dashboard .uc-votes-voters {
+    background:$activities-light-bg;
+}
+
+.uc-election-dashboard .uc-votes-voters .uc-votes-headings, .uc-election-dashboard .uc-leading-gender .uc-lg-headings, .uc-election-dashboard .uc-study-types .uc-study-types-headings, .uc-election-dashboard .uc-top-turnouts .uc-top-turnouts-headings, .uc-election-dashboard .uc-widget-other-tabs .uc-top-turnouts .uc-top-turnouts-headings, .uc-election-dashboard .uc-avg-age-voter.full-width-view .uc-avg-age-voter-headings {
+    padding: 0 40px;
+    line-height: 100px;
+    font-family: "museo-sans", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    position: relative;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+
+.uc-election-dashboard .uc-votes-voters .uc-votes-headings:after, .uc-election-dashboard .uc-leading-gender .uc-lg-headings:after, .uc-election-dashboard .uc-study-types .uc-study-types-headings:after, .uc-election-dashboard .uc-top-turnouts .uc-top-turnouts-headings:after, .uc-election-dashboard .uc-avg-age-voter.full-width-view .uc-avg-age-voter-headings:after {
+    position: absolute;
+    top: 0;
+    right: 40px;
+    height: auto;
+    width: auto;
+    background : none;
+    line-height: 100px;
+}
+
+.uc-election-dashboard .uc-votes-voters .uc-votes-tabs ul li, .uc-election-dashboard .uc-top-turnouts .uc-top-turnouts-tabs ul li {
+    padding: 0;
+}
+
+.uc-election-dashboard .uc-votes-voters .uc-votes-tabs ul li.active, .uc-election-dashboard .uc-top-turnouts .uc-top-turnouts-tabs ul li.active {
+    background: none;
+}
+
+.uc-election-dashboard .uc-votes-voters .uc-votes-tabs ul li a, .uc-election-dashboard .uc-top-turnouts .uc-top-turnouts-tabs ul li a {
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+    line-height: 40px;
+    padding: 0 40px;
+    display: inline-block;
+}
+
+.uc-election-dashboard .uc-leading-gender .heading-hint-text, .uc-election-dashboard .uc-study-types .heading-hint-text {
+    color: $white;
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    line-height: 40px;
+    padding: 0 25px;
+}
+
+.uc-study-type-block-wrapper, .uc-gender-blocks-wrapper, .uc-lg-voteshare-wrapper {
+    padding: 25px;
+}
+
+.uc-election-dashboard .highcharts-container svg {
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif !important;
+    font-size: 14px !important;
+}
+
+.uc-election-dashboard .highcharts-container svg text {
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif !important;
+}
+
+.uc-election-dashboard .uc-votes-voters .uc-votes-headings, .uc-election-dashboard .uc-votes-voters .uc-votes-tabs {
+    background:$activities-medium;
+}
+
+.uc-election-dashboard .uc-votes-voters .uc-votes-headings:after {
+    content: "\f00d";
+    color: #FBCC6D;
+}
+
+.uc-election-dashboard .uc-votes-voters .uc-votes-tabs ul li.active a {
+    background:$activities-light-bg;
+    color:$activities-base;
+}
+
+.uc-election-dashboard .uc-votes-voters .highcharts-container svg .highcharts-background, .uc-election-dashboard .uc-votes-voters .highcharts-container svg .highcharts-button > rect, .uc-election-dashboard .uc-votes-voters .highcharts-container svg .highcharts-legend > rect {
+    fill:$activities-light-bg !important;
+}
+
+.uc-election-dashboard .uc-votes-voters .highcharts-container svg .highcharts-grid path, .uc-election-dashboard .uc-votes-voters .highcharts-container svg .highcharts-axis path {
+    stroke: #FBCC6D !important;
+}
+
+.uc-election-dashboard .uc-votes-numerical-figures {
+    background:$activities-light-bg;
+    margin: 0;
+    padding: 0 0 30px 0;
+    text-align: center;
+}
+
+.uc-election-dashboard .uc-votes-numerical-figures .uc-turnout-count .uc-count-fig, .uc-election-dashboard .uc-votes-numerical-figures .uc-votes-cast .uc-count-fig, .uc-election-dashboard .uc-votes-numerical-figures .uc-voters-count .uc-count-fig {
+    color: #FE8F00;
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.uc-election-dashboard .uc-votes-numerical-figures .uc-turnout-count p, .uc-election-dashboard .uc-votes-numerical-figures .uc-votes-cast p, .uc-election-dashboard .uc-votes-numerical-figures .uc-voters-count p {
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: $brand-navy;
+}
+
+.uc-election-dashboard .uc-leading-gender {
+    background: $student-voice-light-bg;
+}
+
+.uc-election-dashboard .uc-leading-gender .uc-lg-headings, .uc-election-dashboard .uc-leading-gender .heading-hint-text  {
+    background: $student-voice-base;
+}
+
+.uc-election-dashboard .uc-leading-gender .uc-lg-headings:after {
+    content: "\f224";
+    color: #BA68C8;
+}
+
+.uc-election-dashboard .uc-leading-gender .uc-leading-gender-graph {
+    font-size: 0;
+}
+
+.uc-election-dashboard .uc-leading-gender .uc-lg-blocks, .uc-election-dashboard .uc-leading-gender .uc-lg-voteshare {
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.uc-lg-blocks .uc-lg-male, .uc-lg-blocks .uc-lg-female, .uc-lg-blocks .uc-lg-non-binary, .uc-lg-blocks .uc-lg-other, .uc-lg-blocks .uc-lg-unknown {
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.uc-election-dashboard .uc-leading-gender .highcharts-container svg .highcharts-background, .uc-election-dashboard .uc-leading-gender .highcharts-container svg .highcharts-button > rect {
+    fill: $student-voice-light-bg !important;
+}
+
+.uc-lg-blocks .uc-lg-count, .uc-lg-blocks .uc-lg-text {
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.uc-lg-blocks .uc-lg-count {
+    font-weight: 600;
+}
+
+.uc-election-dashboard .uc-study-types {
+    background: #F1F8E9;
+}
+
+.uc-election-dashboard .uc-study-types .uc-study-types-headings, .uc-election-dashboard .uc-study-types .heading-hint-text {
+    background:$advice-medium;
+}
+
+.uc-election-dashboard .uc-study-types .uc-study-types-headings:after {
+    content: "\f19d";
+    color: #AED581;
+}
+.uc-election-dashboard .uc-study-types .highcharts-container svg .highcharts-background, .uc-election-dashboard .uc-study-types .highcharts-container svg .highcharts-button > rect, .uc-election-dashboard .uc-study-types .highcharts-container svg .highcharts-legend > rect {
+    fill: #F1F8E9 !important;
+}
+
+.uc-election-dashboard .uc-study-types .highcharts-container svg .highcharts-tracker path {
+    stroke: #F1F8E9 !important;
+}
+
+.uc-election-dashboard .uc-study-types .highcharts-container svg .highcharts-tracker rect {
+    stroke: #F1F8E9 !important;
+}
+
+.uc-election-dashboard .uc-study-types .uc-study-types-wrapper .uc-study-type-block p {
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: $brand-navy;
+}
+
+.uc-election-dashboard .uc-widget-see-more {
+    padding: 0 25px 20px 25px;
+}
+
+.uc-election-dashboard .see-all-turnouts:after {
+    display: none;
+}
+
+.uc-election-dashboard .uc-top-turnouts {
+    background: #E1F5FE;
+}
+
+.uc-election-dashboard .uc-top-turnouts .uc-top-turnouts-headings, .uc-election-dashboard .uc-top-turnouts .uc-top-turnouts-tabs {
+    background:$offers-base;
+}
+
+.uc-election-dashboard .uc-top-turnouts .uc-top-turnouts-headings:after {
+    content: "\f201";
+    color: #4FC3F7;
+}
+
+.uc-election-dashboard .uc-top-turnouts .uc-top-turnouts-tabs ul li.active a {
+    background: #E1F5FE;
+    color:$offers-base;
+}
+
+.uc-election-dashboard .uc-top-turnouts .uc-top-turnouts-wrapper {
+    padding: 0;
+}
+
+.uc-election-dashboard .uc-turnout-table {
+    margin: 0;
+    padding: 20px 25px;
+    display: block;
+    width: auto;
+}
+
+.uc-election-dashboard .uc-turnout-row {
+    display: block;
+    border-bottom: 1px solid $offers-light-other;
+}
+
+.uc-election-dashboard .uc-turnout-row:last-child {
+    border: 0;
+}
+
+.uc-election-dashboard .uc-turnout-cell {
+    display: inline-block;
+    vertical-align: middle;
+    border: 0;
+    line-height: 50px;
+}
+
+.uc-election-dashboard .uc-turnout-cell.cell-one, .uc-election-dashboard .uc-turnout-cell.cell-two, .uc-election-dashboard .uc-turnout-cell.cell-three {
+    color: $brand-navy;
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+    font-size: 18px
+}
+
+.uc-election-dashboard .uc-turnout-cell.cell-one {
+    width: auto;
+    margin-right: 25px;
+    font-weight: 600;
+}
+
+.uc-election-dashboard .uc-turnout-cell.cell-one span {
+    margin: 0;
+    background:$offers-base;
+    color: $white;
+    display: inline-block;
+    line-height: 30px;
+    padding: 0;
+}
+
+.uc-election-dashboard .uc-turnout-cell.cell-three {
+    float: right;
+    width: auto;
+    font-weight: 600;
+}
+
+.uc-election-dashboard .uc-timeline .uc-cell-wrapper {
+    display: block;
+    padding: 10px 0 0 0;
+    width: auto;
+    margin-top: 10px;
+    border-top: 1px solid #FFCDD2;
+}
+
+.uc-election-dashboard .uc-timeline .uc-cell-wrapper:first-child {
+    margin: 0;
+    border: 0;
+}
+
+.uc-election-dashboard .uc-timeline .uc-cell-wrapper .uc-cell-left, .uc-election-dashboard .uc-timeline .uc-cell-wrapper .uc-cell-right {
+    display: inline-block;
+    border: 0;
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.uc-election-dashboard .uc-timeline .uc-cell-wrapper .uc-cell-left {
+    width: calc(100% - 60px);
+}
+
+.uc-election-dashboard .uc-cell-left-wrapper {
+    padding: 0;
+    word-break: initial;
+}
+
+.uc-election-dashboard .uc-timeline .uc-cell-wrapper .uc-cell-right {
+    width: 60px;
+}
+
+.uc-election-dashboard .uc-timeline .c100.center {
+    margin: 0;
+}
+
+.uc-election-dashboard .uc-timeline .c100 > span {
+    font-weight: 600;
+    color:$elections-base;
+}
+
+.uc-election-dashboard .uc-timeline .c100.green .bar, .uc-election-dashboard .uc-timeline .c100.green .fill {
+    border-color:$elections-base !important; 
+}
+
+.uc-election-dashboard .uc-election-dashboard-wrapper .chart-heading {
+    color: $brand-navy;
+    padding: 15px 0 0 0;
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    display: block;
+    width: auto;
+}
+
+.uc-election-dashboard .uc-election-dashboard-wrapper .chart-heading span {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.uc-election-dashboard .uc-election-dashboard-wrapper .chart-heading .chart-heading-info i {
+    background: none;
+    width: auto;
+    height: auto;
+    font-style: normal;
+}
+
+.uc-election-dashboard .uc-election-dashboard-wrapper .uc-top-turnouts .chart-heading .chart-heading-info i {
+    color: #4FC3F7;
+}
+
+.uc-election-dashboard .uc-election-dashboard-wrapper .chart-heading .chart-heading-info i:before {
+    content: "\f05a";
+}
+
+.uc-election-dashboard .uc-top-turnouts .highcharts-container svg .highcharts-background, .uc-election-dashboard .uc-top-turnouts .highcharts-container svg .highcharts-button > rect, .uc-election-dashboard .uc-top-turnouts .highcharts-container svg .highcharts-legend > rect {
+    fill: #E1F5FE !important;
+}
+
+.uc-election-dashboard .uc-top-turnouts .highcharts-container svg .highcharts-grid path, .uc-election-dashboard .uc-top-turnouts .highcharts-container svg .highcharts-axis path {
+    stroke: $offers-light-other !important;
+}
+
+.uc-election-dashboard .uc-top-turnouts .highcharts-container svg .highcharts-tracker rect {
+    stroke: #E1F5FE !important;
+}
+
+.uc-election-dashboard .uc-election-dashboard-wrapper .uc-study-types .chart-heading .chart-heading-info i {
+    color: #AED581;
+}
+
+.uc-election-dashboard .uc-election-dashboard-wrapper .uc-avg-age-voter .chart-heading .chart-heading-info i {
+    color: #F06292;
+}
+
+.uc-election-dashboard .uc-avg-age-voter .highcharts-container svg .highcharts-background, .uc-election-dashboard .uc-avg-age-voter .highcharts-container svg .highcharts-button > rect, .uc-election-dashboard .uc-avg-age-voter .highcharts-container svg .highcharts-legend > rect {
+    fill:$events-light-bg !important;
+}
+
+.uc-election-dashboard .uc-avg-age-voter .highcharts-container svg .highcharts-grid path, .uc-election-dashboard .uc-avg-age-voter .highcharts-container svg .highcharts-axis path {
+    stroke: $events-light-other !important;
+}
+
+.uc-election-dashboard .uc-avg-age-voter .highcharts-container svg .highcharts-tracker rect {
+    stroke:$events-light-bg !important;
+}

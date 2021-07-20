@@ -1,0 +1,108 @@
+/* 
+
+Compilation commands
+
+1. Run in console -> This removes the ?v=1234567 to allow overrides
+    document.querySelectorAll('link[href*=salford]')[1].href = "//nusdigital.s3-eu-west-1.amazonaws.com/global_assets/stylesheets/salford/salford.css" 
+
+2. Then add a chrome overide directory for css folder and save the salford.css for overides
+
+3. In a terminal run
+    sass --watch scss\salford.scss:css\nusdigital.s3-eu-west-1.amazonaws.com\global_assets\stylesheets\salford\salford.css 
+
+4 This should watch this file and compile an overide
+
+5. When happy save salford.css content into UC appearance page
+
+*/
+
+@import 'variables.scss';
+@import 'reset.scss';
+@import 'wireframe.scss';
+@import 'section_colours.scss';
+
+@import 'header.scss';
+@import 'footer.scss';
+@import 'home.scss';
+@import 'cms.scss';
+@import 'articles.scss';
+@import 'officers.scss';
+
+
+@import 'events.scss';
+@import 'whats_on.scss';
+@import 'groups.scss';
+@import 'student_voice.scss';
+
+@import 'election_main.scss';
+@import 'election_stats.scss';
+
+
+@import 'subsites/welcome.scss';
+@import 'subsites/varsity.scss';
+@import 'subsites/annual_awards.scss';
+@import 'subsites/atmosphere.scss';
+
+@import 'signin_registration.scss';
+@import 'account.scss';
+@import 'eshop.scss';
+@import 'cart.scss';
+@import 'payment.scss';
+@import 'search.scss';
+@import 'forms.scss';
+@import 'uc_interface.scss';
+@import 'frontend_editor.scss';
+
+
+@import 'responsive/small_desktop.scss';
+@import 'responsive/tablet.scss';
+@import 'responsive/mobile.scss';
+
+
+/*slider related code*/
+
+
+.uc-opp-role-calendar-wrapper .uc-availability-row{
+ display:flex;
+}
+
+@media only screen and (max-width: 767px){
+  .uc-opp-role-calendar-wrapper .uc-availability-row{
+    display:block;
+    margin-top:25px;
+  }
+}
+#home-slideshow .ui-tabs .ui-tabs-hide{
+opacity:1
+}
+.uc-vol-profile-tab-content{position: relative;}
+@media only screen and (min-width: 767px){
+#myaccount-information.registration-form .registration-form-wrapper .for-student-update .user-profile-picture-wrapper.top250 {
+                top: 250px;
+    width: 200px;
+    right:20px;
+}
+}
+
+li#user_profile.selected>a,li#user_profile.selected>ul>li,li#my_details.selected>a,.tree-navigation ul li#my_details>ul>li,.tree-navigation ul li#my_details>ul>li.selected{
+ background:transparent;
+}
+li#user_profile.selected>ul>li>a,li#my_details.selected>ul>li>a{
+ background:transparent;
+}
+
+
+/* =============== STYLES FOR VOLUNTEERING HUB BY HARRY VANN @ ONEVOICE =============== */
+div#uc-vol-opp-details-page {
+	display: flex;
+    flex-direction: column;
+}
+
+/*slider related code*/
+#home-slideshow .ui-tabs .ui-tabs-hide{
+opacity:1
+}
+/*slider related code ends*/
+
+
+.header { border-top: solid 10px red; }

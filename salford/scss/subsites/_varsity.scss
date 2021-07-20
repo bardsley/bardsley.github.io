@@ -1,0 +1,650 @@
+/* ===============
+   VARSITY SUBSITE
+   =============== */
+
+   #salford-varsity #header {
+    margin: 0;
+    padding: 20px 0;
+    background: #EFEBEA url('https://s3-eu-west-1.amazonaws.com/nusdigital/image/images/101732/optimized/varsity-header-bg-17.jpg') no-repeat center;
+}
+
+#salford-varsity #unioncloud-sub-site-option #header {
+    background: none;
+}
+
+#salford-varsity .column .column-content {
+    min-height: 0;
+}
+
+#salford-varsity #header h1 {
+    padding: 0;
+    background: none;
+    text-indent: -1000em;
+}
+
+#salford-varsity #header h1 a {
+    width: 300px;
+    height: 100px;
+    display: block;
+    background: url('//s3-eu-west-1.amazonaws.com/nusdigital/image/images/101734/optimized/varsity-header-logo.png');
+    background-size: 300px 100px;
+}
+
+#salford-varsity #unioncloud-sub-site-option #header h1 a {
+    background-image: url('//s3-eu-west-1.amazonaws.com/nusdigital/image/images/101733/optimized/varsity-header-logo-white.png');
+}
+
+#salford-varsity .header-right {
+    text-align: right;
+}
+
+#salford-varsity #countdown-wrap, #salford-varsity #score-wrap, #salford-varsity #coverage-wrap {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#salford-varsity #coverage-wrap {
+    margin-right: 20px;
+}
+
+#salford-varsity #header #countdown-wrap h2, #salford-varsity #header #score-wrap h2 {
+    float: none;
+    color: $brand-blue;
+    font-size: 24px;
+    letter-spacing: 0.2em;
+}
+
+#salford-varsity #countdown-wrap .time, #salford-varsity #score-wrap .points {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+}
+
+#salford-varsity #countdown-wrap .time:last-child, #salford-varsity #score-wrap .points:last-child {
+    margin: 0;
+}
+
+#salford-varsity #countdown-wrap .time.numerals {
+    width: 55px;
+}
+
+#salford-varsity #score-wrap .points.numerals {
+    width: 80px;
+}
+
+#salford-varsity #header #countdown-wrap h3, #salford-varsity #header #score-wrap h3 {
+    font-size: 40px;
+}
+
+#salford-varsity #header #countdown-wrap h4, #salford-varsity #header #score-wrap h4 {
+    font-size: 18px;
+}
+
+#salford-varsity #unioncloud-sub-site-option #header #countdown-wrap h2, #salford-varsity #unioncloud-sub-site-option #header #countdown-wrap h3, #salford-varsity #unioncloud-sub-site-option #header #countdown-wrap h4, #salford-varsity #unioncloud-sub-site-option #header #score-wrap h2, #salford-varsity #unioncloud-sub-site-option #header #score-wrap h3, #salford-varsity #unioncloud-sub-site-option #header #score-wrap h4 {
+    color: $white;
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.75);
+}
+
+#salford-varsity #header a.more:before {
+    content: '\f03d';
+}
+
+#salford-varsity #unioncloud-sub-site-option #header a.more {
+    color: $brand-blue;
+    background: $white;
+}
+
+#salford-varsity #unioncloud-sub-site-option #header a.more:before {
+    background: $brand-blue-bg;
+}
+
+#salford-varsity #subsite-navigation {
+    background: #0288D1;
+    margin: 0;
+    padding: 0;
+}
+
+#salford-varsity #subsite-navigation ul {
+    font-family: "museo-sans", Arial, sans-serif;
+    font-weight: 300;
+    font-size: 0;
+}
+
+#salford-varsity #subsite-navigation ul li {
+    display: inline-block;
+    float: none;
+    line-height: 50px;
+    font-size: 17px;
+}
+
+#salford-varsity #subsite-navigation ul li:before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0;
+    background: #003C78;
+    transition: height 0.2s ease;
+    content: '';
+    z-index: 0;
+}
+
+#salford-varsity #subsite-navigation ul li:hover:before {
+    height: 100%;
+}
+
+#salford-varsity #subsite-navigation ul li a {
+    padding: 0 20px;
+    display: inline-block;
+    z-index: 1;
+    position: relative;
+    transition: color 0.2s linear;
+    color: $white;
+}
+
+#salford-varsity #subsite-navigation ul li a:before {
+    margin-right: 10px;
+}
+
+#salford-varsity #top-nav-level-one-about-varsity:before {
+    content: '\f05a';
+}
+
+#salford-varsity #top-nav-level-one-news:before {
+    content: '\f1ea';
+}
+
+#salford-varsity #top-nav-level-one-fixtures-and-scores:before {
+    content: '\f0ca';
+}
+
+#salford-varsity #top-nav-level-one-varsity-activities:before {
+    content: '\f073';
+}
+
+#salford-varsity #top-nav-level-one-venues:before {
+    content: '\f279';
+}
+
+#salford-varsity #top-nav-level-one-teams:before {
+    content: '\f0c0';
+}
+
+#salford-varsity #top-nav-level-one-clothing-store:before {
+    content: '\f07a';
+}
+
+#salford-varsity #subsite-navigation ul #buy-t-shirts-menu-wrapper {
+    float: right;
+    background:$activities-medium;
+}
+
+#salford-varsity #top-nav-level-one-buy-t-shirts:before {
+    content: '\f07a';
+}
+
+#salford-varsity #unioncloud-sub-site-option .top-subsite {
+    position: relative;
+    margin-bottom: -190px;
+    z-index: 2;
+    background: none;
+    top: 0;
+}
+
+#salford-varsity #unioncloud-sub-site-option #subsite-navigation {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#salford-varsity .content {
+    overflow: unset;
+}
+
+#salford-varsity #home-slideshow {
+    background: #EFEBEA;
+    height: calc(90vh - 410px);
+    padding-top: 190px;
+    min-height: 360px;
+    position: relative;
+    margin-bottom: 40px;
+    animation: 12s varsity-slideshow;
+}
+
+#salford-varsity #home-slideshow-wrap {
+    position: static;
+}
+
+#salford-varsity #slideshow-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+    z-index: 0;
+}
+
+#salford-varsity #slideshow-wrapper-wrap, #salford-varsity #slideshow-wrapper-wrap .uc-page-wrap, #salford-varsity #slideshow-wrapper-wrap .edit-mode-page, #salford-varsity #slideshow-wrapper-wrap .image-slideshow {
+    height: 100%
+}
+
+#salford-varsity #slideshow-wrapper-wrap .image-slideshow img {
+    min-height: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#salford-varsity #overlay-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding-top: 150px;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+#salford-varsity #home-slideshow h2, #salford-varsity #home-slideshow h3 {
+    color: $white;
+    font-family: "sports-world", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.75);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#salford-varsity #home-slideshow h2 {
+    font-size: 70px;
+}
+
+#salford-varsity #home-slideshow h3 {
+    font-size: 50px;
+    letter-spacing: 0.5em;
+}
+
+#salford-varsity #header #countdown-wrap h2 .last-letter, #salford-varsity #header #score-wrap h2 .last-letter, #salford-varsity #home-slideshow h3 .last-letter {
+    letter-spacing: initial;
+}
+
+#salford-varsity #scores-selector {
+    text-align: center;
+    font-size: 1.4em;
+    border-bottom: 3px solid $brand-blue-bg;
+    line-height: 1.5em;
+}
+
+#salford-varsity #scores-selector a {
+    display: inline-block;
+    padding: 5px 15px 2px 15px;
+    color: $brand-blue;
+}
+
+#salford-varsity #scores-selector a:first-child {
+    margin-left: 10px;
+}
+
+#salford-varsity #scores-selector a.selected {
+    background: $brand-blue-bg;
+}
+
+#salford-varsity #scores-results .loading {
+    text-align: center;
+    font-size: 2em;
+    color: #607D8B;
+}
+
+#salford-varsity #scores-results .loading span {
+    margin-right: 0.5em;
+}
+
+#salford-varsity #scores-results .total-points {
+    margin: 40px 0;
+    position: relative;
+}
+
+#salford-varsity #scores-results .total-points:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    height: 77px;
+    width: 1px;
+    border-left: 3px dashed$activities-medium;
+    z-index: 3;
+}
+
+#salford-varsity #scores-results .total-points h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#salford-varsity #scores-results .total-points .salford-logo, #salford-varsity #scores-results .total-points .points-bar, #salford-varsity #scores-results .total-points .chester-logo {
+    height: 60px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+#salford-varsity #scores-results .total-points .salford-logo, #salford-varsity #scores-results .total-points .chester-logo {
+    width: 150px;
+    text-align: center;
+}
+
+#salford-varsity #scores-results .total-points .points-bar {
+    width: calc(100% - 300px);
+    background: $brand-blue-bg;
+    position: relative;
+}
+
+#salford-varsity #scores-results .total-points .salford-bar, #salford-varsity #scores-results .total-points .chester-bar {
+    height: 60px;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+#salford-varsity #scores-results .total-points .salford-bar {
+    background: $brand-blue;
+    left: 0;
+}
+
+#salford-varsity #scores-results .total-points .chester-bar {
+    background: #D30000;
+    right: 0;
+}
+
+#salford-varsity #scores-results .total-points .salford-points, #salford-varsity #scores-results .total-points .chester-points {
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    line-height: 60px;
+    font-weight: 600;
+    font-size: 40px;
+    color: $white;
+}
+
+#salford-varsity #scores-results .total-points .salford-points {
+    left: 20px;
+}
+
+#salford-varsity #scores-results .total-points .chester-points {
+    right: 20px;
+}
+
+#salford-varsity #scores-results section h2 {
+    border-bottom: #0050a0 3px solid;
+    padding: 4px 0;
+    font-size: 22px;
+    position: relative;
+    background: $white;
+    z-index: 1;
+}
+
+#salford-varsity #scores-results section h2:after {
+    content: 'Salford - Chester';
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 0.6em;
+}
+
+#salford-varsity #scores-results section li {
+    margin: 1em 0 0 0;
+    padding: 10px 150px 10px 100px;
+    background: $brand-blue-bg;
+    list-style: none;
+    position: relative;
+}
+
+#salford-varsity #scores-results section li:before {
+    font-family: 'varsity';
+    speak: none;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: absolute;
+    left: 20px;
+    top: 12px;
+    font-size: 50px;
+    line-height: initial;
+    color: $brand-blue;
+}
+
+#salford-varsity #scores-results section h3 {
+    font-size: 22px;
+    line-height: 1.4em;
+    text-align: left;
+}
+
+#salford-varsity #scores-results section li p {
+    margin: 0;
+    text-align: left;
+}
+
+#salford-varsity #scores-results section li p .fb-live {
+    display: inline-block;
+    padding: 0 8px;
+    margin-left: 10px;
+    border-radius: 3px;
+    background: #3B5998;
+    color: $white;
+}
+
+#salford-varsity #scores-results section li p .fb-live:before {
+    content: '\f03d';
+    margin-right: 5px;
+}
+
+#salford-varsity #scores-results section li p.score {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-weight: 600;
+    font-size: 2.2em;
+    color: $brand-blue;
+}
+
+#salford-varsity #scores-results section li.equestrian {
+    background: #EFEBE9;
+}
+
+#salford-varsity #scores-results section li.equestrian h3, #salford-varsity #scores-results section li.equestrian p.score, #salford-varsity #scores-results section li.equestrian:before {
+    color: #795548;
+}
+
+#salford-varsity #scores-results section li.equestrian:before {
+    content: '\e902';
+}
+
+#salford-varsity #scores-results section li.badminton {
+    background:$elections-light-bg;
+}
+
+#salford-varsity #scores-results section li.badminton h3, #salford-varsity #scores-results section li.badminton p.score, #salford-varsity #scores-results section li.badminton:before {
+    color: $brand-orange;
+}
+
+#salford-varsity #scores-results section li.badminton:before {
+    content: '\e90e';
+}
+
+#salford-varsity #scores-results section li.netball {
+    background:$events-light-bg;
+}
+
+#salford-varsity #scores-results section li.netball h3, #salford-varsity #scores-results section li.netball p.score, #salford-varsity #scores-results section li.netball:before {
+    color: $events-base;
+}
+
+#salford-varsity #scores-results section li.netball:before {
+    content: '\e907';
+}
+
+#salford-varsity #scores-results section li.ultimate-frisbee {
+    background: #ECEFF1;
+}
+
+#salford-varsity #scores-results section li.ultimate-frisbee h3, #salford-varsity #scores-results section li.ultimate-frisbee p.score, #salford-varsity #scores-results section li.ultimate-frisbee:before {
+    color: #607D8B;
+}
+
+#salford-varsity #scores-results section li.ultimate-frisbee:before {
+    content: '\e900';
+}
+
+#salford-varsity #scores-results section li.cheerleading {
+    background: #E8EAF6;
+}
+
+#salford-varsity #scores-results section li.cheerleading h3, #salford-varsity #scores-results section li.cheerleading p.score, #salford-varsity #scores-results section li.cheerleading:before {
+    color: #3949AB;
+}
+
+#salford-varsity #scores-results section li.cheerleading:before {
+    content: '\e90d';
+}
+
+#salford-varsity #scores-results section li.rugby-union:before {
+    content: '\e906';
+}
+
+#salford-varsity #scores-results section li.futsal {
+    background: #F0F4C3;
+}
+
+#salford-varsity #scores-results section li.futsal h3, #salford-varsity #scores-results section li.futsal p.score, #salford-varsity #scores-results section li.futsal:before {
+    color: #9E9D24;
+}
+
+#salford-varsity #scores-results section li.football {
+    background: #F1F8E9;
+}
+
+#salford-varsity #scores-results section li.football h3, #salford-varsity #scores-results section li.football p.score, #salford-varsity #scores-results section li.football:before {
+    color: #7CB342;
+}
+
+#salford-varsity #scores-results section li.futsal:before, #salford-varsity #scores-results section li.football:before {
+    content: '\e901';
+}
+
+#salford-varsity #scores-results section li.rowing {
+    background: #E0F7FA;
+}
+
+#salford-varsity #scores-results section li.rowing h3, #salford-varsity #scores-results section li.rowing p.score, #salford-varsity #scores-results section li.rowing:before {
+    color: #00BCD4;
+}
+
+#salford-varsity #scores-results section li.rowing:before {
+    content: '\e90c';
+}
+
+#salford-varsity #scores-results section li.fencing {
+    background:$elections-light-bg;
+}
+
+#salford-varsity #scores-results section li.fencing h3, #salford-varsity #scores-results section li.fencing p.score, #salford-varsity #scores-results section li.fencing:before {
+    color: $brand-orange;
+}
+
+#salford-varsity #scores-results section li.fencing:before {
+    content: '\e903';
+}
+
+#salford-varsity #scores-results section li.squash {
+    background: #EDE7F6;
+}
+
+#salford-varsity #scores-results section li.squash h3, #salford-varsity #scores-results section li.squash p.score, #salford-varsity #scores-results section li.squash:before {
+    color: #673AB7;
+}
+
+#salford-varsity #scores-results section li.squash:before {
+    content: '\e908';
+}
+
+#salford-varsity #scores-results section li.hockey {
+    background: #FFECB3;
+}
+
+#salford-varsity #scores-results section li.hockey h3, #salford-varsity #scores-results section li.hockey p.score, #salford-varsity #scores-results section li.hockey:before {
+    color: #FF8000;
+}
+
+#salford-varsity #scores-results section li.hockey:before {
+    content: '\e90a';
+}
+
+#salford-varsity #scores-results section li.table-tennis {
+    background: $student-voice-light-bg;
+}
+
+#salford-varsity #scores-results section li.table-tennis h3, #salford-varsity #scores-results section li.table-tennis p.score, #salford-varsity #scores-results section li.table-tennis:before {
+    color: $student-voice-base;
+}
+
+#salford-varsity #scores-results section li.table-tennis:before {
+    content: '\e904';
+}
+
+#salford-varsity #scores-results section li.basketball {
+    background:$volunteering-light-bg;
+}
+
+#salford-varsity #scores-results section li.basketball h3, #salford-varsity #scores-results section li.basketball p.score, #salford-varsity #scores-results section li.basketball:before {
+    color: #FF3D00;
+}
+
+#salford-varsity #scores-results section li.basketball:before {
+    content: '\e909';
+}
+
+#salford-varsity #scores-results section li.swimming {
+    background: #E1F5FE;
+}
+
+#salford-varsity #scores-results section li.swimming h3, #salford-varsity #scores-results section li.swimming p.score, #salford-varsity #scores-results section li.swimming:before {
+    color:$offers-base;
+}
+
+#salford-varsity #scores-results section li.swimming:before {
+    content: '\e90b';
+}
+
+#salford-varsity #scores-results section li.volleyball {
+    background: #E0F2F1;
+}
+
+#salford-varsity #scores-results section li.volleyball h3, #salford-varsity #scores-results section li.volleyball p.score, #salford-varsity #scores-results section li.volleyball:before {
+    color: #009688;
+}
+
+#salford-varsity #scores-results section li.volleyball:before {
+    content: '\e905';
+}
+
+#salford-varsity #scores-results section li.softball-rounders {
+    background: #E8F5E9;
+}
+
+#salford-varsity #scores-results section li.softball-rounders h3, #salford-varsity #scores-results section li.softball-rounders p.score, #salford-varsity #scores-results section li.softball-rounders:before {
+    color: #00C853;
+}
+
+#salford-varsity #scores-results section li.softball-rounders:before {
+    content: '\e90f';
+}
+
+#salford-varsity #scores-results section li.archery {
+    background: $white;
+}
+
+#salford-varsity #scores-results section li.archery h3, #salford-varsity #scores-results section li.archery p.score, #salford-varsity #scores-results section li.archery:before {
+    color: #f9a825;
+}
+
+#salford-varsity #scores-results section li.archery:before {
+    content: '\e910';
+}

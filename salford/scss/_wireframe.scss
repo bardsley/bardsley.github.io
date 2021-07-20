@@ -1,0 +1,93 @@
+/* ==============
+   SITE WIREFRAME
+   ============== */
+
+   body {
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    background: none;
+    color: $brand-navy;
+}
+
+::-moz-selection {
+    color: $white;
+    background:$activities-medium;
+}
+
+::selection {
+    color: $white;
+    background:$activities-medium;
+}
+
+a, a:hover {
+    color: $brand-blue-bright;
+    text-decoration: none;
+}
+
+strong, b {
+    font-weight: 600;
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+}
+
+abbr {
+    color: inherit;
+    margin: initial;
+}
+
+h1, .section h1, h2, .section h2, h3, .section h3, h4, .section h4, .view-manifesto-details-wrapper h3 {
+    font-family: "museo-sans", Arial, Helvetica, sans-serif;
+    color: $brand-blue;
+    margin: 0;
+    font-weight: 700;
+}
+
+.wrapper {
+    background: none;
+    z-index: 0;
+}
+
+.top, .top-union, .top-subsite, .menu, .content, .content-wrap, .content .row .content-wrap.ninecol, .bottom-wrap, .bottom-union-wrap, .bottom-subsite-wrap {
+    width: auto;
+}
+
+.header-wrap, .nav-wrap, .default-body, .contentContainer, .body-width-wrap, #home-sabbatical-officers-wrap, #uc-group-homepage #left-content, .club-container, .has-shibboleth span.error, .signin-block, .confirmation-email-block #new_user, .confirmation-email-block .forgot-password, .account-activation-block, .change-password-block form, .unlock-block form, .unlock-block .forgot-password, .reset-password-block .warning, .reset-password-block .confirm-link-message, .reset-password-block .help-link, .confirm-email-block .warning, .confirm-email-block .confirm-link-message, .confirm-email-block .help-link, .accountlock-password-block .warning, .accountlock-password-block .confirm-link-message, .accountlock-password-block .help-link, .problem-registering-block, #event-homepage #left-panel, #event-homepage #right-panel, #uc-events-details-page, #uc-event-ticket-details .portlet, #uc-groups-details-page .portlet, #uc-join-group .group-questions-form, #uc-join-group .eventerrors, #uc-join-group .contentBoxes > .formrow, #club-content .tabs.ui-tabs .tab-content-wrapper-box, #uc-election-dashboard, #shopping-cart > .twelvecol > .twelvecol, .uc-customer-quick-login .uc-customer-quick-login-wrapper, .uc-payment-page-wrapper, #load_more_article, .uc-articles-listing, #uc-sv-nav-tab-panel, #uc-sv-content-container, .uc-sv-module, .uc-sv-module-text-wrapper, #uc-sv-main-wrapper .uc-sv-module-details-content-wrapper, #uc-sv-main-wrapper .uc-sv-module-details-advertisement-wrapper, .uc-sv-comment-box, #e-shop, #search-result .search-box.uc-common-for-all, #uc-search-more-panel, #search-result .pagination, #footer-links, #copyright-wrap {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.group-cms-wrapper .section.column.body-width-wrap {
+    margin: 0 auto;
+}
+
+.row:after {
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+}
+
+.content {
+    background: $white;
+    margin-bottom: 130px;
+    padding-bottom: 1px;
+    position: relative;
+    overflow: auto;
+}
+
+#breadcrumb-container {
+    display: none;
+}
+
+.content .content-wrap {
+    float: none;
+}
+
+.uc-cookie-block .uc-cookie-block-wrapper a.uc-cookie-continue-class:before, p#notice.success:before, #notice_and_error #error.error:before, #notice_and_error #error.error a.close-notice:before, p#notice.success a.close-notice:before, #top-navigation ul li ul li a:before, .system-menu a.uc-sign-link:before, .profile-setting a.profile-name:before, .profile-setting ul li a:before, .phone-menu-icon:before, .tree-navigation ul li a:before, .tree-navigation ul li h3 a:before, #uc-left-navigation li a:before, blockquote:before, .default-body .person-list li a.email:before, .default-body .person-list li a.phone:before, .default-body .person-list li a.facebook:before, .default-body .person-list li a.twitter:before, .content p#error:before, .home-content-wrap .top-articles li:nth-child(1n+2) .headline a:before, .home-content-wrap .uc-widget-student-voices-wrapper .uc-sv-widget-like-dislike-wrapper .uc-sv-widget-like:before, .home-content-wrap .uc-widget-student-voices-wrapper .uc-sv-widget-like-dislike-wrapper .uc-sv-widget-dislike:before, .home-content-wrap .uc-widget-student-voices-wrapper .uc-sv-widget-like-dislike-wrapper .uc-sv-widget-petition-icon:before, .has-shibboleth span.error:before, .signin-block span.error:before, .signin-block p.error:before, .signin-block .inputs li.uc-back-button-hyper a:before, #user_email_input:before, #user_password_input:before, .signin-block li.action:before, .change-password-block .button-row:before, .unlock-block .button-row:before, #registration-form-container p.form-error:before, .registration-form p.inline-hints:before, .registration-form li .inline-errors:before, p.recaptcha.inline-errors:before, #event-homepage #load-more-events a:before, .buy-this-now.button-top a:before, #event-dialog .jqmClose:before, .reduceQtyBought:before, .reduceBuyQty:before, .increaseQtyBought:before, .increaseBuyQty:before, #uc-event-ticket-details .error:before, .event-ticket-print .printButton:before, .event-ticket-print .backButton:before, #uc-group-homepage #uc-more-group-search a.uc-load-more-groups:before, .group-types ul li a:before, .join-this-group.button-top a:before, #club-header .join-button a:before, .ui-widget-content #club-info .club-details p a:before, #club-info .club-contacts p a:before, .contentBoxes .uc-group-membership-type-row #notice.warning p:before, #uc-join-group p.error:before, #uc-join-group p.inline-errors:before, .uc-position-details a:before, a.first-vote-now-button:before, .orderRow .removeOrder .removeButton:before, .transaction-total .help-tip:before, .uc-customer-quick-login .uc-form-row .form-error-msg.js-error:before, .uc-customer-quick-login .uc-cart-link:before, #uc-payment-confirmation .error:before, #uc-payment-confirmation .success:before, .tab.facebook-tab a:before, .tab.twitter-tab a:before, #view-manifesto-dailog .jqmClose:after, .uc-position-button a:before, .success.evo-success-completed:before, .uc-election-name-time p.success:before, .uc-election-dashboard .see-all-turnouts:before, .uc-election-dashboard .uc-timeline .uc-timeline-headings a.toggle-timeline:after, .uc-election-dashboard .uc-avg-age-voter .uc-avg-age-voter-headings:after, .uc-election-dashboard .uc-votes-voters .uc-votes-headings:after, .uc-election-dashboard .uc-leading-gender .uc-lg-headings:after, .uc-election-dashboard .uc-study-types .uc-study-types-headings:after, .uc-election-dashboard .uc-top-turnouts .uc-top-turnouts-headings:after, .uc-election-dashboard .uc-avg-age-voter.full-width-view .uc-avg-age-voter-headings:after, .uc-election-dashboard .uc-election-dashboard-wrapper .chart-heading .chart-heading-info i:before, .uc-election-dashboard .uc-election-dashboard-navigation .uc-election-nav a.toggle-navigation:after, .featured-news-block h2.news-headline .news-date-time a:before, .uc-articles-block .uc-news-headline .uc-news-date-time a:before,.uc-filter-checkbox label:before, #uc-articles-news #load_more_article a:before, .articleDetails .time:before, .uc-sv-category-field-holder ul li label.uc-sv-bgorange:before, .uv-sv-petition-icon:before, .uv-sv-idea-icon:before, .uc-sv-module-more a.uc-sv-more:before, .uc-sv-module-more a.uc-sv-comments:before, .uc-sv-module-voting .uc-sv-module-voting-like:before, .uc-sv-module-voting .uc-sv-module-voting-dislike:before, .uc-sv-module-voting .uc-sv-module-voting-votenow:before, span.info:before, p.info:before, #edit_evoting_nomination p.warning:before, .my-nominations-grid .wice_grid td.actions a:before, p.inline-hints:before, .uc-nomination-details p.inline-errors:before, .uc-nomination-details .back-button:before, div.jqi .jqiclose:before, a.button[data-icon]:before, a.more:before, a.pdf-link:before, #uc-page-id-varsity .default-body nav ul li a[data-icon]:before, .content .uc-sv-post-idea-petition a:before, .uc-sv-post-idea-petition a:before, #salford-welcome #subsite-navigation ul li.has-child span:after, #salford-welcome #subsite-navigation ul li ul li a:after, #salford-welcome .phone-menu:before, #salford-welcome .menu-row a:after, #salford-welcome .menu-column a:after, #salford-welcome .menu-column a.shock-link:before, #salford-welcome .menu-column a.facebook-link:before, #salford-varsity #subsite-navigation .phone-menu:before, #salford-varsity #subsite-navigation ul li a:before, #salford-varsity #scores-results section li p .fb-live:before, #salford-annualawards #site-navigation .nav-wrap ul li a:before, #salford-annualawards #site-navigation .phone-menu:before, #salford-atmosphere #main-menu .phone-menu-icon:before {
+    font-family: "FontAwesome";
+    font-weight: normal;
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: normal;
+}
