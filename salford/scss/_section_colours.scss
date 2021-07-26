@@ -1,6 +1,9 @@
 /* =============
-   SITE SECTIONS
+   SITE SECTIONS in MENU
    ============= */
+
+#top-navigation ul li ul { min-height:240px; }
+#top-navigation ul li ul::after { line-height: 1.2em; }
 
 #top-navigation ul li#your-union-menu-wrapper ul:after {
     content: "We're a registered charity, here to help you love your life at Salford";
