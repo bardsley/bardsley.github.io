@@ -1,4 +1,5 @@
-const triggerMenuShrinkAt = '1200' //px
+/* Configuration block */
+const triggerMenuShrinkAt = '1200' //px that the menu will remove words at e.g. Advice & Volunteering become Advice
 
 const shrinkMenuItem = function (menuItemId, keepWordIndex) {
     var menuItem = document.getElementById(menuItemId);
@@ -51,6 +52,6 @@ const checkMenu = debounce(function() {
     if(menu.dataset.size == 'shrunk' && menu.offsetWidth >= triggerMenuShrinkAt) { growMenu(); }
 },250)
 
-
+/* Place in  pager loaded area*/
 checkMenu();
 window.addEventListener('resize', checkMenu);

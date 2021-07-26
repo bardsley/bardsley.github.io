@@ -1,3 +1,7 @@
+/* Configuration block */
+const triggerMenuShrinkAt = '1200' //px that the menu will remove words at e.g. Advice & Volunteering become Advice
+
+
 function EnableTabRotation(e) {
     tabID = e,
         $(tabID).on('mouseenter', TabClearInterval);
@@ -54,8 +58,6 @@ var navFixed = !1,
     allowSingleCandidate = !1,
     canvasContext, snowParticles = [],
     snowAngle = 0;
-
-const triggerMenuShrinkAt = '1200' //px
 
 const shrinkMenuItem = function (menuItemId, keepWordIndex) {
     var menuItem = document.getElementById(menuItemId);
