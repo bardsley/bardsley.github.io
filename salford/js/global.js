@@ -39,15 +39,6 @@ function UpdateEventDates() {
     })
 }
 
-function DrawSnowCanvas() {
-    var e = $("#snow-scene").width(),
-        t = $("#snow-scene").height();
-    canvasContext.canvas.width = e, canvasContext.canvas.height = t, canvasContext.clearRect(0, 0, e, t), canvasContext.fillStyle = "rgba(255, 255, 255, 0.8)", canvasContext.beginPath(); for (var n = 0; n < snowParticles.length; n++) {
-        var a = snowParticles[n];
-        canvasContext.moveTo(a.x, a.y), canvasContext.arc(a.x, a.y, a.r, 0, 2 * Math.PI, !0), a.y += Math.cos(snowAngle + a.d) + 1 + a.r / 2, a.x += 2 * Math.sin(snowAngle), (a.x > e + 5 || a.x < -5 || a.y > t) && (n % 3 > 0 ? snowParticles[n] = { x: Math.random() * e, y: -10, r: a.r, d: a.d } : Math.sin(snowAngle) > 0 ? snowParticles[n] = { x: -5, y: Math.random() * t, r: a.r, d: a.d } : snowParticles[n] = { x: e + 5, y: Math.random() * t, r: a.r, d: a.d })
-    } canvasContext.fill(), snowAngle += .01, window.requestAnimationFrame(DrawSnowCanvas)
-}
-
 function EnableAutoLoadMore(e, t) {
     $(window).on("scroll", function () {
         ("undefined" == typeof $(e).first().attr("data-loadmore") || 0 == $(e).first().attr("data-loadmore")) && $(e).first().attr("data-loadmore", 0),
@@ -56,50 +47,74 @@ function EnableAutoLoadMore(e, t) {
     })
 }
 
-function LoadEventsListing() {
-    console.warn('API from fatsoma no longer exists, this code is still being called');
-    // $.getJSON("//api.salfordstudents.com/events", function (e) {
-    //     if ($("#events-listing").empty(), e.length > 0) $.each(e.slice(0, 3), function () {
-    //         var e, t = $("<a>", { href: this.url, target: -1 !== this.url.indexOf("fatsoma.com") ? "_blank" : "_self" }),
-    //             n = $("<div>", { "class": "image" });
-    //         e = null !== this.logo ? $("<img>", { src: this.logo, alt: this.title }) : $("<i>", { "class": "fa fa-ticket fa-3x" }), n.append(e), t.append(n); var a = $("<div>", { "class": "events-info" }),
-    //             i = $("<h3>", { text: this.title }),
-    //             o = $("<p>", { text: moment(this.startTime).format("ddd Do MMM h:mma") + " - " + moment(this.endTime).format("ddd Do MMM h:mma") }),
-    //             s = $("<p>", { text: this.location });
-    //         a.append(i), a.append(o), a.append(s), t.append(a), $("#events-listing").append(t)
-    //     });
-    //     else {
-    //         var t = $("<p>", { text: "No events coming up. Please check back soon!", "class": "message" });
-    //         $("#events-listing").append(t)
-    //     }
-    // }).fail(function () {
-    //     var e = $("<p>", { text: "Unable to load events. Please try again later.", "class": "message" });
-    //     $("#events-listing").empty(), $("#events-listing").append(e)
-    // })
-}
+function LoadEventsListing() { console.warn('API from fatsoma no longer exists, this code is still being called'); }
+
 var navFixed = !1,
     tabID, tabInterval, tabIntervalRunning = !1,
     allowSingleCandidate = !1,
     canvasContext, snowParticles = [],
     snowAngle = 0;
 
-var conditionalLoadSnowScene = function () {
-    if (String.prototype.startsWith || (String.prototype.startsWith = function (e, t) { return t = t || 0, this.substr(t, e.length) === e }), String.prototype.endsWith || (String.prototype.endsWith = function (e, t) {
-        var n = this.toString();
-        ("number" != typeof t || !isFinite(t) || Math.floor(t) !== t || t > n.length) && (t = n.length), t -= e.length; var a = n.lastIndexOf(e, t); return -1 !== a && a === t
-    }), "/" == window.location.pathname && !/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) && $("#snow-scene").length > 0) {
-        console.log("Load the Snowscene")
-        canvasContext = $("#snow-scene")[0].getContext("2d"); for (var e = 0; 35 > e; e++) snowParticles.push({ x: Math.random() * $("#snow-scene").width(), y: Math.random() * $("#snow-scene").height(), r: 4 * Math.random() + 1, d: 35 * Math.random() });
-        DrawSnowCanvas()
-    }
+const triggerMenuShrinkAt = '1200' //px
+
+const shrinkMenuItem = function (menuItemId, keepWordIndex) {
+    var menuItem = document.getElementById(menuItemId);
+    var prevMenuText = menuItem.innerText;
+    menuItem.dataset.fullname = prevMenuText;
+    menuItem.innerText = prevMenuText.split(' ')[keepWordIndex];
+    return menuItem.innerText;
 }
+
+const growMenuItem = function (menuItemId) {
+    var menuItem = document.getElementById(menuItemId);
+    menuItem.innerText = menuItem.dataset.fullname
+    menuItem.removeAttribute('data-fullname')
+    return menuItem.innerText;
+}
+
+const shrinkMenu = function () {
+    document.getElementById('top-navigation').dataset.size = 'shrunk';
+    shrinkMenuItem('top-nav-level-one-student-voice', 1);
+    shrinkMenuItem('top-nav-level-one-advice-support', 0);
+    shrinkMenuItem('top-nav-level-one-bar-cafe-offers', 0);
+}
+
+const growMenu = function () {
+    document.getElementById('top-navigation').dataset.size = 'grown';
+    growMenuItem('top-nav-level-one-student-voice');
+    growMenuItem('top-nav-level-one-advice-support');
+    growMenuItem('top-nav-level-one-bar-cafe-offers');
+}
+
+// /* This is used to create respectful version, it will only be called timeout ms after LAST enaction, greate for resize or other events that fire a lot */
+const debounce = function (func, wait, immediate) {
+    var timeout;
+    return function () {
+        var context = this, args = arguments;
+        var later = function () {
+            timeout = null;
+            if (!immediate) func.apply(context, args);
+        };
+        var callNow = immediate && !timeout;
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+        if (callNow) func.apply(context, args);
+    };
+};
+
+const checkMenu = debounce(function () {
+    var menu = document.getElementById('top-navigation');
+    if (menu.dataset.size != 'shrunk' && menu.offsetWidth < triggerMenuShrinkAt) { shrinkMenu(); }
+    if (menu.dataset.size == 'shrunk' && menu.offsetWidth >= triggerMenuShrinkAt) { growMenu(); }
+}, 250)
 
 $(function () {
 
-    conditionalLoadSnowScene();
+    checkMenu();
+    window.addEventListener('resize', checkMenu);
 
     if (
-        $("#union-logo a").attr("href", "https://www.salfordstudents.com/"), 
+        $("#union-logo a").attr("href", "https://www.salfordstudents.com/"),
         $("#union-logo, .system-menu a.uc-sign-link, .profile-setting a.profile-name").addClass("transition-enabled"),
         "/" == window.location.pathname && (
             LoadEventsListing(),
@@ -125,8 +140,8 @@ $(function () {
         window.location.pathname.startsWith("/events") && window.location.pathname.length > 8 && $(".galleryIcon img").attr("src", $(".galleryIcon img").attr("src").replace("/medium/", "/original/")),
         window.location.pathname.startsWith("/groups") && window.location.pathname.includes("/events/") && $(".threecol .title h1").html($("#uc-events-details-page .contentBoxes").first().find("h2").html()),
         window.location.pathname.startsWith("/groups") && window.location.pathname.length <= 8 && (
-            EnableAutoLoadMore("#uc-more-group-search", ".category-box-wrapper"), 
-            $(".club-navigation ul li").on("click", function () { $("#uc-more-group-search").first().attr("data-loadmore", 0) }), 
+            EnableAutoLoadMore("#uc-more-group-search", ".category-box-wrapper"),
+            $(".club-navigation ul li").on("click", function () { $("#uc-more-group-search").first().attr("data-loadmore", 0) }),
             $(".group-types-wrapper ul li").on("click", function () { $("#uc-more-group-search").first().attr("data-loadmore", 0) })
         ),
         window.location.pathname.endsWith("/join") || window.location.pathname.endsWith("join/")
@@ -142,15 +157,15 @@ $(function () {
     }
 
     // Loads Disqus Code for comments
-    if (window.location.pathname.startsWith("/users/customer_registration") && ($(".uc-signed_inuser_msg").html("<h3>Have a University login / already registered? Sign in below:</h3>"), 
-        $(".uc-unsigned_inuser_msg").html("<h3>Checkout as a guest:</h3>")), 
+    if (window.location.pathname.startsWith("/users/customer_registration") && ($(".uc-signed_inuser_msg").html("<h3>Have a University login / already registered? Sign in below:</h3>"),
+        $(".uc-unsigned_inuser_msg").html("<h3>Checkout as a guest:</h3>")),
         (window.location.pathname.endsWith("/articles") || window.location.pathname.endsWith("/articles/")) && (
-            $(".uc-articles-heading h1").html("Blog"), 
-            document.title = "Blog @ University of Salford Students' Union", $(".uc-articles-right-panel-banner").remove(), 
-            $(".articles-full-banner-advert").remove(), $(".uc-search-articles-filters h3").html("Filter by Category"), 
-            $(".uc-filter-block h3").die("click"), 
+            $(".uc-articles-heading h1").html("Blog"),
+            document.title = "Blog @ University of Salford Students' Union", $(".uc-articles-right-panel-banner").remove(),
+            $(".articles-full-banner-advert").remove(), $(".uc-search-articles-filters h3").html("Filter by Category"),
+            $(".uc-filter-block h3").die("click"),
             EnableAutoLoadMore("#load_more_article", ".uc-articles-listing")
-        ), 
+        ),
         window.location.pathname.includes("/articles/") && !window.location.pathname.endsWith("/articles") && !window.location.pathname.endsWith("/articles/")
     ) {
         $("#news-first-advert").html($(".more-article-block").first().html()), $(".more-article-block").remove(); var d = document.createElement("script");
@@ -199,16 +214,16 @@ $(function () {
                 $("body").append(n)
             }
         })
-    } 
-    
-    window.location.pathname.startsWith("/thestudentvoice") && window.location.pathname.length <= 17 && ($(".uc-heading-title span").html("Big Ideas"), 
-    document.title = "Big Ideas @ University of Salford Student's Union", $(".uc-sv-post-idea-petition a").html("Post An Idea"), 
-    EnableAutoLoadMore("#load_more_sv", ".uc-sv-left-panel-wrapper"), 
-    $("#uc-sv-navigation li a").on("click", function () { $("#load_more_sv").first().attr("data-loadmore", 0) })), 
-    $(".image-slideshow").each(function (e) {
-        var t = this,
-            n = $(t).attr("data-speed");
-        n = "undefined" == typeof n || 0 == n ? 5 : parseInt(n), $(t).children("img:first").addClass("active-image"), 
-        setInterval(function () { CycleImage(t) }, 1000 * n)
-    })
+    }
+
+    window.location.pathname.startsWith("/thestudentvoice") && window.location.pathname.length <= 17 && ($(".uc-heading-title span").html("Big Ideas"),
+        document.title = "Big Ideas @ University of Salford Student's Union", $(".uc-sv-post-idea-petition a").html("Post An Idea"),
+        EnableAutoLoadMore("#load_more_sv", ".uc-sv-left-panel-wrapper"),
+        $("#uc-sv-navigation li a").on("click", function () { $("#load_more_sv").first().attr("data-loadmore", 0) })),
+        $(".image-slideshow").each(function (e) {
+            var t = this,
+                n = $(t).attr("data-speed");
+            n = "undefined" == typeof n || 0 == n ? 5 : parseInt(n), $(t).children("img:first").addClass("active-image"),
+                setInterval(function () { CycleImage(t) }, 1000 * n)
+        })
 }), $("html, body").on("scroll mousedown DOMMouseScroll mousewheel keyup touchstart", function () { $("html, body").stop() }), $(window).on("scroll", function () { !navFixed && $(window).scrollTop() >= $(".header").eq(0).offset().top + $(".header").eq(0).height() ? (navFixed = !0, $("body").addClass("fixed-nav")) : navFixed && $(window).scrollTop() < $(".header").eq(0).offset().top + $(".header").eq(0).height() && (navFixed = !1, $("body").removeClass("fixed-nav")) }), $(".image-slideshow").on("transitionend webkitTransitionEnd oTransitionEnd MSTransitionEnd", function () { $(this).children(".previous-image").removeClass("previous-image") });
