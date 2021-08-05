@@ -8,8 +8,8 @@ Compilation commands
 2. Then add a chrome overide directory for css folder and save the salford.css for overides
 
 3. In a terminal run
-    sass --watch scss\salford.scss:css\nusdigital.s3-eu-west-1.amazonaws.com\global_assets\stylesheets\salford\salford.css 
-
+    Windows sass --watch scss\salford.scss:css\nusdigital.s3-eu-west-1.amazonaws.com\global_assets\stylesheets\salford\salford.css 
+    OSX sass --watch scss/salford.scss:css/nusdigital.s3-eu-west-1.amazonaws.com/global_assets/stylesheets/salford/salford.css 
 4 This should watch this file and compile an overide
 
 5. When happy save salford.css content into UC appearance page
@@ -31,7 +31,7 @@ Compilation commands
 
 @import 'events.scss';
 @import 'whats_on.scss';
-@import 'event_widget.scss';
+@import 'events_intro.scss';
 @import 'groups.scss';
 @import 'student_voice.scss';
 

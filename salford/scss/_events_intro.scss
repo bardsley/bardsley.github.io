@@ -1,9 +1,18 @@
-#calendar-at-bottom {
-    margin: 0 2em;
+
+#uc-page-id-events {
+    .content-wrap .block-menu li img, .default-body .block-menu {
+        padding:0;
+        li {
+            width: 255px; margin-right:10px;
+            a { font-size: 17px; }
+        }
+    } 
 }
-.cal-widget > * {
-    flex-basis: unset;
-}
+
+
+#calendar-at-bottom { margin: 0 auto; width: 1170px; } // Not always working
+.cal-widget > * { flex-basis: unset; }
+
 #uc-page-id-events #uc-event-calendar-widget-194171 {
     .calendar {
         width: 400px;
@@ -29,5 +38,7 @@
         list-style: none;
         padding: 0;
         margin: 0 0 0 10px;
+
+        .event-name { font-size: 1.5em; }
     }
 }
