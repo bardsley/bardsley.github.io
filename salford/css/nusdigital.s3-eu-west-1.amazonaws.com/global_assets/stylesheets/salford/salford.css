@@ -1978,6 +1978,17 @@ p#notice.success a.close-notice:before, #notice_and_error #error.error a.close-n
   background-color: #fff7e0;
 }
 
+@media (max-width: 768px) {
+  #upcoming-events-column-content,
+#blog-column-content {
+    width: 100%;
+  }
+
+  .cal-widget .listing li {
+    padding-left: 0;
+    margin-left: 0;
+  }
+}
 /* =========
    CMS PAGES
    ========= */
@@ -3710,7 +3721,7 @@ blockquote:before {
 }
 #uc-event-calendar-widget-194804 caption,
 #uc-page-id-events #uc-event-calendar-widget-194171 caption {
-  background: #e91e63;
+  background: #E91E63;
   font-weight: bold;
   font-size: 1.2em;
 }
@@ -3718,11 +3729,11 @@ blockquote:before {
 #uc-event-calendar-widget-194804 #uc-page-id-events #uc-event-calendar-widget-194171 tbody *,
 #uc-page-id-events #uc-event-calendar-widget-194171 th,
 #uc-page-id-events #uc-event-calendar-widget-194171 #uc-page-id-events #uc-event-calendar-widget-194171 tbody * {
-  color: #e91e63;
+  color: #E91E63;
 }
 #uc-event-calendar-widget-194804 .date:after,
 #uc-page-id-events #uc-event-calendar-widget-194171 .date:after {
-  background: #e91e63;
+  background: #E91E63;
 }
 #uc-event-calendar-widget-194804 .listing,
 #uc-page-id-events #uc-event-calendar-widget-194171 .listing {
@@ -3732,13 +3743,39 @@ blockquote:before {
 #uc-page-id-events #uc-event-calendar-widget-194171 .listing li {
   list-style: none;
   padding: 0;
-  margin: 0 0 0 10px;
+  margin: 0 0 0 0;
 }
 #uc-event-calendar-widget-194804 .listing li .event-name,
 #uc-page-id-events #uc-event-calendar-widget-194171 .listing li .event-name {
   font-size: 1.5em;
+  line-height: 1.1em;
+  text-align: left;
+  color: #E91E63;
+  margin: 0;
+}
+#uc-event-calendar-widget-194804 td,
+#uc-event-calendar-widget-194804 th,
+#uc-event-calendar-widget-194804 tr,
+#uc-page-id-events #uc-event-calendar-widget-194171 td,
+#uc-page-id-events #uc-event-calendar-widget-194171 th,
+#uc-page-id-events #uc-event-calendar-widget-194171 tr {
+  border-color: #E91E63;
+}
+#uc-event-calendar-widget-194804 td.selected-date .date,
+#uc-page-id-events #uc-event-calendar-widget-194171 td.selected-date .date {
+  background: #FCE4EC;
+  border-color: #E91E63;
+}
+#uc-event-calendar-widget-194804 td.today .date,
+#uc-page-id-events #uc-event-calendar-widget-194171 td.today .date {
+  background: #FCE4EC;
 }
 
+@media (max-width: 768px) {
+  #uc-event-calendar-widget-194804 .listing li .event-name {
+    font-size: 1em;
+  }
+}
 /* ===========
    GROUP PAGES
    =========== */
@@ -9248,7 +9285,7 @@ select {
   }
 
   .home-content-html .home-content-wrap {
-    max-width: 410px;
+    max-width: 100%;
   }
 
   #home-slideshow {
@@ -9264,7 +9301,7 @@ select {
   }
 
   #home-slideshow .tabs .tab-content {
-    height: 164px;
+    height: 464px;
     width: 410px;
   }
 
@@ -9323,6 +9360,7 @@ select {
 
   #home-sabbatical-officers {
     display: none;
+    display: block;
   }
 
   .home-content-wrap h2 {
@@ -10963,6 +11001,7 @@ div#uc-vol-opp-details-page {
   font-size: 10px;
   padding: 5px 10px;
   width: 100%;
+  z-index: 100000;
 }
 
 /*# sourceMappingURL=salford.css.map */

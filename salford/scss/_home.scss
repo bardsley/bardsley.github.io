@@ -623,3 +623,14 @@
     width: calc(50% - 3em);
     background-color: $brand-gold-light-bg;
 }
+
+@media (max-width: 768px) {
+    #upcoming-events-column-content,
+    #blog-column-content {
+        width: 100%;
+    }
+    .cal-widget .listing li {
+        padding-left: 0;
+        margin-left: 0;
+    }
+}

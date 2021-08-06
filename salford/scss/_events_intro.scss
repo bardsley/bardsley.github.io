@@ -28,16 +28,16 @@
         flex-grow: unset;
     }
     caption {
-        background: #e91e63;
+        background: $events-base;
         font-weight: bold;
         font-size: 1.2em;
     }
     th,
     #uc-page-id-events #uc-event-calendar-widget-194171 tbody * {
-        color: #e91e63;
+        color: $events-base;
     }
     .date:after {
-        background: #e91e63;
+        background: $events-base;
     }
     .listing {
         list-style: none;
@@ -45,9 +45,31 @@
     .listing li {
         list-style: none;
         padding: 0;
-        margin: 0 0 0 10px;
+        margin: 0 0 0 0;
         .event-name {
             font-size: 1.5em;
+            line-height: 1.1em;
+            text-align: left;
+            color: $events-base;
+            margin: 0;
         }
+    }
+    td,
+    th,
+    tr {
+        border-color: $events-base;
+    }
+    td.selected-date .date {
+        background: $events-light-bg;
+        border-color: $events-base;
+    }
+    td.today .date {
+        background: $events-light-bg;
+    }
+}
+
+@media (max-width: 768px) {
+    #uc-event-calendar-widget-194804 .listing li .event-name {
+        font-size: 1em;
     }
 }

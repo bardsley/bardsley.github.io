@@ -473,7 +473,8 @@
         font-size: 14px;
     }
     .home-content-html .home-content-wrap {
-        max-width: 410px;
+        // max-width: 410px; // TODO Check whether cause issues
+        max-width: 100%;
     }
     #home-slideshow {
         margin-bottom: 20px;
@@ -485,7 +486,7 @@
         height: 164px;
     }
     #home-slideshow .tabs .tab-content {
-        height: 164px;
+        height: 464px;
         width: 410px;
     }
     #home-slideshow .tabs .tab-content img {
@@ -532,6 +533,7 @@
     }
     #home-sabbatical-officers {
         display: none;
+        display: block;
     }
     .home-content-wrap h2 {
         font-size: 20px;
