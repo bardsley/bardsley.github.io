@@ -23,6 +23,7 @@ Compilation commands
 
 @import 'header.scss';
 @import 'footer.scss';
+
 @import 'home.scss';
 @import 'cms.scss';
 @import 'articles.scss';
@@ -39,10 +40,11 @@ Compilation commands
 @import 'election_stats.scss';
 
 
-@import 'subsites/welcome.scss';
-@import 'subsites/varsity.scss';
-@import 'subsites/annual_awards.scss';
-@import 'subsites/atmosphere.scss';
+// @import 'subsites/welcome.scss'; TODO Removed 2021-07-20
+// @import 'subsites/varsity.scss'; TODO Removed 2021-07-20
+// @import 'subsites/annual_awards.scss'; TODO Removed 2021-07-20
+// @import 'subsites/atmosphere.scss'; TODO Moved to single page in _custom_pages.scss 2021-07-20
+@import 'subsites/welcome2021.scss'; 
 
 @import 'signin_registration.scss';
 @import 'account.scss';
@@ -52,7 +54,7 @@ Compilation commands
 @import 'search.scss';
 @import 'forms.scss';
 @import 'uc_interface.scss';
-@import 'frontend_editor.scss';
+// @import 'frontend_editor.scss';
 
 
 @import 'responsive/small_desktop.scss';
@@ -105,5 +107,7 @@ opacity:1
 }
 /*slider related code ends*/
 
-
-.header { border-top: solid 10px red; }
+// DEBUG CODE
+.header:before{ 
+  position:absolute; content: 'SASS generated CSS, remove for upload'; background-color: red; color: #ffffff; font-size: 10px; padding: 5px 10px; width:100%; 
+}

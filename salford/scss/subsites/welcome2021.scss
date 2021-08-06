@@ -1,0 +1,73 @@
+$welcome-dark: #26276a;
+$welcome-light: #2c367e;
+$welcome-background: #a1a6cc;
+$welcome-touch: #e7e9f7;
+.unioncloud-sub-site-option #union-logo a { background-image: url('//nusdigital.s3.amazonaws.com/union_logo/images/41/original/Union_400_px.jpg'); }
+
+#hero-image {
+
+    margin-bottom:0;
+
+    .hero { 
+        padding: 3em;
+    
+        background-color: $welcome-dark;
+      background-image:
+        linear-gradient(
+            #{$welcome-light} 55%,  #{$welcome-dark}
+        );
+    
+        img { 
+            display:block;
+            width: 400px;
+            margin: 0 auto; 
+    
+        }
+    
+    }
+}
+
+#blocks { 
+    #section-head { 
+        margin-top:0; background-color: $welcome-light;
+    }
+
+    .block-menu li { 
+        background-color: $welcome-dark;
+        img { border-color: $welcome-light; }
+        a { color: $white; }
+    }
+}
+#calendar-wrap { max-width:1440px; margin: 0 auto; }
+#welcome-calendar-frame { height: 1200px; }
+.welcome-calendar-page { background: $welcome-background; }
+#calendar.welcome-calendar { 
+    caption { display:none; }
+    tbody tr,
+    tbody tr td { border-color: $welcome-dark; background-color: $white; }
+    td.day:hover { background-color: $welcome-background;}
+    th { background: $welcome-dark; }
+    tbody .days:nth-of-type(2), tbody .days:nth-of-type(3), tbody .days:nth-of-type(4), tbody .days:nth-of-type(6)    { display:none;}
+     .date { background-color: $welcome-background; color: $white;}
+
+     .event { 
+         background: $welcome-touch; font-size: 1em; padding:1em; margin: 1em; 
+         border: $welcome-light;
+         .event-desc {
+             margin: 0;
+             a { font-size: 1.2em; color: $welcome-light; font-weight:bold; }
+            }
+     }
+}
+
+.unioncloud-sub-site-option .row.content { background-color: $welcome-background; }
+
+
+@media (max-width: 769px) {
+
+    #calendar.welcome-calendar {
+        .date { 
+            border-radius:unset; background-color: $welcome-dark; color: $white; padding: 0.5em 1em; width: calc(100% - 2em);
+        }
+    }
+}
