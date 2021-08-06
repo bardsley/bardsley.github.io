@@ -1,19 +1,28 @@
-
 #uc-page-id-events {
-    .content-wrap .block-menu li img, .default-body .block-menu {
-        padding:0;
+    .content-wrap .block-menu li img,
+    .default-body .block-menu {
+        padding: 0;
         li {
-            width: 255px; margin-right:10px;
-            a { font-size: 17px; }
+            width: 255px;
+            margin-right: 10px;
+            a {
+                font-size: 17px;
+            }
         }
-    } 
+    }
 }
 
+#calendar-at-bottom {
+    margin: 0 auto;
+    width: 1170px;
+} // Not always working
+.cal-widget>* {
+    flex-basis: unset;
+}
 
-#calendar-at-bottom { margin: 0 auto; width: 1170px; } // Not always working
-.cal-widget > * { flex-basis: unset; }
-
-#uc-page-id-events #uc-event-calendar-widget-194171 {
+#uc-event-calendar-widget-194804, // Frontpage
+#uc-page-id-events #uc-event-calendar-widget-194171 // Events page 
+{
     .calendar {
         width: 400px;
         flex-grow: unset;
@@ -23,7 +32,6 @@
         font-weight: bold;
         font-size: 1.2em;
     }
-
     th,
     #uc-page-id-events #uc-event-calendar-widget-194171 tbody * {
         color: #e91e63;
@@ -38,7 +46,8 @@
         list-style: none;
         padding: 0;
         margin: 0 0 0 10px;
-
-        .event-name { font-size: 1.5em; }
+        .event-name {
+            font-size: 1.5em;
+        }
     }
 }

@@ -2,8 +2,13 @@
    SITE SECTIONS in MENU
    ============= */
 
-#top-navigation ul li ul { min-height:240px; }
-#top-navigation ul li ul::after { line-height: 1.2em; }
+#top-navigation ul li ul {
+    min-height: 240px;
+}
+
+#top-navigation ul li ul::after {
+    line-height: 1.2em;
+}
 
 #top-navigation ul li#your-union-menu-wrapper ul:after {
     content: "We're a registered charity, here to help you love your life at Salford";
@@ -13,7 +18,8 @@
     color: $student-voice-base;
 }
 
-#top-navigation ul li#student-voice-menu-wrapper .top-menu-name-wrapper:before, #top-navigation ul li#student-voice-menu-wrapper ul {
+#top-navigation ul li#student-voice-menu-wrapper .top-menu-name-wrapper:before,
+#top-navigation ul li#student-voice-menu-wrapper ul {
     background: $student-voice-light-bg;
     border-color: $student-voice-base;
 }
@@ -37,7 +43,14 @@
     background: $student-voice-base;
 }
 
-#uc-page-id-student-voice h2, #uc-page-id-student-voice .section h2, #uc-page-id-student-voice h3, #uc-page-id-student-voice .section h3, #uc-page-id-student-voice h4, #uc-page-id-student-voice .section h4, #uc-page-id-student-voice #uc-left-navigation li a, .home-content-wrap #big-ideas h2 {
+#uc-page-id-student-voice h2,
+#uc-page-id-student-voice .section h2,
+#uc-page-id-student-voice h3,
+#uc-page-id-student-voice .section h3,
+#uc-page-id-student-voice h4,
+#uc-page-id-student-voice .section h4,
+#uc-page-id-student-voice #uc-left-navigation li a,
+.home-content-wrap #big-ideas h2 {
     color: $student-voice-base;
 }
 
@@ -45,7 +58,10 @@
     background: $student-voice-base;
 }
 
-#uc-page-id-student-voice #uc-left-navigation li a:hover, #uc-page-id-student-voice #uc-left-student-voice li ul li a:hover, #uc-page-id-student-voice #uc-left-navigation li ul li.last a:hover, #uc-page-id-student-voice #uc-left-navigation a.selected.page {
+#uc-page-id-student-voice #uc-left-navigation li a:hover,
+#uc-page-id-student-voice #uc-left-student-voice li ul li a:hover,
+#uc-page-id-student-voice #uc-left-navigation li ul li.last a:hover,
+#uc-page-id-student-voice #uc-left-navigation a.selected.page {
     background: $student-voice-light-bg;
     color: $student-voice-base;
 }
@@ -62,12 +78,22 @@
     border-bottom: 4px solid $student-voice-base;
 }
 
-#uc-page-id-student-voice a.more, #uc-page-id-student-voice a.button, .home-content-wrap #big-ideas a.more, .content .uc-sv-post-idea-petition a, .uc-sv-post-idea-petition a, .uc-sv-module-more a.uc-sv-more {
+#uc-page-id-student-voice a.more,
+#uc-page-id-student-voice a.button,
+.home-content-wrap #big-ideas a.more,
+.content .uc-sv-post-idea-petition a,
+.uc-sv-post-idea-petition a,
+.uc-sv-module-more a.uc-sv-more {
     background: $student-voice-base;
 }
 
-#uc-page-id-student-voice a.more:before, #uc-page-id-student-voice a.button:before, .home-content-wrap #big-ideas a.more:before, .content .uc-sv-post-idea-petition a:before, .uc-sv-post-idea-petition a:before, .uc-sv-module-more a.uc-sv-more:before {
-    background:$student-voice-dark;
+#uc-page-id-student-voice a.more:before,
+#uc-page-id-student-voice a.button:before,
+.home-content-wrap #big-ideas a.more:before,
+.content .uc-sv-post-idea-petition a:before,
+.uc-sv-post-idea-petition a:before,
+.uc-sv-module-more a.uc-sv-more:before {
+    background: $student-voice-dark;
 }
 
 #uc-page-id-student-voice .default-body table td {
@@ -84,64 +110,79 @@
 }
 
 #top-navigation ul li#activities-menu-wrapper a {
-    color:$activities-base;
+    color: $activities-base;
 }
 
-#top-navigation ul li#activities-menu-wrapper .top-menu-name-wrapper:before, #top-navigation ul li#activities-menu-wrapper ul {
-    background:$activities-light-bg;
-    border-color:$activities-base;
+#top-navigation ul li#activities-menu-wrapper .top-menu-name-wrapper:before,
+#top-navigation ul li#activities-menu-wrapper ul {
+    background: $activities-light-bg;
+    border-color: $activities-base;
 }
 
 #top-navigation ul li#activities-menu-wrapper ul:after {
     content: "Join a society or start your own - there's something for everyone!";
-    color:$activities-base;
+    color: $activities-base;
 }
 
 #top-navigation ul li#activities-menu-wrapper ul li a:hover {
-    background:$activities-medium;
+    background: $activities-medium;
     color: $white;
 }
 
 #uc-page-id-activities h1 {
-    color:$activities-base;
-    background:$activities-light-bg;
+    color: $activities-base;
+    background: $activities-light-bg;
 }
 
 #uc-page-id-activities #section-head {
-    background:$activities-light-other;
+    background: $activities-light-other;
 }
 
-#uc-page-id-activities h2, #uc-page-id-activities .section h2, #uc-page-id-activities h3, #uc-page-id-activities .section h3, #uc-page-id-activities h4, #uc-page-id-activities .section h4, #uc-page-id-activities #uc-left-navigation li a, .home-content-wrap #activity-groups-and-sport-clubs h2 {
-    color:$activities-base;
+#uc-page-id-activities h2,
+#uc-page-id-activities .section h2,
+#uc-page-id-activities h3,
+#uc-page-id-activities .section h3,
+#uc-page-id-activities h4,
+#uc-page-id-activities .section h4,
+#uc-page-id-activities #uc-left-navigation li a,
+.home-content-wrap #activity-groups-and-sport-clubs h2 {
+    color: $activities-base;
 }
 
 #uc-page-id-activities .tree-navigation h3 {
-    background:$activities-medium;
+    background: $activities-medium;
 }
 
-#uc-page-id-activities #uc-left-navigation li a:hover, #uc-page-id-activities #uc-left-navigation li ul li a:hover, #uc-page-id-activities #uc-left-navigation li ul li.last a:hover, #uc-page-id-activities #uc-left-navigation a.selected.page {
-    background:$activities-light-bg;
-    color:$activities-base;
+#uc-page-id-activities #uc-left-navigation li a:hover,
+#uc-page-id-activities #uc-left-navigation li ul li a:hover,
+#uc-page-id-activities #uc-left-navigation li ul li.last a:hover,
+#uc-page-id-activities #uc-left-navigation a.selected.page {
+    background: $activities-light-bg;
+    color: $activities-base;
 }
 
 #uc-page-id-activities .default-body .block-menu li {
-    background:$activities-light-bg;
+    background: $activities-light-bg;
 }
 
 #uc-page-id-activities .default-body .block-menu li a {
-    color:$activities-base;
+    color: $activities-base;
 }
 
 #uc-page-id-activities .default-body .block-menu li img {
     border-bottom: 4px solid $activities-base;
 }
 
-#uc-page-id-activities a.more, #uc-page-id-activities a.button, .home-content-wrap #activity-groups-and-sport-clubs a.more {
-    background:$activities-medium;
+#uc-page-id-activities a.more,
+#uc-page-id-activities a.button,
+.home-content-wrap #activity-groups-and-sport-clubs a.more {
+    background: $activities-medium;
 }
 
-#uc-page-id-activities a.more:before, #uc-page-id-activities a.button:before, .home-content-wrap #activity-groups-and-sport-clubs a.more:before {
-    background:$activities-base;
+#uc-page-id-activities a.more:before,
+#uc-page-id-activities a.button:before,
+.home-content-wrap #activity-groups-and-sport-clubs a.more:before {
+    background: $activities-base;
 }
 
 #uc-page-id-activities .default-body table td {
@@ -149,24 +190,24 @@
 }
 
 #uc-page-id-activities .default-body table tr:nth-child(even) td {
-    background:$activities-light-bg;
+    background: $activities-light-bg;
 }
 
 #uc-page-id-activities .default-body table th {
-    background:$activities-medium;
+    background: $activities-medium;
     border: 1px solid$activities-medium;
 }
 
 .home-content-wrap #activities h2 {
-    color:$activities-base;
+    color: $activities-base;
 }
 
 .home-content-wrap #activities a.more {
-    background:$activities-medium;
+    background: $activities-medium;
 }
 
 .home-content-wrap #activities a.more:before {
-    background:$activities-base;
+    background: $activities-base;
 }
 
 #top-navigation ul li#sport-menu-wrapper ul:after {
@@ -177,8 +218,9 @@
     color: $events-base;
 }
 
-#top-navigation ul li#events-menu-wrapper .top-menu-name-wrapper:before, #top-navigation ul li#events-menu-wrapper ul {
-    background:$events-light-bg;
+#top-navigation ul li#events-menu-wrapper .top-menu-name-wrapper:before,
+#top-navigation ul li#events-menu-wrapper ul {
+    background: $events-light-bg;
     border-color: $events-base;
 }
 
@@ -194,14 +236,20 @@
 
 #uc-page-id-events h1 {
     color: $events-base;
-    background:$events-light-bg;
+    background: $events-light-bg;
 }
 
 #uc-page-id-events #section-head {
     background: $events-base;
 }
 
-#uc-page-id-events h2, #uc-page-id-events .section h2, #uc-page-id-events h3, #uc-page-id-events .section h3, #uc-page-id-events h4, #uc-page-id-events .section h4, #uc-page-id-events #uc-left-navigation li a {
+#uc-page-id-events h2,
+#uc-page-id-events .section h2,
+#uc-page-id-events h3,
+#uc-page-id-events .section h3,
+#uc-page-id-events h4,
+#uc-page-id-events .section h4,
+#uc-page-id-events #uc-left-navigation li a {
     color: $events-base;
 }
 
@@ -209,13 +257,16 @@
     background: $events-base;
 }
 
-#uc-page-id-events #uc-left-navigation li a:hover, #uc-page-id-events #uc-left-navigation li ul li a:hover, #uc-page-id-events #uc-left-navigation li ul li.last a:hover, #uc-page-id-events #uc-left-navigation a.selected.page {
-    background:$events-light-bg;
+#uc-page-id-events #uc-left-navigation li a:hover,
+#uc-page-id-events #uc-left-navigation li ul li a:hover,
+#uc-page-id-events #uc-left-navigation li ul li.last a:hover,
+#uc-page-id-events #uc-left-navigation a.selected.page {
+    background: $events-light-bg;
     color: $events-base;
 }
 
 #uc-page-id-events .default-body .block-menu li {
-    background:$events-light-bg;
+    background: $events-light-bg;
 }
 
 #uc-page-id-events .default-body .block-menu li a {
@@ -226,12 +277,14 @@
     border-bottom: 4px solid $events-base;
 }
 
-#uc-page-id-events a.more, #uc-page-id-events a.button {
+#uc-page-id-events a.more,
+#uc-page-id-events a.button {
     background: $events-base;
 }
 
-#uc-page-id-events a.more:before, #uc-page-id-events a.button:before {
-    background:$events-dark;
+#uc-page-id-events a.more:before,
+#uc-page-id-events a.button:before {
+    background: $events-dark;
 }
 
 #uc-page-id-events .default-body table td {
@@ -239,7 +292,7 @@
 }
 
 #uc-page-id-events .default-body table tr:nth-child(even) td {
-    background:$events-light-bg;
+    background: $events-light-bg;
 }
 
 #uc-page-id-events .default-body table th {
@@ -256,68 +309,82 @@
 }
 
 .home-content-wrap #upcoming-events a.more:before {
-    background:$events-dark;
+    background: $events-dark;
 }
 
 #top-navigation ul li#advice-support-menu-wrapper a {
-    color:$advice-base;
+    color: $advice-base;
 }
 
-#top-navigation ul li#advice-support-menu-wrapper .top-menu-name-wrapper:before, #top-navigation ul li#advice-support-menu-wrapper ul {
-    background:$advice-light-bg;
-    border-color:$advice-medium;
+#top-navigation ul li#advice-support-menu-wrapper .top-menu-name-wrapper:before,
+#top-navigation ul li#advice-support-menu-wrapper ul {
+    background: $advice-light-bg;
+    border-color: $advice-medium;
 }
 
 #top-navigation ul li#advice-support-menu-wrapper ul:after {
     content: "We're here to support you throughout your time at University, and give you advice when you need it";
-    color:$advice-base;
+    color: $advice-base;
 }
 
 #top-navigation ul li#advice-support-menu-wrapper ul li a:hover {
-    background:$advice-medium;
+    background: $advice-medium;
     color: $white;
 }
 
 #uc-page-id-advice-support h1 {
-    color:$advice-base;
-    background:$advice-light-bg;
+    color: $advice-base;
+    background: $advice-light-bg;
 }
 
 #uc-page-id-advice-support #section-head {
-    background:$advice-medium;
+    background: $advice-medium;
 }
 
-#uc-page-id-advice-support h2, #uc-page-id-advice-support .section h2, #uc-page-id-advice-support h3, #uc-page-id-advice-support .section h3, #uc-page-id-advice-support h4, #uc-page-id-advice-support .section h4, #uc-page-id-advice-support #uc-left-navigation li a {
-    color:$advice-base;
+#uc-page-id-advice-support h2,
+#uc-page-id-advice-support .section h2,
+#uc-page-id-advice-support h3,
+#uc-page-id-advice-support .section h3,
+#uc-page-id-advice-support h4,
+#uc-page-id-advice-support .section h4,
+#uc-page-id-advice-support #uc-left-navigation li a {
+    color: $advice-base;
 }
 
 #uc-page-id-advice-support .tree-navigation h3 {
-    background:$advice-medium;
+    background: $advice-medium;
 }
 
-#uc-page-id-advice-support #uc-left-navigation li a:hover, #uc-page-id-advice-support #uc-left-navigation li ul li a:hover, #uc-page-id-advice-support #uc-left-navigation li ul li.last a:hover, #uc-page-id-advice-support #uc-left-navigation a.selected.page {
-    background:$advice-light-bg;
-    color:$advice-base;
+#uc-page-id-advice-support #uc-left-navigation li a:hover,
+#uc-page-id-advice-support #uc-left-navigation li ul li a:hover,
+#uc-page-id-advice-support #uc-left-navigation li ul li.last a:hover,
+#uc-page-id-advice-support #uc-left-navigation a.selected.page {
+    background: $advice-light-bg;
+    color: $advice-base;
 }
 
 #uc-page-id-advice-support .default-body .block-menu li {
-    background:$advice-light-bg;
+    background: $advice-light-bg;
 }
 
 #uc-page-id-advice-support .default-body .block-menu li a {
-    color:$advice-base;
+    color: $advice-base;
 }
 
 #uc-page-id-advice-support .default-body .block-menu li img {
     border-bottom: 4px solid$advice-base;
 }
 
-#uc-page-id-advice-support a.more, #uc-page-id-advice-support a.button, .uc-election-dashboard .uc-study-types .see-all-turnouts {
-    background:$advice-medium;
+#uc-page-id-advice-support a.more,
+#uc-page-id-advice-support a.button,
+.uc-election-dashboard .uc-study-types .see-all-turnouts {
+    background: $advice-medium;
 }
 
-#uc-page-id-advice-support a.more:before, #uc-page-id-advice-support a.button:before, .uc-election-dashboard .uc-study-types .see-all-turnouts:before {
-    background:$advice-base;
+#uc-page-id-advice-support a.more:before,
+#uc-page-id-advice-support a.button:before,
+.uc-election-dashboard .uc-study-types .see-all-turnouts:before {
+    background: $advice-base;
 }
 
 #uc-page-id-advice-support .default-body table td {
@@ -325,151 +392,211 @@
 }
 
 #uc-page-id-advice-support .default-body table tr:nth-child(even) td {
-    background:$advice-light-bg;
+    background: $advice-light-bg;
 }
 
 #uc-page-id-advice-support .default-body table th {
-    background:$advice-medium;
+    background: $advice-medium;
     border: 1px solid$advice-medium;
 }
 
 #uc-page-id-advice-support .default-body .person-list li {
-    background:$advice-light-bg;
+    background: $advice-light-bg;
 }
 
 #top-navigation ul li#volunteering-menu-wrapper a {
-    color:$volunteering-base;
+    color: $volunteering-base;
 }
 
-#top-navigation ul li#volunteering-menu-wrapper .top-menu-name-wrapper:before, #top-navigation ul li#volunteering-menu-wrapper ul {
-    background:$volunteering-light-bg;
-    border-color:$volunteering-base;
+#top-navigation ul li#volunteering-menu-wrapper .top-menu-name-wrapper:before,
+#top-navigation ul li#volunteering-menu-wrapper ul {
+    background: $volunteering-light-bg;
+    border-color: $volunteering-base;
 }
 
 #top-navigation ul li#volunteering-menu-wrapper ul:after {
     content: "Enhance your CV while supporting your Union and great causes";
-    color:$volunteering-base;
+    color: $volunteering-base;
 }
 
 #top-navigation ul li#volunteering-menu-wrapper ul li a:hover {
-    background:$volunteering-base;
+    background: $volunteering-base;
     color: $white;
 }
 
 #top-navigation ul li#bar-cafe-offers-menu-wrapper a {
-    color:$offers-base;
+    color: $offers-base;
 }
 
-#top-navigation ul li#bar-cafe-offers-menu-wrapper .top-menu-name-wrapper:before, #top-navigation ul li#bar-cafe-offers-menu-wrapper ul {
-    background:$offers-light-bg;
-    border-color:$offers-base;
+#top-navigation ul li#bar-cafe-offers-menu-wrapper .top-menu-name-wrapper:before,
+#top-navigation ul li#bar-cafe-offers-menu-wrapper ul {
+    background: $offers-light-bg;
+    border-color: $offers-base;
 }
 
 #top-navigation ul li#bar-cafe-offers-menu-wrapper ul:after {
     content: "Get great discounts and discover Atmosphere, your on campus bar, café and food outlet";
-    color:$offers-base;
+    color: $offers-base;
 }
 
 #top-navigation ul li#bar-cafe-offers-menu-wrapper ul li a:hover {
-    background:$offers-base;
+    background: $offers-base;
     color: $white;
 }
 
-#uc-page-id-bar-cafe-offers h1, #salford-atmosphere h1 {
-    color:$offers-base;
-    background:$offers-light-bg;
+#uc-page-id-bar-cafe-offers h1,
+#salford-atmosphere h1 {
+    color: $offers-base;
+    background: $offers-light-bg;
 }
 
-#uc-page-id-bar-cafe-offers #section-head, #salford-atmosphere #section-head {
-    background:$offers-base;
-}
-
-#uc-page-id-bar-cafe-offers h2, #uc-page-id-bar-cafe-offers .section h2, #uc-page-id-bar-cafe-offers h3, #uc-page-id-bar-cafe-offers .section h3, #uc-page-id-bar-cafe-offers h4, #uc-page-id-bar-cafe-offers .section h4, #uc-page-id-bar-cafe-offers #uc-left-navigation li a, #salford-atmosphere h2, #salford-atmosphere .section h2, #salford-atmosphere h3, #salford-atmosphere .section h3, #salford-atmosphere h4, #salford-atmosphere .section h4, #salford-atmosphere #uc-left-navigation li a {
-    color:$offers-base;
-}
-
-#uc-page-id-bar-cafe-offers .tree-navigation h3, #salford-atmosphere .tree-navigation h3 {
-    background:$offers-base;
-}
-
-#uc-page-id-bar-cafe-offers #uc-left-navigation li a:hover, #uc-page-id-bar-cafe-offers #uc-left-navigation li ul li a:hover, #uc-page-id-bar-cafe-offers #uc-left-navigation li ul li.last a:hover, #uc-page-id-bar-cafe-offers #uc-left-navigation a.selected.page, #salford-atmosphere #uc-left-navigation li a:hover, #salford-atmosphere #uc-left-navigation li ul li a:hover, #salford-atmosphere #uc-left-navigation li ul li.last a:hover, #salford-atmosphere #uc-left-navigation a.selected.page {
-    background:$offers-light-bg;
-    color:$offers-base;
-}
-
-#uc-page-id-bar-cafe-offers .default-body .block-menu li, #salford-atmosphere .default-body .block-menu li, #salford-atmosphere .block-menu li {
-    background:$offers-light-bg;
-}
-
-#uc-page-id-bar-cafe-offers .default-body .block-menu li a, #salford-atmosphere .default-body .block-menu li a, #salford-atmosphere .block-menu li a  {
-    color:$offers-base;
-}
-
-#uc-page-id-bar-cafe-offers .default-body .block-menu li img, #salford-atmosphere .default-body .block-menu li img, #salford-atmosphere .block-menu li img  {
-    border-bottom: 4px solid$offers-base;
-}
-
-#uc-page-id-bar-cafe-offers a.more, #uc-page-id-bar-cafe-offers a.button, .uc-election-dashboard .uc-top-turnouts .see-all-turnouts, #salford-atmosphere a.more, #salford-atmosphere a.button {
-    background:$offers-base;
-}
-
-#uc-page-id-bar-cafe-offers a.more:before, #uc-page-id-bar-cafe-offers a.button:before, .uc-election-dashboard .uc-top-turnouts .see-all-turnouts:before, #salford-atmosphere a.more:before, #salford-atmosphere a.button:before {
+#uc-page-id-bar-cafe-offers #section-head,
+#salford-atmosphere #section-head {
     background: $offers-base;
 }
 
-#uc-page-id-bar-cafe-offers .default-body table td, #salford-atmosphere .default-body table td {
+#uc-page-id-bar-cafe-offers h2,
+#uc-page-id-bar-cafe-offers .section h2,
+#uc-page-id-bar-cafe-offers h3,
+#uc-page-id-bar-cafe-offers .section h3,
+#uc-page-id-bar-cafe-offers h4,
+#uc-page-id-bar-cafe-offers .section h4,
+#uc-page-id-bar-cafe-offers #uc-left-navigation li a,
+#salford-atmosphere h2,
+#salford-atmosphere .section h2,
+#salford-atmosphere h3,
+#salford-atmosphere .section h3,
+#salford-atmosphere h4,
+#salford-atmosphere .section h4,
+#salford-atmosphere #uc-left-navigation li a {
+    color: $offers-base;
+}
+
+#uc-page-id-bar-cafe-offers .tree-navigation h3,
+#salford-atmosphere .tree-navigation h3 {
+    background: $offers-base;
+}
+
+#uc-page-id-bar-cafe-offers #uc-left-navigation li a:hover,
+#uc-page-id-bar-cafe-offers #uc-left-navigation li ul li a:hover,
+#uc-page-id-bar-cafe-offers #uc-left-navigation li ul li.last a:hover,
+#uc-page-id-bar-cafe-offers #uc-left-navigation a.selected.page,
+#salford-atmosphere #uc-left-navigation li a:hover,
+#salford-atmosphere #uc-left-navigation li ul li a:hover,
+#salford-atmosphere #uc-left-navigation li ul li.last a:hover,
+#salford-atmosphere #uc-left-navigation a.selected.page {
+    background: $offers-light-bg;
+    color: $offers-base;
+}
+
+#uc-page-id-bar-cafe-offers .default-body .block-menu li,
+#salford-atmosphere .default-body .block-menu li,
+#salford-atmosphere .block-menu li {
+    background: $offers-light-bg;
+}
+
+#uc-page-id-bar-cafe-offers .default-body .block-menu li a,
+#salford-atmosphere .default-body .block-menu li a,
+#salford-atmosphere .block-menu li a {
+    color: $offers-base;
+}
+
+#uc-page-id-bar-cafe-offers .default-body .block-menu li img,
+#salford-atmosphere .default-body .block-menu li img,
+#salford-atmosphere .block-menu li img {
+    border-bottom: 4px solid$offers-base;
+}
+
+#uc-page-id-bar-cafe-offers a.more,
+#uc-page-id-bar-cafe-offers a.button,
+.uc-election-dashboard .uc-top-turnouts .see-all-turnouts,
+#salford-atmosphere a.more,
+#salford-atmosphere a.button {
+    background: $offers-base;
+}
+
+#uc-page-id-bar-cafe-offers a.more:before,
+#uc-page-id-bar-cafe-offers a.button:before,
+.uc-election-dashboard .uc-top-turnouts .see-all-turnouts:before,
+#salford-atmosphere a.more:before,
+#salford-atmosphere a.button:before {
+    background: $offers-base;
+}
+
+#uc-page-id-bar-cafe-offers .default-body table td,
+#salford-atmosphere .default-body table td {
     border: 1px solid $offers-light-other;
 }
 
-#uc-page-id-bar-cafe-offers .default-body table tr:nth-child(even) td, #salford-atmosphere .default-body table tr:nth-child(even) td {
-    background:$offers-light-bg;
+#uc-page-id-bar-cafe-offers .default-body table tr:nth-child(even) td,
+#salford-atmosphere .default-body table tr:nth-child(even) td {
+    background: $offers-light-bg;
 }
 
-#uc-page-id-bar-cafe-offers .default-body table th, #salford-atmosphere .default-body table th {
-    background:$offers-base;
+#uc-page-id-bar-cafe-offers .default-body table th,
+#salford-atmosphere .default-body table th {
+    background: $offers-base;
     border: 1px solid$offers-base;
 }
 
-#uc-page-id-elections h1, .uc-election-stats-wrapper:before {
-    color:$elections-base;
-    background:$elections-light-bg;
+#uc-page-id-elections h1,
+.uc-election-stats-wrapper:before {
+    color: $elections-base;
+    background: $elections-light-bg;
 }
 
 #uc-page-id-elections #section-head {
-    background:$elections-base;
+    background: $elections-base;
 }
 
-#uc-page-id-elections h2, #uc-page-id-elections .section h2, #uc-page-id-elections h3, #uc-page-id-elections .section h3, #uc-page-id-elections h4, #uc-page-id-elections .section h4, #uc-page-id-elections #uc-left-navigation li a, .view-manifesto-details-wrapper h3 {
-    color:$elections-base;
+#uc-page-id-elections h2,
+#uc-page-id-elections .section h2,
+#uc-page-id-elections h3,
+#uc-page-id-elections .section h3,
+#uc-page-id-elections h4,
+#uc-page-id-elections .section h4,
+#uc-page-id-elections #uc-left-navigation li a,
+.view-manifesto-details-wrapper h3 {
+    color: $elections-base;
 }
 
 #uc-page-id-elections .tree-navigation h3 {
-    background:$elections-base;
+    background: $elections-base;
 }
 
-#uc-page-id-elections #uc-left-navigation li a:hover, #uc-page-id-elections #uc-left-navigation li ul li a:hover, #uc-page-id-elections #uc-left-navigation li ul li.last a:hover, #uc-page-id-elections #uc-left-navigation a.selected.page {
-    background:$elections-light-bg;
-    color:$elections-base;
+#uc-page-id-elections #uc-left-navigation li a:hover,
+#uc-page-id-elections #uc-left-navigation li ul li a:hover,
+#uc-page-id-elections #uc-left-navigation li ul li.last a:hover,
+#uc-page-id-elections #uc-left-navigation a.selected.page {
+    background: $elections-light-bg;
+    color: $elections-base;
 }
 
 #uc-page-id-elections .default-body .block-menu li {
-    background:$elections-light-bg;
+    background: $elections-light-bg;
 }
 
 #uc-page-id-elections .default-body .block-menu li a {
-    color:$elections-base;
+    color: $elections-base;
 }
 
 #uc-page-id-elections .default-body .block-menu li img {
     border-bottom: 4px solid$elections-base;
 }
 
-#uc-page-id-elections a.more, #uc-page-id-elections a.button, .uc-position-button a.first-vote-now-button, input.vote-now-button, .uc-position-button a.modify-vote-button {
-    background:$elections-base;
+#uc-page-id-elections a.more,
+#uc-page-id-elections a.button,
+.uc-position-button a.first-vote-now-button,
+input.vote-now-button,
+.uc-position-button a.modify-vote-button {
+    background: $elections-base;
 }
 
-#uc-page-id-elections a.more:before, #uc-page-id-elections a.button:before, .uc-position-button a.first-vote-now-button:before, .uc-position-button a.modify-vote-button:before {
-    background:$elections-dark;
+#uc-page-id-elections a.more:before,
+#uc-page-id-elections a.button:before,
+.uc-position-button a.first-vote-now-button:before,
+.uc-position-button a.modify-vote-button:before {
+    background: $elections-dark;
 }
 
 #uc-page-id-elections .default-body table td {
@@ -477,10 +604,22 @@
 }
 
 #uc-page-id-elections .default-body table tr:nth-child(even) td {
-    background:$elections-light-bg;
+    background: $elections-light-bg;
 }
 
 #uc-page-id-elections .default-body table th {
     background: $elections-base;
     border: 1px solid $elections-base;
+}
+
+
+/* Atmosphere the pitch navigation changes */
+
+li#black-navigation-menu-wrapper a#top-nav-level-one-black-navigation {
+    color: #000000;
+}
+
+#top-navigation ul li#black-navigation-menu-wrapper .top-menu-name-wrapper:before {
+    background: #e2e2e2;
+    border-color: #000000;
 }

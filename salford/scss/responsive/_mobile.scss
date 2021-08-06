@@ -7,7 +7,6 @@
         padding-top: 5px;
         margin-top: -5px;
     }
-
     .header-wrap,
     .nav-wrap,
     .default-body,
@@ -41,10 +40,10 @@
     #uc-groups-details-page .portlet,
     #uc-join-group .group-questions-form,
     #uc-join-group .eventerrors,
-    #uc-join-group .contentBoxes > .formrow,
+    #uc-join-group .contentBoxes>.formrow,
     #club-content .tabs.ui-tabs .tab-content-wrapper-box,
     #uc-election-dashboard,
-    #shopping-cart > .twelvecol > .twelvecol,
+    #shopping-cart>.twelvecol>.twelvecol,
     .uc-customer-quick-login .uc-customer-quick-login-wrapper,
     .uc-payment-page-wrapper,
     #load_more_article,
@@ -64,12 +63,10 @@
     #copyright-wrap {
         width: auto;
     }
-
     .uc-cookie-block .uc-cookie-block-wrapper {
         width: auto;
         padding: 15px;
     }
-
     .uc-cookie-block .uc-cookie-block-wrapper a.uc-cookie-continue-class {
         position: static;
         top: 0;
@@ -81,7 +78,6 @@
         margin-top: 10px;
         padding: 10px 0;
     }
-
     .header,
     .fixed-nav .header {
         height: 63px;
@@ -89,7 +85,6 @@
         padding: 0;
         background: $white;
     }
-
     #union-logo,
     .fixed-nav #union-logo {
         height: 40px;
@@ -98,12 +93,10 @@
         left: 15px;
         position: absolute;
     }
-
     .system-menu,
     .cart-account {
         position: static;
     }
-
     .system-menu-wrapper,
     .profile-setting,
     .fixed-nav .system-menu-wrapper,
@@ -112,7 +105,6 @@
         right: 60px;
         position: absolute;
     }
-
     .system-menu a.uc-sign-link,
     .profile-setting a.profile-name,
     .fixed-nav .system-menu a.uc-sign-link,
@@ -122,27 +114,22 @@
         width: 60px;
         text-align: center;
     }
-
     .profile-drop-down-menu,
     .fixed-nav .profile-drop-down-menu {
         top: 60px;
     }
-
     p#notice.success {
         padding: 0 10px;
         line-height: 30px;
         font-size: 13px;
     }
-
     p#notice.success a.close-notice {
         right: 10px;
     }
-
     p#notice.success a.close-notice::before {
         font-size: 16px;
         margin-top: -3px;
     }
-
     #adverts,
     .uc-leaderboard-advertisement {
         width: auto;
@@ -157,7 +144,6 @@
         position: fixed;
         max-height: 90px;
     }
-
     #adverts-wrap,
     .uc-leaderboard-advertisement .top-ad {
         width: auto;
@@ -165,12 +151,10 @@
         margin: 0 auto;
         height: auto;
     }
-
     #adverts-wrap img,
     .uc-leaderboard-advertisement .top-ad img {
         vertical-align: middle;
     }
-
     .top,
     .top-union,
     .fixed-nav .top,
@@ -179,7 +163,6 @@
         height: 60px;
         position: absolute;
     }
-
     .phone-menu {
         height: 60px;
         left: unset;
@@ -189,7 +172,6 @@
         background: none;
         font-size: 0;
     }
-
     .phone-menu-icon {
         background: none;
         height: auto;
@@ -200,11 +182,9 @@
         color: #0050a0;
         font-size: 24px;
     }
-
     .phone-menu-icon:before {
         content: "\f0c9";
     }
-
     #top-navigation ul {
         top: 63px;
         border-bottom: 3px solid #0050a0;
@@ -212,35 +192,29 @@
         justify-content: unset;
         padding: 0;
     }
-
     #top-navigation ul li {
         padding: 0;
         border: 0;
     }
-
     .system-menu-wrapper:before,
     .profile-name-wrapper:before,
     #top-navigation ul li .top-menu-name-wrapper:before {
         display: none;
     }
-
     #top-navigation ul li {
         list-style: none;
         margin: 0;
     }
-
     #top-navigation ul li a,
     .fixed-nav #top-navigation ul li a {
         line-height: unset;
         padding: 10px 15px;
         background: #e6eef6;
     }
-
     #top-navigation .top-submenu-wrapper {
         position: static;
         height: auto;
     }
-
     #top-navigation ul li ul,
     #top-navigation ul li:hover ul {
         transform: none;
@@ -249,19 +223,15 @@
         margin: 0;
         border: 0;
     }
-
     #top-navigation ul li ul:after {
         display: none;
     }
-
     #top-navigation ul li ul li {
         width: auto;
     }
-
     .content {
         margin: 0;
     }
-
     h1,
     .has-shibboleth.uc-sso-center-align:before,
     .signin-block h2,
@@ -288,72 +258,58 @@
         text-shadow: none;
         font-size: 24px;
     }
-
     h1:before,
     .left-nav-content {
         left: 15px;
     }
-
     #section-head {
         margin-top: -20px;
     }
-
     .left-nav-content {
         position: static;
         width: 100%;
         margin: 0;
     }
-
     .tree-navigation-structure {
         margin: 0;
         width: 100%;
     }
-
     .tree-navigation ul li a,
     .tree-navigation ul li a:hover,
     #uc-left-navigation li a {
         font-size: 14px;
     }
-
     #uc-left-navigation {
         overflow: hidden;
         max-height: 0;
         transition: max-height 1s ease;
     }
-
     #uc-left-navigation.visible {
         max-height: 2000px;
     }
-
     .tree-navigation ul li h3 a,
     .tree-navigation ul li h3 a:hover {
         font-size: 18px;
     }
-
     .tree-navigation ul li h3 a:before {
         content: "\f0c9";
     }
-
     .default-body,
     .contentContainer {
         margin: 20px 15px 19px 15px;
     }
-
     .uc-page-class-full-width .default-body {
         margin: 20px 0 19px 0;
     }
-
     .ninecol .default-body {
         padding-left: 0;
         width: auto;
     }
-
     .body-width-wrap,
     #eventcarousel,
     .uc-cookie-info {
         margin: 0 15px;
     }
-
     .default-body p,
     .content-wrap p,
     .default-body ul,
@@ -472,7 +428,6 @@
     select {
         font-size: 14px;
     }
-
     .default-body h2,
     .articleDetails .article-details-wrapper h2,
     .articles-full-banner-advert h2,
@@ -482,7 +437,6 @@
     .uc-cookie-info h2 {
         font-size: 20px;
     }
-
     .default-body li,
     .content-wrap li,
     .articleDetails .article-details-wrapper li,
@@ -491,218 +445,168 @@
         margin-left: 30px;
         padding-left: 0;
     }
-
     .default-body .block-menu {
         padding: 0;
     }
-
     .default-body .block-menu li {
         margin: 0 0 30px 0;
     }
-
     .float-left,
     .float-right {
         float: none;
         margin: 0;
     }
-
     .default-body table {
         font-size: 14px;
     }
-
     .default-body table td,
     .default-body table th {
         padding: 10px;
     }
-
     #section-head {
         margin-bottom: 40px;
     }
-
     .content p#error {
         width: auto;
         position: absolute;
         top: -15px;
         font-size: 14px;
     }
-
     .home-content-html .home-content-wrap {
         max-width: 410px;
     }
-
     #home-slideshow {
         margin-bottom: 20px;
     }
-
     #home-slideshow .tabs {
         height: 167px;
     }
-
     #home-slideshow .tabs.ui-tabs .tab-content-wrapper-box {
         height: 164px;
     }
-
     #home-slideshow .tabs .tab-content {
         height: 164px;
         width: 410px;
     }
-
     #home-slideshow .tabs .tab-content img {
         height: 164px !important;
         width: 410px !important;
     }
-
     #channel-nus-tab-content {
         background-size: auto 164px;
     }
-
     #channel-nus-tab-content .body-width-wrap {
         width: 300px;
         margin: 0 auto;
     }
-
     #channel-nus-tab-content p {
         padding-top: 47px;
         font-size: 12px;
         width: calc(100% - 70px);
     }
-
     #channel-nus-tab-content p:first-child {
         width: 70px;
     }
-
     #home-slideshow #channel-nus-tab-content p:first-child img {
         width: 40px !important;
     }
-
     #channel-nus-tab-content p iframe {
         height: 70px !important;
         width: 70px !important;
     }
-
     #home-slideshow .ui-tabs .ui-tabs-nav,
     #home-slideshow .ui-widget-header {
         padding: 0;
     }
-
     #home-slideshow .ui-tabs .ui-tabs-nav li a {
         line-height: 3px;
         font-size: 0;
     }
-
     #home-slideshow .ui-tabs .ui-tabs-nav li.ui-tabs-selected a:before,
     #home-slideshow .ui-tabs .ui-tabs-nav li.ui-tabs-active a:before {
         animation: none;
         display: none;
     }
-
     #home-slideshow .ui-tabs .ui-tabs-nav:after {
         display: none;
     }
-
     #home-sabbatical-officers {
         display: none;
     }
-
     .home-content-wrap h2 {
         font-size: 20px;
     }
-
     .home-content-wrap #latest-articles .article-widget .top-articles li .article-thumbnail {
         display: block;
         width: auto;
         text-align: center;
     }
-
     .home-content-wrap #latest-articles .article-widget .top-articles li:nth-child(1) .article-content {
         padding: 0;
         display: block;
         width: auto;
     }
-
     .home-content-wrap #latest-articles .article-widget .top-articles li:nth-child(1) .article-content .headline,
     .home-content-wrap #latest-articles .article-widget.with-image-description .top-articles li:nth-child(1) .headline {
         font-size: 18px;
     }
-
     .home-content-wrap #latest-articles .article-widget.with-image-description .top-articles li,
     .home-content-wrap #latest-events .top-events li {
         margin-bottom: 5px;
     }
-
     .home-content-wrap #latest-articles .article-widget .top-articles li .article-content .headline,
     .home-content-wrap #latest-articles .article-widget.with-image-description .top-articles li .headline {
         font-size: 14px;
     }
-
     .content-wrap .top-events {
         text-align: center;
     }
-
     .home-content-wrap #latest-events .top-events li {
         width: calc((100% - 20px) / 2);
     }
-
     .home-content-wrap #latest-events .top-events li:nth-child(2n) {
         margin: 0;
     }
-
     .home-content-wrap .uc-student-voice-widget-category li a {
         font-size: 18px;
     }
-
     .home-content-wrap .uc-widget-student-voices-wrapper .uc-sv-widget-title a {
         font-size: 14px;
         line-height: 1.3em;
     }
-
     .home-content-wrap .uc-widget-student-voices-wrapper .uc-sv-widget-like-dislike-wrapper .uc-sv-widget-like::before,
-    .home-content-wrap
-        .uc-widget-student-voices-wrapper
-        .uc-sv-widget-like-dislike-wrapper
-        .uc-sv-widget-dislike::before,
-    .home-content-wrap
-        .uc-widget-student-voices-wrapper
-        .uc-sv-widget-like-dislike-wrapper
-        .uc-sv-widget-petition-icon::before {
+    .home-content-wrap .uc-widget-student-voices-wrapper .uc-sv-widget-like-dislike-wrapper .uc-sv-widget-dislike::before,
+    .home-content-wrap .uc-widget-student-voices-wrapper .uc-sv-widget-like-dislike-wrapper .uc-sv-widget-petition-icon::before {
         font-size: 26px;
     }
-
     .name {
         text-transform: none;
     }
-
     .has-shibboleth.uc-sso-center-align .signin-block {
         margin: 0 15px;
     }
-
     .salford-signin,
     .guest-signin {
         padding: 20px;
     }
-
     .salford-signin p,
     .guest-signin p {
         font-size: 2em;
         margin-bottom: 0.6em;
     }
-
     .uc-single-login {
         padding: 95px 15px 0 15px;
     }
-
     .signin-block h3.block-title {
         display: block;
         margin: 0 0 5px 0;
         font-size: 14px;
     }
-
     .change-password-block form,
     .unlock-block form,
     .unlock-block .forgot-password {
         margin: 20px 15px;
     }
-
     .signin-block .heading,
     .change-password-block .heading,
     .confirmation-email-block .heading,
@@ -712,7 +616,6 @@
     .account-activation-block .heading {
         font-size: 24px;
     }
-
     .accountlock-password-block .warning,
     .accountlock-password-block .confirm-link-message,
     .accountlock-password-block .help-link {
@@ -720,95 +623,74 @@
         margin-right: 15px;
         font-size: 14px;
     }
-
     .welcome-newuser {
         padding: 95px 15px 0 15px;
     }
-
     .signin-block .heading .user-email-id {
         display: none;
     }
-
     .welcome-newuser h4 {
         font-size: 18px;
     }
-
     .ask-button.for-guest-only {
         margin: 10px 0 0 0;
     }
-
     .signin-block form {
         display: block;
         width: auto;
         margin: 0;
     }
-
     .ask-button.for-guest-only .or-block {
         position: static;
         margin: 20px auto;
     }
-
     .welcome-newuser .try-again-links {
         margin-bottom: 15px;
     }
-
     .confirm-email-block {
         padding: 90px 15px 0 15px;
     }
-
     .confirm-email-block h2.heading,
     .reset-password-block h2.heading {
         font-size: 24px;
     }
-
     .for-student .user-profile-picture-wrapper,
     .for-guest .user-profile-picture-wrapper {
         margin: -470px 0 60px 0;
     }
-
     #event-homepage .heading {
         margin-bottom: 20px;
     }
-
     #left-panel {
         display: none;
     }
-
     .eventsearch .search-box {
         position: static;
         margin-bottom: 20px;
     }
-
     #eventcarousel ul {
         text-align: center;
     }
-
     #eventcarousel li {
         margin-right: 0;
     }
-
     #eventcarousel .event-box {
         padding-top: 260px;
     }
-
     #eventcarousel .event-banner {
         margin: 0;
     }
-
     .sub-site-home-html .left-nav-content {
         display: initial;
         left: 15px;
         right: 15px;
     }
-
     #uc-events-details-page {
         padding: 0 15px;
     }
-
     .buy-this-now.button-top a {
         display: block;
     }
-
     #event-dialog.jqmCMSWindow {
         top: 0;
         left: 0;
@@ -816,44 +698,34 @@
         bottom: 0;
         border: 0;
     }
-
     #uc-event-ticket-details {
         margin: 0 0 29px 0;
     }
-
     #uc-event-ticket-details .title h1 {
         margin-bottom: 30px;
     }
-
     #uc-event-ticket-details .portlet {
         padding: 0 15px;
     }
-
     .availableTickets .ticketsTypes {
         margin: 0;
     }
-
     .availableTickets:before {
         padding: 0;
         font-size: 14px;
     }
-
     .ticketsTypes {
         padding-right: 120px;
     }
-
     .contentBoxes .ticketsTypes h2 {
         font-size: 18px;
     }
-
     .leftticketBox .ticket-price {
         display: block;
     }
-
     .availableTickets .static-ticket-block p {
         font-size: 14px;
     }
-
     .reduceQtyBought,
     .reduceBuyQty,
     .increaseQtyBought,
@@ -869,7 +741,6 @@
         line-height: 24px;
         height: 24px;
     }
-
     .reduceQtyBought,
     .reduceBuyQty,
     .increaseQtyBought,
@@ -881,177 +752,140 @@
         width: 18px;
         height: 24px;
     }
-
     #uc-event-ticket-details .ticketQuantity,
     #uc-event-ticket-details .ticketQuantity:focus {
         width: 40px;
         padding: 0 10px;
     }
-
     .ticketQuantityBox .price {
         width: auto;
         display: block;
         font-size: 16px;
     }
-
     .top-container .fivecol,
     .bottom-container .fivecol {
         padding: 0;
     }
-
     .ticket-print-block .ticket-print-block-right,
     .ticket-print-block .ticket-print-block-left {
         margin-bottom: 30px;
     }
-
     #events-listing-tabs {
         margin-bottom: 30px;
     }
-
     #events-listing-tabs li {
         flex: 1 0 0;
     }
-
     #events-listing-tabs li a {
         font-size: 18px;
         line-height: 34px;
     }
-
     #events-listing .day {
         flex-direction: column;
     }
-
     #events-listing .day .date {
         flex: 0 0 auto;
     }
-
     #events-listing .day .date h3 {
         display: inline;
     }
-
     #events-listing .day .date h3.number {
         font-size: 18px;
         margin-left: 8px;
     }
-
     #events-listing .day .events {
         border-top: 3px solid$events-light-bg;
         border-left: 0;
     }
-
     #events-listing .day .events a {
         margin: 20px 0 20px 0;
         flex-direction: column;
         align-items: stretch;
     }
-
     #events-listing .day .events a .image {
         margin: 0;
     }
-
     #events-listing .day .events a .info {
         margin-top: 10px;
     }
-
     #events-listing .day .events a p.price {
         max-width: unset;
         text-align: center;
         margin: 10px 0 0 0;
     }
-
     #uc-group-homepage .left-nav-content {
         left: 15px;
         right: 15px;
     }
-
     #uc-group-homepage #left-content ul li {
         font-size: 0;
     }
-
     #uc-group-homepage #left-content ul li a {
         font-size: 13px;
         line-height: 30px;
         padding: 3px 15px 0 15px;
     }
-
     #right-content h1 {
         font-size: 24px;
         color: #0050a0;
         text-shadow: none;
         padding-left: 15px;
     }
-
     #uc-group-homepage .search {
         position: static;
         margin-top: 20px;
     }
-
     #uc-group-homepage .search-box .search-box-wrapper,
     .eventsearch .search-box .search-box-wrapper {
         width: 288px;
     }
-
     .search-box .search-box-wrapper .search-input {
         width: 248px;
     }
-
     .club-container {
         margin-top: 80px;
     }
-
     .types-list {
         display: none;
     }
-
     .group-list {
         padding-right: 0;
     }
-
     .group_left_panel_menu .title h1 {
         padding-right: 15px;
     }
-
     #uc-groups-details-page .portlet {
         padding: 0 15px;
         margin: 30px 0 29px 0;
     }
-
     #uc-group-homepage #uc-more-group-search {
         margin: 0 20px;
     }
-
     .sub-site-home-html .tree-navigation .thumbnail {
         display: none;
     }
-
     #uc-groups-details-page .top-container,
     #uc-events-details-page .top-container {
         position: static;
         margin-bottom: 20px;
     }
-
     #club-header .join-button {
         position: static;
     }
-
     #club-content .tabs.ui-tabs .tab-content-wrapper-box {
         padding: 0 15px;
     }
-
     #club-content .ui-tabs .ui-tabs-nav li {
         width: 100%;
     }
-
     #club-content .ui-tabs .ui-tabs-nav li a {
         width: 100%;
         box-sizing: border-box;
     }
-
     #club-content .tab-content p.image-slideshow {
         margin-bottom: 0;
         line-height: 1em;
     }
-
     #club-info .club-details {
         position: static;
         transform: initial;
@@ -1059,7 +893,6 @@
         background: #e6eef6;
         margin-bottom: 1.3em;
     }
-
     .ui-widget-content #club-info .club-details p,
     .ui-widget-content #club-info .club-details p a,
     .ui-widget-content #club-info .club-details p a:hover,
@@ -1067,75 +900,59 @@
         color: #0050a0;
         text-shadow: initial;
     }
-
     #club-info .club-contacts {
         position: static;
         background: #e6eef6;
         margin-bottom: 1.3em;
     }
-
     #club-info .club-contacts p,
     #club-info .club-contacts p a {
         color: #0050a0;
     }
-
     #club-info .club-contacts p a {
         margin: 0;
     }
-
     #uc-join-group .portlet {
         margin-bottom: 29px;
     }
-
     #uc-join-group .contentBoxes h2 {
         margin-bottom: 30px;
     }
-
     #uc-join-group .eventerrors,
     #uc-join-group .group-questions-form,
-    #uc-join-group .contentBoxes > .formrow {
+    #uc-join-group .contentBoxes>.formrow {
         padding: 0 15px;
     }
-
     #memberShipDisplay .memberShipType {
         padding-right: 0;
     }
-
     #new_group_membership .contentBoxes #memberShipDisplay .memberShipType h2,
     #uc-events-details-page .contentBoxes h2 {
         font-size: 18px;
     }
-
     #memberShipDisplay {
         margin-bottom: 20px;
     }
-
     #memberShipDisplay .memberShipType .pricePlan {
         transform: none;
         position: static;
     }
-
     #memberShipDisplay .memberShipType .pricePlan .price {
         font-size: 1em;
         margin-bottom: 0.4em;
     }
-
     #shopping-cart .portlet {
         margin-top: 0;
     }
-
     #shopping-cart .title h1 {
         margin-bottom: 20px;
     }
-
-    #shopping-cart > .twelvecol > .twelvecol {
+    #shopping-cart>.twelvecol>.twelvecol {
         padding: 0 15px;
     }
-
     .orderRow {
         padding: 10px 0;
     }
-
     .orderRow .removeOrder,
     .orderRow .productType,
     .orderRow .productName,
@@ -1147,7 +964,6 @@
         line-height: 1.4em;
         text-align: left;
     }
-
     .orderRow span.mobileLabel {
         font-weight: 600;
         width: auto;
@@ -1155,7 +971,6 @@
         padding: 0;
         height: auto;
     }
-
     .orderRow .productNameVal,
     .orderRow .productTypeVal,
     .orderRow .productCategoryVal,
@@ -1166,159 +981,125 @@
         line-height: inherit;
         display: block;
     }
-
     .orderRow .groupProductQty {
         display: block;
         height: auto;
         padding: 0;
     }
-
     .uc-customer-quick-login {
         margin: 0;
     }
-
     .uc-customer-quick-login .uc-customer-quick-login-wrapper {
         padding: 20px 15px;
     }
-
     .uc-customer-quick-login .ninecol .fivecol {
         display: block;
         width: auto;
     }
-
     .uc-customer-quick-login .ninecol .onecol {
         display: none;
     }
-
     .uc-customer-quick-login .uc-existing-user-login-wrapper,
     .uc-customer-quick-login .customer-left-screen-wrapper {
         padding: 0;
     }
-
     #uc-payment-confirmation h2 {
         font-size: 24px;
     }
-
     #uc-payment-confirmation #uc-share-purchases .share-link {
         display: none;
     }
-
     .uc-acc-content dl dd {
         width: 38%;
     }
-
     #uc-evoting-election {
         overflow: initial;
     }
-
     #uc-evoting-election {
         margin-top: 90px;
     }
-
     #uc-evoting-election:before {
         left: -15px;
         right: -15px;
         top: -90px;
     }
-
     #uc-election-listing {
         font-size: 14px;
     }
-
     h2.uc-election-name {
         font-size: 24px;
         padding: 0;
         width: auto;
     }
-
     .evo-timer.hasCountdown {
         padding-right: 0;
     }
-
     .uc-election-category-list {
         margin-top: 10px;
     }
-
     .uc-election-category {
         padding: 15px 20px;
     }
-
     h3.uc-cat-name {
         margin-right: 0;
     }
-
     .uc-cat-description,
     .uc-resp-content,
     .uc-candidates-content {
         font-size: 14px;
     }
-
     .uc-position-details a {
         margin-left: 0;
         display: block;
     }
-
     #view-manifesto-dailog.jqmWindow {
         height: 100%;
     }
-
     #view-manifesto-dailog .jqmClose {
         top: 0;
         right: 0;
     }
-
     .view-manifesto-details {
         width: 100%;
         height: 100%;
     }
-
     .uc-can-preference-reset,
     .uc-can-preference-reset:hover {
         float: none;
         display: block;
     }
-
     .view-manifesto-details-wrapper ul li {
         margin-left: 30px;
         padding-left: 0;
     }
-
     .uc-select-candidates dl dt {
         line-height: initial;
     }
-
     .uc-candidates-preferences select {
         width: 100%;
     }
-
     #uc-election-summary {
         display: none;
     }
-
     .success.evo-success-completed {
         width: auto;
         position: absolute;
         z-index: 5;
         top: -90px;
     }
-
     #election-overlay-window {
         width: 80%;
     }
-
     #election-overlay h2 {
         font-size: 18px;
     }
-
     .uc-articles-left-panel-navigation {
         margin-bottom: 29px;
     }
-
     .uc-articles-listing {
         padding: 0 15px;
         margin-top: 20px;
     }
-
     .featured-news-block.featured-news-one,
     .featured-news-block.featured-news-two,
     .uc-articles-block {
@@ -1326,89 +1107,67 @@
         padding: 0;
         width: auto;
     }
-
     .uc-articles-block {
         margin-right: 0;
     }
-
     .featured-news-block h2.news-headline {
         font-size: 20px;
     }
-
     .featured-news-block h2.news-headline .news-date-time a,
     .uc-articles-block .uc-news-headline .uc-news-date-time a {
         font-size: 14px;
     }
-
     .featured-news-block h2.news-headline .news-date-time {
         margin-top: 0;
     }
-
     .uc-articles-block {
         width: 48%;
         margin-right: 2%;
     }
-
     .uc-articles-block:nth-child(even) {
         margin-right: 0;
     }
-
-    .uc-articles-left-panel-navigation-wrapper > div#load_more_article {
+    .uc-articles-left-panel-navigation-wrapper>div#load_more_article {
         padding: 0 15px;
     }
-
     .portlet {
         margin-top: 30px;
     }
-
     .title h1 {
         font-size: 20px;
     }
-
-    #myaccount-information.registration-form
-        .registration-form-wrapper
-        .for-student-update
-        .user-profile-picture-wrapper {
+    #myaccount-information.registration-form .registration-form-wrapper .for-student-update .user-profile-picture-wrapper {
         margin-bottom: 105px;
         left: -10px;
     }
-
     .my-nominations-grid .wice_grid td {
         padding: 5px 10px 5px 50%;
     }
-
     .uc-election-details-wrapper #uc-nomination-countdown-timer {
         display: none;
     }
-
     .uc-position-details {
         margin-top: 20px;
     }
-
     #uc-election-dashboard {
         margin: 30px auto;
         padding: 0 15px;
     }
-
     .uc-election-dashboard .uc-election-select-box label {
         margin: 0 0 10px 0;
         display: block;
     }
-
     .uc-election-dashboard .uc-election-dashboard-navigation-wrapper {
         margin-bottom: 20px;
     }
-
     .uc-election-dashboard .uc-election-dashboard-navigation .uc-election-nav {
-        background:$elections-base;
+        background: $elections-base;
     }
-
     .uc-election-dashboard .uc-election-dashboard-navigation .uc-election-nav a.toggle-navigation {
         font-family: "museo-sans", Arial, Helvetica, sans-serif;
         padding: 10px 15px;
         font-weight: 700;
     }
-
     .uc-election-dashboard .uc-election-dashboard-navigation .uc-election-nav a.toggle-navigation:after,
     .uc-election-dashboard .uc-election-dashboard-navigation.collapsed .uc-election-nav a.toggle-navigation:after {
         right: 15px;
@@ -1416,22 +1175,18 @@
         width: auto;
         height: auto;
     }
-
     .uc-election-dashboard .uc-election-dashboard-navigation .uc-election-nav a.toggle-navigation:after {
         content: "\f00d";
     }
-
     .uc-election-dashboard .uc-election-dashboard-navigation.collapsed .uc-election-nav a.toggle-navigation:after {
         content: "\f0c9";
     }
-
     .uc-election-dashboard .uc-election-dashboard-navigation ul li a,
     .uc-election-dashboard .uc-election-dashboard-navigation ul li.active a {
         padding: 0 20px;
         font-size: 14px;
         line-height: 30px;
     }
-
     .uc-election-dashboard .uc-timeline .uc-timeline-headings a.toggle-timeline,
     .uc-election-dashboard .uc-avg-age-voter .uc-avg-age-voter-headings,
     .uc-election-dashboard .uc-votes-voters .uc-votes-headings,
@@ -1443,11 +1198,9 @@
         font-size: 18px;
         min-height: initial;
     }
-
     .uc-election-dashboard .uc-avg-age-voter {
         margin-bottom: 20px;
     }
-
     .uc-election-dashboard .uc-votes-voters .uc-votes-headings,
     .uc-election-dashboard .uc-leading-gender .uc-lg-headings,
     .uc-election-dashboard .uc-study-types .uc-study-types-headings,
@@ -1457,7 +1210,6 @@
         line-height: 40px;
         padding: 0 20px;
     }
-
     .uc-election-dashboard .uc-votes-voters .uc-votes-headings:after,
     .uc-election-dashboard .uc-leading-gender .uc-lg-headings:after,
     .uc-election-dashboard .uc-study-types .uc-study-types-headings:after,
@@ -1466,7 +1218,6 @@
         line-height: 40px;
         right: 15px;
     }
-
     .uc-election-dashboard .threecol .uc-avg-age-voter .uc-avg-age-voter-headings:after {
         background: none;
         height: auto;
@@ -1475,209 +1226,166 @@
         top: 10px;
         right: 15px;
     }
-
     .uc-election-dashboard .uc-widget-other-tabs .ninecol.uc-top-turnouts .uc-top-turnouts-headings {
         padding: 0 20px;
     }
-
     .uc-election-dashboard .uc-votes-numerical-figures .uc-turnout-count .uc-count-fig,
     .uc-election-dashboard .uc-votes-numerical-figures .uc-votes-cast .uc-count-fig,
     .uc-election-dashboard .uc-votes-numerical-figures .uc-voters-count .uc-count-fig {
         font-size: 32px;
     }
-
     .uc-election-dashboard .uc-turnout-row {
         text-align: center;
         margin-top: 10px;
     }
-
     .uc-election-dashboard .uc-turnout-row:first-child {
         margin: 0;
     }
-
     .uc-election-dashboard .uc-turnout-cell {
         display: block;
         line-height: initial;
         width: auto;
     }
-
     .uc-election-dashboard .uc-turnout-cell.cell-one {
         margin: 0;
     }
-
     .uc-election-dashboard .uc-turnout-cell.cell-three {
         float: none;
         text-align: center;
     }
-
     .uc-election-dashboard .see-all-turnouts {
         display: block;
     }
-
     #uc-articles-details {
         padding-top: 90px;
     }
-
     .articleDetails .time {
         font-size: 14px;
     }
-
     .uc-sv-post-idea-petition {
         padding: 0;
         margin: 20px 15px;
     }
-
     #uc-sv-nav-tab-panel {
         margin: 0 15px;
     }
-
     #uc-sv-nav-tab-panel #uc-sv-main-navcontainer {
         border: 0;
         padding: 10px;
         background: $student-voice-light-bg;
     }
-
     #uc-sv-nav-tab-panel #uc-sv-main-navcontainer ul li {
         display: block;
         font-size: 14px;
     }
-
     #uc-sv-nav-tab-panel ul li a {
         line-height: 30px;
         padding-top: 0;
         display: block;
         text-align: center;
     }
-
     #uc-sv-nav-tab-panel #uc-sv-main-navcontainer ul li.active a {
         display: block;
         background: $white;
     }
-
     #uc-sv-search-panel,
     .uc-sv-category-wrapper,
     .uc-sv-module-voting {
         display: none;
     }
-
     #uc-sv-left-panel {
         margin: 20px 15px;
     }
-
     .uc-sv-module-idea-wrapper {
         margin-bottom: 20px;
         padding: 15px 15px 15px 55px;
         width: auto;
     }
-
     .uv-sv-petition-icon,
     .uv-sv-idea-icon {
         width: 30px;
         height: 30px;
         left: 15px;
     }
-
     .uv-sv-petition-icon:before,
     .uv-sv-idea-icon:before {
         font-size: 30px;
     }
-
     #uc-sv-main-wrapper .uc-sv-module-idea-wrapper h2,
     .uc-sv-module-text-wrapper p.author,
     .uc-sv-module-idea-wrapper p.time,
     .uc-sv-module-more a.uc-sv-comments {
         font-size: 14px;
     }
-
     .uc-sv-module-more a.uc-sv-comments {
         margin: 10px 0 0 0;
     }
-
     #e-shop {
         margin: 30px 0;
         padding: 0 15px;
     }
-
     #section-head.sabb .body-width-wrap {
         padding-right: 0;
         text-align: center;
     }
-
     #section-head.sabb h2 {
         font-size: 24px;
     }
-
     #section-head.sabb h3 {
         font-size: 18px;
     }
-
     .default-body #section-head.sabb p {
         text-align: center;
     }
-
     .sabb-image {
         display: none;
     }
-
     #uc-search-more-panel {
         margin: 30px 15px 0 15px;
     }
-
     #uc-more-search {
         margin: 0 15px 29px 15px;
     }
-
     #uc-cookie-policy-content {
         padding-top: 120px;
     }
-
     a.button.big,
     a.more.big {
         font-size: 14px;
         height: 45px;
         line-height: 45px;
     }
-
     a.button.big[data-icon],
     a.more.big {
         padding: 0 20px 0 70px;
     }
-
     a.button.big[data-icon]::before,
     a.more.big:before {
         line-height: 45px;
         font-size: 18px;
         width: 50px;
     }
-
     #top-navigation ul li#student-voice-menu-wrapper .top-menu-name-wrapper a {
         background: $student-voice-light-bg;
     }
-
     #top-navigation ul li#activities-menu-wrapper .top-menu-name-wrapper a {
-        background:$activities-light-bg;
+        background: $activities-light-bg;
     }
-
     #top-navigation ul li#events-menu-wrapper .top-menu-name-wrapper a {
-        background:$events-light-bg;
+        background: $events-light-bg;
     }
-
     #top-navigation ul li#volunteering-menu-wrapper .top-menu-name-wrapper a {
-        background:$volunteering-light-bg;
+        background: $volunteering-light-bg;
     }
-
     #top-navigation ul li#advice-support-menu-wrapper .top-menu-name-wrapper a {
-        background:$advice-light-bg;
+        background: $advice-light-bg;
     }
-
     #top-navigation ul li#bar-cafe-offers-menu-wrapper .top-menu-name-wrapper a {
-        background:$offers-light-bg;
+        background: $offers-light-bg;
     }
-
     #salford-welcome #subsite-navigation {
         height: auto;
     }
-
     #salford-welcome #subsite-navigation .phone-menu {
         position: relative;
         background: none;
@@ -1689,52 +1397,43 @@
         font-family: "museo-sans", Arial, Helvetica, sans-serif;
         color: $white;
     }
-
     #salford-welcome #subsite-navigation .phone-menu:before {
         content: "\f0c9";
         margin-right: 0;
     }
-
     #salford-welcome #subsite-navigation .phone-menu-icon {
         display: none;
     }
-
     #salford-welcome #subsite-navigation ul {
         position: static;
         border-bottom: 3px solid #002a47;
         padding: 0;
         text-align: center;
     }
-
     #salford-welcome #subsite-navigation ul li {
         padding: 0;
         border: 0;
         display: block;
     }
-
     #salford-welcome #subsite-navigation ul #home-menu-wrapper {
         display: none;
     }
-
     #salford-welcome #subsite-navigation ul li span,
     #salford-welcome #subsite-navigation ul li a {
         line-height: 40px;
         padding: 0 15px;
         font-size: 14px;
-        background:$activities-light-bg;
-        color:$activities-base;
+        background: $activities-light-bg;
+        color: $activities-base;
         font-weight: 700;
     }
-
     #salford-welcome #subsite-navigation ul li.has-child span:after {
         display: none;
     }
-
     #salford-welcome #subsite-navigation ul li .top-submenu-wrapper {
         position: static;
         height: auto;
     }
-
     #salford-welcome #subsite-navigation ul li ul {
         padding: 0;
         transform: unset;
@@ -1744,16 +1443,13 @@
         flex-direction: column;
         opacity: 1;
     }
-
     #salford-welcome #subsite-navigation ul li:hover ul {
         transform: unset;
     }
-
     #salford-welcome #subsite-navigation ul li ul li {
         flex: 1 0 auto;
         margin: 0;
     }
-
     #salford-welcome #subsite-navigation ul li ul li span,
     #salford-welcome #subsite-navigation ul li ul li a {
         background: none;
@@ -1765,141 +1461,112 @@
         color: #0050a0;
         font-weight: 500;
     }
-
     #salford-welcome #home-content-wrap #home-header .list-wrap {
         padding: 30px 0;
     }
-
     #salford-welcome #home-content-wrap h2 {
         font-size: 28px;
         padding: 20px 0;
     }
-
     #salford-welcome #home-content-wrap .list-wrap {
         padding: 30px 0;
     }
-
     #salford-welcome .menu-row {
         flex-direction: column;
     }
-
-    #salford-welcome .menu-row > * {
+    #salford-welcome .menu-row>* {
         margin: 0 0 20px 0;
     }
-
     #salford-welcome .menu-row a.big-item,
     #salford-welcome .menu-column a.big-item {
         font-size: 24px;
         background-size: 100% auto;
     }
-
     #salford-welcome .menu-column a.small-item.shock-link:before,
     #salford-welcome .menu-column a.small-item.facebook-link:before {
         display: none;
     }
-
     #salford-welcome .social-media ul li {
         height: 130px;
         width: 130px;
         font-size: 18px;
     }
-
     #salford-welcome .social-media ul .fa {
         line-height: 86px;
         font-size: 60px;
     }
-
     #salford-welcome .social-media ul .fa:before {
         margin-right: -18px;
     }
-
     #salford-welcome .social-media ul li:nth-child(3) {
         margin-left: 0;
     }
-
     #salford-welcome .social-media ul li a {
         height: 110px;
     }
-
     #salford-welcome .social-media .snapchat-link img {
         width: 80px;
         height: 80px;
         margin: 0 10px;
     }
-
     #salford-welcome .cover-photo {
         height: 200px;
         min-height: unset;
         margin-bottom: -40px;
     }
-
     #salford-welcome header {
         padding: 20px 30px;
         margin-bottom: 30px;
     }
-
     #salford-welcome .info-box {
         padding: 0 0 20px 0;
         margin-bottom: 30px;
         flex-direction: column;
     }
-
     #salford-welcome .info-box .box-image {
         flex: 1 0 0;
         order: 1;
         padding: 0 0 15px 0;
     }
-
     #salford-welcome .info-box .box-content {
         padding: 0 20px;
         order: 2;
     }
-
     #salford-welcome .info-box a.more {
         font-size: 14px;
     }
-
     #salford-welcome #map-options ul li {
         display: block;
         margin: 0;
         line-height: 38px;
     }
-
     #salford-welcome #map-canvas {
         height: 300px;
     }
-
     #salford-varsity #unioncloud-sub-site-option .top-subsite {
         margin: 0;
     }
-
     #salford-varsity #header h1 a {
         width: 290px;
         background-size: 290px auto;
     }
-
     #salford-varsity #countdown-column-content,
     #salford-varsity #live-coverage-column-content {
         display: none;
     }
-
     #salford-varsity #unioncloud-sub-site-option #header {
         background: #efebea;
     }
-
     #salford-varsity #unioncloud-sub-site-option #header h1 a {
         background-image: url("//s3-eu-west-1.amazonaws.com/nusdigital/image/images/101734/optimized/varsity-header-logo.png");
     }
-
     #salford-varsity #subsite-navigation,
     #salford-varsity #subsite-navigation .phone-menu {
         position: static;
     }
-
     #salford-varsity #unioncloud-sub-site-option #subsite-navigation {
         background: #0288d1;
     }
-
     #salford-varsity #subsite-navigation .phone-menu {
         background: none;
         height: auto;
@@ -1910,22 +1577,18 @@
         font-family: "museo-sans", Arial, sans-serif;
         text-align: center;
     }
-
     #salford-varsity #subsite-navigation .phone-menu:before {
         margin-right: 10px;
         content: "\f0c9";
     }
-
     #salford-varsity #subsite-navigation .phone-menu-icon {
         display: none;
     }
-
     #salford-varsity #subsite-navigation ul {
         position: static;
         background: #003c78;
         border-bottom: 0;
     }
-
     #salford-varsity #subsite-navigation ul li {
         font-size: 14px;
         border: 0;
@@ -1933,115 +1596,90 @@
         display: block;
         text-align: center;
     }
-
     #salford-varsity #subsite-navigation ul li:before {
         display: none;
     }
-
     #salford-varsity #home-slideshow {
         padding: 0;
         min-height: 0;
         height: 200px;
         margin-bottom: 30px;
     }
-
     #salford-varsity #overlay-wrapper {
         margin: 0;
         padding: 0;
     }
-
     #salford-varsity #home-slideshow h2 {
         font-size: 30px;
     }
-
     #salford-varsity #home-slideshow h3 {
         font-size: 18px;
     }
-
     #salford-varsity .group-cms-wrapper .section.column.body-width-wrap {
         margin: 0 15px;
     }
-
     #salford-varsity #scores-selector {
         font-size: 1em;
     }
-
     #salford-varsity #scores-results .total-points {
         margin: 20px 0;
     }
-
     #salford-varsity #scores-results .total-points h3 {
         margin-bottom: 10px;
     }
-
     #salford-varsity #scores-results .total-points .salford-logo,
     #salford-varsity #scores-results .total-points .chester-logo {
         display: none;
     }
-
     #salford-varsity #scores-results .total-points .points-bar {
         width: 100%;
         height: 30px;
     }
-
     #salford-varsity #scores-results .total-points .salford-bar,
     #salford-varsity #scores-results .total-points .chester-bar {
         height: 30px;
     }
-
     #salford-varsity #scores-results .total-points .salford-points,
     #salford-varsity #scores-results .total-points .chester-points {
         line-height: 30px;
         font-size: 20px;
     }
-
     #salford-varsity #scores-results .total-points:after {
         height: 40px;
     }
-
     #salford-varsity #scores-results section h2 {
         font-size: 18px;
     }
-
     #salford-varsity #scores-results section li {
         padding: 10px 100px 10px 60px;
     }
-
     #salford-varsity #scores-results section li:before {
         font-size: 40px;
         left: 10px;
     }
-
     #salford-varsity #scores-results section h3 {
         font-size: 18px;
     }
-
     #salford-varsity #scores-results section li p.score {
         font-size: 1.5em;
     }
-
     #salford-annualawards .body-width-wrap {
         margin: 0 15px;
     }
-
     #salford-annualawards #blurb-column-content {
         padding: 0;
     }
-
     #salford-annualawards #blurb-column-content,
     #salford-annualawards .content-wrap #blurb-column-content p {
         text-align: center;
     }
-
     #salford-annualawards #header-logo-column-content {
         text-align: center;
     }
-
     #salford-annualawards #site-navigation {
         position: static;
         padding: 0;
     }
-
     #salford-annualawards #site-navigation .phone-menu {
         position: static;
         height: auto;
@@ -2052,43 +1690,35 @@
         color: #0050a0;
         text-align: center;
     }
-
     #salford-annualawards #site-navigation .phone-menu:before {
         content: "\f0c9";
         margin-right: 5px;
     }
-
     #salford-annualawards #site-navigation .phone-menu-icon {
         display: none;
     }
-
     #salford-annualawards #site-navigation ul {
         background: rgba(0, 0, 0, 0.3);
         border: 0;
         text-align: center;
         position: static;
     }
-
     #salford-annualawards #site-navigation .nav-wrap ul li,
     #salford-annualawards #site-navigation .nav-wrap ul li span {
         display: block;
         border: 0;
         padding: 0;
     }
-
     #salford-annualawards #site-navigation .nav-wrap ul li a {
         color: $white;
     }
-
     #salford-atmosphere #main-menu {
         position: static;
         padding: 0;
     }
-
     #salford-atmosphere #main-menu .phone-menu {
         position: relative;
-        background: url("//s3-eu-west-1.amazonaws.com/nusdigital/image/images/117984/optimized/atmosphere-logo.png")
-            left center no-repeat;
+        background: url("//s3-eu-west-1.amazonaws.com/nusdigital/image/images/117984/optimized/atmosphere-logo.png") left center no-repeat;
         background-size: auto 30px;
         margin: 0 15px;
         padding: 0;
@@ -2100,7 +1730,6 @@
         line-height: 60px;
         font-size: 0;
     }
-
     #salford-atmosphere #main-menu .phone-menu-icon {
         background: none;
         float: none;
@@ -2111,77 +1740,62 @@
         right: 0;
         width: auto;
     }
-
     #salford-atmosphere #main-menu .phone-menu-icon:before {
         content: "\f0c9";
     }
-
     #salford-atmosphere #main-menu ul {
         position: static;
         background: none;
         border: 0;
     }
-
     #salford-atmosphere #main-menu ul li {
         border: 0;
         display: block;
         padding: 0;
     }
-
     #salford-atmosphere #main-menu ul li a:hover {
         color: $white;
     }
-
     #salford-atmosphere #main-menu ul li:before {
         display: none;
     }
-
     #salford-atmosphere #main-menu ul #home-menu-wrapper {
         display: none;
     }
-
     #salford-atmosphere .menu-item h3 {
         padding-right: 80px;
     }
-
     #salford-atmosphere .menu-item h3,
     #salford-atmosphere .default-body .menu-item h4 {
         font-size: 18px;
     }
-
     .bottom,
     .bottom-union,
     .bottom-subsite {
         position: static;
         box-shadow: none;
     }
-
     #footer {
         background: #0050a0;
     }
-
     #footer-links {
         padding: 10px 15px;
         height: auto;
         background: none;
     }
-
     #footer-links-wrap {
         margin: 0;
         column-count: 2;
         -webkit-column-count: 2;
         -moz-column-count: 2;
     }
-
     #copyright {
         line-height: initial;
         padding: 15px 15px 50px 15px;
     }
-
     #copyright-wrap {
         padding-right: 90px;
     }
-
     .system-menu-wrapper .cart-account {
         top: 20px;
     }

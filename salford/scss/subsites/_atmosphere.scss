@@ -2,159 +2,164 @@
    ATMOSPHERE SUBSITE
    ================== */
 
-   #salford-atmosphere #unioncloud-sub-site-option .top-subsite-wrap {
+#salford-atmosphere #unioncloud-sub-site-option .top-subsite-wrap {
     margin-bottom: 40px;
-  }
-  
-  #salford-atmosphere #main-menu {
-      padding: 25px 0;
-      margin: 0;
-      background: #0C0C0C;
-  }
-  
-  #salford-atmosphere #main-menu ul {
-      text-align: right;
-      font-size: 0;
-      position: relative;
-  }
-  
-  #salford-atmosphere #main-menu ul li {
-      float: none;
-      display: inline-block;
-      font-size: 17px;
-      font-family: "museo-sans", Arial, Helvetica, sans-serif;
-      font-weight: 300;
-  }
-  
-  #salford-atmosphere #main-menu ul li:before {
-      background: $white;
-  }
-  
-  #salford-atmosphere #main-menu ul li:hover:before {
-      height: 100%;
-  }
-  
-  #salford-atmosphere #main-menu ul li .top-menu-name-wrapper {
-      position: relative;
-  }
-  
-  #salford-atmosphere #main-menu ul li .top-menu-name-wrapper:before {
-      content: '';
-      position: absolute;
-      z-index: 1;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 0;
-      background: $white;
-      transition: height 0.2s ease;
-  }
-  
-  #salford-atmosphere #main-menu ul li:hover .top-menu-name-wrapper:before {
-      height: 100%
-  }
-  
-  #salford-atmosphere #main-menu ul li span {
-      background: none;
-      padding: 0;
-  }
-  
-  #salford-atmosphere #main-menu ul li a, #salford-atmosphere #main-menu .menu ul li span a {
-      color: $white;
-      line-height: 40px;
-      padding: 0 10px;
-      position: relative;
-      transition: color 0.2s linear;
-      z-index: 2;
-  }
-  
-  #salford-atmosphere #main-menu ul li a:hover {
-      color: #0C0C0C;
-  }
-  
-  #salford-atmosphere #main-menu ul li .top-submenu-wrapper {
-      display: none;
-  }
-  
-  #salford-atmosphere #main-menu ul #home-menu-wrapper {
-      position: absolute;
-      left: 0;
-      top: 0;
-  }
-  
-  #salford-atmosphere #main-menu ul #home-menu-wrapper:before {
-      display: none;
-  }
-  
-  #salford-atmosphere #main-menu ul #home-menu-wrapper a {
-      height: 40px;
-      width: 264px;
-      padding: 0;
-      background: url('//s3-eu-west-1.amazonaws.com/nusdigital/image/images/117984/optimized/atmosphere-logo.png') center no-repeat;
-      background-size: auto 40px;
-      font-size: 0;
-  }
-  
-  #salford-atmosphere .vegetarian, #salford-atmosphere .gluten, #salford-atmosphere .nuts, #salford-atmosphere .halal {
-      line-height: 24px;
-      width: 24px;
-      display: inline-block;
-      color: $white;
-      font-weight: 600;
-      background: #000;
-      text-align: center;
-      border-radius: 12px;
-  }
-  
-  #salford-atmosphere .vegetarian {
-      background:$advice-medium;
-  }
-  
-  #salford-atmosphere .gluten {
-      background: $student-voice-base;
-  }
-  
-  #salford-atmosphere .nuts {
-      background: #E64A19;
-  }
-  
-  #salford-atmosphere .halal {
-      background: #00BCD4;
-  }
-  
-  #salford-atmosphere .menu-item {
-      border: 1px solid $offers-light-other;
-      padding: 15px 20px;
-      margin-bottom: 20px;
-      position: relative;
-  }
-  
-  #salford-atmosphere .default-body .menu-item h3 {
-      padding-right: 100px;
-      margin: 0;
-      font-size: 24px;
-      line-height: initial;
-  }
-  
-  #salford-atmosphere .default-body .menu-item h4 {
-      position: absolute;
-      right: 20px;
-      top: 15px;
-      color: #0277BD;
-      font-size: 24px;
-  }
-  
-  #salford-atmosphere .default-body .menu-item p {
-      margin: 0.8em 0 0 0;
-  }
-  
-  /* Atmosphere the pitch navigation changes */
+}
+
+#salford-atmosphere #main-menu {
+    padding: 25px 0;
+    margin: 0;
+    background: #0C0C0C;
+}
+
+#salford-atmosphere #main-menu ul {
+    text-align: right;
+    font-size: 0;
+    position: relative;
+}
+
+#salford-atmosphere #main-menu ul li {
+    float: none;
+    display: inline-block;
+    font-size: 17px;
+    font-family: "museo-sans", Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+#salford-atmosphere #main-menu ul li:before {
+    background: $white;
+}
+
+#salford-atmosphere #main-menu ul li:hover:before {
+    height: 100%;
+}
+
+#salford-atmosphere #main-menu ul li .top-menu-name-wrapper {
+    position: relative;
+}
+
+#salford-atmosphere #main-menu ul li .top-menu-name-wrapper:before {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: $white;
+    transition: height 0.2s ease;
+}
+
+#salford-atmosphere #main-menu ul li:hover .top-menu-name-wrapper:before {
+    height: 100%
+}
+
+#salford-atmosphere #main-menu ul li span {
+    background: none;
+    padding: 0;
+}
+
+#salford-atmosphere #main-menu ul li a,
+#salford-atmosphere #main-menu .menu ul li span a {
+    color: $white;
+    line-height: 40px;
+    padding: 0 10px;
+    position: relative;
+    transition: color 0.2s linear;
+    z-index: 2;
+}
+
+#salford-atmosphere #main-menu ul li a:hover {
+    color: #0C0C0C;
+}
+
+#salford-atmosphere #main-menu ul li .top-submenu-wrapper {
+    display: none;
+}
+
+#salford-atmosphere #main-menu ul #home-menu-wrapper {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#salford-atmosphere #main-menu ul #home-menu-wrapper:before {
+    display: none;
+}
+
+#salford-atmosphere #main-menu ul #home-menu-wrapper a {
+    height: 40px;
+    width: 264px;
+    padding: 0;
+    background: url('//s3-eu-west-1.amazonaws.com/nusdigital/image/images/117984/optimized/atmosphere-logo.png') center no-repeat;
+    background-size: auto 40px;
+    font-size: 0;
+}
+
+#salford-atmosphere .vegetarian,
+#salford-atmosphere .gluten,
+#salford-atmosphere .nuts,
+#salford-atmosphere .halal {
+    line-height: 24px;
+    width: 24px;
+    display: inline-block;
+    color: $white;
+    font-weight: 600;
+    background: #000;
+    text-align: center;
+    border-radius: 12px;
+}
+
+#salford-atmosphere .vegetarian {
+    background: $advice-medium;
+}
+
+#salford-atmosphere .gluten {
+    background: $student-voice-base;
+}
+
+#salford-atmosphere .nuts {
+    background: #E64A19;
+}
+
+#salford-atmosphere .halal {
+    background: #00BCD4;
+}
+
+#salford-atmosphere .menu-item {
+    border: 1px solid $offers-light-other;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+#salford-atmosphere .default-body .menu-item h3 {
+    padding-right: 100px;
+    margin: 0;
+    font-size: 24px;
+    line-height: initial;
+}
+
+#salford-atmosphere .default-body .menu-item h4 {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    color: #0277BD;
+    font-size: 24px;
+}
+
+#salford-atmosphere .default-body .menu-item p {
+    margin: 0.8em 0 0 0;
+}
+
+
+/* Atmosphere the pitch navigation changes */
 
 li#black-navigation-menu-wrapper a#top-nav-level-one-black-navigation {
-	color:#000000;
+    color: #000000;
 }
 
 #top-navigation ul li#black-navigation-menu-wrapper .top-menu-name-wrapper:before {
-	background: #e2e2e2;
+    background: #e2e2e2;
     border-color: #000000;
 }

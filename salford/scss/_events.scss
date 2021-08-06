@@ -2,7 +2,7 @@
    EVENT PAGES
    =========== */
 
-   #event-homepage {
+#event-homepage {
     padding-bottom: 39px;
 }
 
@@ -11,7 +11,7 @@
 }
 
 #event-homepage h1 {
-    background:$events-light-bg;
+    background: $events-light-bg;
     color: $events-base;
 }
 
@@ -34,9 +34,10 @@
     color: $events-base;
 }
 
-#event-homepage #left-panel .tree-navigation ul li a:hover, #event-homepage #left-panel .tree-navigation ul li.selected a {
+#event-homepage #left-panel .tree-navigation ul li a:hover,
+#event-homepage #left-panel .tree-navigation ul li.selected a {
     color: $events-base;
-    background:$events-light-bg;
+    background: $events-light-bg;
 }
 
 #event-homepage #right-panel {
@@ -68,7 +69,7 @@
     cursor: pointer;
 }
 
-#event-homepage #right-panel > .clear {
+#event-homepage #right-panel>.clear {
     clear: none;
 }
 
@@ -80,7 +81,8 @@
     padding: 0;
 }
 
-.event-type-title, #event-homepage .page-separator-wrapper {
+.event-type-title,
+#event-homepage .page-separator-wrapper {
     display: none;
 }
 
@@ -117,7 +119,8 @@
     display: block;
 }
 
-.event-box .non-free-event-title, .event-box .free-event-title {
+.event-box .non-free-event-title,
+.event-box .free-event-title {
     color: $events-base;
     line-height: 1.4em;
     font-size: 18px;
@@ -167,7 +170,8 @@
     line-height: 1em;
 }
 
-.event-details p.day, .event-details p.month {
+.event-details p.day,
+.event-details p.month {
     font-size: 0.8em;
 }
 
@@ -191,7 +195,7 @@
 
 .sub-site-home-html .title h1 {
     color: #E41D61;
-    background:$events-light-bg;
+    background: $events-light-bg;
 }
 
 .sub-site-home-html .tree-navigation .thumbnail {
@@ -201,7 +205,8 @@
     width: 300px;
 }
 
-.sub-site-home-html .tree-navigation .latestEventLeftSide, .sub-site-home-html .tree-navigation .clubSubMenu {
+.sub-site-home-html .tree-navigation .latestEventLeftSide,
+.sub-site-home-html .tree-navigation .clubSubMenu {
     display: none;
 }
 
@@ -246,11 +251,13 @@
     display: none;
 }
 
-#uc-events-details-page .contentBoxes, #uc-events-details-page .contentBoxes.marginTop20 {
+#uc-events-details-page .contentBoxes,
+#uc-events-details-page .contentBoxes.marginTop20 {
     margin: 0 0 30px 0;
 }
 
-#uc-events-details-page .contentBoxes:first-child h2:first-child, #uc-events-details-page .contentBoxes:nth-child(3) {
+#uc-events-details-page .contentBoxes:first-child h2:first-child,
+#uc-events-details-page .contentBoxes:nth-child(3) {
     display: none;
 }
 
@@ -262,7 +269,8 @@
     margin: 0;
 }
 
-#uc-events-details-page .contentBoxes ol, #uc-events-details-page .contentBoxes ul {
+#uc-events-details-page .contentBoxes ol,
+#uc-events-details-page .contentBoxes ul {
     font-size: 18px;
 }
 
@@ -281,7 +289,7 @@
 }
 
 #uc-events-details-page .more:before {
-    background:$events-dark;
+    background: $events-dark;
 }
 
 .uc-event-terms-wrapper {
@@ -298,9 +306,9 @@
     max-width: 800px;
     color: $brand-navy;
     border: 2px solid $events-base;
-    -webkit-box-shadow: 0px 0px 20px 2px rgba(136,14,79,0.5);
-    -moz-box-shadow: 0px 0px 20px 2px rgba(136,14,79,0.5);
-    box-shadow: 0px 0px 20px 2px rgba(136,14,79,0.5);
+    -webkit-box-shadow: 0px 0px 20px 2px rgba(136, 14, 79, 0.5);
+    -moz-box-shadow: 0px 0px 20px 2px rgba(136, 14, 79, 0.5);
+    box-shadow: 0px 0px 20px 2px rgba(136, 14, 79, 0.5);
     overflow-y: scroll;
 }
 
@@ -348,7 +356,8 @@
     float: none;
 }
 
-#uc-event-ticket-details .threecol, #uc-event-ticket-details .ninecol {
+#uc-event-ticket-details .threecol,
+#uc-event-ticket-details .ninecol {
     width: auto;
     float: none;
     margin: 0;
@@ -356,11 +365,13 @@
 
 #uc-event-ticket-details .title h1 {
     margin-bottom: 40px;
-    background:$events-light-bg;
+    background: $events-light-bg;
     color: #E41D61;
 }
 
-#uc-event-ticket-details .thumbnail, #uc-event-ticket-details .latestEventLeftSide, #uc-event-ticket-details .clubSubMenu {
+#uc-event-ticket-details .thumbnail,
+#uc-event-ticket-details .latestEventLeftSide,
+#uc-event-ticket-details .clubSubMenu {
     display: none;
 }
 
@@ -392,7 +403,7 @@
     display: block;
     width: auto;
     padding: 15px 350px 15px 0;
-    border-color:$events-light-bg;
+    border-color: $events-light-bg;
     margin: 0;
     border-width: 1px 0 0 0;
 }
@@ -437,25 +448,34 @@
     text-align: right;
 }
 
-.ticketQuantityBox .marginLeft, .ticketQuantityBox .marginRight {
+.ticketQuantityBox .marginLeft,
+.ticketQuantityBox .marginRight {
     margin: 0;
 }
 
-.ticketQuantityBox > .floatLeft:first-child {
+.ticketQuantityBox>.floatLeft:first-child {
     display: none;
 }
 
-.ticketQuantityBox .floatLeft, .ticketQuantityBox .price {
+.ticketQuantityBox .floatLeft,
+.ticketQuantityBox .price {
     float: none;
     display: inline-block;
     vertical-align: top;
 }
 
-.ticketQuantityBox > .floatLeft.marginLeft:first-child {
+.ticketQuantityBox>.floatLeft.marginLeft:first-child {
     display: inline-block;
 }
 
-.reduceQtyBought, .reduceBuyQty, .increaseQtyBought, .increaseBuyQty, .reduceQtyBought:hover, .reduceBuyQty:hover, .increaseQtyBought:hover, .increaseBuyQty:hover {
+.reduceQtyBought,
+.reduceBuyQty,
+.increaseQtyBought,
+.increaseBuyQty,
+.reduceQtyBought:hover,
+.reduceBuyQty:hover,
+.increaseQtyBought:hover,
+.increaseBuyQty:hover {
     width: 24px;
     height: 40px;
     background: none;
@@ -464,11 +484,13 @@
     line-height: 40px;
 }
 
-.reduceQtyBought:before, .reduceBuyQty:before {
+.reduceQtyBought:before,
+.reduceBuyQty:before {
     content: '\f068';
 }
 
-.increaseQtyBought:before, .increaseBuyQty:before {
+.increaseQtyBought:before,
+.increaseBuyQty:before {
     content: '\f067'
 }
 
@@ -609,7 +631,7 @@
     margin: 20px 0 0 0;
 }
 
-.ticket-print-block-right > #barcode-temp {
+.ticket-print-block-right>#barcode-temp {
     display: none;
 }
 

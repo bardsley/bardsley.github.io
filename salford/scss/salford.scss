@@ -20,32 +20,24 @@ Compilation commands
 @import 'reset.scss';
 @import 'wireframe.scss';
 @import 'section_colours.scss';
-
 @import 'header.scss';
 @import 'footer.scss';
-
 @import 'home.scss';
 @import 'cms.scss';
 @import 'articles.scss';
 @import 'officers.scss';
-
-
 @import 'events.scss';
 @import 'whats_on.scss';
 @import 'events_intro.scss';
 @import 'groups.scss';
 @import 'student_voice.scss';
-
 @import 'election_main.scss';
 @import 'election_stats.scss';
-
-
 // @import 'subsites/welcome.scss'; TODO Removed 2021-07-20
 // @import 'subsites/varsity.scss'; TODO Removed 2021-07-20
 // @import 'subsites/annual_awards.scss'; TODO Removed 2021-07-20
-// @import 'subsites/atmosphere.scss'; TODO Moved to single page in _custom_pages.scss 2021-07-20
-@import 'subsites/welcome2021.scss'; 
-
+// @import 'subsites/atmosphere.scss'; // TODO Moved to single page in _custom_pages.scss 2021-07-20
+@import 'subsites/welcome2021.scss';
 @import 'signin_registration.scss';
 @import 'account.scss';
 @import 'eshop.scss';
@@ -55,59 +47,77 @@ Compilation commands
 @import 'forms.scss';
 @import 'uc_interface.scss';
 // @import 'frontend_editor.scss';
-
-
 @import 'responsive/small_desktop.scss';
 @import 'responsive/tablet.scss';
 @import 'responsive/mobile.scss';
 
-
 /*slider related code*/
 
-
-.uc-opp-role-calendar-wrapper .uc-availability-row{
- display:flex;
+.uc-opp-role-calendar-wrapper .uc-availability-row {
+    display: flex;
 }
 
-@media only screen and (max-width: 767px){
-  .uc-opp-role-calendar-wrapper .uc-availability-row{
-    display:block;
-    margin-top:25px;
-  }
-}
-#home-slideshow .ui-tabs .ui-tabs-hide{
-opacity:1
-}
-.uc-vol-profile-tab-content{position: relative;}
-@media only screen and (min-width: 767px){
-#myaccount-information.registration-form .registration-form-wrapper .for-student-update .user-profile-picture-wrapper.top250 {
-                top: 250px;
-    width: 200px;
-    right:20px;
-}
+@media only screen and (max-width: 767px) {
+    .uc-opp-role-calendar-wrapper .uc-availability-row {
+        display: block;
+        margin-top: 25px;
+    }
 }
 
-li#user_profile.selected>a,li#user_profile.selected>ul>li,li#my_details.selected>a,.tree-navigation ul li#my_details>ul>li,.tree-navigation ul li#my_details>ul>li.selected{
- background:transparent;
+#home-slideshow .ui-tabs .ui-tabs-hide {
+    opacity: 1
 }
-li#user_profile.selected>ul>li>a,li#my_details.selected>ul>li>a{
- background:transparent;
+
+.uc-vol-profile-tab-content {
+    position: relative;
+}
+
+@media only screen and (min-width: 767px) {
+    #myaccount-information.registration-form .registration-form-wrapper .for-student-update .user-profile-picture-wrapper.top250 {
+        top: 250px;
+        width: 200px;
+        right: 20px;
+    }
+}
+
+li#user_profile.selected>a,
+li#user_profile.selected>ul>li,
+li#my_details.selected>a,
+.tree-navigation ul li#my_details>ul>li,
+.tree-navigation ul li#my_details>ul>li.selected {
+    background: transparent;
+}
+
+li#user_profile.selected>ul>li>a,
+li#my_details.selected>ul>li>a {
+    background: transparent;
 }
 
 
 /* =============== STYLES FOR VOLUNTEERING HUB BY HARRY VANN @ ONEVOICE =============== */
+
 div#uc-vol-opp-details-page {
-	display: flex;
+    display: flex;
     flex-direction: column;
 }
 
+
 /*slider related code*/
-#home-slideshow .ui-tabs .ui-tabs-hide{
-opacity:1
+
+#home-slideshow .ui-tabs .ui-tabs-hide {
+    opacity: 1
 }
+
+
 /*slider related code ends*/
 
 // DEBUG CODE
-.header:before{ 
-  position:absolute; content: 'SASS generated CSS, remove for upload'; background-color: red; color: #ffffff; font-size: 10px; padding: 5px 10px; width:100%; 
+.header:before {
+    position: absolute;
+    content: 'SASS generated CSS, remove for upload';
+    background-color: red;
+    color: #ffffff;
+    font-size: 10px;
+    padding: 5px 10px;
+    width: 100%;
 }
