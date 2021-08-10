@@ -93,10 +93,7 @@ body[id^="union-event-id-"] {
     {
         display: none;
     }
-    tbody .days:nth-of-type(4),
-    tbody .days:nth-of-type(6) {
-        display: grid;
-    }
+    tbody .days:nth-of-type(6) .next-month .date { display:none; }
     .date {
         background-color: $welcome-background;
         color: $white;
