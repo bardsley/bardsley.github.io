@@ -5894,24 +5894,166 @@ h3.uc-cat-name {
   stroke: #FCE4EC !important;
 }
 
+/* ==================
+   ATMOSPHERE SUBSITE
+   ================== */
+/* Atmosphere the pitch navigation changes */
+li#black-navigation-menu-wrapper a#top-nav-level-one-black-navigation {
+  color: #000000;
+}
+
+#top-navigation ul li#black-navigation-menu-wrapper .top-menu-name-wrapper:before {
+  background: #e2e2e2;
+  border-color: #000000;
+}
+
+#salford-atmosphere .unioncloud-sub-site-option .row.content,
+#salford-atmosphere .wrapper {
+  background-color: #262424;
+}
+#salford-atmosphere .header,
+#salford-atmosphere #top-navigation {
+  background-color: #000;
+}
+#salford-atmosphere #union-logo {
+  filter: invert(1);
+}
+#salford-atmosphere .top,
+#salford-atmosphere .top-union {
+  border-color: #fff;
+}
+#salford-atmosphere li#black-navigation-menu-wrapper a#top-nav-level-one-black-navigation {
+  color: white;
+}
+#salford-atmosphere #main-menu {
+  padding: 25px 0;
+  margin: 0;
+  background-color: #262424;
+  background-image: linear-gradient(#0c0c0c, #262424 85%);
+}
+#salford-atmosphere #main-menu ul {
+  text-align: right;
+  font-size: 0;
+  position: relative;
+}
+#salford-atmosphere #main-menu ul li {
+  float: none;
+  display: inline-block;
+  font-size: 17px;
+  font-family: "museo-sans", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+#salford-atmosphere #main-menu ul li .top-menu-name-wrapper {
+  position: relative;
+}
+#salford-atmosphere #main-menu ul li .top-menu-name-wrapper:before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background: white;
+  transition: height 0.2s ease;
+}
+#salford-atmosphere #main-menu ul li span {
+  background: none;
+  padding: 0;
+}
+#salford-atmosphere #main-menu ul li a,
+#salford-atmosphere #main-menu ul li span a {
+  color: white;
+  line-height: 40px;
+  padding: 0 10px;
+  position: relative;
+  transition: color 0.2s linear;
+  z-index: 2;
+}
+#salford-atmosphere #main-menu ul li a:hover {
+  color: #0c0c0c;
+}
+#salford-atmosphere #main-menu ul li .top-submenu-wrapper {
+  display: none;
+}
+#salford-atmosphere #main-menu ul li:before {
+  background: white;
+}
+#salford-atmosphere #main-menu ul li:hover:before {
+  height: 100%;
+}
+#salford-atmosphere #main-menu ul li:hover .top-menu-name-wrapper:before {
+  height: 100%;
+}
+#salford-atmosphere #main-menu ul #home-menu-wrapper {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#salford-atmosphere #main-menu ul #home-menu-wrapper a {
+  height: 40px;
+  width: 264px;
+  padding: 0;
+  background: url("//s3-eu-west-1.amazonaws.com/nusdigital/image/images/117984/optimized/atmosphere-logo.png") center no-repeat;
+  background-size: auto 40px;
+  font-size: 0;
+}
+#salford-atmosphere #main-menu ul #home-menu-wrapper:before {
+  display: none;
+}
+#salford-atmosphere #hero-image .hero {
+  background-color: #262424;
+  background-image: none;
+  padding: 0;
+}
+#salford-atmosphere .default-body .block-menu li,
+#salford-atmosphere .block-menu li {
+  background-color: #353333;
+}
+#salford-atmosphere .default-body .block-menu li a,
+#salford-atmosphere .block-menu li a {
+  color: #fff;
+}
+#salford-atmosphere .default-body .block-menu li a img,
+#salford-atmosphere .block-menu li a img {
+  border-color: #ddd;
+}
+#salford-atmosphere body {
+  color: #fff;
+}
+
 .unioncloud-sub-site-option #union-logo a {
   background-image: url("//nusdigital.s3.amazonaws.com/union_logo/images/41/original/Union_400_px.jpg");
 }
 
+body#uc-page-id-settle-in-with-umii .title h1,
+body#uc-page-id-who-we-are .title h1,
 body[id^=union-event-id-] .title h1 {
   color: white;
   background: #26276a;
 }
+body#uc-page-id-settle-in-with-umii .wrapper .row.content,
+body#uc-page-id-who-we-are .wrapper .row.content,
 body[id^=union-event-id-] .wrapper .row.content {
   background-color: #e7e9f7;
   border-bottom: solid 10px #2c367e;
 }
+body#uc-page-id-settle-in-with-umii .wrapper .row.content #uc-events-details-page h1,
+body#uc-page-id-settle-in-with-umii .wrapper .row.content #uc-events-details-page h2,
+body#uc-page-id-settle-in-with-umii .wrapper .row.content #uc-events-details-page h3,
+body#uc-page-id-settle-in-with-umii .wrapper .row.content #uc-events-details-page h4,
+body#uc-page-id-who-we-are .wrapper .row.content #uc-events-details-page h1,
+body#uc-page-id-who-we-are .wrapper .row.content #uc-events-details-page h2,
+body#uc-page-id-who-we-are .wrapper .row.content #uc-events-details-page h3,
+body#uc-page-id-who-we-are .wrapper .row.content #uc-events-details-page h4,
 body[id^=union-event-id-] .wrapper .row.content #uc-events-details-page h1,
 body[id^=union-event-id-] .wrapper .row.content #uc-events-details-page h2,
 body[id^=union-event-id-] .wrapper .row.content #uc-events-details-page h3,
 body[id^=union-event-id-] .wrapper .row.content #uc-events-details-page h4 {
   color: #26276a;
 }
+body#uc-page-id-settle-in-with-umii .wrapper .row.content #uc-events-details-page .add-to-calendar .title,
+body#uc-page-id-who-we-are .wrapper .row.content #uc-events-details-page .add-to-calendar .title,
 body[id^=union-event-id-] .wrapper .row.content #uc-events-details-page .add-to-calendar .title {
   background-color: #26276a;
 }
@@ -5930,15 +6072,33 @@ body[id^=union-event-id-] .wrapper .row.content #uc-events-details-page .add-to-
   margin: 0 auto;
 }
 
+#blocks .body-width-wrap {
+  box-sizing: border-box;
+  padding: 0 1%;
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
 #blocks #section-head {
   margin-top: 0;
   background-color: #2c367e;
 }
+#blocks .block-menu {
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 1170px;
+}
 #blocks .block-menu li {
+  box-sizing: border-box;
+  min-width: 46%;
   background-color: #26276a;
+  height: auto;
+  padding-bottom: 0.6em;
 }
 #blocks .block-menu li img {
   border-color: #2c367e;
+  width: 100% !important;
+  height: auto !important;
 }
 #blocks .block-menu li a {
   color: white;
@@ -5965,6 +6125,7 @@ body[id^=union-event-id-] .wrapper .row.content #uc-events-details-page .add-to-
   border-color: #26276a;
   background-color: white;
 }
+#calendar.welcome-calendar tbody .days:nth-of-type(5) td.day:hover,
 #calendar.welcome-calendar td.day:hover {
   background-color: #a1a6cc;
 }
@@ -5975,28 +6136,35 @@ body[id^=union-event-id-] .wrapper .row.content #uc-events-details-page .add-to-
 #calendar.welcome-calendar tbody .days:nth-of-type(3) {
   display: none;
 }
-#calendar.welcome-calendar tbody .days:nth-of-type(4),
-#calendar.welcome-calendar tbody .days:nth-of-type(6) {
-  display: grid;
+#calendar.welcome-calendar tbody .days:nth-of-type(5) td {
+  background-color: #e7e9f7;
+}
+#calendar.welcome-calendar tbody .days:nth-of-type(5) td .event {
+  background-color: white;
 }
 #calendar.welcome-calendar .date {
   background-color: #a1a6cc;
   color: white;
 }
+#calendar.welcome-calendar td.day {
+  box-sizing: border-box;
+  width: 100%;
+}
 #calendar.welcome-calendar .event {
   background: #e7e9f7;
   font-size: 1em;
-  padding: 1em;
-  margin: 1em;
+  padding: 0.5em;
   border: #2c367e;
 }
 #calendar.welcome-calendar .event .event-desc {
   margin: 0;
 }
 #calendar.welcome-calendar .event .event-desc a {
-  font-size: 1.2em;
   color: #2c367e;
   font-weight: bold;
+}
+#calendar.welcome-calendar .event .event-time {
+  font-size: 0.75em;
 }
 
 .unioncloud-sub-site-option .row.content {
@@ -9288,28 +9456,6 @@ select {
     max-width: 100%;
   }
 
-  #home-slideshow {
-    margin-bottom: 20px;
-  }
-
-  #home-slideshow .tabs {
-    height: 167px;
-  }
-
-  #home-slideshow .tabs.ui-tabs .tab-content-wrapper-box {
-    height: 164px;
-  }
-
-  #home-slideshow .tabs .tab-content {
-    height: 464px;
-    width: 410px;
-  }
-
-  #home-slideshow .tabs .tab-content img {
-    height: 164px !important;
-    width: 410px !important;
-  }
-
   #channel-nus-tab-content {
     background-size: auto 164px;
   }
@@ -9358,9 +9504,21 @@ select {
     display: none;
   }
 
-  #home-sabbatical-officers {
+  #home-slideshow .tabs {
+    height: 386px;
+  }
+
+  #home-slideshow .ui-tabs .ui-tabs-nav {
     display: none;
-    display: block;
+  }
+
+  #home-sabbatical-officers ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #home-sabbatical-officers ul li {
+    min-width: 33%;
+    max-width: 33%;
   }
 
   .home-content-wrap h2 {

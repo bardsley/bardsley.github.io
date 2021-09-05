@@ -476,23 +476,29 @@
         // max-width: 410px; // TODO Check whether cause issues
         max-width: 100%;
     }
-    #home-slideshow {
-        margin-bottom: 20px;
-    }
-    #home-slideshow .tabs {
-        height: 167px;
-    }
-    #home-slideshow .tabs.ui-tabs .tab-content-wrapper-box {
-        height: 164px;
-    }
-    #home-slideshow .tabs .tab-content {
-        height: 464px;
-        width: 410px;
-    }
-    #home-slideshow .tabs .tab-content img {
-        height: 164px !important;
-        width: 410px !important;
-    }
+
+
+
+
+    // #home-slideshow {
+    //     margin-bottom: 20px;
+    // }
+    // #home-slideshow .tabs {
+    //     height: 167px;
+    // }
+    // #home-slideshow .tabs.ui-tabs .tab-content-wrapper-box {
+    //     height: 164px;
+    // }
+    // #home-slideshow .tabs .tab-content {
+    //     height: 664px;
+    //     // width: 410px;
+    // }
+    // #home-slideshow .tabs .tab-content img {
+    //     // height: 164px !important;
+    //     height: 664px;
+    //     // width: 410px !important;
+
+    // }
     #channel-nus-tab-content {
         background-size: auto 164px;
     }
@@ -531,10 +537,21 @@
     #home-slideshow .ui-tabs .ui-tabs-nav:after {
         display: none;
     }
-    #home-sabbatical-officers {
-        display: none;
-        display: block;
+    #home-slideshow .tabs { height: 386px; }
+    #home-slideshow .ui-tabs .ui-tabs-nav { display:none; }
+
+
+
+    #home-sabbatical-officers ul {
+        display: flex;
+        flex-wrap: wrap;
+        li { 
+            min-width: 33%;
+            max-width: 33%;
+        }
     }
+
+
     .home-content-wrap h2 {
         font-size: 20px;
     }
