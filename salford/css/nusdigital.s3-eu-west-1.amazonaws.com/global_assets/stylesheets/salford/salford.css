@@ -1560,6 +1560,7 @@ p#notice.success a.close-notice:before, #notice_and_error #error.error a.close-n
 #home-sabbatical-officers ul {
   font-size: 0;
   display: flex;
+  justify-content: center;
 }
 
 #home-sabbatical-officers li {
@@ -2873,7 +2874,6 @@ blockquote:before {
 }
 
 #uc-page-id-student-voice #section-head.sabb .body-width-wrap {
-  padding-right: 400px;
   box-sizing: border-box;
   position: relative;
 }
@@ -2881,6 +2881,7 @@ blockquote:before {
 #uc-page-id-student-voice #section-head.sabb h2 {
   font-size: 48px;
   color: #9C27B0 !important;
+  margin-right: 2em;
 }
 
 #uc-page-id-student-voice #section-head.sabb h3 {
@@ -9174,6 +9175,7 @@ a.pdf-link:before {
     padding: 0;
     margin: 0;
     border: 0;
+    min-height: unset;
   }
 
   #top-navigation ul li ul:after {
@@ -10508,7 +10510,6 @@ select {
 
   #section-head.sabb .body-width-wrap {
     padding-right: 0;
-    text-align: center;
   }
 
   #section-head.sabb h2 {
@@ -10523,8 +10524,14 @@ select {
     text-align: center;
   }
 
-  .sabb-image {
-    display: none;
+  #uc-page-id-student-voice #section-head.sabb {
+    min-height: 600px;
+  }
+
+  #uc-page-id-student-voice #section-head.sabb .sabb-image {
+    top: 0;
+    width: 100%;
+    margin-top: 12em;
   }
 
   #uc-search-more-panel {

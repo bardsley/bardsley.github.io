@@ -222,6 +222,7 @@
         padding: 0;
         margin: 0;
         border: 0;
+        min-height:unset;
     }
     #top-navigation ul li ul:after {
         display: none;
@@ -1345,7 +1346,6 @@
     }
     #section-head.sabb .body-width-wrap {
         padding-right: 0;
-        text-align: center;
     }
     #section-head.sabb h2 {
         font-size: 24px;
@@ -1356,8 +1356,11 @@
     .default-body #section-head.sabb p {
         text-align: center;
     }
-    .sabb-image {
-        display: none;
+    .sabb-image {   }
+    #uc-page-id-student-voice #section-head.sabb { min-height: 600px;}
+    #uc-page-id-student-voice #section-head.sabb .sabb-image {
+        top:0;
+        width: 100%; margin-top: 12em;
     }
     #uc-search-more-panel {
         margin: 30px 15px 0 15px;
