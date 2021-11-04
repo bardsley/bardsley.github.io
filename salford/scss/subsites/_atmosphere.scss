@@ -74,11 +74,39 @@ li#black-navigation-menu-wrapper a#top-nav-level-one-black-navigation {
 }
 
 #salford-atmosphere {
+    background: $atmosphere-grey;
+    body { background: $atmosphere-grey; }
+
     .unioncloud-sub-site-option .row.content,
     .wrapper {
         background-color: $atmosphere-grey;
     }
 
+    #hero-image {
+        margin-bottom: 0;
+        .hero {
+            padding: 3em;
+            background-color: $atmosphere-grey;
+            background-image: url('https://nusdigital.s3.amazonaws.com/image/images/361920/original/Untitled_design_Blank.jpg');
+            background-repeat: none;
+            background-size: cover;
+            background-position-x: 50%;
+            background-position-y: 50%;
+            height: 400px;
+            display: flex; flex-direction: column; justify-content: center;
+            img {
+                display: block;
+                width: 400px;
+                margin: 5em auto;
+            }
+        }
+    }
+
+    #section-head {
+        background-color: $atmosphere-grey;
+        margin-top: 0;
+        // background-image: linear-gradient( #{$atmosphere-grey} 55%,#000);        
+    }
     .header,
     #top-navigation {
         background-color: #000;
@@ -93,6 +121,17 @@ li#black-navigation-menu-wrapper a#top-nav-level-one-black-navigation {
     li#black-navigation-menu-wrapper a#top-nav-level-one-black-navigation {
         color: white;
     }
+
+    .row.content { 
+        background: $atmosphere-grey;
+
+        h1,h2,h3 {
+            background: $atmosphere-grey; 
+            color: #ddd;
+        }
+        a { color: $atmosphere-gold; border-bottom: solid 1px $atmosphere-gold; }
+    }
+    .unioncloud-sub-site-option .row.content a { border:none; }
 
     #main-menu {
         padding: 25px 0;
@@ -172,20 +211,42 @@ li#black-navigation-menu-wrapper a#top-nav-level-one-black-navigation {
         }
     }
 
-    #hero-image .hero {
-        background-color: $atmosphere-grey;
-        background-image: none;
-        padding: 0;
-    }
+
     .default-body .block-menu li,
-    .block-menu li {
-        background-color: #353333;
-        a {
-            color: #fff;
-            img {
-                border-color: #ddd;
+    .block-menu {
+        display: flex;
+        li {
+            background-color: #353333;
+            width:50%;
+            height:auto;
+            a {
+                color: #fff;
+                img {
+                    width: 100% !important;
+                    height: auto !important;
+                    border-color: $atmosphere-gold;
+                }
             }
+            padding-bottom:1em;
+
         }
     }
+    .default-body table th,
+    .default-body table td {
+        background: $atmosphere-grey;
+        border-color: $atmosphere-gold;
+    }
+    .default-body table th { background-color: #000; }
+    .default-body table tr:nth-child(even) td {
+        background-color: #000;
+    }
+    
     body { color: #fff; }
+
+    #union-logo a {
+        background-image: url(//nusdigital.s3.amazonaws.com/union_logo/images/41/original/Union_400_px.jpg);
+    }
+    #top-navigation ul li#atmosphere-menu-wrapper a {
+        color: $white;
+    }
 }

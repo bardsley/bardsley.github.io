@@ -444,14 +444,17 @@
     color: $white;
 }
 
+#top-navigation ul li#atmosphere-menu-wrapper a {
+    color: $atmosphere-dark;
+}
+
 #uc-page-id-bar-cafe-offers h1,
 #salford-atmosphere h1 {
     color: $offers-base;
     background: $offers-light-bg;
 }
 
-#uc-page-id-bar-cafe-offers #section-head,
-#salford-atmosphere #section-head {
+#uc-page-id-bar-cafe-offers #section-head {
     background: $offers-base;
 }
 
@@ -504,7 +507,7 @@
 #uc-page-id-bar-cafe-offers .default-body .block-menu li img,
 #salford-atmosphere .default-body .block-menu li img,
 #salford-atmosphere .block-menu li img {
-    border-bottom: 4px solid$offers-base;
+    border-bottom: 4px solid $offers-base;
 }
 
 #uc-page-id-bar-cafe-offers a.more,
@@ -533,8 +536,7 @@
     background: $offers-light-bg;
 }
 
-#uc-page-id-bar-cafe-offers .default-body table th,
-#salford-atmosphere .default-body table th {
+#uc-page-id-bar-cafe-offers .default-body table th {
     background: $offers-base;
     border: 1px solid$offers-base;
 }

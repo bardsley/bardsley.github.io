@@ -574,14 +574,17 @@ h1, .section h1, h2, .section h2, h3, .section h3, h4, .section h4, .view-manife
   color: white;
 }
 
+#top-navigation ul li#atmosphere-menu-wrapper a {
+  color: #131111;
+}
+
 #uc-page-id-bar-cafe-offers h1,
 #salford-atmosphere h1 {
   color: #03A9F4;
   background: #F1F5FE;
 }
 
-#uc-page-id-bar-cafe-offers #section-head,
-#salford-atmosphere #section-head {
+#uc-page-id-bar-cafe-offers #section-head {
   background: #03A9F4;
 }
 
@@ -663,8 +666,7 @@ h1, .section h1, h2, .section h2, h3, .section h3, h4, .section h4, .view-manife
   background: #F1F5FE;
 }
 
-#uc-page-id-bar-cafe-offers .default-body table th,
-#salford-atmosphere .default-body table th {
+#uc-page-id-bar-cafe-offers .default-body table th {
   background: #03A9F4;
   border: 1px solid #03A9F4;
 }
@@ -5908,9 +5910,40 @@ li#black-navigation-menu-wrapper a#top-nav-level-one-black-navigation {
   border-color: #000000;
 }
 
+#salford-atmosphere {
+  background: #262424;
+}
+#salford-atmosphere body {
+  background: #262424;
+}
 #salford-atmosphere .unioncloud-sub-site-option .row.content,
 #salford-atmosphere .wrapper {
   background-color: #262424;
+}
+#salford-atmosphere #hero-image {
+  margin-bottom: 0;
+}
+#salford-atmosphere #hero-image .hero {
+  padding: 3em;
+  background-color: #262424;
+  background-image: url("https://nusdigital.s3.amazonaws.com/image/images/361920/original/Untitled_design_Blank.jpg");
+  background-repeat: none;
+  background-size: cover;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#salford-atmosphere #hero-image .hero img {
+  display: block;
+  width: 400px;
+  margin: 5em auto;
+}
+#salford-atmosphere #section-head {
+  background-color: #262424;
+  margin-top: 0;
 }
 #salford-atmosphere .header,
 #salford-atmosphere #top-navigation {
@@ -5925,6 +5958,20 @@ li#black-navigation-menu-wrapper a#top-nav-level-one-black-navigation {
 }
 #salford-atmosphere li#black-navigation-menu-wrapper a#top-nav-level-one-black-navigation {
   color: white;
+}
+#salford-atmosphere .row.content {
+  background: #262424;
+}
+#salford-atmosphere .row.content h1, #salford-atmosphere .row.content h2, #salford-atmosphere .row.content h3 {
+  background: #262424;
+  color: #ddd;
+}
+#salford-atmosphere .row.content a {
+  color: #f7e69e;
+  border-bottom: solid 1px #f7e69e;
+}
+#salford-atmosphere .unioncloud-sub-site-option .row.content a {
+  border: none;
 }
 #salford-atmosphere #main-menu {
   padding: 25px 0;
@@ -6002,25 +6049,46 @@ li#black-navigation-menu-wrapper a#top-nav-level-one-black-navigation {
 #salford-atmosphere #main-menu ul #home-menu-wrapper:before {
   display: none;
 }
-#salford-atmosphere #hero-image .hero {
-  background-color: #262424;
-  background-image: none;
-  padding: 0;
-}
 #salford-atmosphere .default-body .block-menu li,
+#salford-atmosphere .block-menu {
+  display: flex;
+}
+#salford-atmosphere .default-body .block-menu li li,
 #salford-atmosphere .block-menu li {
   background-color: #353333;
+  width: 50%;
+  height: auto;
+  padding-bottom: 1em;
 }
-#salford-atmosphere .default-body .block-menu li a,
+#salford-atmosphere .default-body .block-menu li li a,
 #salford-atmosphere .block-menu li a {
   color: #fff;
 }
-#salford-atmosphere .default-body .block-menu li a img,
+#salford-atmosphere .default-body .block-menu li li a img,
 #salford-atmosphere .block-menu li a img {
-  border-color: #ddd;
+  width: 100% !important;
+  height: auto !important;
+  border-color: #f7e69e;
+}
+#salford-atmosphere .default-body table th,
+#salford-atmosphere .default-body table td {
+  background: #262424;
+  border-color: #f7e69e;
+}
+#salford-atmosphere .default-body table th {
+  background-color: #000;
+}
+#salford-atmosphere .default-body table tr:nth-child(even) td {
+  background-color: #000;
 }
 #salford-atmosphere body {
   color: #fff;
+}
+#salford-atmosphere #union-logo a {
+  background-image: url(//nusdigital.s3.amazonaws.com/union_logo/images/41/original/Union_400_px.jpg);
+}
+#salford-atmosphere #top-navigation ul li#atmosphere-menu-wrapper a {
+  color: white;
 }
 
 .unioncloud-sub-site-option #union-logo a {
