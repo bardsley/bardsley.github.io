@@ -23,18 +23,28 @@ $welcome-touch: #e7e9f7;
       text-align: center;
     }
   }
+  .circles,
   #circles {
+    max-width: 1440px;
+    margin: 0 auto;
+    .clear {
+      display: none;
+    }
     > div {
       display: flex;
       flex-wrap: wrap;
-      justify-content: space-around;
+      justify-content: center;
       .uc-page-wrap,
       .edit-mode-page {
         width: 250px;
         height: 250px;
 
         position: relative;
-        // margin: 0 1em 0 0;
+        margin: 0 1em;
+        .edit-mode-page {
+          margin: 0;
+        }
+
         .text::before {
           content: "";
           width: 50%;
@@ -136,96 +146,60 @@ $welcome-touch: #e7e9f7;
       }
     }
   }
+
+  .block-menu {
+    li {
+      background: #fff;
+      img {
+        margin-bottom: -5px;
+      }
+    }
+    h3 {
+      color: #fff;
+      font-size: 2em;
+      width: 100%;
+      padding: 0.5em 0.7em 0.5em 0.5em;
+      margin-bottom: 0.5em;
+      box-sizing: border-box;
+      background-color: $welcome-dark;
+    }
+    p {
+      padding: 0 1em;
+      font-weight: normal;
+    }
+  }
+  #vacancies h2 {
+    text-align: center;
+  }
+  #vacancies-wrap {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    > div {
+      min-width: 300px;
+      max-width: 400px;
+      background: #fff;
+      margin: 1em;
+      a {
+        display: block;
+        padding: 1em;
+        .page-details {
+          width: 100%;
+          float: unset;
+          .page-title {
+            font-weight: bold;
+            font-size: 1.4em;
+          }
+          .custom-title {
+            font-size: 1.1em;
+            color: black;
+            font-weight: normal;
+          }
+        }
+      }
+    }
+    .clear {
+      display: none;
+    }
+  }
 }
-// .unioncloud-sub-site-option #union-logo a {
-//   background-image: url("//nusdigital.s3.amazonaws.com/union_logo/images/41/original/Union_400_px.jpg");
-// }
-
-// // TODO Temporary Welcome Week Fix
-// body#uc-page-id-settle-in-with-umii,
-// body#uc-page-id-who-we-are,
-// body[id^="union-event-id-"] {
-//   .title h1 {
-//     color: $white;
-//     background: $welcome-dark;
-//   }
-//   .wrapper .row.content {
-//     background-color: $welcome-touch;
-//     border-bottom: solid 10px $welcome-light;
-//     #uc-events-details-page {
-//       h1,
-//       h2,
-//       h3,
-//       h4 {
-//         color: $welcome-dark;
-//       }
-//       .add-to-calendar .title {
-//         background-color: $welcome-dark;
-//       }
-//     }
-//   }
-// }
-
-// #hero-image {
-//   margin-bottom: 0;
-//   .hero {
-//     padding: 3em;
-//     background-color: $welcome-dark;
-//     background-image: linear-gradient(#{$welcome-light} 55%, #{$welcome-dark});
-//     img {
-//       display: block;
-//       width: 400px;
-//       margin: 0 auto;
-//     }
-//   }
-// }
-
-// #blocks {
-//   .body-width-wrap {
-//     box-sizing: border-box;
-//     padding: 0 1%;
-//     width: 100%;
-//     max-width: 1170px;
-//     margin: 0 auto;
-//   }
-//   #section-head {
-//     margin-top: 0;
-//     background-color: $welcome-light;
-//   }
-//   .block-menu {
-//     box-sizing: border-box;
-//     margin: 0 auto;
-//     max-width: 1170px;
-//     li {
-//       box-sizing: border-box;
-//       min-width: 46%;
-//       background-color: $welcome-dark;
-//       height: auto;
-//       padding-bottom: 0.6em;
-//       img {
-//         border-color: $welcome-light;
-//         width: 100% !important;
-//         height: auto !important;
-//       }
-//       a {
-//         color: $white;
-//       }
-//     }
-//   }
-// }
-
-// .unioncloud-sub-site-option .row.content {
-//   background-color: $welcome-background;
-// }
-
-// @media (max-width: 769px) {
-//   #calendar.welcome-calendar {
-//     .date {
-//       border-radius: unset;
-//       background-color: $welcome-dark;
-//       color: $white;
-//       padding: 0.5em 1em;
-//       width: calc(100% - 2em);
-//     }
-//   }
-// }

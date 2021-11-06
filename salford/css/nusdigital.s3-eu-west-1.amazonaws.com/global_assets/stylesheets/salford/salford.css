@@ -6321,17 +6321,38 @@ body[id^=union-event-id-] .wrapper .row.content #uc-events-details-page .add-to-
 #salford-careers #values h2 {
   text-align: center;
 }
+#salford-careers .circles,
+#salford-careers #circles {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+#salford-careers .circles .clear,
+#salford-careers #circles .clear {
+  display: none;
+}
+#salford-careers .circles > div,
 #salford-careers #circles > div {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
+#salford-careers .circles > div .uc-page-wrap,
+#salford-careers .circles > div .edit-mode-page,
 #salford-careers #circles > div .uc-page-wrap,
 #salford-careers #circles > div .edit-mode-page {
   width: 250px;
   height: 250px;
   position: relative;
+  margin: 0 1em;
 }
+#salford-careers .circles > div .uc-page-wrap .edit-mode-page,
+#salford-careers .circles > div .edit-mode-page .edit-mode-page,
+#salford-careers #circles > div .uc-page-wrap .edit-mode-page,
+#salford-careers #circles > div .edit-mode-page .edit-mode-page {
+  margin: 0;
+}
+#salford-careers .circles > div .uc-page-wrap .text::before,
+#salford-careers .circles > div .edit-mode-page .text::before,
 #salford-careers #circles > div .uc-page-wrap .text::before,
 #salford-careers #circles > div .edit-mode-page .text::before {
   content: "";
@@ -6342,6 +6363,8 @@ body[id^=union-event-id-] .wrapper .row.content #uc-events-details-page .add-to-
   shape-outside: polygon(0 0, 98% 0, 50% 6%, 23.4% 17.3%, 6% 32.6%, 0 50%, 6% 65.6%, 23.4% 82.7%, 50% 94%, 98% 100%, 0 100%);
   shape-margin: 12%;
 }
+#salford-careers .circles > div .uc-page-wrap .text,
+#salford-careers .circles > div .edit-mode-page .text,
 #salford-careers #circles > div .uc-page-wrap .text,
 #salford-careers #circles > div .edit-mode-page .text {
   font-size: 2em;
@@ -6353,6 +6376,8 @@ body[id^=union-event-id-] .wrapper .row.content #uc-events-details-page .add-to-
   margin: 0;
   color: white;
 }
+#salford-careers .circles > div .uc-page-wrap .text .innards,
+#salford-careers .circles > div .edit-mode-page .text .innards,
 #salford-careers #circles > div .uc-page-wrap .text .innards,
 #salford-careers #circles > div .edit-mode-page .text .innards {
   height: 100%;
@@ -6362,10 +6387,14 @@ body[id^=union-event-id-] .wrapper .row.content #uc-events-details-page .add-to-
   font-style: italic;
   text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.3);
 }
+#salford-careers .circles > div .uc-page-wrap .text .innards p,
+#salford-careers .circles > div .edit-mode-page .text .innards p,
 #salford-careers #circles > div .uc-page-wrap .text .innards p,
 #salford-careers #circles > div .edit-mode-page .text .innards p {
   text-align: center;
 }
+#salford-careers .circles > div .uc-page-wrap .text .innards h3,
+#salford-careers .circles > div .edit-mode-page .text .innards h3,
 #salford-careers #circles > div .uc-page-wrap .text .innards h3,
 #salford-careers #circles > div .edit-mode-page .text .innards h3 {
   text-align: center;
@@ -6374,6 +6403,8 @@ body[id^=union-event-id-] .wrapper .row.content #uc-events-details-page .add-to-
   color: #fff;
   margin-bottom: 0.2em;
 }
+#salford-careers .circles > div .uc-page-wrap .text .innards::before,
+#salford-careers .circles > div .edit-mode-page .text .innards::before,
 #salford-careers #circles > div .uc-page-wrap .text .innards::before,
 #salford-careers #circles > div .edit-mode-page .text .innards::before {
   content: "";
@@ -6383,10 +6414,14 @@ body[id^=union-event-id-] .wrapper .row.content #uc-events-details-page .add-to-
   shape-outside: polygon(2% 0%, 100% 0%, 100% 100%, 2% 100%, 50% 94%, 76.6% 82.7%, 94% 65.6%, 100% 50%, 94% 32.6%, 76.6% 17.3%, 50% 6%);
   shape-margin: 12%;
 }
+#salford-careers .circles > div .uc-page-wrap .text.blue,
+#salford-careers .circles > div .edit-mode-page .text.blue,
 #salford-careers #circles > div .uc-page-wrap .text.blue,
 #salford-careers #circles > div .edit-mode-page .text.blue {
   background: radial-gradient(ellipse at center, #0050A0 0%, #0050A0 70%, rgba(0, 128, 172, 0) 70.3%);
 }
+#salford-careers .circles > div .edit-mode-page::before,
+#salford-careers .circles > div .uc-page-wrap::before,
 #salford-careers #circles > div .edit-mode-page::before,
 #salford-careers #circles > div .uc-page-wrap::before {
   content: "“";
@@ -6401,6 +6436,59 @@ body[id^=union-event-id-] .wrapper .row.content #uc-events-details-page .add-to-
   font-family: sans-serif, serif;
   color: #ccc;
   opacity: 0.9;
+}
+#salford-careers .block-menu li {
+  background: #fff;
+}
+#salford-careers .block-menu li img {
+  margin-bottom: -5px;
+}
+#salford-careers .block-menu h3 {
+  color: #fff;
+  font-size: 2em;
+  width: 100%;
+  padding: 0.5em 0.7em 0.5em 0.5em;
+  margin-bottom: 0.5em;
+  box-sizing: border-box;
+  background-color: #26276a;
+}
+#salford-careers .block-menu p {
+  padding: 0 1em;
+  font-weight: normal;
+}
+#salford-careers #vacancies h2 {
+  text-align: center;
+}
+#salford-careers #vacancies-wrap {
+  display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+#salford-careers #vacancies-wrap > div {
+  min-width: 300px;
+  max-width: 400px;
+  background: #fff;
+  margin: 1em;
+}
+#salford-careers #vacancies-wrap > div a {
+  display: block;
+  padding: 1em;
+}
+#salford-careers #vacancies-wrap > div a .page-details {
+  width: 100%;
+  float: unset;
+}
+#salford-careers #vacancies-wrap > div a .page-details .page-title {
+  font-weight: bold;
+  font-size: 1.4em;
+}
+#salford-careers #vacancies-wrap > div a .page-details .custom-title {
+  font-size: 1.1em;
+  color: black;
+  font-weight: normal;
+}
+#salford-careers #vacancies-wrap .clear {
+  display: none;
 }
 
 /* ======================
