@@ -3,7 +3,10 @@
 Compilation commands
 
 1. Run in console -> This removes the ?v=1234567 to allow overrides
-    document.querySelectorAll('link[href*=salford]')[1].href = "//nusdigital.s3-eu-west-1.amazonaws.com/global_assets/stylesheets/salford/salford.css" 
+    document.querySelectorAll('link[href*=salford]')[1].href = "//nusdigital.s3-eu-west-1.amazonaws.com/global_assets/stylesheets/salford/salford.css"  
+
+    A bookmark for this is : 
+    javascript: (() => {  document.querySelectorAll('link[href*=salford]')[1].href = "//nusdigital.s3-eu-west-1.amazonaws.com/global_assets/stylesheets/salford/salford.css" })();
 
 2. Then add a chrome overide directory for css folder and save the salford.css for overides
 
@@ -115,7 +118,6 @@ div#uc-vol-opp-details-page {
 
 // DEBUG CODE
 .header:before {
-  position: absolute;
   content: "SASS generated CSS, remove for upload";
   background-color: red;
   color: #ffffff;
@@ -123,4 +125,7 @@ div#uc-vol-opp-details-page {
   padding: 5px 10px;
   width: 100%;
   z-index: 100000;
+  animation:blinkingText 1.2s infinite;
+  position: fixed; top:0;
 }
+@keyframes blinkingText{  0%{     color: #fff;    } 60%{    color: #ffff00; } 100%{   color: #fff;    } }

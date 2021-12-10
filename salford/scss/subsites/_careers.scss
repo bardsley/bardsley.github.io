@@ -9,6 +9,18 @@ $welcome-touch: #e7e9f7;
 
   #hero-image .hero {
     padding: 3em 3em 0em 3em;
+    min-height: 350px;
+    h1 { 
+      color: #fff;
+      background: none;
+      position:absolute;
+      bottom:0;
+      text-shadow: 0.2em 0.2em 0.2em #000;
+    }
+    a { display:block; }
+    img {
+      min-height: 350px; width:auto;
+    }
   }
 
   #introduction {
@@ -23,6 +35,7 @@ $welcome-touch: #e7e9f7;
       text-align: center;
     }
   }
+  #values .circles .innards h3 { font-size: 1.6em; }
   .circles,
   #circles {
     max-width: 1440px;
@@ -128,6 +141,7 @@ $welcome-touch: #e7e9f7;
             rgba(0, 128, 172, 0) 70.3%
           );
         }
+       
       }
       .edit-mode-page::before,
       .uc-page-wrap::before {
