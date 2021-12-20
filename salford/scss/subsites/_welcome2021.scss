@@ -109,7 +109,9 @@ body[id^="union-event-id-"] {
     background: $welcome-dark;
   }
   tbody .days:nth-of-type(2),
-  tbody .days:nth-of-type(3) {
+  tbody .days:nth-of-type(3),
+  tbody .days:nth-of-type(4),
+  tbody .days:nth-of-type(5) {
     display: none;
   }
   tbody .days:nth-of-type(5) td {
