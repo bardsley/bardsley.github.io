@@ -1,11 +1,3 @@
-TODO
-=========
-
-* Signin logo
-* mid-size menu has gap
-* Fix menu after recent changes for media queries
-* Add selection for mobile click
-
 Phase 1
 =======
 - [x] All site and Homepage
@@ -15,6 +7,9 @@ Phase 1
 - [ ] Fix articles to match bristol Double column
 - [x] Native widget - shrink and add a button to undebbangor.native.fm
 - [ ] Add curves in other places to bring things together
+- [x] mid-size menu has gap
+- [ ] Signin logo
+- [ ] Footer mobile shape fix
 
 Groups page
 ------
