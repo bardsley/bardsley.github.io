@@ -1,0 +1,19 @@
+.wrapper .content  #uc-articles-details { 
+    .eightcol { width: 100%; } 
+    .portletTitles {
+        padding:0;
+        h1 {
+            font-family: $header-font; font-weight: 900;
+            color: #fff; background-color: $base-green;
+            clip-path: $right-slant; margin-bottom:0;
+        }
+    }
+    .articleDetails { 
+        background-color: #fff;
+        padding: $base-margin;
+        margin-bottom:0; margin-top:0;
+    }
+    .more-article-block {margin-bottom: $base-margin; }
+    .more-article-block,
+    .more-article-block .more-article-block-wrapper ul li { background-color: #fff; border:none; }
+}

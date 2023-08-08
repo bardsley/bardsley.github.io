@@ -1,0 +1,63 @@
+/* Articles wide changes - Adam Bardsley*/ 
+
+.home-content-wrap  #latest-articles .article-widget .top-articles {
+    display: flex; flex-wrap: wrap; gap: 20px;
+    justify-content: space-between;
+    li.jcarousel-item {
+        width: unset;
+        .article-thumbnail {
+            display: block;
+        }
+        .article-content {
+            width: 210px;
+            .date { 
+                display: block; 
+                a { font-size: 0.9em; }
+            }
+            .headline { font-size: 1.2em; height: 4em;}
+        }
+        
+    }
+}
+
+@media screen and (max-width: 1199px) {
+
+    .home-content-wrap  #latest-articles .article-widget .top-articles li.jcarousel-item:nth-child(1n+5) {
+        display: none;
+    }
+
+    
+}
+
+@media screen and (max-width: 991px) {
+    .home-content-wrap  #latest-articles .article-widget .top-articles li.jcarousel-item:nth-child(1n+4) {
+        display: none;
+    }
+
+    .home-content-wrap #latest-articles .article-widget .top-articles li.jcarousel-item:nth-child(n) {
+        .article-thumbnail { width: 220px; }
+        .article-content { 
+            width: 220px;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) { 
+
+    .home-content-wrap #latest-articles .article-widget .top-articles li.jcarousel-item:nth-child(n) {
+        width: 100%; 
+        .article-thumbnail{ 
+            width: 100%; 
+            img { width: 100%; }
+        }
+        .article-content { width: 100%;
+            font-size: 1.4em;
+            .headline {
+                height: unset;
+                font-size: 1.4em;
+            }
+        }
+
+    }
+
+}

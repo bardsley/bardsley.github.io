@@ -1,0 +1,13 @@
+html { box-sizing: border-box; background: $gentle-yellow; }
+*, *:before, *:after { box-sizing: inherit; }
+
+.wrapper { display: flex; flex-flow: column nowrap;}
+.wrapper>* { order: 100; }
+img { display: block;}
+.column .column-content { background-image: none; font-size: 1em;}
+
+.thumbnail-image {
+    float: unset;
+    width: unset;
+}
+// Cant remove whilst still have UC native work in place .clear { clear:unset; display: none;}

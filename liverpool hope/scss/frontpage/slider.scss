@@ -1,0 +1,39 @@
+#fp-rotator {
+    display: block; position: relative;
+    .uc-rslides_container {
+        .uc-page-wrap {background-color: unset;padding: 0;}
+        .prev { 
+            background-color: $gentle-yellow; 
+            clip-path: $final-clip;  left: -20px; padding: 20px 35px;
+            background-position-x: 20px;
+        }
+    
+        .next { 
+            background-color: $gentle-yellow; 
+            clip-path: $final-clip;  right: -20px; padding: 20px 35px;
+            background-position-x: -26px;
+        }
+        .page-details,
+        .uc-slider-banner,
+        .jcarousel-container-horizontal
+        { display: none !important;}
+    
+        .slide .uc-has-banner,
+        .slide .uc-link-block { 
+            display: flex; flex-direction: column; align-items:flex-end;
+            position: relative;
+            .page-title { 
+                order: 2; position: absolute; 
+                bottom:0; justify-self: flex-end;
+                font-size: 1.2em; padding: 1em 2em 1em 3em;
+                clip-path: $left-slant; width: auto;
+                font-family: $header-font;
+                font-weight: 900; letter-spacing: 0.1em;
+            }
+        
+        }
+        .uc-rslides .slide:nth-of-type(3n+1) .page-title { background-color: $base-pink; }
+        .uc-rslides .slide:nth-of-type(3n+2) .page-title { background-color: $base-orange; }
+        .uc-rslides .slide:nth-of-type(4n+3) .page-title { background-color: $base-yellow; }
+    }
+}

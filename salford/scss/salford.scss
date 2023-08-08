@@ -25,7 +25,11 @@ Compilation commands
 @import "section_colours.scss";
 @import "header.scss";
 @import "footer.scss";
+
 @import "home.scss";
+@import "home/articles.scss";
+
+
 @import "cms.scss";
 @import "articles.scss";
 @import "officers.scss";

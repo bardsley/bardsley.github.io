@@ -1,0 +1,56 @@
+$button-clip-start: polygon(20px 0%, calc(100% - 20px) 0%, calc(100% - 20px) 100%, 20px 100%);
+$button-clip-end: polygon(20px 0, 100% 0%, calc(100% - 20px) 100%, 0% 100%);;
+
+.uc-page-wrap { 
+    background-color: #fff;
+}
+.default-body,
+.uc-page-wrap {
+   
+    padding: $base-margin; 
+    p { margin-bottom: calc($base-margin/2); }
+    a.button { 
+        float:unset; display: block; width:fit-content;
+        clip-path: $button-clip-start; position:relative; left:-20px;
+        padding: 1em calc(2em + 20px); font-size: 1em; font-weight: 700; font-family: $header-font;
+        animation: buttonunslide 1s 1;
+    }
+    a.button:hover {
+        clip-path: $final-clip; position: relative;
+        animation: buttonslide 1s 1;
+    }
+    a.button.pink { background-color: $base-pink;}
+    a.button.orange { background-color: $base-orange;}
+    a.button.green { background-color: $base-green;}
+    a.button.yellow { background-color: $base-yellow; color: $dark-pink; }
+
+
+}
+
+.default-body {
+    background-color: rgba(255,255,255,0.8);
+    a.button {
+        font-size: 1.2em;
+        margin-left: 1em;
+    }
+}
+
+@keyframes buttonslide {
+    0% { 
+        clip-path: $button-clip-start;
+    } 
+    100% { 
+        clip-path: $button-clip-end;
+    }
+}
+
+@keyframes buttonunslide {
+    0% { 
+        clip-path: $button-clip-end;
+
+    }
+    100% { 
+        clip-path: $button-clip-start;
+
+    }
+}

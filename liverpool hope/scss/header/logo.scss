@@ -1,0 +1,19 @@
+#union-logo,
+#union-logo h1 {
+    width:unset; height:unset; margin: unset; padding:unset; top:unset;
+}
+#union-logo {
+    position: relative; 
+    left: -20px; bottom: 5px;
+}
+#union-logo h1 a {
+    img { 
+        max-height:unset; max-width:unset; 
+        width: 200px;
+        min-width: 180px; max-width: 250px;
+        margin: calc(-1*$base-margin) 
+        calc(-1*$base-margin) 
+        calc(-5.35*$base-margin) 
+        calc(-1*$base-margin) ; 
+    }
+} 

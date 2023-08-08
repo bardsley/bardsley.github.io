@@ -1,9 +1,0 @@
-:root {
-    --width-stop: 1440px;
-    --bright-pink: #ff3381;
-    --default-pink: #ff00a9;
-    --dark-pink: #8f178f;  /* #8f177d */
-    --dark-grey: #ccc;
-    --pink-fade: linear-gradient(120deg, var(--bright-pink) 0%, var(--default-pink) 100%);
-    --dark-pink-fade: linear-gradient(120deg, var(--default-pink) 0%, var(--dark-pink) 100%);
-}

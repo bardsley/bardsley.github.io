@@ -1,0 +1,60 @@
+
+/********** Core Hope Colours *************/
+$light-green: #74AF5D; /* Light Green #74AF5D*/
+$base-green: #4e8c36; /* Base Green #4e8c36 */
+$dark-green: #3F702C; /* Dark Green #3F702C */
+$light-pink: #d3819f; /* Light Pink #d3819f */
+$base-pink: #B4436C; /* Base Pink #B4436C */
+$dark-pink: #7E183D; /* Dark Pink #7E183D */
+$gentle-yellow: #F8F2E5; /* Light Yellow #F8F2E5 */
+$base-yellow: #F2C14E; /* Base Yellow #F2C14E */
+$base-orange: #F78154; /* Base Orange #F78154*/
+$light-grey: #ddd; /* Light Grey #ddd */
+
+
+/********** Margin & Padding *************/
+$base-margin: 20px; /* Base Margin 20px */
+
+/********** Fonts and Font Sizes *************/
+
+$header-font: 'Nunito', sans-serif;
+$body-font: Arial, Helvetica, sans-serif;
+
+/*************** Shadows ***************/
+
+$box-shadow: 0 9px 10px -9px  rgba(0,0,0,0.3);
+$box-shadow-deep: 5px 12px 15px -5px  rgba(0,0,0,0.6);
+$box-shadow-footer: 0 -9px 10px -9px  rgba(0,0,0,0.3);
+
+
+/* skew animations*/
+$start-clip: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+$final-clip: polygon(20px 0, 100% 0%, calc(100% - 20px) 100%, 0% 100%);
+$left-slant: polygon(40px 0, 100% 0%, 100% 100%, 0% 100%);
+$right-slant: polygon(0 0, calc(100% - 40px) 0%, 100% 100%, 0% 100%);
+
+@keyframes slide {
+    0% { 
+        clip-path: $start-clip;
+        width: 100%;
+        left: 0%; right:0;
+    }
+    100% { 
+        clip-path: $final-clip;
+        width:  calc( 100% + 40px) ;
+        left: -20px; right: -20px;
+    }
+}
+
+@keyframes unslide {
+    0% { 
+        clip-path: $final-clip;
+        width:  calc( 100% + 40px) ;
+        left: -20px; right: -20px;
+    }
+    100% { 
+        clip-path: $start-clip;
+        width: 100%;
+        left: 0; right: 0;
+    }
+}

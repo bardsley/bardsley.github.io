@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+* { font-family: 'Josefin Sans', sans-serif !important; }
+.top-social div.mmu-top-links{ font-size: 22px; margin: 16px 0;}
+#top-navigation .nav-wrap { margin-top: 100px; }
+.profile-setting,
+.profile-name-wrapper { width: auto; }
+.profile-setting a.profile-name .user-name { line-height: 1em; }
+
+li#student_discounts {
+    display: none !important
+}
+
+.uc-leaderboard-advertisement {
+    width: 100%;
+    top: -135px;
+    max-width: 1280px;
+    right: 0
+}
+
+.top-ad {
+    width: auto
+}
+
+#mobilink-menu-wrapper {
+    display: none
+}
+
+@media screen and (max-width:1280px) {
+    .top-ad {
+        right: 2%;
+        width: 530px
+    }
+}
+
+@media screen and (max-width:768px) {
+    .top-ad {
+        right: 0;
+        width: 530px
+    }
+
+    #mobilink-menu-wrapper {
+        display: block
+    }
+}
+
+@media screen and (max-width:480px) {
+    .wrapper .top-ad {
+        width: auto
+    }
+
+    .row .header-wrap>.cart-account {
+        top: -5px
+    }
+}
+
+.mmu-socialMedia li {
+    list-style: none;
+    float: left
+}
+
+.bottom .list-wrap .column .twelvecol li,
+.bottom-union .list-wrap .column .twelvecol li {
+    list-style: none
+}
+
+.uc-widget-upcoming-events-wrapper h3 a,
+.off-title a {
+    text-decoration: none;
+    color: #84aad9
+}
+
+#union-logo a img {
+    display: none
+}
+
+.uc-widget-upcoming-events-wrapper h3 {
+    display: none
+}
+
+.row .more-eventslink {
+    display: block;
+    color: #84aad9;
+    font-size: 30px;
+    border: solid 2px #c1d4ec;
+    margin-top: -5px;
+    color: #84aad9;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 25px
+}
+
+@media screen and (max-width:480px) {
+    .home-content-html .uc-widget-upcoming-events {
+        padding-bottom: 20px
+    }
+}
+
+span.toggle-text {
+    display: none
+}
+
+.uc-position-details-wrapper,
+.uc-manifesto-guideline-wrapper {
+    display: block
+}
+
+#events-list-wrap>.edit-mode-page {
+    clear: both
+}

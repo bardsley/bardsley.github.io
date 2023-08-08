@@ -1,0 +1,46 @@
+.cart-account,
+.system-menu {
+    margin-bottom: $base-margin;
+    .uc-sign-link {
+        background-color: $base-orange;
+        color: #fff;
+        text-align: center;
+        font-family: $header-font;
+        font-weight: 700;
+        font-size: 1.2em;
+        display: flex;
+        padding:20px 40px;
+        height: 2em;
+        align-items: center;
+        position: relative;
+        width: 100%;       
+        clip-path: $start-clip;
+        animation: unslide 1s 1;
+        justify-content: center;
+        min-width: 8em;
+}
+    .uc-sign-link:focus, 
+    .uc-sign-link:hover {
+        animation: slide 1s 1;
+        clip-path: $final-clip;
+        width: calc( 100% + 40px) ;
+        left: -20px; right: -20px;
+    }
+
+}
+
+.cart-account {
+    .profile-setting a.profile-name {
+        height: auto;
+    }
+    
+    .profile-setting {
+        .profile-drop-down-menu,
+        a.profile-name.expanded {
+            background-color: $dark-pink;
+        }
+        ul li a {
+            border: none;
+        }
+    }
+}

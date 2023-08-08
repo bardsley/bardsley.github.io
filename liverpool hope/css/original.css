@@ -1,0 +1,67 @@
+/*PWA*/
+li#student_discounts {
+    display: none !important;
+}
+
+/*PWA*/
+
+/*hiding unwanted logo*/
+.section.union-footer {
+    background: none !important;
+}
+
+element {}
+
+.uc-icons-wrapper.uc-slider-icons {
+    background: #4E8C36;
+}
+
+.uc-icons-wrapper.uc-column-icons {
+    background: #4E8C36;
+}
+
+.uc-adv-admin .edit-mode-page .tool-bar.pagetoolbar .tool-bar-shadow {
+    background: #8cbe4a;
+    border: #8cbe4a;
+}
+
+.uc-adv-admin .edit-mode-page .tool-bar.linktoolbar .tool-bar-shadow {
+    background-color: #4E8C36;
+    border: 1px solid #4E8C36;
+}
+
+.section.union-footer {
+    background: green;
+    padding: 30px 0 0 0;
+}
+
+.ui-state-default a,
+.ui-state-default a:link,
+.ui-state-default a:visited,
+a.ui-button,
+a:link.ui-button,
+a:visited.ui-button,
+.ui-button {
+    color: #8cbe4a;
+}
+
+.section.union-footer p,
+.section.union-footer span {
+    color: #ffffff;
+}
+
+.section.union-footer .fourcol.column-content .page-title,
+.section.union-footer .sixcol.column-content .page-title,
+.section.union-footer .threecol.column-content .page-title {
+    text-shadow: none;
+    color: #ffffff;
+}
+
+#uc-group-homepage .uc-group-list-page-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#uc-group-homepage .page-separator-wrapper {
+    width: 100%;

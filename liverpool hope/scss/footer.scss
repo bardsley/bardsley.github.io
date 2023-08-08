@@ -1,0 +1,138 @@
+.bottom, .bottom-union {
+    background-image: none;
+    background-color: $base-green;
+    box-shadow: $box-shadow-footer;
+    border:none;
+    .page-title { display: block; width: 100%;}
+}
+
+#hope-su-footer-column-content {
+    background-image: unset;
+    .uc-page-wrap {
+        background-color: unset;
+        
+    }
+    
+    
+}
+
+.section.union-footer {
+    background-image: unset;
+}
+
+#footer-wrap {
+    display: flex; justify-content: space-between;
+    .column-content {
+        background-image: unset; padding-bottom: 0; margin:0;
+        width: 33%;
+        .uc-page-wrap {
+            background-color: unset; color: #fff;
+            .page-title,
+            p, ul, li,
+            p a { 
+                text-shadow: unset; color: #fff; text-decoration: none; 
+                font-size: 1em;
+            } 
+            ul { 
+                padding-top: 0.5em;
+                padding-left: 1em; 
+                a {
+                    color: #fff;
+                }
+            }
+        }    
+        .page-title, h3,
+            p, ul, li,
+            p a { 
+                text-shadow: unset; color: #fff; text-decoration: none; 
+                font-size: 1em;
+            } 
+            ul { 
+                padding-top: 0.5em;
+                padding-left: 1em; 
+                a {
+                    color: #fff;
+                }
+            }
+    }
+    padding-bottom: $base-margin;
+}
+#social-channels-column-content .uc-page-wrap,
+#social-channels-column-content .edit-mode-page {
+    display: flex; flex-wrap: wrap;
+    p { margin-right: calc($base-margin/2);}
+    .social {
+        border-radius: 50%; border: none;
+        background-color: #fff;
+        width: 50px; height: 50px;
+        position: relative; left: 0px; top: 0px;
+        text-indent: 2000%; overflow: hidden;
+        box-shadow: $box-shadow;
+        background-position: 50%;
+        animation: shrink 0.2s 1;
+    }
+
+    .social:hover, .social:focus {
+        box-shadow: $box-shadow-deep;
+        width: 60px; height: 60px; position: relative; left: -5px; top: -5px;
+        animation: grow 0.2s 1;
+    }
+
+    .instagram {
+        background-color: #C13584;
+        background-image: url('https://nusdigital.s3.amazonaws.com/image/images/467498/thumbnail/instagram-128.png');
+        background-size: 50% 50%; background-repeat: no-repeat;
+
+    }
+
+    .tiktok {
+        background-color: #FE2C55; 
+        background-image: url('https://nusdigital.s3.amazonaws.com/image/images/467497/thumbnail/tiktok-128.png');
+        background-size: 50% 50%; background-repeat: no-repeat;
+    }
+
+    .twitter {
+        background-color: #1D9BF0; 
+        background-image: url('https://nusdigital.s3.amazonaws.com/image/images/467496/thumbnail/twitter-128.png');
+        background-size: 50% 50%; background-repeat: no-repeat;
+    }
+
+    .facebook {
+        background-color: #4267B2; 
+        background-image: url('https://nusdigital.s3.amazonaws.com/image/images/467494/original/facebook-icon.png');
+        background-size: 70% 70%; background-repeat: no-repeat;
+    }
+}
+
+@keyframes grow {
+    0% { 
+        width: 50px; height: 50px;
+        left: 0px; top: 0px;
+
+    }
+    100% {
+        width: 60px; height: 60px; 
+        left: -5px; top: -5px;
+    }
+}
+
+@keyframes shrink {
+    0% { 
+        width: 60px; height: 60px; 
+        left: -5px; top: -5px;
+    }
+    100% {
+        width: 50px; height: 50px;
+        left: 0px; top: 0px;
+    }
+}
+
+@media screen and (max-width:565px) {
+    #footer-wrap {
+        flex-wrap: wrap;
+        .column-content {
+            width: 100%;
+        }
+    }
+    
+}

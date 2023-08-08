@@ -1,0 +1,18 @@
+## Compile into a uploadable CSS file
+
+ Usage: `sass --no-source-map --watch .\scss\hope.scss:.\overrides\nusdigital.s3-eu-west-1.amazonaws.com\global_assets\stylesheets\liverpoolhopesu\liverpoolhopesu.css`
+
+ Production usage
+ - finalise on development branch
+ - run `sass --no-source-map .\scss\hope.scss:.\css\20220930-1000.css`
+ - Update and README or changelog stuff
+ - Do deployment commit
+ - create a pull request
+ - upload to union cloud and run a sanity check
+
+<!-- ## Compile JS into a Single uploadable file
+
+- Install Node and NPM
+- Install roll-up (npm install --global rollup)
+- Change to javascript dir (cd javascript)
+- run `rollup src/index.js --file dist.js` -->

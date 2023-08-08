@@ -1,0 +1,56 @@
+#main-menu {
+    font-family: $header-font; 
+    position: relative;
+    ul li, 
+    ul li span { 
+        background: none;
+        a { color: $dark-pink; }
+    }
+    .nav-wrap {
+        margin-left: 140px;
+        font-size: 1.4em;
+        font-weight: 800;
+        letter-spacing: 0.02em;
+    }
+    .nav-wrap ul li span.has-link a {
+        padding:10px 15px;
+        clip-path: $start-clip;
+        animation: unslide 1s 1;
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+    .nav-wrap ul li span.has-link  a:focus, 
+    .nav-wrap ul li span.has-link  a:hover {
+    // .nav-wrap ul li a:focus,
+    // .nav-wrap ul li a:hover {
+        animation: slide 1s 1;
+        clip-path: $final-clip;
+        width: calc( 100% + 40px) ;
+        left: -20px; right: -20px;
+        background-color: $dark-pink;
+        color: #fff;
+    }
+    ul li ul { 
+        width: calc(100% + 20px); 
+        top: 2.4em;
+        left: -20px;
+        animation: shiftleft 1s 1;
+        border-color: $dark-pink ;
+        li a {
+            border-color: $dark-pink
+        }
+        box-shadow: $box-shadow;
+    }
+}
+
+@keyframes shiftleft {
+    0% { 
+       left: 0px; width:100%;
+    }
+    100% { 
+        left: -19px; width: calc(100% + 20px);
+    }
+}
+
+@import "phone.scss";

@@ -1,0 +1,52 @@
+@import "advert.scss";
+
+.row.header {
+    width: 100%;
+    .header-wrap { 
+        max-width: 960px; margin: 0 auto;
+        padding:0;
+
+        display: flex;
+        .cart-account, .system-menu, .search, .page-search .search-box .search-box-wrapper { position: relative; left:unset; right:unset; top:unset; bottom:unset;}
+
+        .cart-account,
+        .system-menu,
+        .search { margin-top: calc(3*$base-margin); }
+        
+        #union-logo { order: 1; }
+        .system-menu, .cart-account { order: 3; }
+        .search { order: 2; flex-grow: 1;}
+
+        @import "logo.scss";
+        @import "system-menu.scss";
+        @import "search.scss";
+
+    }
+}
+
+@media screen and (min-width: 880px ) {
+    .row.header {
+        .header-wrap { 
+            margin-top: calc(-2*$base-margin);
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .row.header { 
+        padding: 2em 1em 0;
+        .header-wrap { 
+            flex-wrap: wrap; justify-content: space-between;
+            margin: calc( $base-margin / 4); 
+            #union-logo  { order: 1; max-width: calc(30% - $base-margin);  }
+            .system-menu,
+            .cart-account { order: 2; max-width:70%;}
+            .search { 
+                order: 3; width: 100%; margin-top: $base-margin; margin-bottom: 0;
+                .search-box-wrapper {padding-bottom:0;}
+            }
+        }
+
+    }
+
+}

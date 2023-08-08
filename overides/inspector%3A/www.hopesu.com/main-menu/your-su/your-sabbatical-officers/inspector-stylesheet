@@ -1,0 +1,4 @@
+.section.default-body {
+    background: #fff;
+    clip-path: polygon(0 0,calc(100% - 40px) 0,100% 80px ,100% 100%, 0 100%);
+}

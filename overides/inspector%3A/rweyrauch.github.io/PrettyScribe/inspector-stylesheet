@@ -1,0 +1,4 @@
+div#detachment_sheets {
+    display: flex;
+    flex-wrap: wrap;
+}

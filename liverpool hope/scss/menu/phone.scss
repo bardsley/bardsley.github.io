@@ -1,0 +1,32 @@
+
+@media only screen and (max-width: 767px) {
+    .phone-menu {
+        background-color: $dark-green; height:unset; position: unset;
+        padding-left:15px;
+    }
+    
+    #main-menu {
+        position: absolute;
+        #main-menu-wrap {
+            // display: flex;
+            .nav-wrap { 
+                margin-left:0; 
+                ul {
+                    margin:0;
+                    >li {
+                        background-color: $base-pink;
+                        a { color: #fff; font-family: $header-font; font-size: 0.7em;}
+                        ul {
+                            width: 100%; left:0;
+                            li {
+                                a { background-color: $light-pink; font-size: 0.6em; padding-left: 1em;}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+        
+    }
+}

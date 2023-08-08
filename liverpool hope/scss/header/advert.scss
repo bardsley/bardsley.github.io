@@ -1,0 +1,28 @@
+.wrapper .uc-leaderboard-advertisement {
+    width: auto;
+    .top-ad { 
+        padding:0; position: relative;
+        top:unset; left:unset; right:unset; bottom:unset; width:unset; min-height:unset; 
+        a { width:unset; }
+    }
+}
+
+@media screen and (min-width: 728px ) {
+    .wrapper .uc-leaderboard-advertisement {
+        width: 100%;
+        max-width: 960px;
+        .top-ad {
+            max-width: 728px; 
+        }
+    }
+}
+
+
+@media screen and (min-width: 828px ) {
+    .wrapper .uc-leaderboard-advertisement {
+        .top-ad {
+            margin: $base-margin 0 0 auto;
+        }
+    }
+}
+

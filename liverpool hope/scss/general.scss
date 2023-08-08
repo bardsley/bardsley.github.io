@@ -1,0 +1,49 @@
+.wrapper { 
+    background-image: none; 
+    border-top: $base-margin $dark-green solid;
+    background-color: $gentle-yellow; 
+}
+
+.wrapper .uc-leaderboard-advertisement { order: 1; }
+.wrapper .header { order: 2; }
+.wrapper .content { 
+    width: 100%; background-color: $gentle-yellow; 
+    #uc-articles-news,
+    .wrap,
+    .content-wrap,
+    #uc-groups-details-page,
+    .event-details-wrapper,#uc-articles-details{ 
+        max-width: 960px; margin: 0 auto; 
+        float:none;
+    }
+    #uc-groups-details-page,
+    .event-details-wrapper { display: flex;}
+
+}
+.row.content {
+    background-image: url('https://nusdigital.s3.amazonaws.com/image/images/464345/original/backing.png'), url('https://nusdigital.s3.amazonaws.com/image/images/464345/original/backing.png');
+    background-position-x: -485px,calc(100% + 400px);
+    background-position-y: 0;
+    background-repeat: repeat-y;
+}
+
+.contentBoxes h2 {
+    background-color: $base-green;
+    color: #fff;
+    font-family: $header-font; background-image: none; padding: calc($base-margin / 2 ) calc($base-margin * 2) calc($base-margin / 2 ) $base-margin;
+    clip-path: $right-slant;
+}
+.content-wrap.ninecol>div { background: unset;}
+.tree-navigation {
+    background: #fff;
+    .clubSubMenu { display: none;}
+}
+
+.solid-white {
+    background-color: #fff;
+    margin-top: calc(-1 * $base-margin);
+    overflow: auto; margin-bottom: $base-margin;
+    padding: $base-margin;
+
+    img { margin-left: $base-margin; }
+}

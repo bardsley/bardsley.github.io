@@ -1,0 +1,40 @@
+.action_show_page .wrapper .content .row { 
+    display:flex; width: 960px; 
+
+    h1,h2,h3 {
+        font-family: $header-font;
+        font-size: 1.8em; font-weight: 900; letter-spacing: 0.1em;
+        background-color: $dark-green;
+        margin: 0;
+        padding: calc($base-margin / 2 ) $base-margin;
+        color: #fff;
+        clip-path: $right-slant;
+        text-transform: uppercase;
+        text-shadow: 1px 3px 5px rgba(0,0,0,0.8);
+        text-decoration: none;
+        background-image: none;
+        line-height: 1em; margin-bottom: $base-margin;
+        u { text-decoration: none;}
+    }
+    .section { box-shadow: none; margin-top:0;}
+    .content-wrap.ninecol>div {
+        background-image: none;
+    }
+
+    .left-nav-content {
+        margin-right:0;
+        .tree-navigation { background:unset; }
+        h3 { 
+            margin:0;
+            a { 
+                background-image: none;
+                color: #fff; font-family: $header-font; font-weight: 900;
+            }
+        }
+    }
+
+    .content-wrap {
+        margin-left: $base-margin;
+        >div { padding:0;}
+    }
+}

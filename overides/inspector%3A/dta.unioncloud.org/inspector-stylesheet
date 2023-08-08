@@ -1,0 +1,4 @@
+.uc-mega-menu-wrapper ul {
+    margin-top: 0;
+    padding-left: 0;
+}
