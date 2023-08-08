@@ -22,7 +22,9 @@
     --light-grey: #7c8b99;
     --dark-grey: #212529;
     --very-dark-grey: #111214;
-    --darken-background: rgba(0,0,0,0.2);
+    /* --darken-background: rgba(0,0,0,0.2); */
+    --darken-background: rgb(37, 13, 37,0.2);
+    --darken-background-dbl: rgb(37, 13, 37,0.4);
     --body-fade-color: var(--dark-grey);
     --body-fade-color-to: var(--very-dark-grey);
 
@@ -31,7 +33,7 @@
     --dark-pink-fade: linear-gradient(120deg, var(--default-pink) 0%, var(--dark-pink) 100%);
     --dark-background-fade: linear-gradient(120deg, var(--dark-grey) 0%, var(--very-dark-grey) 100%);
     --light-background-fade: linear-gradient(300deg, var(--light-grey) 0%, var(--dark-grey) 100%);
-    --darken-fade: linear-gradient(120deg, var(--darken-background) 0%, rgba(0,0,0,0) 100%);
+    --orange-fade: linear-gradient(120deg, var(--bright-orange) 50%, var(--default-orange) 100%);
     --darken-fade: linear-gradient(120deg, var(--darken-background) 0%, rgba(0,0,0,0) 100%);
     --body-fade: linear-gradient(120deg, var(--body-fade-color) 50%, var(--body-fade-color-to) 100%);
 
@@ -39,12 +41,26 @@
     --default-font-size: 1.2em;
     --body-font: var(--default-font);
     --header-font: var(--default-font);
+
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+    --font-weight-bold: 600;
+    
+
 }
+
+/* body {
+    font-size: 16px;
+} */
+a:link { color: var(--default-orange)}
+a:link:visited { color: var(--dark-orange)}
 
 /* Font Reset */
 body,a:link,.logged-in span.username,.system-menu,.system-menu a,.uc-leaderboard-advertisement,.header,.content .signIn h2,.signIn,a.buttonLink,.choosePlan,.sign-up .buttonrow input,.confirmation-email .buttonrow input,.unlock .buttonrow input,.change-password .buttonrow input,a.buttonLink,.section.powered-by .list-wrap,#officers .stripe-wrap a.uc-link-block,.section.stripe .stripe-wrap a.uc-link-block,#officers .stripe-wrap a.uc-page-block,.section.stripe .stripe-wrap a.uc-page-block,#officers .stripe-carousel ul,.section.stripe .stripe-carousel ul,.tab .ui-widget-content,.tab .ui-tabs .ui-tabs-nav li,.grid-carousel,.grid-carousel a span.page-details span.page-summary,.tab .grid-carousel a span.page-details .page-title,.three-column,.three-column-without-h2 h2,.three-column h1,.three-column h2,.three-column-without-h2 ul,.three-column-without-h2 ol,.three-column ul,.three-column ol,.three-column-without-h2 p,.three-column p,.three-column-without-h2 #latest-groups .top-groups .group .group-icon,.three-column #latest-groups .top-groups .group .group-icon,#latest-events .top-events li,#latest-events .more.more-events,#latest-groups .top-groups li,#latest-groups .more.more-groups,#latest-documents,#latest-articles,#latest-documents .top-documents li,#latest-articles .top-articles li,#latest-documents .more.more-documents,#latest-articles .more.more-articles,.section.union-footer .fourcol.column-content .uc-page-wrap a,.section.union-footer .sixcol.column-content .uc-page-wrap a,.section.union-footer .threecol.column-content .uc-page-wrap a,.section.union-footer .fourcol.column-content p,.section.union-footer .sixcol.column-content p,.section.union-footer .threecol.column-content p,.section.union-footer .fourcol.column-content .award-icons,.section.union-footer .sixcol.column-content .award-icons,.section.union-footer .threecol.column-content .award-icons,#crumbs,.tree-navigation-structure #uc-left-navigation ul li:last-child,#uc-left-navigation li,.tree-navigation ul,.tree-navigation .nav-level-one>li,#uc-left-navigation li a,.tree-navigation .nav-level-one .selected ul li a,.tree-navigation .nav-level-one .selected ul li a,#search-result h2 a,#search-result .pagination,h1,.content .row .content-wrap h1,h2,.content .row .content-wrap h2,h2,.content .row .content-wrap h2 a,h4,.content .row .content-wrap h4,h5,.content .row .content-wrap h5,h6,.content .row .content-wrap h6,.content .row .content-wrap p,.content .row .content-wrap table,.content .row .content-wrap table p,.content .row .content-wrap strong,.content .row .content-wrap ul,.content .row .content-wrap ol,.content .row .content-wrap .column-content p,.articleDetails .time,.articleDetails p,.articles p,.articleDetails ul,.articleDetails ol,.articleDetails,.contentContainer .backButton,.pagination,.search.eventsearch,.event-box .non-free-event-title,.event-details p,.tree-navigation .title h1,.tree-navigation ul,.tree-navigation ul li.selected a,.tree-navigation .latestEventLeftSide li .eventVenue,.tree-navigation h3,.tree-navigation ul li,#uc-groups-details-page .contentBoxes ol,#uc-groups-details-page .contentBoxes ul,#uc-events-details-page .contentBoxes ol,#uc-events-details-page .contentBoxes ul,.no-message,.slideContent .summaryText,#eventpromotioncarousel .jcarousel-skin-tango .jcarousel-item-horizontal,#calender-widget .cal-date li.last-child,#calender-widget .event-available ul.event-time,#calender-widget .cal-date li.last-child,#calender-widget .event-available ul.cal-time,#calender-widget .event-available ul.cal-time.bottom,#calender-widget .events-name ul ul li,#calender-widget .events-name ul span,#calender-widget .event-list .top-event-time,#calender-widget .event-list .bottom-event-time,#calender-widget .cal-month li,.tip-yellowsimple .event-details p,#shopping-cart .orderHeaderRow,#shopping-cart .orderRow,#shopping-cart .grandTotal .subTotal,#shopping-cart .grandTotal .sub-TotalPrice,#shopping-cart .grandTotal .vat-Price,#shopping-cart .grandTotal .grand-TotalPrice,#shopping-cart .orderHeaderRow .productQty,#shopping-cart .orderHeaderRow .productPrice,#shopping-cart .orderHeaderRow .Total,ul.tabs li,html ul.tabs li.active,.guestRegistrationForm .recaptchaGuestLabel,.guestRegistrationForm .recaptchaLabel,.guestRegistrationForm legend,.guestRegistrationForm ol li.text textarea,.guestRegistrationForm p.inline-hints,.guestRegistrationForm p.inline-errors,.wrap .content-wrap.home-content-wrap.subsites.ninecol.last,.tree-navigation ul li,.group-types ul li a,.group-category-title h2,.group-box .group-name,legend.formLegend,.group-confirmation-form p,fieldset.group-questions-form,.totalQuantityBought b,.new_group_membership .tree-navigation ul li.selected,#memberShipDisplay .memberShipType h2,.evo-group-widget,.evo-group-widget .top-groups,.evo-header-wrapper,.evo-header-wrapper h2,.evo-header-wrapper h3,.evo-header-wrapper .evo-timer,.categories-wrapper,.categories-wrapper .categories,.categories-wrapper .evo-header-wrapper h3,.categories-wrapper .evo-header-wrapper .evo-timer,.categories-wrapper .evoting-categories,.categories-wrapper .evoting-categories h2,.categories-wrapper .evoting-categories h3,.categories-wrapper .evoting-categories .evo-timer,.categories-wrapper .evoting-categories .evo-timer h3,.categories-wrapper .whatsthis,.categories-wrapper .evo-categories .evo-position-status,.categories-wrapper .evo-categories .evo-position-status a:link,.categories-wrapper .evo-categories .evo-position-status a:active,.categories-wrapper .evo-categories .evo-position-status a:visited,.categories-wrapper .evo-categories .evo-position-status a:hover,.categories-wrapper .evo-categories h3,.categories-wrapper .evo-ref-questions .evo-question,.categories-wrapper .evo-ref-questions .evo-question-status,.categories-wrapper .evo-ref-questions .evo-question-status-noeligible,.canditate-top-main-head,.canditate-top-main-head h2,.canditate-top-main-head h2 em,.ref-top-main-head h2 em,.ref-options-wrapper p a:link,.ref-options-wrapper p a:active,.ref-options-wrapper p a:visited,.ref-options-wrapper .evo-formrow,.ref-options-wrapper .evo-formrow label,.evo-confirm-ref-vote .evo-votechoice,.evo-confirm-ref-vote .evo-confirmbutton a:link,.evo-confirm-ref-vote .evo-confirmbutton a:active,.evo-confirm-ref-vote .evo-confirmbutton a:visited,.evo-candetails-wrapper,.evo-candetails-wrapper h3,.evo-yourvote-wrapper h3,.evo-yourvote-wrapper p a:link,.evo-yourvote-wrapper p a:active,.evo-yourvote-wrapper p a:visited,.top-main-confirm-head,.top-main-confirm-head h3,.evo-confirm-wrapper .evo-confirm-header,.evo-confirm-wrapper .confirmbutton a:link,.evo-confirm-wrapper .confirmbutton a:active,.evo-confirm-wrapper .confirmbutton a:visited,.evo-position-status-noeligible,#manifesto-details ul,.guestRegistrationForm ol li.university-domain,.guestRegistrationForm .recaptchaGuestLabel,.guestRegistrationForm .recaptchaLabel,.myaccount-loyalty-points .portlet .contentBoxes,.myaccount-student-details .portlet .contentBoxes,.myaccount-student-details .guestRegistrationForm,.myaccount-student-details legend.formLegend,#questionnaire legend.formLegend,.change-password #user_edit .formrow input,.tree-navigation .group-category .typeCategory,.questionnaire .formrow .dynamiclabel,.question-buttons,#shopping_cart .question-answers ol li,.qa-question,.questionnaire .success,.verifyTickets .tableHeader,.verifyTickets .tableBody,.event-ticket-number-details .event-ticket-details-wrapper .event-title h3,.myaccount-ticket-details .ticketBox .action .printButton,.event-ticket-number-details,a.printButton,.action,.twitter-content p,.twitter-content img,.union-left-box p,.union-left-box img,.confirm-email-block .confirm-link-message,.reset-password-block .confirm-link-message,.accountlock-password-block .confirm-link-message,.reset-password-block .warning,.confirm-email-block .warning,.accountlock-password-block .warning,.signin-block .existing-user .user-email-id,.registration-final-step,.signin-block,.change-password-block,.confirmation-email-block,.unlock-block,.reset-password-block,.accountlock-password-block,.problem-registering-block,.change-password-block .form-row label,.confirmation-email-block .form-row label,.unlock-block .form-row label,.signin-block .heading,.change-password-block .heading,.confirmation-email-block .heading,.unlock-block .heading,.reset-password-block .heading,.accountlock-password-block .heading,.forgot-password a,.registration-final-step .final-thank-you-msg h2,.frequently-asked-question .faq-wrapper .faq-content-wrapper,.problem-registering-content-inner-wrapper,div.change-password #user_edit .formrow label,.registration-form ol li.input label,.registration-form ol li.unionemail p,.registration-form ol li.nusemail p,.registration-form ol li.commercialemail p,.registration-form ol li.nusemail .label-unionemail-wrapper,.registration-form p.inline-hints,.registration-form ol li.unionemail,.registration-form ol li.nusemail,.registration-form ol li.commercialemail,.registration-form ol li.unionemail label,.registration-form ol li.nusemail label,.registration-form ol li.commercialemail label,.account-act-msg,.registration-form ol li.university-domain,#recaptcha_widget #recaptcha_response_field,select,.registration-form fieldset .smalltext,.registration-form ol li.input.nusemail label,.signin-block .ask-button .highlight-button,.commit.button .update,.commit.button .button.create,.registration-final-step h3.final-heading,#student_nationality_input label,.registration-form .recaptchaLabel,#registration-form-container h2,.almost-done-msg,.almost-done-msg,.myaccount-shopping-details .order-search fieldset legend,.myaccount-shopping-details .order-search fieldset li label,.myaccount-shopping-details .order-grid table,.myaccount-shopping-details .order-grid table th,.articleDetails,.more-article-block .more-article-block-wrapper ul li span,.more-article-block .more-article-block-wrapper ul li span a,.featured-news-block,.articles-list-block .articles-block h3,.featured-news-block .news-date-time,.articles-list-block .news-date-time,.articles-list-block h3 .news-date-time a,.articleDetails .article-details-wrapper table td,.more-article-block,.guest-form-box label,.guest-form-box textarea,.guest-form-box input,.guest-form-wrapper .guest-details-list .guest-form h3,.guest-form-wrapper,.myaccount-student-details .registration-form-wrapper,.uc-widget-student-voices-wrapper .uc-sv-widget-title a,.uc-widget-student-voices-wrapper .uc-sv-widget-row-desc,ul.uc-student-voice-widget-category,.uc-student-voice-widget-category li.selected,.uc-student-voice-widget-category li a,.uc-student-voice-widget-category li.selected a,.uc-student-voice-widget-category li.selected a:visited,.uc-widget-student-voices-wrapper .uc-student-voice-jcarousel .jcarousel-prev-vertical,.uc-manifesto-guideline p,.uc-manifesto-guideline ul,.uc-manifesto-guideline ol,.uc-position-details .uc-position-details-wrapper ol,.uc-position-details .uc-position-details-wrapper ul,table.formatted-table,.section.default-body table,.edit-mode-page table,table.formatted-table,table.formatted-table th,table.formatted-table td,.section.default-body table,.section.default-body table th,.section.default-body table td,.edit-mode-page table,.edit-mode-page table th,.edit-mode-page table td,table.formatted-table td,table.formatted-table tr,table.formatted-table th,.section.default-body table td,.section.default-body table tr,.section.default-body table th,.edit-mode-page table td,.edit-mode-page table tr,.edit-mode-page table th,.uc-customer-quick-login .signin-button-brinjal a,.signin-block .action.input_action,#e-shop .product-block .product-name a,#e-shop .product-block .product-price a,#e-shop .product-filter-panel .count-product-found,.uc-search-articles label,.content .uc-articles-right-panel-search-wrapper h2,.content .uc-result-count span,.content .uc-result-count strong,.shopping-cart-menu strong,.content-slider-container p:after,.content-slider-container a,#uc-sv-main-wrapper h1,#uc-sv-nav-tab-panel #uc-sv-main-navcontainer ul li.active a,.uc-sv-category-field-holder ul li label.uc-sv-bgorange,#uc-sv-main-wrapper .uc-sv-module-idea-wrapper h2,.clear-button,#search-result,.verifyTickets a.buttonLink,a.phone-menu:link,.menu .wrap,.menu ul li,.content-wrap .eightcol .section,.page-search .search-box .search-box-wrapper,.categories-wrapper .whatdesc,.guestRegistrationForm p.inline-errors,.guestRegistrationForm li.date p.inline-errors,.guestRegistrationForm p.inline-errors,.guestRegistrationForm li.date p.inline-errors,#latest-articles .jcarousel-container-vertical,#latest-articles .article-widget .top-articles li .article-content .date a,#latest-articles .article-widget.with-image-description .top-articles li .date a {
     font-family: var(--body-font);
 }
+
+/* Original CSS */
 @media screen and (max-width: 1024px) {
 #latest-events .jcarousel-container-vertical,#latest-events .event-widget .top-events li .event-content .date a,#latest-events .event-widget.with-image-description .top-events li .date a,#latest-events .event-widget .top-events li .event-content .name,#latest-events .event-widget.with-image-description .top-events li .name,#latest-articles .article-widget .top-articles li .article-content .headline,#latest-articles .article-widget.with-image-description .top-articles li .headline,#latest-articles .more.more-articles,.uc-adv-admin .cms-forms *,.section.union-footer .fourcol.column-content .uc-page-wrap .tool-bar a,.section.union-footer .sixcol.column-content .uc-page-wrap .tool-bar a,.section.union-footer .threecol.column-content .uc-page-wrap .tool-bar a,#top-navigation ul,.fixed-nav #top-navigation ul li a,#top-navigation ul li ul li,.student-voice h2:before,.uc-widget-groups-summary,.company,.heading h1,h2.heading h1,#event-homepage .heading h1,#officers-column-content .uc-rslides_container .uc-rslides .uc-slider-banner .uc-slider-banner-wrapper p.sub-title,.uc-pop-language-box,.stripe-container .img-description,.list-fullwidth-content-section .uc-page-wrap,.list-fullwidth-content-section .uc-list-banner-wrapper .uc-banner-hover span,#fullbanner-section #fullbanner-section-wrap img,.profile-news-section .profile-news-description-container 
     {
@@ -1097,17 +1113,6 @@ body {
     color: #fff;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 /* Changes  */
 
 .wrapper {
@@ -1126,7 +1131,7 @@ body {
 }
 .header-wrap #union-logo { grid-column: 1/2; grid-row: 1/3; }
 .header-wrap .system-menu,
-.header-wrap .cart-account { grid-column: 3/3; grid-row: 2/3; margin-top: 10px; align-self: self-start; }
+.header-wrap .cart-account { grid-column: 3/3; grid-row: 2/3; margin-top: 10px; align-self: self-start; justify-content: flex-end; }
 .header-wrap .search  { grid-column: 2/2; grid-row: 1/3; align-self: center;}
 .header-wrap .uc-pop-language-box {grid-column: 3/3; grid-row: 1/2; align-self: self-end; justify-self: end;}
 
@@ -1135,9 +1140,10 @@ body {
 }
 
 .cart-account {
-    display: flex; flex-direction: row; align-items: flex-end;
+    display: flex; flex-direction: row; align-items: flex-end; margin-right:0;
+    margin-left: var(--spacing);
 }
-
+.header-wrap .cart-account .shopping-cart-menu { margin-right: 0; }
 .row.top {
     background: unset;
     height:unset;
@@ -1247,11 +1253,12 @@ body {
     .header-wrap #union-logo { height: unset; order: 3;}
     .header-wrap #union-logo a { display: flex; width: 100%; justify-content: center;}
     .header-wrap #union-logo a img { width: unset; }
-    .header-wrap .cart-account { display: flex; flex-direction: row; order: 2; justify-content: flex-end; align-items: center; width: calc(100% - 30px);}
+    .header-wrap .cart-account { display: flex; flex-direction: row; order: 2; justify-content: flex-end; align-items: center; width: calc(100% - 30px); }
     .header-wrap .cart-account .shopping-cart-menu { margin-right: 1em; }
     .header-wrap .search { order: 4;}
     .header-wrap .uc-pop-language-box { order: 1; }
    
+    .page-search .search-box { width: 90%; margin: 0 auto;}
 }
 
 .top, .top-union {
@@ -1291,7 +1298,7 @@ body {
 
 /* Login Link */
 #bangor-default .system-menu-wrapper .uc-sign-link {
-    background-image: none;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"white\" class=\"w-6 h-6\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z\" /></svg>")
 }
 
 /* search Box */
@@ -1367,11 +1374,11 @@ body, .wrapper{
         font-style:unset;
     }
     .uc-mega-menu .uc-mega-menu-wrapper .uc-mm-level-one.hover>a span{
-        background-color: rgba(0,0,0,0.2);
+        background-color: var(--darken-background);
     }
     .uc-mega-menu .uc-mega-menu-wrapper  .uc-sub-mega-menu {
         background-image: var(--pink-fade);
-        box-shadow: inset 0 0 175px rgba(0,0,0,0.4);
+        box-shadow: inset 0 0 175px var(--darken-background-dbl);
         height:unset;
         padding: var(--spacing-xl) var(--spacing);
         top: 4em;
@@ -1466,7 +1473,9 @@ body, .wrapper{
 }
 
 @media screen and (max-width: 470px) {
-    #hero #text2 { left: 37%; bottom: 160px;}
+    #hero #text1, #hero #text2 { font-size: 0.75em; }
+    #hero #text2 { left: 33%; bottom: 130px; transform: rotate(5deg);}
+    
 }
 
 /* Officers Stripe */
@@ -1488,6 +1497,7 @@ body, .wrapper{
 } */
 
 /* Hidden Stuff for dev */
+#main-slider, 
 #homepage-full-slider { display: none;}
 
 /* Fonts */
@@ -1539,7 +1549,7 @@ body { font-family: var(--body-font);}
 /* Widget for insta */
 #content-section-5{
     height: 675px; 
-    background-image: linear-gradient(120deg, var(--bright-orange) 50%, var(--default-orange) 100%);
+    background-image: var(--orange-fade);
 }
 #content-section-5-wrap {
     height: 100%;
@@ -1563,8 +1573,115 @@ body #enableRecite.bottom-left img {
     border-radius: 18px;
 }
 
-/* Articles */
-.uc-widget-article-block { font-size: 1em; }
+/* Footer */
+.bottom, .bottom-union {
+    -webkit-clip-path: url(#footerClip);
+	clip-path: url(#footerClip);
+    background-image: var(--dark-pink-fade)
+}
+
+.uc-leaderboard-advertisement {
+    background-image: var(--dark-pink-fade);
+    margin:0; width: 100%;
+}
+
+/* .section.union-footer .logo-footer {
+    aspect-ratio:5/1; border: solid 1px red;
+} */
+
+/* Columns */
+.section.union-footer .logo-footer img {
+    max-width: 170px;
+    min-width: 120px;
+}
+#colum-6-wrap {
+    max-width: var(--width-stop);
+    margin: var(--spacing-dbl) auto;
+}
+ /* #colum-6 .column-wrap { display: flex;} */
+#colum-6 { display:none; }
+
+/* New Articles Section */
+#wide-right-wrap { 
+    font-size: 1em;
+    max-width: var(--width-stop); margin: var(--spacing-dbl) auto; 
+    
+}
+
+.uc-widget-articles { overflow: visible; height:unset;}
+.uc-widget-articles-container .uc-widget-article-footer { display: unset; 
+    background-color: var(--default-orange); 
+    background-image: var(--orange-fade);
+    display: flex; align-items: stretch; justify-content: space-between;
+}
+.uc-widget-articles-container .uc-widget-article-footer .uc-widget-article-more-link,
+.uc-widget-article-pagination { position: relative; right:unset; top:unset; bottom:unset; float:unset; }
+
+.uc-widget-article-pagination { flex-grow: 1;}
+.uc-widget-articles-container .uc-widget-article-footer .uc-widget-article-more-link a {
+    display: block;
+    border:none;
+    height: 100%;
+    flex-shrink: 2;
+    color: var(--off-white);
+    font-size:inherit;
+    background-color: var(--dark-orange);
+    display: flex;
+    align-items: center;
+}
+
+
+    /* Articles */
+    .uc-widget-articles-container ul.uc-widget-articles-list {
+        display: flex; flex-direction: row; gap: var(--spacing); flex-wrap: wrap;
+        padding: var(--spacing)
+    }
+    
+    .uc-widget-articles-container ul.uc-widget-articles-list li.uc-widget-article-block {
+        float: unset; width:unset; margin:unset; gap: var(--spacing-dbl);
+        background: var(--dark-grey);
+        padding: var(--spacing-dbl);
+        border:none;
+        width: calc(50% - 7px); box-sizing: border-box;
+        max-height: 240px; align-items: flex-start;
+    }
+    .uc-widget-articles-container ul.uc-widget-articles-list li.uc-widget-article-block .clear { display: none;}
+    .uc-widget-articles-container ul.uc-widget-articles-list li.uc-widget-article-block .article-thumbnail {
+        /* flex-shrink: 1; flex-grow:1; */
+        aspect-ratio: 3/2;
+        max-height: 220px;
+        max-width: 33.3%;
+        min-width: 33.3%;
+    }
+    .uc-widget-articles-container ul.uc-widget-articles-list li.uc-widget-article-block .article-thumbnail  img {
+        aspect-ratio: 3/2;
+    }
+    .uc-widget-articles-container ul.uc-widget-articles-list li.uc-widget-article-block .article-content {
+        flex-grow: 1;
+    }
+    .uc-widget-articles-container ul.uc-widget-articles-list li.uc-widget-article-block .headline {
+        font-size: 1.3em;
+        line-height: 0.9em; margin:0; font-weight: var(--font-weight-bold); letter-spacing: 0.1em;
+    }
+    .uc-widget-articles-container ul.uc-widget-articles-list li.uc-widget-article-block .headline a {
+        font-size: 1em;
+    }
+    .uc-widget-articles-container ul.uc-widget-articles-list li.uc-widget-article-block .article-description {
+        display: none;
+    }
+    .uc-widget-articles-container ul.uc-widget-articles-list li .date { font-size: unset; }
+    .uc-widget-articles-container ul.uc-widget-articles-list li.uc-widget-article-block .date>a {
+        color: var(--off-white);
+        font-size: 1em; font-weight: var(--font-weight-light);
+    }
+
+    @media screen and (max-width: 480px) {
+        .uc-widget-articles-container ul.uc-widget-articles-list li.uc-widget-article-block {
+           width: 100%; gap: var(--spacing); padding: var(--spacing);
+        }
+    }
+
+    /* .uc-widget-article-block { font-size: 1em; }
 .fourcol .uc-widget-articles-container ul.uc-widget-articles-list li .headline a, 
 .fourcol .uc-widget-articles-container ul.uc-widget-articles-list li .headline a, 
 .threecol .uc-widget-articles-container ul.uc-widget-articles-list li .headline a, 
@@ -1594,47 +1711,19 @@ li.uc-widget-article-block {
 }
 .column .fourcol .uc-widget-articles-container ul.uc-widget-articles-list li.uc-widget-article-block .article-thumbnail, 
 .column .threecol .uc-widget-articles-container ul.uc-widget-articles-list li.uc-widget-article-block .article-thumbnail{
-    /* height: 100%; */
+    height: 100%;
     float:unset;
-    /* border: solid 1px red; */
+    border: solid 1px red;
     aspect-ratio: 3 / 2;
     width: unset;
 }
 .column .fourcol .uc-widget-articles-container ul.uc-widget-articles-list li.uc-widget-article-block .article-thumbnail a, 
 .column .threecol .uc-widget-articles-container ul.uc-widget-articles-list li.uc-widget-article-block .article-thumbnail a {
     height: 100%;
-    /* border: solid 1px yellow; */
+    border: solid 1px yellow;
     aspect-ratio: 3 / 2;
 }
 .column .fourcol .uc-widget-articles-container ul.uc-widget-articles-list li.uc-widget-article-block .article-thumbnail a img, 
 .column .threecol .uc-widget-articles-container ul.uc-widget-articles-list li.uc-widget-article-block .article-thumbnail a img  {
     float:unset; height: 100%; object-fit: cover;
-}
-
-/* Footer */
-.bottom, .bottom-union {
-    -webkit-clip-path: url(#footerClip);
-	clip-path: url(#footerClip);
-    background-image: var(--dark-pink-fade)
-}
-
-.uc-leaderboard-advertisement {
-    background-image: var(--dark-pink-fade);
-    margin:0; width: 100%;
-}
-
-/* .section.union-footer .logo-footer {
-    aspect-ratio:5/1; border: solid 1px red;
 } */
-
-/* Columns */
-.section.union-footer .logo-footer img {
-    max-width: 170px;
-    min-width: 120px;
-}
-#colum-6-wrap {
-    max-width: var(--width-stop);
-    margin: var(--spacing-dbl) auto;
-}
-/* #colum-6 .column-wrap { display: flex;}
-#colum-6 .column-wrap >div.column-content { width:50%;} */

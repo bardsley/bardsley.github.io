@@ -4,11 +4,11 @@ Phase 1
 - [x] Header to match design
 - [x] Change font to League Spartan
 - [x] Menu matching Bristol with optional Vote button
-- [ ] Fix articles to match bristol Double column
+- [x] Fix articles to match bristol Double column
 - [x] Native widget - shrink and add a button to undebbangor.native.fm
 - [ ] Add curves in other places to bring things together
 - [x] mid-size menu has gap
-- [ ] Signin logo
+- [x] Signin logo
 - [ ] Footer mobile shape fix
 
 Groups page
