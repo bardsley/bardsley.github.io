@@ -22,7 +22,6 @@
     --light-grey: #7c8b99;
     --dark-grey: #212529;
     --very-dark-grey: #111214;
-    /* --darken-background: rgba(0,0,0,0.2); */
     --darken-background: rgb(37, 13, 37,0.2);
     --darken-background-dbl: rgb(37, 13, 37,0.4);
     --body-fade-color: var(--dark-grey);
