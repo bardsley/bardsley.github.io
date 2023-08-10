@@ -1365,7 +1365,6 @@ body, .wrapper{
         padding: var(--spacing) var(--spacing-dbl);
     }
     .uc-mega-menu .uc-mega-menu-wrapper>ul>li>a>span>i {
-        /* display: flex; align-items: center; */
         line-height: calc(4em - var(--spacing-dbl));
     }
     
