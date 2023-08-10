@@ -1383,13 +1383,11 @@ body, .wrapper{
         height:unset;
         padding: var(--spacing-xl) var(--spacing);
         top: 4em;
-        /* border-top: solid var(--spacing) var(--darken-background); */
     }
 
     .uc-mega-menu .uc-mega-menu-wrapper  .uc-sub-mega-menu .uc-mm-row {
         max-width: var(--width-stop);
         margin: 0 auto; border-top:unset;
-        /* border: solid 1px yellow; */
     }
 
     .uc-mega-menu .uc-mega-menu-wrapper .uc-mm-column >ul>li {
