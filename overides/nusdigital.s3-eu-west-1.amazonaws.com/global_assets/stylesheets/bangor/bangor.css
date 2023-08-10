@@ -1306,7 +1306,6 @@ body {
 
 .page-search .search-box .search-box-wrapper { 
     background: var(--dark-pink-fade); 
-    /* background-color: #8f177d; */
     font-size: 1.2em; display: flex;
     border-radius: 10px; padding: 10px;
     width: auto; max-width: 400px
@@ -1352,7 +1351,6 @@ body, .wrapper{
         max-width: var(--width-stop);
         margin:0 auto; height: 100%;
         align-items: center;
-        /* border: solid 1px red; */
     }
     .uc-mega-menu .uc-mega-menu-wrapper>ul>li,
     .uc-mega-menu .uc-mega-menu-wrapper>ul>li>a,
