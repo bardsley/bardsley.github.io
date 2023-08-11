@@ -9,12 +9,12 @@ Phase 1
 - [ ] Add curves in other places to bring things together
 - [x] mid-size menu has gap
 - [x] Signin logo
-- [ ] Footer mobile shape fix
+- [x] Footer mobile shape fix
 
 Groups page
 ------
-- [ ] Simplify like Bristols
-- [ ] Add pill buttons above for categories
+- [x] Simplify like Bristols
+- [x] Add pill buttons above for categories
 - [ ] Simplify group landing pages
 
 Phase 2 Maybes
