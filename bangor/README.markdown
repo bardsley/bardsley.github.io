@@ -6,16 +6,16 @@ Phase 1
 - [x] Menu matching Bristol with optional Vote button
 - [x] Fix articles to match bristol Double column
 - [x] Native widget - shrink and add a button to undebbangor.native.fm
-- [ ] Add curves in other places to bring things together
+- [x] Add curves in other places to bring things together
 - [x] mid-size menu has gap
 - [x] Signin logo
 - [x] Footer mobile shape fix
-
+- [ ] Resize big hero image and compress
 Groups page
 ------
 - [x] Simplify like Bristols
 - [x] Add pill buttons above for categories
-- [ ] Simplify group landing pages
+- [x] Simplify group landing pages (Partial)
 
 Phase 2 Maybes
 ==========

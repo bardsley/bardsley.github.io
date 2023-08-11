@@ -33,6 +33,7 @@
     --dark-background-fade: linear-gradient(120deg, var(--dark-grey) 0%, var(--very-dark-grey) 100%);
     --light-background-fade: linear-gradient(300deg, var(--light-grey) 0%, var(--dark-grey) 100%);
     --orange-fade: linear-gradient(120deg, var(--bright-orange) 50%, var(--default-orange) 100%);
+    --dark-orange-fade: linear-gradient(120deg, var(--default-orange) 50%, var(--dark-orange) 100%);
     --darken-fade: linear-gradient(120deg, var(--darken-background) 0%, rgba(0,0,0,0) 100%);
     --body-fade: linear-gradient(120deg, var(--body-fade-color) 50%, var(--body-fade-color-to) 100%);
 
@@ -557,7 +558,7 @@ h1,
 }
 
 .top,
-.top-union,
+.top-union, 
 .top-subsite {
     background: #212529
     margin: 0;
@@ -1297,7 +1298,7 @@ body {
 
 /* Login Link */
 #bangor-default .system-menu-wrapper .uc-sign-link {
-    background-image: url("data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"white\" class=\"w-6 h-6\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z\" /></svg>");
+    background-image: url('https://nusdigital.s3.amazonaws.com/image/images/507141/original/login.svg');
     background-size: 30% ; background-position: 10px 40%;
 }
 
@@ -1322,8 +1323,7 @@ body {
     background-image: unset; height: unset;
     border: solid 1px #000;
     position: relative; top:unset; 
-    background-image: 
-        url("data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"2.5\" stroke=\"white\" class=\"w-6 h-6\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z\" /></svg>");
+    background-image: url('https://nusdigital.s3.amazonaws.com/image/images/507140/original/search.svg');
 }
 
 /* Body */
@@ -1707,7 +1707,7 @@ body #enableRecite.bottom-left img {
     #uc-group-homepage .group-search .search-box .search-box-wrapper .search-button { 
         position: relative; right:unset; top: unset; height:auto; 
         border-radius: 0.8em; background-color: var(--default-pink);
-        background-image: url("data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"white\" class=\"w-6 h-6\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z\" /></svg>");
+        background-image: url('https://nusdigital.s3.amazonaws.com/image/images/507140/original/search.svg');
         background-size: 60%;
     }
 
@@ -1749,7 +1749,10 @@ body #enableRecite.bottom-left img {
     #uc-group-homepage .page-separator-wrapper { display: none;}
     #uc-group-homepage .uc-group-list-page-wrapper { 
         margin-bottom:0; 
-        display: flex; flex-wrap: wrap; justify-content: space-around;
+        display: flex; flex-wrap: wrap; justify-content: center; gap: 15px;
+    }
+    #uc-group-homepage .uc-group-list-page-wrapper .clear {
+        display:none;
     }
     #uc-group-homepage .group-list .uc-group-list-page-wrapper .group-box {
         /* border: solid 1px red; */
@@ -1801,3 +1804,39 @@ body #enableRecite.bottom-left img {
     #uc-group-homepage #uc-more-group-search a.uc-load-more-groups:hover {
         background:var(--bright-pink); background-image: var(--pink-fade);
     }
+
+
+/* Goup landing page */
+
+
+.module_groups.action_show .threecol.tree-navigation {
+    border-radius: 1em;
+}
+
+.module_groups.action_show #uc-groups-details-page .join-this-group a {
+    border-radius: 1em; 
+    background-color: var(--default-orange); background-image: var(--dark-orange-fade);
+    display: inline-flex; align-items: flex-end;
+}
+
+.module_groups.action_show #uc-groups-details-page .join-this-group a:before {
+    background: var(--darken-background); padding:8px 12px; height: 100%;
+    opacity: 1;
+}
+
+.module_groups.action_show #uc-groups-details-page .join-this-group a:hover {
+    background-color: var(--default-orange); background-image: var(--orange-fade);
+}
+.module_groups.action_show #uc-groups-details-page .join-this-group a:before:hover {
+    background: #000;
+}
+
+/* Hack fixes */
+#meet-your-sabb-team-wrap.stripe-wrap .jcarousel-item {
+    width: 280px;
+}
+
+#uc-top-link { 
+    background-color: var(--default-pink);
+    border-radius: 1em 0 0 1em;
+}
