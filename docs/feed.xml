@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
-  <generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator>
+  <generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator>
   <link href="https://adambardsley.co.uk/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://adambardsley.co.uk/" rel="alternate" type="text/html" />
-  <updated>2021-07-27T11:16:15+01:00</updated>
+  <updated>2023-08-14T17:47:52+01:00</updated>
   <id>https://adambardsley.co.uk/</id>
 
   
@@ -20,8 +20,110 @@
   
   
     <entry>
+      <title type="html">Under Bangor</title>
+      <link href="https://adambardsley.co.uk/website%20design/2023/08/08/project-10/" rel="alternate" type="text/html" title="Under Bangor" />
+      <published>2023-08-08T00:00:00+01:00</published>
+      <updated>2023-08-08T00:00:00+01:00</updated>
+      <id>https://adambardsley.co.uk/website%20design/2023/08/08/project-10</id>
+      <content type="html" xml:base="https://adambardsley.co.uk/website%20design/2023/08/08/project-10/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="Website Design" />
+      
+
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Liverpool Hope SU website</title>
+      <link href="https://adambardsley.co.uk/website%20design/2022/08/12/project-9/" rel="alternate" type="text/html" title="Liverpool Hope SU website" />
+      <published>2022-08-12T00:00:00+01:00</published>
+      <updated>2022-08-12T00:00:00+01:00</updated>
+      <id>https://adambardsley.co.uk/website%20design/2022/08/12/project-9</id>
+      <content type="html" xml:base="https://adambardsley.co.uk/website%20design/2022/08/12/project-9/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="Website Design" />
+      
+
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Bristol Student’s Overhaul</title>
+      <link href="https://adambardsley.co.uk/website%20design/2022/03/22/project-8/" rel="alternate" type="text/html" title="Bristol Student&apos;s Overhaul" />
+      <published>2022-03-22T00:00:00+00:00</published>
+      <updated>2022-03-22T00:00:00+00:00</updated>
+      <id>https://adambardsley.co.uk/website%20design/2022/03/22/project-8</id>
+      <content type="html" xml:base="https://adambardsley.co.uk/website%20design/2022/03/22/project-8/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="Website Design" />
+      
+
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">Highland and Islands Students’ Association Convention</title>
-      <link href="https://adambardsley.co.uk/website%20development%20&%20training/2020/11/01/project-7/" rel="alternate" type="text/html" title="Highland and Islands Students' Association Convention" />
+      <link href="https://adambardsley.co.uk/website%20development%20&%20training/2020/11/01/project-7/" rel="alternate" type="text/html" title="Highland and Islands Students&apos; Association Convention" />
       <published>2020-11-01T00:00:00+00:00</published>
       <updated>2020-11-01T00:00:00+00:00</updated>
       <id>https://adambardsley.co.uk/website%20development%20&amp;%20training/2020/11/01/project-7</id>

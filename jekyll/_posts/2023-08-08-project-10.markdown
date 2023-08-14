@@ -1,0 +1,13 @@
+---
+layout: default
+modal-id: 10
+date: 2023-08-08
+img: bangor.png
+alt: Under Bangor Site
+title: Under Bangor
+project-date: August 2023
+client: Under Bangor
+website: https://www.undebbangor.com
+category: Website Design
+description: Undeb Bangor's site needed a refresh to better incorporate there colours and deal with issues that had been compounded overtime. Adding some subtle gradients allowed us to clearly delineate sections and still feel exciting. Additionally working to keep the text appealing to look whilst complying with welsh language laws and accessibility standards raised fun challenges.
+---

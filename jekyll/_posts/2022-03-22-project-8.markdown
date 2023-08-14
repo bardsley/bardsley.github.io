@@ -1,0 +1,13 @@
+---
+layout: default
+modal-id: 8
+date: 2022-03-22
+img: bristol.png
+alt: Bristol Student's Union Website
+title: Bristol Student's Overhaul
+project-date: March 2022
+client: Bristol University Students' Union
+website: https://www.bristolsu.org.uk
+category: Website Design
+description: Bristol undertook a major redesign of everything across their portfolio. Working with their team to deliver in a relatively compact time frame with custom pages and code across the site gave them a fully bespoke look and feel which would have been impossible with a single designer for their deadline.
+---

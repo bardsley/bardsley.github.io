@@ -1,0 +1,13 @@
+---
+layout: default
+modal-id: 9
+date: 2022-08-12
+img: hope.png
+alt: Liverpool Hope Site
+title: Liverpool Hope SU website
+project-date: August 2022
+client: Liverpool Hope University Students' Union
+website: https://www.hopesu.com
+category: Website Design
+description: A quick turn around to make hope SU stand out from the crowd. With only a few weeks before students started looking we worked to move from a 90's looking all green design to something with a little more pizzaz
+---
