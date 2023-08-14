@@ -1805,6 +1805,12 @@ body #enableRecite.bottom-left img {
         background:var(--bright-pink); background-image: var(--pink-fade);
     }
 
+@media screen and (max-width:766px) {
+    .module_groups.action_list .group-type-name {
+        order: 2; z-index: 20; left: 0;
+    }
+}
+
 
 /* Goup landing page */
 
@@ -1840,3 +1846,4 @@ body #enableRecite.bottom-left img {
     background-color: var(--default-pink);
     border-radius: 1em 0 0 1em;
 }
+
