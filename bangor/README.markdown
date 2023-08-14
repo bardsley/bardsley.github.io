@@ -11,11 +11,19 @@ Phase 1
 - [x] Signin logo
 - [x] Footer mobile shape fix
 - [ ] Resize big hero image and compress
+
 Groups page
 ------
 - [x] Simplify like Bristols
 - [x] Add pill buttons above for categories
 - [x] Simplify group landing pages (Partial)
+
+Additonal Snagging
+- [x] Latest News Header in pink tilt
+- [x] Darken the Instagram
+- [x] Pink Sabb Bar
+- [ ] Welsh Signin button
+- [ ] Add website link
 
 Phase 2 Maybes
 ==========
