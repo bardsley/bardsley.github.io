@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "../../unioncloud-user-onboarding-service"
+		},
+		{
+			"path": "../../unioncloud-user-onboarding-ui"
+		}
+	],
+	"settings": {}
+}
