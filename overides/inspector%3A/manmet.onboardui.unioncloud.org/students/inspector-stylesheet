@@ -1,0 +1,7 @@
+.stepperContent {}
+
+form.ng-untouched.ng-pristine.ng-invalid.ng-star-inserted {}
+
+.stepperContent form > div > div > div:last-of-type {
+    margin-top: 50px;
+}

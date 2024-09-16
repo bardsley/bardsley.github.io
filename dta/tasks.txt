@@ -1,0 +1,8 @@
+Add Phd to all research Journeys
+Add Icon and Country to list at top of profile
+Add Abbreviated Phd top Research Journey
+Ongoing = Ongoing
+
+Thing at Place
+
+Changeing format of funding and Extras to one line one bullet point

@@ -1,0 +1,619 @@
+:root {
+  --primary-color: #ff5c5c;
+  --primary-text-color: #fff;
+  
+  --secondary-color: #0d6600;
+  --secondary-text-color: #fff;
+
+  --color-red: red;
+  --color-green: green;
+  --color-white: #fff;
+  --color-black: #000;
+
+  --page-bg: #f4f4f4;
+
+  --profile-name-color:  #ff5c5c;
+
+  --button-bg: #ff5c5c;
+  --button-text: #fff;
+  --button-hover: #252c36;
+  --button-hover-text: #fff;
+  --button-border-r: 6px;
+
+  --mw-full: 100%;
+  --mw-lg: 1400px;
+  --mw-md: 1200px;
+  --mw-sm: 1024px;
+
+  --font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: var(--page-bg);
+    font-family: var(--font-family) !important;
+    box-sizing: border-box;
+}
+html, div, legend {
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, p, a, div, span, input, button, label, legend {
+    font-family: var(--font-family) !important;
+}
+h1, h2, h3 {
+    font-weight: 600;
+}
+  
+/* remove background image */
+.wrapper {
+    background: none;
+}
+.uc-poweredby-nusdigital-logo {
+    background: none;
+}
+/* remove content divs */
+.content-wrap .clear {
+    display: none !important;
+}
+.content-wrap .site-addthis {
+    display: none !important;
+}
+/* remove footer clear div */
+.uc-poweredby-nusdigital-logo-wrapper .clear {
+    display: none;
+}
+/* remove three lines on titles */
+.portletTitles h2, h1, .content .row .content-wrap h1 {background: none;padding: 5px 0px 10px 10px;}
+
+
+
+/* header  */
+.header-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+}
+
+/* remove header padding */
+.header-wrap {
+    padding: 10px 0 0 0;
+}
+@media screen and (max-width: 515px) {
+    .header-wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0 10px 0;
+}
+    .header {
+        padding: 10px 0 20px;
+    }
+}
+
+/* header logo  */
+#union-logo {
+    grid-column: 1;
+    padding-left: 50px;
+    margin: 0;
+    height: 100px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    top: auto;
+    grid-row: 1/3;
+}
+#union-logo h1 {
+    padding: 0;
+    margin: 0;
+}
+#union-logo a img {
+    z-index: auto;
+    margin: 0;
+}
+@media screen and (max-width: 515px) {
+    #union-logo {
+        padding-left: 0px;
+    }
+    .system-menu {
+        padding-right: 0px;
+    }   
+}
+
+
+/* header sign in */
+.system-menu {
+    position: unset;
+    font-size: 1.1rem;
+    grid-column: 3;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 34px;
+}
+
+/* shopping Cart  */
+.shopping-cart-menu {
+    margin: 0 10px 0 0;
+}
+.shopping-cart-menu strong {
+    background: none repeat scroll 0 0 var(--primary-color);
+    margin: 0 28px 0 0;
+}
+
+
+/* header profile  */
+/* profile button */
+.cart-account {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    grid-column: 3;
+    z-index: auto;
+    margin: 0;
+    position: relative;
+    right: 0px;
+    top: 0px;
+    padding-right: 20px;
+}
+.profile-setting a.profile-name {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    box-shadow: none;
+    font-size: 0.85rem;
+    padding: 8px 20px 7px 13px;
+}
+.profile-setting a.profile-name::before {
+    content: '';
+    width: 1px;
+    height: 30px;
+    position: absolute;
+    left: 1px;
+    background-color: var(--secondary-color);
+}
+.profile-setting a.profile-name .user-name {
+    color: var(--profile-name-color);
+}
+.profile-setting a.profile-name.expanded {
+    background-color: var(--secondary-color);
+}
+.profile-name-wrapper {
+    background: none;
+    box-shadow: none;
+    border-radius: 6px;
+}
+
+/* profile dropdown */
+.profile-drop-down-menu {
+    background-color: var(--secondary-color);
+    border-radius: 0 0 6px 6px;
+}
+.profile-setting ul li {
+  border-radius: 6px;
+  transition: ease-in-out 0.2s;
+} 
+.profile-setting ul li a {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding: 7px 8px 6px 7px;
+    font-weight: 600;
+    border-bottom: 1px solid #303A46;
+    border: none;
+    font-weight: 400;
+} 
+.profile-setting li:hover {
+    background-color: var(--primary-color);
+} 
+
+  
+/* header search bar  */
+.page-search .search-box .search-box-wrapper {
+    border: 1px solid #000;
+    width: 190px;
+}
+.page-search .search-box .search-box-wrapper .search-input {
+    width: 140px;
+}
+/* search bar position */
+.page-search {
+    grid-column: 3;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    top: 2px;
+    left: auto;
+    right: 33px;
+}
+.page-search .search-box .search-box-wrapper {
+    position: relative;
+    width: 190px;
+    padding: 0;
+    top: auto;
+    right: auto;
+    z-index: auto;
+}
+@media screen and (max-width: 515px) {
+    .page-search {
+        top: 10px;
+        right: 0px;
+    }
+}    
+
+
+/* menu */
+.top, .top-union {
+    width: var(--mw-full);
+    background-color: var(--secondary-color);
+}
+.nav-wrap {
+    background-color: var(--secondary-color);
+    width: 100%;
+    /* stops height on mobile */
+    height: auto;
+}
+.menu {
+    position: relative;
+    z-index: 999;
+    height: 100%;
+}
+.menu ul {
+    padding-left: 0px;
+}
+/* mobile menu remove padding margin */
+@media only screen and (max-width: 767px) {
+    .menu ul {
+        margin: 10px 0 0;
+        padding: 0;
+    }
+}
+/* Set menu link background color */
+.menu ul li {
+    background: var(--secondary-color);
+    transition: ease-in-out 0.2s;
+}
+.menu ul li a {
+    color: var(--secondary-text-color);
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+.menu ul li:hover {
+    background-color: var(--primary-color);
+}
+
+
+/* menu dropdown */
+.menu ul li ul {
+    top: 40px;
+    border: none;
+    padding-left: 0;
+}
+.menu ul li ul li a {
+    color: var(--secondary-text-color);
+    background-color: var(--secondary-color);
+    padding: 10px 15px;
+    border-color: var(--secondary-color);
+    border-width: 4px 0px 4px 0px;
+    border-style: solid;
+}
+.menu ul li ul li a:hover {
+    background-color: var(--primary-color);
+    transition: ease-in-out 0.2s;
+}
+/* Mobile Menu Background Color */
+@media only screen and (max-width: 767px) {
+    .phone-menu {
+        background: var(--secondary-color);
+        color: var(--secondary-text-color);
+        position: relative;
+    }
+    /* disable hover on mobile nav */
+    .menu ul li:hover {
+        background-color: var(--secondary-color);
+    }
+    /* disable hover on mobile nav links */
+    .menu ul li ul li a:hover {
+        background-color: var(--secondary-color);
+    }
+}
+
+
+
+/* mega menu  */
+/* remove list styles  */
+.uc-mega-menu .uc-mm-column ul li {
+    list-style: none !important;
+    margin: 0 0 3px 0 !important;
+}
+/* remove skew  */
+.uc-mega-menu ul li a span i {
+    transform: skewX(0deg) !important;
+    font-style: normal;
+}
+
+
+/* content */
+/* section padding */
+  .content .section {
+      padding: 0;
+  }
+/* content margin */
+   #left-panel, .left-nav-content {
+    margin: 20px 0px 20px 20px !important;
+  }
+  #right-content {
+    margin: 20px 0 20px 20px;
+  }
+
+
+
+/* Grid  */
+.grid-carousel {
+    margin: 0px;
+    width: 100%;
+}
+/* remove margin */
+.grid-carousel .jcarousel-skin-tango .jcarousel-item-horizontal {
+    margin-right: 0px;
+}
+/* Arrow position */
+.grid .jcarousel-skin-tango .jcarousel-prev-horizontal {
+    left: 0px;
+}
+.stripe .jcarousel-skin-tango .jcarousel-next-horizontal, .grid .jcarousel-skin-tango .jcarousel-next-horizontal {
+    right: 0px;
+}
+
+  
+
+/* tab  */
+.tab-wrap {
+    margin: 0 20px;
+}
+/* header background color  */
+.home-content-wrap .tab .ui-widget-header {
+    background: var(--page-bg);
+}
+.content-wrap .uc-widget-student-voices-wrapper ul {
+    background: var(--page-bg);
+}
+.uc-student-voice-widget-wrapper {
+    background: #fff;
+}
+
+
+/* tab search bar */
+.uc-widget-group-search .uc-widget-group-search-button {
+    height: 40px;
+}
+.ui-state-active a:link, .ui-state-active a:visited {
+    color: var(--secondary-text-color);
+    text-decoration: none;
+}
+/* tab background  */
+.tab .ui-tabs .ui-tabs-panel {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background: #fff;
+}
+.uc-widget-volunteering-opportunities-container .jcarousel-container-vertical {
+    background: #fff;
+}
+/* remove tabs background */
+.tab .ui-tabs .ui-tabs-panel {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+}
+
+
+
+/* e-shop */
+/* sub menu */
+  #e-shop .product-category-navigation {
+    z-index: 9;
+}
+/* dropdowns */
+#e-shop .product-filter-controls .sort-control {
+    z-index: 9;
+}
+#e-shop .product-filter-controls .size-control {
+    z-index: 9;
+}
+#e-shop .product-filter-controls .colour-control {
+    z-index: 9;
+}
+/* price control */
+#e-shop .product-filter-controls .price-control {
+    z-index: 9;
+}
+#e-shop .price-control .price-wrapper {
+    height: 33px;
+}
+
+
+/* footer */
+/* footer text */
+#footer-details-wrap {
+    color: var(--color-black);
+    display: flex;
+    padding: 40px 20px;
+    width: auto;
+    gap: 5px;
+}
+#footer-details-wrap ul {
+    list-style: none;
+}
+
+/* footer links */
+#footer-details-wrap ul li span {
+    /* needs to have !important */
+    font-size: 0.7rem !important;
+}
+
+/* footer link font size */
+#footer-details-wrap ul li span a {
+    color: var(--color-black);
+}
+
+/* footer middle text */
+#footer-text-column-content p span {
+    /* needs to have !important */
+    font-size: 0.9rem !important;
+}
+
+/* footer email/icons */
+#footer-socials-link-column-content {
+    font-size: 0.9rem;
+}
+#footer-details-wrap p a {
+    color: var(--color-black);
+}
+
+/* footer icons */
+.footer-icons-container {
+    gap: 4px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.media-icons {
+    text-align: end;
+    margin-top: 5px;
+}
+.media-icons a {
+    margin: 0 3px;
+    font-size: 20px;
+}
+
+
+
+/* One voice footer */
+.uc-poweredby-nusdigital-logo-wrapper {
+    padding: 14px 0px 11px;
+    width: var(--mw-full);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--color-white);
+}
+.uc-terms-of-service {
+    padding: 0 10px 0 20px;
+    font-weight: 600;
+}
+.uc-poweredby-nusdigital-logo-wrapper .floatRight {
+    padding-right: 20px;
+}
+/* remove image margin */
+.uc-poweredby-nusdigital-logo a img {
+    margin: 0;
+}
+
+/* Gradient background added to header */
+.header {
+    background-image: linear-gradient(45deg, var(--secondary-color) 0%, var(--primary-color) 100%);
+}
+
+/* Header width set to --mw-md variable */
+.header-wrap {
+    max-width: var(--mw-full);
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* Full page width set to --mw-full variable */
+.header, .menu, .content, .top, .top-union, .bottom{
+    max-width: var(--mw-full);
+    width: 100%;
+}
+/* Menu above the header */
+.wrapper {
+    background: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    order: 2;
+}
+
+.top, .top-union {
+    order: 1;
+}
+
+.content {
+    order: 3;
+}
+
+.bottom, .bottom-union {
+    order: 4;
+}
+/* Full page width set to --mw-full variable */
+.header, .menu, .content, .top, .top-union, .bottom{
+    max-width: var(--mw-full);
+    width: 100%;
+}
+/* Header width set to --mw-md variable */
+.header-wrap {
+    max-width: var(--mw-md);
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* Center menu  */
+.section.menu {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Tab width set to --mw-sm variable */
+.section.tab {
+    max-width: var(--mw-sm);
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* search bar top responsive */
+    @media only screen and (max-width: 767px) {
+        .page-search {
+            top: -20px;
+        }
+    }
+    
+    @media only screen and (max-width: 685px) {
+        .page-search {
+            top: 30px;
+        }
+    }
+    
+    @media only screen and (max-width: 515px) {
+        .page-search {
+            position: relative;
+            top: 20px;
+            left: auto;
+        }
+    }
+    
+    @media only screen and (max-width: 470px) {
+        .page-search {
+            position: relative;
+            top: 0px;
+        }
+    }
+
+/* tab active background color */
+.tab .ui-state-active, .tab .ui-widget-content .ui-state-active, .tab .ui-widget-header .ui-state-active {
+    background: var(--secondary-color) !important;
+  }
+  .tab .ui-state-active, .tab .ui-widget-content .ui-state-active, .tab .ui-widget-header .ui-state-active:hover {
+    background: var(--secondary-color) !important;
+  }
+  
+  .tab .ui-tabs .ui-tabs-panel {
+    border-top: 3px solid var(--secondary-color);
+  }
+  
+  .ui-state-active a:link, .ui-state-active a:visited {
+    color: var(--secondary-text-color);
+  }

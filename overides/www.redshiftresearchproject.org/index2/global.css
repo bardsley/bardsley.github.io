@@ -1,0 +1,25 @@
+.full_page {
+  height: 100vh;
+  display: flex; align-items: center; justify-content: center;
+  border: solid 1px hotpink
+}
+.full_page tr td  {
+  display: flex; align-items: center; justify-content: center;
+ width: 100%;
+}
+
+form { 
+  max-width: 80%;
+  min-width: 600px;
+}
+
+#page_aboutme {
+  height: auto;
+
+  padding-top: 20px;
+}
+#page_contactme {
+  height: auto;
+  background-color: rgba(51, 15, 255, 0.4);
+
+}
