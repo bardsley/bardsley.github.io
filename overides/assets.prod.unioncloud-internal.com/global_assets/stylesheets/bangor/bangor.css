@@ -1682,6 +1682,13 @@ body #enableRecite.bottom-left img {
     width: 100%
 }
 
+.logo-footer {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: -40px;
+
+}
 .section.union-footer .logo-footer img {
     max-width: 170px;
     min-width: 120px
