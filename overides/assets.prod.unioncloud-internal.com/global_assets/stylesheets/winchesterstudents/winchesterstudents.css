@@ -1,0 +1,801 @@
+.sv-feedback-button,.sv-button.petition,.sv-button.feedback {
+    display: none
+}
+
+body.module_student_voices .uc-sv-right-panel-wrapper .uc-sv-legends .uc-action-link {
+    display: none
+}
+
+:root {
+    --white: #fff;
+    --light-grey: #f2f2f2;
+    --light-blue: #e4eefa;
+    --medium-blue: #84aad9;
+    --cobalt-blue: #004aad;
+    --blue-violet: #7d2ae8;
+    --neon-blue: #5271ff;
+    --fire-engine-red: #cb1a1a;
+    --atomic-tangerine: #ff914d;
+    --max-width: 1280px
+}
+
+.tree-navigation ul li#user_profile.selected li a,.tree-navigation ul li#my_details.selected li a {
+    color: #000
+}
+
+.tree-navigation ul li#user_profile.selected>a,.tree-navigation ul li#my_details.selected>a {
+    color: #f90!important
+}
+
+* {
+    font-family: 'Josefin Sans',sans-serif!important
+}
+
+.bottom .list-wrap .column .twelvecol li,.bottom-union .list-wrap .column .twelvecol li {
+    list-style: none
+}
+
+.uc-widget-upcoming-events-wrapper h3 a,.off-title a {
+    text-decoration: none;
+    color: #84aad9
+}
+
+.uc-widget-upcoming-events-wrapper h3 {
+    display: none
+}
+
+.row .more-eventslink {
+    display: block;
+    color: #84aad9;
+    font-size: 30px;
+    border: solid 2px #c1d4ec;
+    margin-top: -5px;
+    color: #84aad9;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 25px
+}
+
+@media screen and (max-width: 480px) {
+    .home-content-html .uc-widget-upcoming-events {
+        padding-bottom:20px
+    }
+}
+
+span.toggle-text {
+    display: none
+}
+
+.uc-position-details-wrapper,.uc-manifesto-guideline-wrapper {
+    display: block
+}
+
+#events-list-wrap>.edit-mode-page {
+    clear: both
+}
+
+.uc-widget-articles-container .uc-widget-article-footer {
+    max-width: unset;
+    height: unset
+}
+
+.uc-widget-articles-container .uc-widget-article-footer .uc-widget-article-more-link {
+    width: unset;
+    float: unset;
+    text-align: center;
+    padding: .5em 1em
+}
+
+.sports .uc-slider-wrapper .uc-rslides_container .page-details .page-summary {
+    padding: .5em 1em;
+    max-width: 200px;
+    height: unset
+}
+
+.top-wrap,.top-union-wrap {
+    background-color: #e4eefa
+}
+
+.cards2by3 .page-details .page-title {
+    font-size: .8em
+}
+
+#union-logo a {
+    background-image: none
+}
+
+#winchesterstudents-default .wrapper {
+    display: flex;
+    flex-direction: column
+}
+
+.row.header {
+    order: 1
+}
+
+.row.top,.row.top-union {
+    order: 2
+}
+
+.row.content {
+    order: 3
+}
+
+.row.bottom,.row.bottom-union {
+    order: 5;
+    border: 0
+}
+
+.uc-leaderboard-advertisement {
+    order: 4
+}
+
+.uc-leaderboard-advertisement {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    background-color: var(--cobalt-blue);
+    display: block;
+    top: unset;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+.uc-leaderboard-advertisement .top-ad {
+    position: relative;
+    width: 96%;
+    max-width: 728px;
+    max-height: 90px;
+    aspect-ratio: 728/90;
+    top: unset;
+    margin: 0 auto;
+    background-color: #ffffff05;
+    margin-top: 20px;
+    margin-bottom: 10px
+}
+
+.row.bottom {
+    margin-top: 0;
+    background-color: var(--light-blue)
+}
+
+.row.bottom .bottom-wrap {
+    margin-bottom: 40px
+}
+
+.row.top {
+    background-color: var(--cobalt-blue)
+}
+
+@media screen and (max-width: 768px) {
+    .row.header {
+        padding:0;
+        margin-top: 40px
+    }
+
+    .row.header .header-wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0
+    }
+
+    .row.header #union-logo {
+        top: unset;
+        margin-bottom: 40px;
+        order: 2
+    }
+
+    .row.header .cart-account {
+        top: unset;
+        margin-bottom: 20px;
+        position: unset;
+        order: 1;
+        margin: 0;
+        width: 100%
+    }
+
+    .shopping-cart-menu,.profile-setting {
+        padding-top: 10px
+    }
+
+    .row.header .system-menu .reciteme {
+        top: 100px
+    }
+}
+
+.reciteme {
+    display: flex;
+    flex-direction: row-reverse;
+    position: fixed;
+    z-index: 1002;
+    top: 100px;
+    right: 0;
+    width: 120px
+}
+
+@media screen and (min-width: 768px) {
+    .reciteme {
+        top:20px
+    }
+}
+
+.reciteme span {
+    display: block;
+    background: #f18a36;
+    padding: .5em .5em;
+    color: #fff;
+    font-weight: bold;
+    width: 100px;
+    text-align: center;
+    font-size: .8em
+}
+
+@media screen and (max-width: 481px) {
+    .row.header #union-logo {
+        margin-bottom:60px
+    }
+
+    .reciteme {
+        top: 193px;
+        width: auto
+    }
+
+    .row.header .system-menu .reciteme {
+        top: 183px
+    }
+
+    .reciteme span {
+        width: auto;
+        font-size: .7em
+    }
+}
+
+.row.top * {
+    box-sizing: border-box
+}
+
+.row.top .phone-menu {
+    box-sizing: content-box
+}
+
+#top-sub-navigation-wrap {
+    width: 100%
+}
+
+.top-social {
+    overflow: auto;
+    width: 100%
+}
+
+.top-social div:first-child {
+    text-indent: unset;
+    margin: 16px 0
+}
+
+.top-social {
+    display: flex;
+    flex-wrap: no-wrap;
+    justify-content: space-between;
+    align-items: center
+}
+
+.top-social div.mmu-name {
+    order: 1
+}
+
+.top-social div.mmu-socialMedia {
+    order: 2;
+    flex-shrink: 0
+}
+
+.top-social div.mmu-socialMedia ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    margin-right: 0;
+    padding-right: 0
+}
+
+.top-social div.mmu-socialMedia ul li a {
+    margin: unset
+}
+
+.top-social div.mmu-socialMedia ul li a img {
+    margin: unset;
+    aspect-ratio: 1/1
+}
+
+.top-social div.mmu-top-links {
+    order: 3;
+    display: flex;
+    gap: 20px
+}
+
+.top-social div.mmu-top-links a {
+    padding: 0;
+    text-wrap: nowrap
+}
+
+.top-social div.mmu-search-icon {
+    order: 4
+}
+
+.top-social .mmu-search-icon {
+    order: 3;
+    margin-top: 16px;
+    background-size: unset;
+    background-position: top right!important
+}
+
+.top-social div.mmu-top-links {
+    font-size: 22px;
+    margin: 16px 0
+}
+
+.top-social .floatRight {
+    float: unset
+}
+
+@media screen and (max-width: 786px) {
+    .top-social {
+        flex-wrap:wrap;
+        justify-content: space-between
+    }
+
+    .top-social div.mmu-name {
+        order: 1;
+        margin-right: 30px
+    }
+
+    .top-social div.mmu-top-links {
+        order: 3;
+        width: 100%;
+        font-size: 16px;
+        margin-top: 0
+    }
+
+    .top-social div.mmu-search-icon {
+        order: 2
+    }
+}
+
+@media screen and (max-width: 1212px) {
+    .top-social div.mmu-socialMedia {
+        display:none
+    }
+}
+
+.row .mmu-search-icon {
+    background-color: unset;
+    background-image: url("https://assets.prod.unioncloud-internal.com/image/images/549060/original/search-regular-36.png")
+}
+
+.system-menu .system-menu-wrapper .uc-sign-link {
+    color: var(--cobalt-blue)
+}
+
+.sub-nav {
+    height: unset;
+    margin-bottom: unset;
+    background-color: var(--cobalt-blue)
+}
+
+#top-sub-navigation-wrap {
+    margin: unset;
+    padding: 0 20px
+}
+
+.phone-menu {
+    background-color: var(--cobalt-blue)
+}
+
+#top-sub-navigation-wrap {
+    margin: 0 auto
+}
+
+#top-navigation-wrap .nav-wrap {
+    margin-top: 20px
+}
+
+#top-navigation-wrap .nav-wrap ul li a,#top-navigation-wrap .nav-wrap ul {
+    color: var(--cobalt-blue)
+}
+
+.row.header .system-menu {
+    top: 0;
+    padding-top: 10px;
+    order: 1;
+    float: unset;
+    position: relative;
+    display: flex;
+    justify-content: end;
+    width: 100%
+}
+
+.row.header .header-wrap {
+    display: flex
+}
+
+@media screen and (min-width: 800px) {
+    .row.header .header-wrap {
+        justify-content:space-between;
+        align-items: end
+    }
+}
+
+.row.header .header-wrap .clear {
+    display: none
+}
+
+.row.header .header-wrap .system-menu {
+    align-self: end
+}
+
+@media screen and (min-width: 981px) {
+    .row.header .header-wrap .system-menu {
+        padding-right:110px;
+        align-self: center
+    }
+}
+
+.home-content-html .uc-widget-upcoming-events-wrapper .uc-widget-upcoming-event-row:first-child {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    width: 100%
+}
+
+.home-content-html .uc-widget-upcoming-events-wrapper .uc-widget-upcoming-event-row:first-child .clear {
+    display: none
+}
+
+@media screen and (max-width: 560px) {
+    .home-content-html .uc-widget-upcoming-events-wrapper .uc-widget-upcoming-event-row:first-child div {
+        display:none
+    }
+
+    .home-content-html .uc-widget-upcoming-events-wrapper .uc-widget-upcoming-event-row:first-child div:first-child {
+        display: block;
+        width: 100%
+    }
+
+    .home-content-html .uc-widget-upcoming-events-wrapper .uc-widget-upcoming-event-row:first-child div:first-child .event-box,.home-content-html .uc-widget-upcoming-events-wrapper .uc-widget-upcoming-event-row:first-child div:first-child img {
+        width: 100%
+    }
+}
+
+.home-content-html .uc-widget-upcoming-events {
+    padding-bottom: 0
+}
+
+.uc-widget-upcoming-events-wrapper .uc-widget-upcoming-event-row .event.upcoming-event-container {
+    margin: 0;
+    width: auto;
+    float: unset;
+    overflow: auto
+}
+
+.uc-widget-upcoming-events-wrapper .uc-widget-upcoming-event-row .event.upcoming-event-container .event-box {
+    width: auto;
+    padding: 0;
+    display: block;
+    margin: 0
+}
+
+.uc-widget-upcoming-events-wrapper .uc-widget-upcoming-event-row .event.upcoming-event-container .event-banner img {
+    margin: 0;
+    width: auto;
+    display: block;
+    border: 0
+}
+
+.uc-slider-wrapper .uc-rslides_container .centered-btns_nav.prev {
+    background-position: -4px 0
+}
+
+.uc-slider-wrapper .uc-rslides_container .centered-btns_nav.next {
+    background-position: -15px -80px
+}
+
+#homepage-top-slider {
+    display: none
+}
+
+.uc-rslides.centered-btns.centered-btns2 {
+    overflow: auto
+}
+
+.uc-rslides.centered-btns.centered-btns2 .slide,.uc-rslides.centered-btns.centered-btns2 .slide .edit-mode-page {
+    height: 100%;
+    min-height: 100%;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    object-fit: cover
+}
+
+.uc-slider-wrapper .uc-rslides img,.banner-section img {
+    height: 100%!important;
+    aspect-ratio: 1/1
+}
+
+@media screen and (min-width: 768px) {
+    .uc-rslides.centered-btns.centered-btns2 .slide .edit-mode-page a,.uc-rslides.centered-btns.centered-btns2 .slide .edit-mode-page span {
+        display:block;
+        height: 500px;
+        min-height: 500px;
+        overflow: hidden;
+        object-fit: cover
+    }
+
+    .uc-slider-wrapper .uc-rslides img,.banner-section img {
+        width: 1600px;
+        min-width: 100%;
+        display: block;
+        float: unset;
+        min-height: 500px
+    }
+
+    .uc-rslides.centered-btns.centered-btns2 .slide {
+        height: 500px;
+        overflow: hidden
+    }
+
+    .uc-rslides.centered-btns.centered-btns2 {
+        min-height: 500px;
+        overflow: auto
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .uc-rslides.centered-btns.centered-btns2 .slide,.uc-slider-wrapper .uc-rslides img,.banner-section img,.uc-rslides.centered-btns.centered-btns2 .slide .edit-mode-page a,.uc-rslides.centered-btns.centered-btns2 .slide .edit-mode-page span,.uc-rslides.centered-btns.centered-btns2 .slide .edit-mode-page {
+        height:auto;
+        aspect-ratio: 1600/500
+    }
+}
+
+.uc-rslides_container .uc-rslides * {
+    object-fit: cover!important;
+    overflow: hidden
+}
+
+#student-voice {
+    max-width: var(--max-width);
+    margin: 0 auto
+}
+
+.uc-student-voice-widget-category li {
+    background-color: var(--light-blue)
+}
+
+.uc-student-voice-widget-category li a {
+    color: var(--cobalt-blue)
+}
+
+.uc-student-voice-widget-category li.selected {
+    background-color: var(--cobalt-blue);
+    color: #fff
+}
+
+.uc-widget-student-voices-wrapper .sv-widget-no-content {
+    font-size: .9em
+}
+
+.uc-widget-upcoming-events-wrapper h3 a,.off-title,.off-title a {
+    color: var(--cobalt-blue);
+    border-color: var(--cobalt-blue)
+}
+
+.profile-setting {
+    width: auto;
+    display: flex
+}
+
+.profile-name-wrapper {
+    width: auto;
+    display: flex;
+    align-items: center
+}
+
+.profile-drop-down-menu {
+    top: 1.8em
+}
+
+@media screen and (min-width: 768px) {
+    .profile-drop-down-menu {
+        top:1.2em
+    }
+
+    .row .cart-account {
+        top: unset;
+        float: unset
+    }
+}
+
+.row.bottom,.row.bottom-union {
+    background-color: var(--cobalt-blue)
+}
+
+#website-final-footer {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    margin-top: 20px;
+    color: white
+}
+
+#website-final-footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    width: auto;
+    max-width: 900px;
+    margin: 0 auto
+}
+
+#website-final-footer ul li {
+    width: 33%;
+    margin-bottom: 10px;
+    text-align: center
+}
+
+.menu ul li ul {
+    width: 400px
+}
+
+.menu ul li ul li a {
+    font-size: 1.5em
+}
+
+#home-page-elected-officers,#homepage-sports-societies {
+    display: none
+}
+
+.uc-widget-groups {
+    background-color: var(--cobalt-blue);
+    color: #fff;
+    margin-bottom: 20px
+}
+
+.uc-widget-groups-wrapper {
+    max-width: 980px;
+    margin: 0 auto
+}
+
+.uc-widget-group-footer {
+    width: unset;
+    background-color: unset
+}
+
+.uc-widget-group-footer .uc-widget-group-pagination .widget-more-groups {
+    position: unset;
+    justify-self: flex-end
+}
+
+.uc-widget-group-footer .uc-widget-group-pagination {
+    display: flex;
+    height: unset;
+    width: 100%;
+    justify-content: end
+}
+
+.uc-widget-group-pagination .previous-page,.uc-widget-group-pagination .next-page {
+    display: block;
+    position: unset;
+    width: 40px;
+    height: 40px
+}
+
+#uc-group-reset-button {
+    color: var(--cobalt-blue);
+    background-color: #fff
+}
+
+.uc-widget-group-search {
+    width: calc(100% - 40px);
+    margin: 20px 0 0 0
+}
+
+#group_search_keyword {
+    width: 100%;
+    height: 15px;
+    font-size: 1.25em
+}
+
+.uc-widget-groups-left-panel-wrapper {
+    padding: 0 0 20px
+}
+
+.uc-widget-groups-right-panel {
+    margin-bottom: 20px
+}
+
+.uc-widget-groups-right-panel-wrapper {
+    min-height: 300px;
+    position: relative;
+    padding: 0;
+    overflow: hidden
+}
+
+.uc-widget-group-placeholder-267199 {
+    height: 100%;
+    position: absolute;
+    overflow: hidden
+}
+
+.uc-widget-group-placeholder-267199 a {
+    display: block;
+    min-height: 300px;
+    object-fit: cover;
+    text-align: center;
+    overflow: hidden;
+    object-position: left top
+}
+
+.uc-widget-group-placeholder-267199 a img {
+    width: 1200px;
+    max-width: unset
+}
+
+.section.column {
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+@media screen and (max-width: 768px) {
+    .section.column .column-content .edit-mode-page {
+        text-align:center
+    }
+}
+/* #banner-section {
+    margin:0; width: 100%;
+    max-width: unset;
+}
+#full-width-arch-column-content {
+    width: 100%;
+} */
+
+/* Strategy */
+
+/* Strategy Slider */
+/* Temp */
+.jcarousel-prev, .jcarousel-next {
+    /* display:none!important; */
+}
+#uc-page-id-strategy  #priorities-stripe #priorities-stripe ul li {
+    /* border: 1px solid hotpink; */
+    background-color: Var(--cobalt-blue); padding: 20px;
+    width: 200px;
+    border-radius: 15px;
+  
+}
+
+#uc-page-id-strategy  #priorities-stripe #priorities-stripe .page-title {
+    color: var(--white);
+    font-size: 1.5rem;
+}
+#uc-page-id-strategy  #priorities-stripe #priorities-stripe .edit-mode-page {
+    overflow: hidden;
+}
+
+
+#uc-page-id-strategy #priorities-stripe .jcarousel-skin-tango .jcarousel-clip-horizontal {
+    width: 100%;
+}
+
+#uc-page-id-strategy  #priorities-stripe #priorities-stripe .edit-mode-page p {
+    color: var(--white);
+}
+
+#priorities-stripe-wrap {
+    height: 400px; 
+    /* border: solid 1px red; */
+} 
+#uc-page-id-strategy .jcarousel-list,
+#uc-page-id-strategy .jcarousel-clip,
+#uc-page-id-strategy .jcarousel-container,
+#uc-page-id-strategy .jcarousel-skin-tango,
+#uc-page-id-strategy #priorities-stripe { height: 100%;}

@@ -66,10 +66,24 @@ a:link:visited {
     background-color: var(--default-pink);
     background-image: var(--pink-fade)
 }
-
 body * {
     font-family: var(--body-font)
 }
+/* body,a:link,.logged-in span.username,.system-menu,.system-menu a,.uc-leaderboard-advertisement,.header,.content .signIn h2,.signIn,a.buttonLink,.choosePlan,.sign-up .buttonrow input,.confirmation-email .buttonrow input,.unlock .buttonrow input,.change-password .buttonrow input,a.buttonLink,.section.powered-by .list-wrap,#officers .stripe-wrap a.uc-link-block,.section.stripe .stripe-wrap a.uc-link-block,#officers .stripe-wrap a.uc-page-block,.section.stripe .stripe-wrap a.uc-page-block,#officers .stripe-carousel ul,.section.stripe .stripe-carousel ul,.tab .ui-widget-content,.tab .ui-tabs .ui-tabs-nav li,.grid-carousel,.grid-carousel a span.page-details span.page-summary,.tab .grid-carousel a span.page-details .page-title,.three-column,.three-column-without-h2 h2,.three-column h1,.three-column h2,.three-column-without-h2 ul,.three-column-without-h2 ol,.three-column ul,.three-column ol,.three-column-without-h2 p,.three-column p,.three-column-without-h2 #latest-groups .top-groups .group .group-icon,.three-column #latest-groups .top-groups .group .group-icon,#latest-events .top-events li,#latest-events .more.more-events,#latest-groups .top-groups li,#latest-groups .more.more-groups,#latest-documents,#latest-articles,#latest-documents .top-documents li,#latest-articles .top-articles li,#latest-documents .more.more-documents,#latest-articles .more.more-articles,.section.union-footer .fourcol.column-content .uc-page-wrap a,.section.union-footer .sixcol.column-content .uc-page-wrap a,.section.union-footer .threecol.column-content .uc-page-wrap a,.section.union-footer .fourcol.column-content p,.section.union-footer .sixcol.column-content p,.section.union-footer .threecol.column-content p,.section.union-footer .fourcol.column-content .award-icons,.section.union-footer .sixcol.column-content .award-icons,.section.union-footer .threecol.column-content .award-icons,#crumbs,.tree-navigation-structure #uc-left-navigation ul li:last-child,#uc-left-navigation li,.tree-navigation ul,.tree-navigation .nav-level-one>li,#uc-left-navigation li a,.tree-navigation .nav-level-one .selected ul li a,.tree-navigation .nav-level-one .selected ul li a,#search-result h2 a,#search-result .pagination,h1,.content .row .content-wrap h1,h2,.content .row .content-wrap h2,h2,.content .row .content-wrap h2 a,h4,.content .row .content-wrap h4,h5,.content .row .content-wrap h5,h6,.content .row .content-wrap h6,.content .row .content-wrap p,.content .row .content-wrap table,.content .row .content-wrap table p,.content .row .content-wrap strong,.content .row .content-wrap ul,.content .row .content-wrap ol,.content .row .content-wrap .column-content p,.articleDetails .time,.articleDetails p,.articles p,.articleDetails ul,.articleDetails ol,.articleDetails,.contentContainer .backButton,.pagination,.search.eventsearch,.event-box .non-free-event-title,.event-details p,.tree-navigation .title h1,.tree-navigation ul,.tree-navigation ul li.selected a,.tree-navigation .latestEventLeftSide li .eventVenue,.tree-navigation h3,.tree-navigation ul li,#uc-groups-details-page .contentBoxes ol,#uc-groups-details-page .contentBoxes ul,#uc-events-details-page .contentBoxes ol,#uc-events-details-page .contentBoxes ul,.no-message,.slideContent .summaryText,#eventpromotioncarousel .jcarousel-skin-tango .jcarousel-item-horizontal,#calender-widget .cal-date li.last-child,#calender-widget .event-available ul.event-time,#calender-widget .cal-date li.last-child,#calender-widget .event-available ul.cal-time,#calender-widget .event-available ul.cal-time.bottom,#calender-widget .events-name ul ul li,#calender-widget .events-name ul span,#calender-widget .event-list .top-event-time,#calender-widget .event-list .bottom-event-time,#calender-widget .cal-month li,.tip-yellowsimple .event-details p,#shopping-cart .orderHeaderRow,#shopping-cart .orderRow,#shopping-cart .grandTotal .subTotal,#shopping-cart .grandTotal .sub-TotalPrice,#shopping-cart .grandTotal .vat-Price,#shopping-cart .grandTotal .grand-TotalPrice,#shopping-cart .orderHeaderRow .productQty,#shopping-cart .orderHeaderRow .productPrice,#shopping-cart .orderHeaderRow .Total,ul.tabs li,html ul.tabs li.active,.guestRegistrationForm .recaptchaGuestLabel,.guestRegistrationForm .recaptchaLabel,.guestRegistrationForm legend,.guestRegistrationForm ol li.text textarea,.guestRegistrationForm p.inline-hints,.guestRegistrationForm p.inline-errors,.wrap .content-wrap.home-content-wrap.subsites.ninecol.last,.tree-navigation ul li,.group-types ul li a,.group-category-title h2,.group-box .group-name,legend.formLegend,.group-confirmation-form p,fieldset.group-questions-form,.totalQuantityBought b,.new_group_membership .tree-navigation ul li.selected,#memberShipDisplay .memberShipType h2,.evo-group-widget,.evo-group-widget .top-groups,.evo-header-wrapper,.evo-header-wrapper h2,.evo-header-wrapper h3,.evo-header-wrapper .evo-timer,.categories-wrapper,.categories-wrapper .categories,.categories-wrapper .evo-header-wrapper h3,.categories-wrapper .evo-header-wrapper .evo-timer,.categories-wrapper .evoting-categories,.categories-wrapper .evoting-categories h2,.categories-wrapper .evoting-categories h3,.categories-wrapper .evoting-categories .evo-timer,.categories-wrapper .evoting-categories .evo-timer h3,.categories-wrapper .whatsthis,.categories-wrapper .evo-categories .evo-position-status,.categories-wrapper .evo-categories .evo-position-status a:link,.categories-wrapper .evo-categories .evo-position-status a:active,.categories-wrapper .evo-categories .evo-position-status a:visited,.categories-wrapper .evo-categories .evo-position-status a:hover,.categories-wrapper .evo-categories h3,.categories-wrapper .evo-ref-questions .evo-question,.categories-wrapper .evo-ref-questions .evo-question-status,.categories-wrapper .evo-ref-questions .evo-question-status-noeligible,.canditate-top-main-head,.canditate-top-main-head h2,.canditate-top-main-head h2 em,.ref-top-main-head h2 em,.ref-options-wrapper p a:link,.ref-options-wrapper p a:active,.ref-options-wrapper p a:visited,.ref-options-wrapper .evo-formrow,.ref-options-wrapper .evo-formrow label,.evo-confirm-ref-vote .evo-votechoice,.evo-confirm-ref-vote .evo-confirmbutton a:link,.evo-confirm-ref-vote .evo-confirmbutton a:active,.evo-confirm-ref-vote .evo-confirmbutton a:visited,.evo-candetails-wrapper,.evo-candetails-wrapper h3,.evo-yourvote-wrapper h3,.evo-yourvote-wrapper p a:link,.evo-yourvote-wrapper p a:active,.evo-yourvote-wrapper p a:visited,.top-main-confirm-head,.top-main-confirm-head h3,.evo-confirm-wrapper .evo-confirm-header,.evo-confirm-wrapper .confirmbutton a:link,.evo-confirm-wrapper .confirmbutton a:active,.evo-confirm-wrapper .confirmbutton a:visited,.evo-position-status-noeligible,#manifesto-details ul,.guestRegistrationForm ol li.university-domain,.guestRegistrationForm .recaptchaGuestLabel,.guestRegistrationForm .recaptchaLabel,.myaccount-loyalty-points .portlet .contentBoxes,.myaccount-student-details .portlet .contentBoxes,.myaccount-student-details .guestRegistrationForm,.myaccount-student-details legend.formLegend,#questionnaire legend.formLegend,.change-password #user_edit .formrow input,.tree-navigation .group-category .typeCategory,.questionnaire .formrow .dynamiclabel,.question-buttons,#shopping_cart .question-answers ol li,.qa-question,.questionnaire .success,.verifyTickets .tableHeader,.verifyTickets .tableBody,.event-ticket-number-details .event-ticket-details-wrapper .event-title h3,.myaccount-ticket-details .ticketBox .action .printButton,.event-ticket-number-details,a.printButton,.action,.twitter-content p,.twitter-content img,.union-left-box p,.union-left-box img,.confirm-email-block .confirm-link-message,.reset-password-block .confirm-link-message,.accountlock-password-block .confirm-link-message,.reset-password-block .warning,.confirm-email-block .warning,.accountlock-password-block .warning,.signin-block .existing-user .user-email-id,.registration-final-step,.signin-block,.change-password-block,.confirmation-email-block,.unlock-block,.reset-password-block,.accountlock-password-block,.problem-registering-block,.change-password-block .form-row label,.confirmation-email-block .form-row label,.unlock-block .form-row label,.signin-block .heading,.change-password-block .heading,.confirmation-email-block .heading,.unlock-block .heading,.reset-password-block .heading,.accountlock-password-block .heading,.forgot-password a,.registration-final-step .final-thank-you-msg h2,.frequently-asked-question .faq-wrapper .faq-content-wrapper,.problem-registering-content-inner-wrapper,div.change-password #user_edit .formrow label,.registration-form ol li.input label,.registration-form ol li.unionemail p,.registration-form ol li.nusemail p,.registration-form ol li.commercialemail p,.registration-form ol li.nusemail .label-unionemail-wrapper,.registration-form p.inline-hints,.registration-form ol li.unionemail,.registration-form ol li.nusemail,.registration-form ol li.commercialemail,.registration-form ol li.unionemail label,.registration-form ol li.nusemail label,.registration-form ol li.commercialemail label,.account-act-msg,.registration-form ol li.university-domain,#recaptcha_widget #recaptcha_response_field,select,.registration-form fieldset .smalltext,.registration-form ol li.input.nusemail label,.signin-block .ask-button .highlight-button,.commit.button .update,.commit.button .button.create,.registration-final-step h3.final-heading,#student_nationality_input label,.registration-form .recaptchaLabel,#registration-form-container h2,.almost-done-msg,.almost-done-msg,.myaccount-shopping-details .order-search fieldset legend,.myaccount-shopping-details .order-search fieldset li label,.myaccount-shopping-details .order-grid table,.myaccount-shopping-details .order-grid table th,.articleDetails,.more-article-block .more-article-block-wrapper ul li span,.more-article-block .more-article-block-wrapper ul li span a,.featured-news-block,.articles-list-block .articles-block h3,.featured-news-block .news-date-time,.articles-list-block .news-date-time,.articles-list-block h3 .news-date-time a,.articleDetails .article-details-wrapper table td,.more-article-block,.guest-form-box label,.guest-form-box textarea,.guest-form-box input,.guest-form-wrapper .guest-details-list .guest-form h3,.guest-form-wrapper,.myaccount-student-details .registration-form-wrapper,.uc-widget-student-voices-wrapper .uc-sv-widget-title a,.uc-widget-student-voices-wrapper .uc-sv-widget-row-desc,ul.uc-student-voice-widget-category,.uc-student-voice-widget-category li.selected,.uc-student-voice-widget-category li a,.uc-student-voice-widget-category li.selected a,.uc-student-voice-widget-category li.selected a:visited,.uc-widget-student-voices-wrapper .uc-student-voice-jcarousel .jcarousel-prev-vertical,.uc-manifesto-guideline p,.uc-manifesto-guideline ul,.uc-manifesto-guideline ol,.uc-position-details .uc-position-details-wrapper ol,.uc-position-details .uc-position-details-wrapper ul,table.formatted-table,.section.default-body table,.edit-mode-page table,table.formatted-table,table.formatted-table th,table.formatted-table td,.section.default-body table,.section.default-body table th,.section.default-body table td,.edit-mode-page table,.edit-mode-page table th,.edit-mode-page table td,table.formatted-table td,table.formatted-table tr,table.formatted-table th,.section.default-body table td,.section.default-body table tr,.section.default-body table th,.edit-mode-page table td,.edit-mode-page table tr,.edit-mode-page table th,.uc-customer-quick-login .signin-button-brinjal a,.signin-block .action.input_action,#e-shop .product-block .product-name a,#e-shop .product-block .product-price a,#e-shop .product-filter-panel .count-product-found,.uc-search-articles label,.content .uc-articles-right-panel-search-wrapper h2,.content .uc-result-count span,.content .uc-result-count strong,.shopping-cart-menu strong,.content-slider-container p:after,.content-slider-container a,#uc-sv-main-wrapper h1,#uc-sv-nav-tab-panel #uc-sv-main-navcontainer ul li.active a,.uc-sv-category-field-holder ul li label.uc-sv-bgorange,#uc-sv-main-wrapper .uc-sv-module-idea-wrapper h2,.clear-button,#search-result,.verifyTickets a.buttonLink,a.phone-menu:link,.menu .wrap,.menu ul li,.content-wrap .eightcol .section,.page-search .search-box .search-box-wrapper,.categories-wrapper .whatdesc,.guestRegistrationForm p.inline-errors,.guestRegistrationForm li.date p.inline-errors,.guestRegistrationForm p.inline-errors,.guestRegistrationForm li.date p.inline-errors,#latest-articles .jcarousel-container-vertical,#latest-articles .article-widget .top-articles li .article-content .date a,#latest-articles .article-widget.with-image-description .top-articles li .date a {
+    font-family: var(--body-font)
+}
+
+@media screen and (max-width: 1024px) {
+    #latest-events .jcarousel-container-vertical,#latest-events .event-widget .top-events li .event-content .date a,#latest-events .event-widget.with-image-description .top-events li .date a,#latest-events .event-widget .top-events li .event-content .name,#latest-events .event-widget.with-image-description .top-events li .name,#latest-articles .article-widget .top-articles li .article-content .headline,#latest-articles .article-widget.with-image-description .top-articles li .headline,#latest-articles .more.more-articles,.uc-adv-admin .cms-forms *,.section.union-footer .fourcol.column-content .uc-page-wrap .tool-bar a,.section.union-footer .sixcol.column-content .uc-page-wrap .tool-bar a,.section.union-footer .threecol.column-content .uc-page-wrap .tool-bar a,#top-navigation ul,.fixed-nav #top-navigation ul li a,#top-navigation ul li ul li,.student-voice h2:before,.uc-widget-groups-summary,.company,.heading h1,h2.heading h1,#event-homepage .heading h1,#officers-column-content .uc-rslides_container .uc-rslides .uc-slider-banner .uc-slider-banner-wrapper p.sub-title,.uc-pop-language-box,.stripe-container .img-description,.list-fullwidth-content-section .uc-page-wrap,.list-fullwidth-content-section .uc-list-banner-wrapper .uc-banner-hover span,#fullbanner-section #fullbanner-section-wrap img,.profile-news-section .profile-news-description-container {
+        font-family:var(--body-font)
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .subsites .column .column-content,#uc-volunteering .page-separator,#uc-groups-details-page .content-wrap .bottom-container,#uc-events-details-page.content-wrap .bottom-container,#uc-articles-details .articleDetails .article-backto-parent .uc-articles-tags .uc-articles-tags-heading,#uc-articles-details .articleDetails .article-backto-parent .uc-events-tags .uc-articles-tags-heading,#uc-articles-details .articleDetails .article-backto-parent .uc-groups-tags .uc-articles-tags-heading,#uc-articles-details .articleDetails .article-backto-parent .uc-resources-tags .uc-articles-tags-heading,#uc-sv-left-panel .uc-sv-left-panel-wrapper .page-separator,.uc-sv-twelvecol h3.form-heading-title,.uc-sv-left-panel-wrapper .uc-msg-notfound,#uc-sv-main-wrapper h1,.uc-sv-module-text-wrapper,.uc-page-class-circle-img-section .list-content-section .uc-list-banner-wrapper .uc-banner-hover,#uc-groups-details-page .join-this-group,.footer-icons-container .icon-email a {
+        font-family:var(--body-font)
+    }
+} */
 
 li#student_discounts {
     display: none!important
@@ -2092,11 +2106,13 @@ body #enableRecite.bottom-left img {
     border-radius: 1em 0 0 1em
 }
 
+/* Added 2nd Oct 2024 - Adam Bardsley */
+
 .row.content {
     width: 100%;
     max-width: var(--width-stop);
     padding: var(--spacing-dbl);
-    box-sizing: border-box
+    box-sizing:border-box;
 }
 
 .row.content .content-wrap {
@@ -2104,75 +2120,8 @@ body #enableRecite.bottom-left img {
     float: unset
 }
 
-.section.union-footer {
-    background-image: none
-}
+.section.union-footer { background-image: none;}
 
 .module_groups.action_show #uc-groups-details-page {
-    display: flex
-}
-
-
-/* Volunterring */
-
-.uc-opp-listing-wrapper .uc-opp-block {
-    background-color: var(--dark-grey);
-    border: none;
-    box-shadow: unset;
-}
-.uc-opp-listing-wrapper .uc-opp-block  .uc-organisation-logo,
-.uc-opp-listing-wrapper .uc-opp-block .organisation-image,
-.uc-opp-listing-wrapper .uc-opp-block .organisation-image img {
-    width: 100%;
-    object-fit: cover;
-    margin:unset;
-    box-sizing:border-box;
-    height:unset;
-    padding:0;
-}
-
-.uc-opp-listing-wrapper .uc-opp-block .organisation-image img {
-    aspect-ratio: 2/1;
-    height: 100%; display: block;
-}
-.uc-opp-listing-wrapper .uc-opp-block .organisation-image {
-    margin-bottom: var(--spacing)
-}
-
-/* General */
-.module_volunteering_opportunities .content .uc-opp-right-panel-search-wrapper h2 {
-    color: var(--dark-grey)!important;
-}
-
-/* Groups */
-
-#uc-groups-details-page .join-this-group.button-bottom {
-    display: none!important;
-}
-
-/* All Stripes */
-
-.section.stripe {
-    background: unset;
-}
-.content .row .content-wrap .section.stripe h2 {
-    color: var(--dark-grey)
-}
-
-#undeb-staff-wrap {
-    display: grid;
-    grid-column: auto;
-    grid-template-columns: 1fr 1fr 1fr 1fr
-}
-#undeb-staff-wrap .uc-list-banner-wrapper a{
-    /* border: solid 1px yellow;  */
-    display: block;
-    width: 100%;
-}
-#undeb-staff-wrap .uc-list-banner-wrapper a .thumbnail-image {
-    float: unset; width:unset;
-}
-
-#undeb-staff-wrap .uc-banner-hover-wrapper {
-    max-width: 100%;
+    display: flex;
 }

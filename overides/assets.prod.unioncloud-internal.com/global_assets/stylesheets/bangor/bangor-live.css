@@ -387,7 +387,7 @@ div#uc-widget-upcoming-events-right-panel {
     align-items: center;
     flex-direction: row;
     border: 0;
-    background: #212529;padding:5px 5px 5px 5px
+    background: #212529 padding:5px 5px 5px 5px
 }
 
 .uc-widget-upcoming-events-wrapper .uc-widget-upcoming-event-row .upcoming-event-container:first-child {
@@ -1878,4 +1878,3 @@ a:-webkit-any-link {
     background-color: var(--default-pink);
     border-radius: 1em 0 0 1em;
 }
-
