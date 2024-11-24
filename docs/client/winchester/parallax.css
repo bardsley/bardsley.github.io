@@ -20,6 +20,7 @@ body {
   position: relative;
   overflow-x:hidden;
   background-image: url('./background2.png');
+  font-size: 62.5%;
 }
 h1 { max-width: 80%; }
 h2 { margin:0;}
