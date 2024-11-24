@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   const tlIntro = gsap.timeline({
     scrollTrigger: {
       trigger: '#introduction',
-      start: 'top 75%',
+      start: 'top 66%',
       end: 'bottom bottom',
       scrub: true,
       markers: true,
@@ -107,4 +107,24 @@ document.addEventListener("DOMContentLoaded", function(event) {
     .add(gsap.to("#familiarity",labelOutState),`end${labelOutTiming}`)
     
 
+  // Priroities slider
+  const tlPriority = gsap.timeline({
+    scrollTrigger: {
+      trigger: '#priorities',
+      start: 'top top',
+      end: 'bottom top',
+      scrub: true,
+      pin: true,
+      markers: true,
+    }
+  })
+
+  const sliderElement = document.getElementById('priority-slider') //.getBoundingClientRect()
+  const sliderContainer = document.getElementById('priorities') //.getBoundingClientRect()
+  const singlePanel = 750
+  window.sliderElement = sliderElement
+  window.sliderContainer = sliderContainer
+
+  tlPriority.addLabel("start")
+    .to('#priority-slider',{x: (sliderElement.scrollWidth - sliderContainer.offsetWidth  ) * -1 , ease: "none"},)
 });
