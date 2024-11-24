@@ -111,20 +111,46 @@ document.addEventListener("DOMContentLoaded", function(event) {
   const tlPriority = gsap.timeline({
     scrollTrigger: {
       trigger: '#priorities',
-      start: 'top top',
+      start: '200px top',
       end: 'bottom top',
       scrub: true,
       pin: true,
       markers: true,
+      snap: {
+        snapTo: 'labels', // snap to the closest label in the timeline
+        duration: { max: 0.3 }, // the snap animation should be at least 0.2 seconds, but no more than 3 seconds (determined by velocity)
+        // delay: 0.1, // wait 0.2 seconds from the last scroll event before doing the snapping
+        ease: 'power2.inOut' // the ease of the snap animation ("power3" by default)
+      },
     }
   })
 
   const sliderElement = document.getElementById('priority-slider') //.getBoundingClientRect()
   const sliderContainer = document.getElementById('priorities') //.getBoundingClientRect()
   const singlePanel = 750
+  const panels = Array.from(sliderElement.getElementsByTagName('li'))
+  const panelNames = panels.map((panel) => { return panel.id })
+  const numberOfPanels = panels.length
+  const totalMovement = (sliderElement.scrollWidth - sliderContainer.offsetWidth) * -1
   window.sliderElement = sliderElement
   window.sliderContainer = sliderContainer
+  window.panels = panels
+  window.timeline = tlPriority
 
-  tlPriority.addLabel("start")
-    .to('#priority-slider',{x: (sliderElement.scrollWidth - sliderContainer.offsetWidth  ) * -1 , ease: "none"},)
+  let lastLabel = tlPriority.addLabel(panelNames[0])
+
+  panelNames.slice(1).forEach((panelName,index) => {
+    lastLabel = lastLabel.addLabel(panelName)
+    const offset = ((totalMovement) / (numberOfPanels-1)) * (index+1)
+    console.log("panelName",panelName,offset,totalMovement)
+    lastLabel.to('#priority-slider',{x: offset , ease: "none"},panelName)
+  }) 
+
+
+  console.log(tlPriority)
+    // .to('#priority-slider',{x: totalMovement , ease: "none"},)
 });
+
+function moveForward() {
+  timeline.seek(timeline.nextLabel())
+}
