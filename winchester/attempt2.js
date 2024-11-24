@@ -60,8 +60,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
   })
 
   tlIntro.addLabel('start')
-    .add(gsap.to('#mission',{ x: 0, duration: 1}))
-    .add(gsap.to('#vision',{ x: 0, duration: 1}),"<+=1")
+    .add(gsap.to('#mission',{ x: 0, duration: 2}))
+    .add(gsap.to('#vision',{ x: 0, duration: 2}),"<+=1")
     
   // Goals Wheel
   const tlGoals = gsap.timeline({
@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
       scrub: 0.5, // smooth scrubbing, takes 1 second to "catch up" to the scrollbar
       snap: {
           snapTo: 'labels', // snap to the closest label in the timeline
-          duration: { max: 0.3 }, // the snap animation should be at least 0.2 seconds, but no more than 3 seconds (determined by velocity)
+          // duration: { max: 0.3 }, // the snap animation should be at least 0.2 seconds, but no more than 3 seconds (determined by velocity)
           // delay: 0.1, // wait 0.2 seconds from the last scroll event before doing the snapping
           ease: 'power2.inOut' // the ease of the snap animation ("power3" by default)
       },
@@ -81,15 +81,17 @@ document.addEventListener("DOMContentLoaded", function(event) {
     }
   });
 
-  const labelOutState = {x: "-100%", scale: "0"}
+  const duration = 10
+  const labelOutState = {x: "-100%", scale: "0", duration: duration}
   const labelOutTiming = "" //'-=0.2'
-  const labelInState = {x: 0, scale: "1"}
+  const labelInState = {x: 0, scale: "1", duration: duration}
   const labelInTiming = "+=0.2"
+  
   tlGoals.addLabel("start")
     .add(gsap.to('#sports',{ y:50, duration: 1}),"start")
     // .add(gsap.to('#goals',{ paddingTop: "0px"}),"start")
     .addLabel("community")
-    .to("#community",{x: 0, scale: "1"})
+    .to("#community",{x: 0, scale: "1", duration: duration})
     .addLabel('support')
     .to('#goal-wheel', { rotation: 90 })
     .add(gsap.to("#community",labelOutState),`support${labelOutTiming}`)
@@ -111,16 +113,16 @@ document.addEventListener("DOMContentLoaded", function(event) {
   const tlPriority = gsap.timeline({
     scrollTrigger: {
       trigger: '#priorities',
-      start: '200px top',
+      start: 'top top',
       end: 'bottom top',
-      scrub: true,
+      scrub: 0.5,
       pin: true,
       markers: true,
       snap: {
         snapTo: 'labels', // snap to the closest label in the timeline
         duration: { max: 0.3 }, // the snap animation should be at least 0.2 seconds, but no more than 3 seconds (determined by velocity)
         // delay: 0.1, // wait 0.2 seconds from the last scroll event before doing the snapping
-        ease: 'power2.inOut' // the ease of the snap animation ("power3" by default)
+        ease: 'power1.inOut' // the ease of the snap animation ("power3" by default)
       },
     }
   })
@@ -159,8 +161,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
 });
 
 function moveForward() {
-  timeline.seek(timeline.nextLabel())
+  timeline.tweenTo(timeline.nextLabel(),{ease: "power5.inOut"})
 }
 function moveBack() {
-  timeline.seek(timeline.previousLabel())
+  timeline.tweenTo(timeline.previousLabel(),{ease: "power5.inOut"})
 }

@@ -11,7 +11,7 @@
   --hero-height: 100vh;
   --line-thickness: 12px;
   --line-wiggle-room: 150px;
-  --max-column-width: 1024px;
+  --max-column-width: 1440px;
 }
 
 body {
@@ -200,6 +200,7 @@ section#introduction {
 @media screen and (min-width: 1024px) {
   #goals {
     padding-top: 100px;
+    height: 66vh;
   }
   #goals .picture {
     left: calc(50% - 512px);
@@ -260,7 +261,8 @@ section#introduction {
   margin: 0 auto;
 }
 .rotator #goal-wheel-wrap {
-  width: 75%;
+  height: 100%;
+  width: 80%;
   padding-top: 80px;
   background-image: url(./arrow.png);
   background-repeat: no-repeat;
@@ -269,6 +271,10 @@ section#introduction {
   background-size: 200px;
   position: relative;
 }
+.rotator #goal-wheel-wrap img {
+  max-height: 100%;
+}
+
 .rotator #goal-wheel-wrap .logo {
   width: 100%; height: calc(100% - 80px);
   position: absolute;
@@ -287,7 +293,8 @@ section#introduction {
     width: 100%;
   }
   .rotator #goal-wheel-wrap {
-    max-width: 50%;
+    /* max-width: 50%; */
+    width: 100%;
   }
   #goals .description .value {
     font-size: 3rem;
@@ -358,6 +365,22 @@ section#introduction {
 #priority-slider li p {
   font-weight: 350;
   color: #fff;
+}
+
+#controls {
+  width: 100%;
+  padding: 2rem 0 ;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+#controls button  {
+  padding: 1rem;
+  font-size: 3rem;
+  color: #fff;
+  border: solid 1px transparent;
+  background-color: var(--organisation);
+  border-radius: 1rem;
 }
 
 #footer {
