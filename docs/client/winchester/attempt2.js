@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
       start: 'top 66%',
       end: 'bottom bottom',
       scrub: true,
-      markers: true,
+      // markers: true,
     }
   })
 
@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     scrollTrigger: {
       trigger: '#goals',
       pin: true, 
-      start: 'top top+=50', // when the top of the trigger hits the top of the viewport
+      start: 'top top', // when the top of the trigger hits the top of the viewport
       end: '+=1500px', // end after scrolling 500px beyond the start
       scrub: 0.5, // smooth scrubbing, takes 1 second to "catch up" to the scrollbar
       snap: {
@@ -117,7 +117,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
       end: 'bottom top',
       scrub: 0.5,
       pin: true,
-      markers: true,
+      // markers: true,
       snap: {
         snapTo: 'labels', // snap to the closest label in the timeline
         duration: { max: 0.3 }, // the snap animation should be at least 0.2 seconds, but no more than 3 seconds (determined by velocity)
@@ -127,37 +127,38 @@ document.addEventListener("DOMContentLoaded", function(event) {
     }
   })
 
-  const sliderElement = document.getElementById('priority-slider') //.getBoundingClientRect()
-  const sliderContainer = document.getElementById('priorities') //.getBoundingClientRect()
-  const singlePanel = 750
-  const panels = Array.from(sliderElement.getElementsByTagName('li'))
-  const panelNames = panels.map((panel) => { return panel.id })
-  const numberOfPanels = panels.length
-  const totalMovement = (sliderElement.scrollWidth - sliderContainer.offsetWidth) * -1
-  window.sliderElement = sliderElement
-  window.sliderContainer = sliderContainer
-  window.panels = panels
-  window.timeline = tlPriority
-
-
-  const gapSize = 100
-  const panelSize = panels[0].offsetWidth
-  const startingPosition = (sliderContainer.offsetWidth/2) - (panelSize/2)
-  const movementAmount = panelSize + gapSize
-  console.log("Sizes",gapSize,panelSize, movementAmount)
-
-  let lastLabel = tlPriority
-
-  panelNames.forEach((panelName,index) => {
-    lastLabel = lastLabel.addLabel(panelName)
-    const offset = index*movementAmount
-    console.log("panelName",panelName,startingPosition,offset)
-    lastLabel.to('#priority-slider',{x: startingPosition - offset , ease: "none"},panelName)
-  }) 
-
+  setTimeout(() => {
+    const sliderContainer = document.getElementById('priorities') //.getBoundingClientRect()
+    const sliderElement = document.getElementById('priority-slider') //.getBoundingClientRect()
+    const debug = document.getElementById('debug') 
+    const panels = Array.from(sliderElement.getElementsByTagName('li'))
+    const panelNames = panels.map((panel) => { return panel.id })
+    window.sliderElement = sliderElement
+    window.sliderContainer = sliderContainer
+    window.panels = panels
+    window.timeline = tlPriority
+  
+  
+    const gapSize = 100
+    const panelSize = panels[0].offsetWidth
+    const startingPosition = (sliderContainer.offsetWidth/2) - (panelSize/2)
+    const movementAmount = panelSize + gapSize
+    console.log("Sizes",gapSize,panelSize, movementAmount)
+  
+    let lastLabel = tlPriority
+  
+    panelNames.forEach((panelName,index) => {
+      lastLabel = lastLabel.addLabel(panelName)
+      const offset = index*movementAmount
+      console.log("panelName",panelName,startingPosition,offset)
+      lastLabel.to('#priority-slider',{x: startingPosition - offset , ease: "none"},panelName)
+    }) 
+  
+    // debug.innerText = `${window.innerWidth} ${sliderContainer.offsetWidth} ${sliderElement.offsetWidth} ${panelSize} ${panels[0].getBoundingClientRect().width}`
+  },500)
+ 
 
   console.log(tlPriority)
-    // .to('#priority-slider',{x: totalMovement , ease: "none"},)
 });
 
 function moveForward() {
