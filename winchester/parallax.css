@@ -330,7 +330,7 @@ section#introduction {
   margin:0;
   gap: 100px; 
   padding: 0 100px;
-  transform: translate(100px,0);
+  transform: translate(50%,0);
   overflow: visible;
 }
 #priority-slider li{

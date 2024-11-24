@@ -137,13 +137,20 @@ document.addEventListener("DOMContentLoaded", function(event) {
   window.panels = panels
   window.timeline = tlPriority
 
-  let lastLabel = tlPriority.addLabel(panelNames[0])
 
-  panelNames.slice(1).forEach((panelName,index) => {
+  const gapSize = 100
+  const panelSize = panels[0].offsetWidth
+  const startingPosition = (sliderContainer.offsetWidth/2) - (panelSize/2)
+  const movementAmount = panelSize + gapSize
+  console.log("Sizes",gapSize,panelSize, movementAmount)
+
+  let lastLabel = tlPriority
+
+  panelNames.forEach((panelName,index) => {
     lastLabel = lastLabel.addLabel(panelName)
-    const offset = ((totalMovement) / (numberOfPanels-1)) * (index+1)
-    console.log("panelName",panelName,offset,totalMovement)
-    lastLabel.to('#priority-slider',{x: offset , ease: "none"},panelName)
+    const offset = index*movementAmount
+    console.log("panelName",panelName,startingPosition,offset)
+    lastLabel.to('#priority-slider',{x: startingPosition - offset , ease: "none"},panelName)
   }) 
 
 
@@ -153,4 +160,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 function moveForward() {
   timeline.seek(timeline.nextLabel())
+}
+function moveBack() {
+  timeline.seek(timeline.previousLabel())
 }
