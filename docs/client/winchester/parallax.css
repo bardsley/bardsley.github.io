@@ -1,4 +1,5 @@
 
+/* Hello test*/
 :root {
   --organisation: #004aad;
   --logo-dark: #558dc4;
@@ -451,7 +452,7 @@ section#introduction {
   overflow: hidden;
 }
 #uc-page-id-strategy .row.content {
-  width: 100%;
+  width: 100%; 
 }
 
 
