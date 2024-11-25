@@ -820,14 +820,6 @@ span.toggle-text {
     color: inherit;
 }
 
-#uc-page-id-strategy #goals {
-    height: calc(100vh - 100px);
-}
-
-#uc-page-id-strategy #goal-wheel-wrap {
-    max-width: 400px;
-}
-
 @media screen and (max-width: 470px) {
     body {
         font-size: 31.25%;
@@ -841,9 +833,7 @@ span.toggle-text {
     #uc-page-id-strategy .wrapper .content .row .content-wrap p {
         font-size: 0.8em;
     }
-    #uc-page-id-strategy #goals {
-        padding-top:unset;
-    }
+
 }
 
 #uc-page-id-strategy .row.top, .row.top-union {
@@ -852,23 +842,4 @@ span.toggle-text {
 }
 #uc-page-id-strategy .top-social div.mmu-search-icon {
     display: none;
-}
-#uc-page-id-strategy #goals .description .value {
-    font-size: 3em;
-}
-#uc-page-id-strategy .rotator { width: 100%; }
-#uc-page-id-strategy #goals .ripple { padding: 100px 30px 30px; }
-#uc-page-id-strategy #goals .description {
-    height: unset;
-    display: flex; flex-direction: column;
-    padding:0;
-}
-#uc-page-id-strategy #goals .description .value {
-    width: 100%;
-    left: unset;
-    position: relative;
-    margin-top:0;
-    line-height: 1.1em;
-    font-size: 1.6rem;
-    border: solid 1px hotpink;
 }
