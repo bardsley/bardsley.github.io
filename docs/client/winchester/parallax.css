@@ -450,7 +450,7 @@ section#introduction {
     max-height: 100%;;
   }
   
-  .rotator {
+  #measures .rotator {
     flex-direction: row;
     align-items: center;
   }
