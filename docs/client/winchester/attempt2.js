@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     }
   })
   tlHero.to("#hero-image", { 
-    y: 100,
+    y: 200,
   });
 
   // Introduction
