@@ -1,0 +1,85 @@
+/* Strategy */
+
+
+/* Strategy Slider */
+
+/* #uc-page-id-strategy #priorities-stripe #priorities-stripe ul li {
+    background-color: Var(--cobalt-blue);
+    padding: 20px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+#uc-page-id-strategy #priorities-stripe #priorities-stripe .page-title {
+    color: var(--white);
+    font-size: 1.5rem;
+}
+
+#uc-page-id-strategy #priorities-stripe #priorities-stripe .edit-mode-page {
+    overflow: hidden;
+}
+
+#uc-page-id-strategy #priorities-stripe .jcarousel-skin-tango .jcarousel-clip-horizontal {
+    width: 100%;
+}
+
+#uc-page-id-strategy #priorities-stripe #priorities-stripe .edit-mode-page p {
+    color: var(--white);
+}
+
+#priorities-stripe-wrap {
+    height: 400px;
+}
+
+#uc-page-id-strategy .jcarousel-list, #uc-page-id-strategy .jcarousel-clip, #uc-page-id-strategy .jcarousel-container, #uc-page-id-strategy .jcarousel-skin-tango, #uc-page-id-strategy #priorities-stripe {
+    height: 100%;
+} */
+
+
+/* Custom Strategy Page */
+
+#uc-page-id-strategy .row.content>.row,
+#uc-page-id-strategy .row.content>.row .home-content-wrap,
+#uc-page-id-strategy .row.content>.row .section {
+    max-width: unset; 
+    width: 100%;
+    margin:0;
+}
+
+#uc-page-id-strategy h1 { background: unset; }
+
+#uc-page-id-strategy h1 { max-width: 80%; }
+#uc-page-id-strategy h2 { margin:0;}
+#uc-page-id-strategy .wrapper .content .row .content-wrap p { font-size: unset; line-height:1em;}
+#uc-page-id-strategy #introduction h2 {
+    margin-bottom: 1.5rem;
+}
+#uc-page-id-strategy h2, 
+#uc-page-id-strategy.content .row .content-wrap h2 {
+    text-shadow: unset;
+    color: inherit;
+}
+
+@media screen and (max-width: 470px) {
+    #uc-page-id-strategy body {
+        font-size: 31.25%;
+    } 
+    #uc-page-id-strategy .content {
+        margin-top: 0;
+        padding: 0px 0 0px;
+        width: 100%;
+    }
+
+    #uc-page-id-strategy .wrapper .content .row .content-wrap p {
+        font-size: 0.8em;
+    }
+
+}
+
+#uc-page-id-strategy .row.top, .row.top-union {
+    max-width: 100%;
+    overflow: hidden;
+}
+#uc-page-id-strategy .top-social div.mmu-search-icon {
+    display: none;
+}

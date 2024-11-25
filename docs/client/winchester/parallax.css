@@ -1,20 +1,3 @@
-
-/* Hello test*/
-:root {
-  --organisation: #004aad;
-  --logo-dark: #558dc4;
-  --logo-light: #83a6d0;
-  --yellow: #ffde59;
-  --orange: #ff914d;
-  --red: #cb1a1a;
-  --purple: #7d2ae8;
-  /* --hero-height: 900px; */
-  --hero-height: 100vh;
-  --line-thickness: 12px;
-  --line-wiggle-room: 150px;
-  --max-column-width: 1440px;
-}
-
 body {
   margin: 0;
   font-family:'Josefin Sans',sans-serif!important;
@@ -503,3 +486,5 @@ section#introduction {
     font-size: 1.4rem;
   }
 }
+
+
