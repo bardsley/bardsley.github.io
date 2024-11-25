@@ -1,7 +1,7 @@
 
 :root {
   --organisation: #004aad;
-  --logo-dark: ##558dc4;
+  --logo-dark: #558dc4;
   --logo-light: #83a6d0;
   --yellow: #ffde59;
   --orange: #ff914d;
@@ -19,20 +19,19 @@ body {
   font-family:'Josefin Sans',sans-serif!important;
   position: relative;
   overflow-x:hidden;
-  background-image: url('./background2.png');
+  background-image: url('https://assets.prod.unioncloud-internal.com/image/images/570365/original/background2.png');
   font-size: 62.5%;
-  box-sizing: content-box;
+  box-sizing: border-box;
 }
 body * {
-  box-sizing: content-box;
+  box-sizing: border-box;
 }
 
-h1 { max-width: 80%; }
-h2 { margin:0;}
+
 
 #journey-line {
   height: 100%;
-  background-image: url(./dottedline.svg);
+  background-image: url('https://assets.prod.unioncloud-internal.com/image/images/570374/original/dottedline.svg');
   background-size: var(--line-wiggle-room) auto;
   background-repeat: repeat-y;
   position: absolute; right:0; top:0; bottom: 0;
@@ -82,7 +81,7 @@ header#hero {
 	margin: 0px auto;
 }
 header #hero-image {
-  background-image: url(./header-background.png);
+  background-image: url('https://assets.prod.unioncloud-internal.com/image/images/570368/original/header-background.png');
   opacity: 0.5;
   background-position: center bottom;
 	background-repeat: no-repeat;
@@ -91,7 +90,7 @@ header #hero-image {
 	height: var(--hero-height);
 	position: absolute;
 }
-header h1 { 
+header#hero h1 { 
   color: #fff;
   text-transform: uppercase;
   z-index: 2;
@@ -100,7 +99,7 @@ header h1 {
 }
 @media screen and (min-width: 624px) {
   
-  header h1 { 
+  header#hero h1 { 
     font-size: 5rem;
   }
 }
@@ -170,7 +169,7 @@ section#introduction {
   border: 1px solid transparent;  
   /* background-color: hotpink; */
   display: block;
-  background-image: url(./sports.png);
+  background-image: url('https://assets.prod.unioncloud-internal.com/image/images/570367/original/sports.png');
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: top;
@@ -223,9 +222,9 @@ section#introduction {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  left: 10%;
-  font-size: 4rem;
-  width: calc(80% - 2em);
+  /* left: 10%; */
+  font-size: 3.5rem;
+  width: 100%;
   padding: 1em;
   margin-top: 1em;
   /* opacity:0; */
@@ -233,7 +232,7 @@ section#introduction {
   /* scale: 0%; */
   /* min-height: 5rem; */
 }
-#goals #community { transform: translateX(0%) scale(0.8,0.8); }
+#goals #community { transform: translateX(0%), scale(1,1) }
 #goals #community { background-color: var(--purple); }
 #goals #familiarity { background-color: var(--red);}
 #goals #advocacy { background-color: var(--orange); color: #000;}
@@ -255,7 +254,7 @@ section#introduction {
 .rotator #goal-wheel-wrap {
   width: 80%;
   padding-top: 80px;
-  background-image: url(./arrow.png);
+  background-image: url('https://assets.prod.unioncloud-internal.com/image/images/570372/original/arrow2.png');
   background-repeat: no-repeat;
   background-position-x: 45%;
   background-position-y: 0px;
@@ -270,7 +269,7 @@ section#introduction {
 .rotator #goal-wheel-wrap .logo {
   width: 100%; height: calc(100% - 80px);
   position: absolute;
-  background-image: url(./swirl.png);
+  background-image: url('https://assets.prod.unioncloud-internal.com/image/images/570369/original/swirl.png');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 15% 15%;
@@ -337,7 +336,7 @@ section#introduction {
   border: 1px solid transparent;  
   /* background-color: hotpink; */
   display: block;
-  background-image: url(./students.png);
+  background-image: url('https://assets.prod.unioncloud-internal.com/image/images/570366/original/students.png');
   background-repeat: no-repeat;
   background-position-x: left;
   background-position-y: top;
@@ -391,9 +390,9 @@ section#introduction {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  left: 10%;
-  font-size: 4rem;
-  width: calc(80% - 2em);
+  /* left: 10%; */
+  font-size: 3.5rem;
+  /* width: calc(80% - 2em); */
   padding: 1em;
   margin-top: 1em;
   /* opacity:0; */
@@ -423,7 +422,7 @@ section#introduction {
 .rotator #goal-wheel-wrap {
   width: 80%;
   padding-top: 80px;
-  background-image: url(./arrow.png);
+  background-image: url('https://assets.prod.unioncloud-internal.com/image/images/570372/original/arrow2.png');
   background-repeat: no-repeat;
   background-position-x: 45%;
   background-position-y: 0px;
@@ -438,7 +437,7 @@ section#introduction {
 .rotator #goal-wheel-wrap .logo {
   width: 100%; height: calc(100% - 80px);
   position: absolute;
-  background-image: url(./swirl.png);
+  background-image: url('https://assets.prod.unioncloud-internal.com/image/images/570369/original/swirl.png');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 15% 15%;
@@ -508,7 +507,9 @@ section#introduction {
   
 
 }
-
+#priorities, #priorities * {
+  box-sizing: content-box;
+}
 #priorities {
   /* background-color: var(--organisation); */
   /* color: #fff; */
@@ -567,6 +568,9 @@ section#introduction {
   color: #fff;
 }
 
+#priorities h2 button {
+  border: none; background: none;
+}
 #controls {
   width: 100%;
   padding: 2rem 0 5rem;

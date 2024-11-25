@@ -122,7 +122,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
           // delay: 0.1, // wait 0.2 seconds from the last scroll event before doing the snapping
           ease: 'power4.inOut' // the ease of the snap animation ("power3" by default)
       },
-      markers: true,
+      // markers: true,
     }
   });
   
