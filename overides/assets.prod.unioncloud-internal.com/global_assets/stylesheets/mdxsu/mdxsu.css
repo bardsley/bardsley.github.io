@@ -1,0 +1,2571 @@
+:root {
+  --union-beige: #f1e9e0;
+  --union-blue: #417ad9;
+}
+
+#enableRecite.top-right {
+    top: 50px!important;
+    right: 10px
+}
+
+.wrapper * {
+    box-sizing: border-box;
+    font-family: Arial,Helvetica,sans-serif!important
+}
+
+.content .row .content-wrap p,.content .row .content-wrap .column-content p,.content .row .content-wrap p span,.content .row .content-wrap div span,.content .row .content-wrap ul {
+    font-size: 18px!important;
+    line-height: 1.4em
+}
+
+#uc-articles-details {
+    margin-top: 20px
+}
+
+#uc-articles-details .article-details-wrapper * {
+    font-size: 20px!important;
+    line-height: 1.4em
+}
+
+#uc-articles-details .quote-highlight p {
+    font-size: 34px!important
+}
+
+#uc-articles-details .quote-highlight p::first-letter {
+    font-size: 62px
+}
+
+.more-article-block .more-article-block-wrapper ul {
+    font-size: 14px
+}
+
+.more-article-block .more-article-block-wrapper h3 {
+    color: #333
+}
+
+#latest-events .top-events,#latest-articles .top-articles {
+    font-size: .8em
+}
+
+.header,.content-wrapper {
+    padding: 0 35px
+}
+
+.section.column.homepage-banner-slider {
+    padding: 0
+}
+
+.row.header {
+    background-color: #f1e9e0;
+    width: 100%
+}
+
+.row.top,.row.top-union {
+    background-color: #383838;
+    top: 190px!important;
+    height: unset
+}
+
+.top-menu-name-wrapper {
+    background-color: #383838
+}
+
+.row.top>.top-wrap>.menu,.row.top-union>.top-union-wrap>.menu {
+    height: unset
+}
+
+.row.header {
+    display: flex;
+    justify-content: center
+}
+
+.row.header .header-wrap {
+    width: 980px
+}
+
+.row.header .system-menu-wrapper a:link {
+    color: #383838
+}
+
+.row.header .page-search .search-box .search-box-wrapper {
+    border: 2px solid #383838
+}
+
+#your-mdxsu-officers-wrap {
+    margin-top: 40px
+}
+
+.top-events.jcarousel-list li,.article-widget.with-image-description .top-articles li {
+    width: 100%
+}
+
+#latest-articles a.more.more-articles {
+    height: 35px
+}
+
+#latest-events .uc-more-event-link-wrapper {
+    background: #4bbc8b;
+    text-transform: uppercase
+}
+
+.row .groupsearch {
+    background: #f1e9e0;
+    margin: 3em auto;
+    width: 100%
+}
+
+.uc-widget-groups-left-panel {
+    display: flex;
+    align-items: center
+}
+
+.uc-student-voice-widget-category li.selected {
+    background: #f698d9
+}
+
+ul.uc-student-voice-widget-category {
+    border-bottom: 3px solid #f698d9
+}
+
+.header {
+    min-height: 240px
+}
+
+.page-search {
+    top: 125px
+}
+
+.system-menu {
+    top: 125px
+}
+
+.cart-account {
+    top: 105px
+}
+
+.profile-drop-down-menu {
+    top: 19px
+}
+
+.profile-setting a.profile-name {
+    height: 26px
+}
+
+#top-navigation-wrap .top-submenu-wrapper {
+    top: 50px
+}
+
+#top-navigation-wrap ul li:hover .top-submenu-wrapper {
+    border-bottom: 10px solid #383838
+}
+
+#top-navigation-wrap ul li a {
+    line-height: 50px
+}
+
+li#student_discounts {
+    display: none!important
+}
+
+#top-navigation-wrap ul li#your-union-menu-wrapper ul::after {
+    content: ""
+}
+
+#top-navigation-wrap ul li#your-voice-menu-wrapper ul::after {
+    content: ""
+}
+
+#top-navigation-wrap ul li#events-menu-wrapper ul::after {
+    content: ""
+}
+
+#top-navigation-wrap ul li#student-groups-menu-wrapper ul::after {
+    content: ""
+}
+
+#top-navigation-wrap ul li#advice-support-menu-wrapper ul::after {
+    content: ""
+}
+
+#top-navigation-wrap ul li#shop-menu-wrapper ul::after {
+    content: ""
+}
+
+div#e-shop::before {
+    content: url(YOURIMAGEURLHERE.jpg);
+    width: 100%;
+    display: block;
+    padding: 5px 0 15px 0
+}
+
+.uc-widget-student-voices-wrapper .uc-sv-widget-description {
+    padding-left: 0;
+    padding-right: 0
+}
+
+.uc-widget-student-voices-wrapper .jcarousel-container-vertical {
+    padding: 10px 2px
+}
+
+.student-voice h2 {
+    background: #844296
+}
+
+@media only screen and (max-width: 480px) {
+    #pow-media-and-instagram-wrap {
+        display:none
+    }
+}
+
+.uc-student-voice-widget-wrapper .uc-sv-widget-image {
+    display: none
+}
+
+h3,.content .row .content-wrap h3 {
+    color: #fff
+}
+
+.uc-accordion-component .uc-accordion-list .uc-acc-content {
+    padding: 0
+}
+
+p.uc-acc-content {
+    padding: 0 10px 10px 10px!important
+}
+
+#latest-articles .article-widget.with-image-description .top-articles .headline a,#latest-events .event-widget.with-image-description .top-events .name a {
+    font-weight: bold;
+    font-style: normal
+}
+
+#latest-articles .article-widget.with-image-description .top-articles li .date,#latest-events .event-widget.with-image-description .top-events li .date {
+    margin-bottom: 0
+}
+
+#latest-articles .article-widget .top-articles li .article-content .date a,#latest-articles .article-widget.with-image-description .top-articles li .date a,#latest-events .event-widget .top-events li .event-content .date a,#latest-events .event-widget.with-image-description .top-events li .date a {
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1em
+}
+
+#latest-articles .article-widget.with-image-description .top-articles li .article-description {
+    display: none!important
+}
+
+#your-mdxsu-officers-wrap {
+    display: flex;
+    flex-wrap: wrap
+}
+
+#your-mdxsu-officers-wrap div.column-content {
+    width: 33.3%;
+    min-height: unset;
+    margin-right: unset
+}
+
+#your-mdxsu-officers-wrap a {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    width: 100%
+}
+
+#your-mdxsu-officers-wrap a .thumbnail-image {
+    width: 100%;
+    float: unset
+}
+
+#your-mdxsu-officers-wrap a .thumbnail-image img {
+    width: 100%;
+    padding: 0;
+    display: block
+}
+
+#your-mdxsu-officers-wrap a .page-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    color: #f1e9e0;
+    background: #000;
+    text-shadow: 1px 1px 1px #1a1347,3px 3px 5px rgba(26,19,71,0.6);
+    float: unset;
+    width: 100%;
+    margin-top: unset;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 18px;
+    min-height: 85px;
+    opacity: .8;
+    transition: opacity .3s ease
+}
+
+#your-mdxsu-officers-wrap a:hover .page-details {
+    opacity: 1
+}
+
+#your-mdxsu-officers-wrap a .page-details .page-summary {
+    font-size: 16px
+}
+
+#your-mdxsu-officers-wrap>.column-content:nth-child(1) a .page-details {
+    background: #50b58a
+}
+
+#your-mdxsu-officers-wrap>.column-content:nth-child(2) a .page-details {
+    background: #4273b4
+}
+
+#your-mdxsu-officers-wrap>.column-content:nth-child(3) a .page-details {
+    background: #de96be
+}
+
+#your-mdxsu-officers-wrap>.column-content:nth-child(4) a .page-details {
+    background: #e9df91
+}
+
+#your-mdxsu-officers-wrap>.column-content:nth-child(5) a .page-details {
+    background: #e75d56
+}
+
+#your-mdxsu-officers-wrap>.column-content:nth-child(6) a .page-details {
+    background: #f2eee5
+}
+
+#your-mdxsu-officers-wrap a .page-details span {
+    text-align: center
+}
+
+#welcome-list-images .thumbnail-image {
+    width: unset
+}
+
+.uc-widget-student-voices-wrapper .uc-student-voice-jcarousel .jcarousel-next-vertical,.uc-widget-student-voices-wrapper .uc-student-voice-jcarousel .jcarousel-prev-vertical,.uc-widget-student-voices-wrapper .uc-student-voice-jcarousel .jcarousel-next-vertical,.uc-widget-student-voices-wrapper .uc-student-voice-jcarousel .jcarousel-prev-vertical {
+    display: none!important
+}
+
+.list-images .list-wrap .uc-link-block {
+    width: 30%
+}
+
+#uc-articles-details .eightcol {
+    width: 100%
+}
+
+#top-navigation-wrap ul>li>.top-menu-name-wrapper a {
+    font-size: .9rem;
+    color: #f1e9e0!important;
+    font-weight: bold;
+    text-transform: capitalize
+}
+
+#top-navigation-wrap ul>li>.top-menu-name-wrapper a::after {
+    content: "\f107";
+    margin-left: 5px;
+    font-family: "FontAwesome";
+    font-size: 1.3rem;
+    position: relative;
+    top: 2px
+}
+
+#top-navigation-wrap ul li ul {
+    border: none!important;
+    background: none!important
+}
+
+#top-navigation-wrap ul li#your-union-menu-wrapper .top-menu-name-wrapper::before,#top-navigation-wrap ul li#your-voice-menu-wrapper .top-menu-name-wrapper::before,#top-navigation-wrap ul li#events-menu-wrapper .top-menu-name-wrapper::before,#top-navigation-wrap ul li#student-groups-menu-wrapper .top-menu-name-wrapper::before,#top-navigation-wrap ul li#advice-support-menu-wrapper .top-menu-name-wrapper::before,#top-navigation-wrap ul li#merchandise-offers-menu-wrapper .top-menu-name-wrapper::before {
+    background: transparent;
+    border: 0
+}
+
+#top-navigation-wrap ul li#your-union-menu-wrapper div.top-submenu-wrapper,#top-navigation-wrap ul li#events-menu-wrapper div.top-submenu-wrapper,#top-navigation-wrap ul li#advice-support-menu-wrapper div.top-submenu-wrapper {
+    background: #f698d9
+}
+
+#top-navigation-wrap ul li#your-voice-menu-wrapper div.top-submenu-wrapper,#top-navigation-wrap ul li#student-groups-menu-wrapper div.top-submenu-wrapper,#top-navigation-wrap ul li#merchandise-offers-menu-wrapper div.top-submenu-wrapper {
+    background: #f1e9e0
+}
+
+#top-navigation-wrap .top-submenu-wrapper ul li a,#top-navigation-wrap .top-submenu-wrapper ul::after {
+    color: #383838!important
+}
+
+#top-navigation-wrap .top-submenu-wrapper ul::after {
+    font-size: 18px;
+    line-height: 30px!important;
+    margin-top: 15px;
+    font-family: "source serif","verdana",serif,sans-serif;
+    top: unset;
+    right: unset;
+    width: unset
+}
+
+#top-navigation-wrap .top-submenu-wrapper ul li a:hover {
+    background: #383838!important;
+    color: #f1e9e0!important
+}
+
+.uc-widget-articles-container .uc-widget-article-header,.uc-widget-articles-container .uc-widget-article-footer {
+    background: transparent;
+    height: unset
+}
+
+.uc-widget-article-header .uc-widget-article-more-link {
+    display: none
+}
+
+#news,#what-s-on,#your-ideas {
+    margin: 40px auto
+}
+
+.news h2 {
+    background: transparent;
+    color: #383838;
+    text-transform: capitalize;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1em
+}
+
+h1,h1 span,.content .row .content-wrap h1 {
+    font-size: 38px;
+    text-transform: capitalize;
+    font-family: "New Spirit"!important;
+    letter-spacing: .04rem
+}
+
+.news h2:before {
+    display: none
+}
+
+.uc-widget-articles-container ul.uc-widget-articles-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em
+}
+
+.uc-widget-articles-container ul.uc-widget-articles-list li {
+    background-color: #383838;
+    color: #fff;
+    display: flex;
+    gap: .5em;
+    width: 47%!important;
+    margin: 0!important
+}
+
+.uc-widget-articles-container ul.uc-widget-articles-list li .article-thumbnail {
+    width: unset!important;
+    max-width: 48%
+}
+
+.uc-widget-articles-container ul.uc-widget-articles-list li .article-thumbnail a {
+    width: unset!important;
+    text-align: left!important;
+    display: block
+}
+
+.uc-widget-articles-container ul.uc-widget-articles-list li .article-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.uc-widget-articles-container ul.uc-widget-articles-list li .headline a {
+    color: #fff;
+    font-size: 14px
+}
+
+.uc-widget-articles-container ul.uc-widget-articles-list li .date>a {
+    color: #e8e091;
+    font-size: 14px
+}
+
+.uc-widget-articles-container ul.uc-widget-articles-list li .article-thumbnail>a img {
+    max-width: 100%
+}
+
+.uc-widget-articles-container .pagination .previous_page.disabled,.uc-widget-articles-container .pagination .next_page.disabled {
+    display: none
+}
+
+.uc-widget-articles-container .pagination,.uc-widget-article-more-link a {
+    height: unset
+}
+
+.uc-widget-articles-container .uc-widget-article-footer {
+    margin: 10px 0
+}
+
+.uc-widget-article-pagination,.uc-widget-article-more-link {
+    position: unset;
+    float: unset;
+    padding: 0 10px
+}
+
+.uc-widget-articles-container .pagination .previous_page,.uc-widget-articles-container .pagination .next_page {
+    background: 0;
+    text-indent: unset;
+    color: #383838;
+    height: unset;
+    width: unset;
+    font-size: 14px;
+    text-decoration: underline;
+    margin-right: 10px
+}
+
+.uc-widget-articles-container .uc-widget-article-footer .uc-widget-article-more-link {
+    background: transparent;
+    color: #383838
+}
+
+.uc-widget-articles-container .uc-widget-article-footer .uc-widget-article-more-link a {
+    color: #383838;
+    font-size: 14px;
+    text-decoration: underline;
+    font-weight: bold
+}
+
+.student-voice h2 {
+    background: #e8e091;
+    color: #383838
+}
+
+.jcarousel-container-horizontal {
+    margin-top: 20px;
+    margin-bottom: 30px
+}
+
+#events-calendar-column-content>h2 {
+    display: none
+}
+
+.events h2:before {
+    display: none
+}
+
+#events-calendar-column-content table caption,.calendar-widget .cal-widget .calendar table caption {
+    height: unset;
+    background-color: #383838
+}
+
+.uc-widget-articles-container .uc-widget-article-header,.events h2 {
+    padding: 15px 0
+}
+
+.uc-widget-articles-container .uc-widget-article-header h2,.events h2,#your-officers h2 {
+    font-family: "New Spirit"!important;
+    font-size: 32px!important;
+    text-transform: capitalize;
+    color: #000!important;
+    background: 0;
+    float: left;
+    font-weight: bold
+}
+
+.cal-widget ul.listing li:nth-child(even) {
+    background-color: #e8e091
+}
+
+.cal-widget ul.listing li:nth-child(odd).no-events {
+    background-color: #fff
+}
+
+.cal-widget ul.listing li:nth-child(odd) {
+    background-color: #383838
+}
+
+.cal-widget .listing .event-item img {
+    align-self: center
+}
+
+.cal-widget ul.listing li:nth-child(odd) .event-item .details,.cal-widget ul.listing li:nth-child(odd) .event-item .details h3,.cal-widget ul.listing li:nth-child(odd) .event-item .details p {
+    color: #fff
+}
+
+.cal-widget .listing .event-item .details h3 {
+    font-size: 16px!important
+}
+
+.shopping-cart-menu strong,.profile-setting a.profile-name.expanded,.profile-drop-down-menu,.profile-setting a.profile-name.expanded .user-name {
+    color: #383838;
+    background-color: #f1e9e0
+}
+
+.profile-setting ul li a {
+    color: #383838;
+    background-color: #f1e9e0;
+    border-bottom: 1px solid #f1e9e0
+}
+
+#latest-articles .more.more-articles {
+    background-color: #383838;
+    text-transform: uppercase
+}
+
+.content {
+    max-width: 980px
+}
+
+.content .row .content-wrap,.content.row .wrap {
+    margin: 50px 0
+}
+
+.bottom,.bottom-union {
+    width: 100%;
+    max-width: 100%;
+    padding: 40px 35px;
+    background: #ed5d54;
+    clip-path: ellipse(219% 100% at 50% 100%);
+    font-weight: bold
+}
+
+.bottom .bottom-wrap,.bottom-union .bottom-union-wrap {
+    max-width: 980px
+}
+
+.uc-page-class-welcome-page hr {
+    display: none
+}
+
+.uc-page-class-welcome-page .wrapper {
+    width: 100%
+}
+
+.uc-page-class-welcome-page #banner-section,.uc-page-class-student-officers-page #banner-section,.uc-page-class-merchandise-page #banner-section,.uc-page-class-committee-page #banner-section,.uc-page-class-campaigns-page #banner-section,.uc-page-class-communities-page #banner-section,.uc-page-class-acl-page #banner-section,.uc-page-class-liberation-page #banner-section,.uc-page-class-student-groups-page #banner-section,.uc-page-class-svl-page #banner-section,.uc-page-class-jobs-page #banner-section,.uc-page-class-reps-page #banner-section,.uc-page-class-about-page #banner-section,.uc-page-class-current-vacancies #banner-section,.uc-page-class-advice-page #banner-section {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 550px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+#banner-section.section.column {
+    margin-bottom: 40px
+}
+
+.uc-page-class-welcome-page #banner-section {
+    background-image: url("https://assets.prod.unioncloud-internal.com/image/images/507796/original/banner.png")
+}
+
+.uc-page-class-jobs-page #banner-section {
+    background-image: url("https://assets.prod.unioncloud-internal.com/image/images/527078/original/Jobs_and_Careers_Jan_24.png")
+}
+
+.uc-page-class-campaigns-page #banner-section {
+    background-image: url("https://assets.prod.unioncloud-internal.com/image/images/527079/original/Campaigns_Jan_24.png")
+}
+
+.uc-page-class-communities-page #banner-section {
+    background-image: url("https://assets.prod.unioncloud-internal.com/image/images/527082/original/Communities_Jan_24.png")
+}
+
+.uc-page-class-reps-page #banner-section {
+    background-image: url("https://assets.prod.unioncloud-internal.com/image/images/527102/original/Your_Representatives_Jan_24.png")
+}
+
+.uc-page-class-liberation-page #banner-section {
+    background-image: url("https://assets.prod.unioncloud-internal.com/image/images/527085/original/Liberation_Groups_Jan_24.png")
+}
+
+.uc-page-class-advice-page #banner-section {
+    background-image: url("https://assets.prod.unioncloud-internal.com/image/images/527083/original/MDXSU_Advice_Service_Jan_24.png")
+}
+
+.uc-page-class-about-page #banner-section {
+    background-image: url("https://assets.prod.unioncloud-internal.com/image/images/527080/original/About_MDXSU_Jan_24.png")
+}
+
+.uc-page-class-student-groups-page #banner-section {
+    background-image: url("https://assets.prod.unioncloud-internal.com/image/images/527084/original/Student_Groups_Jan_24.png")
+}
+
+.uc-page-class-svl-page #banner-section {
+    background-image: url("https://assets.prod.unioncloud-internal.com/image/images/527101/original/Student_Voice_Leaders_Jan_24.png")
+}
+
+.uc-page-class-committee-page #banner-section {
+    background-image: url("https://assets.prod.unioncloud-internal.com/image/images/527100/original/The_Committee_Hub_Jan_24.png")
+}
+
+.uc-page-class-acl-page #banner-section {
+    background-image: url("https://assets.prod.unioncloud-internal.com/image/images/527081/original/Academic_Community_Leaders_Jan_24.png")
+}
+
+.uc-page-class-current-vacancies #banner-section {
+    background-image: url("https://assets.prod.unioncloud-internal.com/image/images/527078/original/Jobs_and_Careers_Jan_24.png")
+}
+
+.uc-page-class-merchandise-page #banner-section {
+    background-image: url("https://assets.prod.unioncloud-internal.com/image/images/527086/original/Merchandise_Jan_24.png")
+}
+
+.uc-page-class-student-officers-page #banner-section {
+    background-image: url("https://assets.prod.unioncloud-internal.com/image/images/527087/original/Student_Officers_Jan_24.png")
+}
+
+.banner-text div {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 500px
+}
+
+.banner-text p {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px
+}
+
+.banner-text p a {
+    text-decoration: none
+}
+
+.banner-text p span {
+    margin: 10px;
+    color: #383838;
+    font-weight: bold;
+    font-size: 88px;
+    font-style: italic;
+    font-family: "New Spirit"!important;
+    background-color: #e8e091;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    line-height: 1.2em
+}
+
+.uc-page-class-svl-page .banner-text p span,.uc-page-class-communities-page .banner-text p span {
+    color: #383838;
+    background-color: #f698d9
+}
+
+,.uc-page-class-acl-page .banner-text p span,.uc-page-class-svl-page .banner-text p span {
+    font-size: 68px
+}
+
+.uc-page-class-welcome-page .welcome-banner-image {
+    display: none
+}
+
+.uc-page-class-welcome-page .content .row .content-wrap h3 {
+    color: #383838;
+    border: 0
+}
+
+.uc-page-class-welcome-page #welcome-list-images-wrap {
+    display: flex;
+    justify-content: space-between
+}
+
+.uc-page-class-welcome-page #welcome-list-images .column-content {
+    position: relative;
+    min-height: 210px
+}
+
+.uc-page-class-welcome-page #welcome-list-images.list-images .page-details {
+    width: 90%;
+    top: 20px;
+    position: absolute;
+    left: 5%;
+    color: #383838;
+    padding: 40px 20px;
+    min-height: 250px;
+    display: flex;
+    align-items: center;
+    text-align: center
+}
+
+.uc-page-class-welcome-page #welcome-list-images-wrap #official-middlesex-freshers-group-column-content .page-details {
+    color: #f1e9e0;
+    background-color: rgb(64,123,217,0.9)
+}
+
+.uc-page-class-welcome-page #welcome-list-images-wrap #about-your-students-union-column-content .page-details {
+    background-color: rgb(231,225,145,0.9)
+}
+
+.uc-page-class-welcome-page #welcome-list-images-wrap #join-student-groups-societies-column-content .page-details {
+    background-color: rgb(243,232,224,0.9)
+}
+
+.uc-page-class-welcome-page #welcome-list-images-wrap #official-middlesex-freshers-group-column-content .page-details:hover {
+    background-color: #407bd9
+}
+
+.uc-page-class-welcome-page #welcome-list-images-wrap #about-your-students-union-column-content .page-details:hover {
+    background-color: #e7e191
+}
+
+.uc-page-class-welcome-page #welcome-list-images-wrap #join-student-groups-societies-column-content .page-details:hover {
+    background-color: #f3e8e0
+}
+
+.uc-page-class-welcome-page .uc-upcoming-event-widget-title {
+    display: none
+}
+
+.uc-page-class-welcome-page #body-text,.uc-page-class-welcome-page #events-widget,.uc-page-class-welcome-page #welcome-list-images,.uc-page-class-welcome-page #marketing-enquiries {
+    margin: 50px 0
+}
+
+.uc-page-class-welcome-page .welcome-events #uc-widget-upcoming-events-left-panel .tree-navigation {
+    background-color: #fff
+}
+
+.uc-page-class-welcome-page .welcome-events #uc-widget-upcoming-events-left-panel .tree-navigation.club-navigation h3,#event-homepage .tree-navigation.club-navigation h3,#event-homepage h1 {
+    font-weight: bold;
+    color: #383838;
+    font-family: "Source Serif",serif,sans-serif
+}
+
+.uc-page-class-welcome-page #uc-widget-upcoming-events-left-panel .tree-navigation.club-navigation ul li a,#event-homepage .tree-navigation ul li a {
+    font-family: "Acumin Variable Concept",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    color: #383838
+}
+
+.uc-page-class-welcome-page #uc-widget-upcoming-events-left-panel .tree-navigation.club-navigation ul li.selected,#event-homepage .tree-navigation ul li.selected,.club-navigation ul li.active {
+    background: #ed5d54
+}
+
+.uc-page-class-welcome-page #uc-widget-upcoming-events-left-panel .tree-navigation.club-navigation ul li.selected a,#event-homepage .tree-navigation ul li.selected a,.club-navigation ul li.active a {
+    color: #f1e9e0
+}
+
+.uc-widget-upcoming-events-wrapper .uc-widget-upcoming-event-footer .uc-widget-upcoming-event-pagination .previous_page,.uc-page-class-welcome-page .welcome-events .uc-widget-upcoming-event-footer .uc-widget-upcoming-event-pagination .previous_page,.uc-widget-upcoming-events-wrapper .uc-widget-upcoming-event-footer .uc-widget-upcoming-event-pagination .next_page {
+    background-color: #ed5d54
+}
+
+.uc-page-class-welcome-page .column-content.welcome-intro p.welcome-page-video {
+    margin: 0 auto
+}
+
+.uc-page-class-welcome-page .content-wrap #link-column-content.column-content {
+    min-height: 0
+}
+
+.uc-page-class-welcome-page .column-content.welcome-intro div.welcome-message,.uc-page-class-welcome-page .to-survey-page {
+    text-align: center
+}
+
+.content .row .content-wrap .student-groups-message {
+    text-align: justify
+}
+
+.uc-page-class-welcome-page .column-content.welcome-intro div.welcome-message p,.uc-page-class-welcome-page .content-wrap .column-content .to-survey-page p,.content .row .content-wrap .student-groups-message p {
+    color: #383838;
+    font-weight: 600
+}
+
+.eventsearch .search-box,.group-search .search-box {
+    position: relative;
+    padding: 5px 0;
+    margin: 10px auto
+}
+
+.uc-widget-upcoming-events .search-box .search-box-wrapper {
+    width: 210px
+}
+
+#event-homepage .heading {
+    display: none
+}
+
+#event-homepage .search-box .search-box-wrapper,.group-search .search-box .search-box-wrapper {
+    width: 280px;
+    margin: 0
+}
+
+#event-homepage .search-box .search-box-wrapper .search-input,.group-search .search-box .search-box-wrapper .search-input {
+    width: 230px
+}
+
+#officers .stripe-carousel ul {
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    width: 1025px
+}
+
+#officers .stripe-carousel ul li {
+    width: 200px
+}
+
+#officers .stripe-wrap a.uc-link-block,#officers .stripe-wrap a.uc-page-block {
+    width: 210px;
+    padding: 20px 10px;
+    margin: 0 auto
+}
+
+#officers .stripe-wrap a span.thumbnail-image {
+    font-size: .8em;
+    margin: 10px auto;
+    width: 100px;
+    height: unset;
+    padding: 0;
+    overflow: hidden
+}
+
+.stripe .jcarousel-skin-tango .jcarousel-prev-horizontal,.grid .jcarousel-skin-tango .jcarousel-prev-horizontal {
+    background: url(https://assets.unioncloud.org/assets/cms/responsive-slider-icons.gif) no-repeat left top;
+    width: 38px;
+    height: 60px;
+    left: 0;
+    opacity: .8;
+    -moz-opacity: .8
+}
+
+.stripe .jcarousel-skin-tango .jcarousel-next-horizontal,.grid .jcarousel-skin-tango .jcarousel-next-horizontal {
+    background: url(https://assets.unioncloud.org/assets/cms/responsive-slider-icons.gif) no-repeat right top;
+    width: 38px;
+    height: 60px;
+    right: 0;
+    opacity: .8;
+    -moz-opacity: .8
+}
+
+.stripe-wrap a span.page-details .page-title {
+    color: #383838;
+    font-size: .7em;
+    margin: 0 20px;
+    font-weight: 500
+}
+
+.stripe-wrap a span.page-details .page-summary {
+    margin: 0 20px;
+    font-weight: 500;
+    font-size: .7em
+}
+
+h2,.content .row .content-wrap h2,.content .row .content-wrap h2>span {
+    color: #000;
+    font-size: 24px!important
+}
+
+.row.content a {
+    color: #417ad9
+}
+
+.uc-accordion-component .uc-accordion-list h3 {
+    background: #417ad9
+}
+
+.uc-widget-resource-doc-container .uc-widget-resource-doc-header .uc-widget-resource-doc-more-link,.uc-widget-resource-doc-container .uc-widget-resource-doc-footer .uc-widget-resource-doc-more-link {
+    background: none repeat scroll 0 0 #383838
+}
+
+#uc-articles-news {
+    padding: 0;
+    margin-top: 30px
+}
+
+.uc-articles-mobile-search-option {
+    display: block;
+    background: 0;
+    text-indent: unset;
+    float: left;
+    height: unset;
+    font-family: "New Spirit"!important;
+    text-decoration: none;
+    color: #f1e9e0!important;
+    font-size: 28px;
+    font-weight: bold;
+    width: 100%;
+    background-color: #417ad9;
+    padding: 20px
+}
+
+.uc-articles-mobile-search-option::before {
+    content: "\f103";
+    font-family: "FontAwesome";
+    font-size: 28px;
+    position: relative;
+    top: 2px
+}
+
+.uc-articles-right-panel-search-wrapper {
+    background: none #417ad9;
+    padding: 15px 8px;
+    right: unset!important;
+    display: none
+}
+
+.uc-articles-right-panel-search-wrapper.visible {
+    display: block;
+    right: unset!important
+}
+
+.uc-articles-right-panel-search-wrapper.visible .uc-articles-close-search {
+    display: none
+}
+
+.uc-articles-right-panel-search-wrapper.visible::before {
+    display: none;
+    position: absolute;
+    right: 20px;
+    top: -50px;
+    font-size: 26px;
+    text-indent: unset;
+    color: #f1e9e0;
+    content: "\f00d"!important;
+    font-family: "FontAwesome"
+}
+
+.content .uc-articles-right-panel-search-wrapper h2.heading {
+    display: none
+}
+
+.content .uc-articles-right-panel-search-wrapper h2 span {
+    color: #f1e9e0;
+    text-transform: capitalize;
+    text-shadow: none;
+    font-size: 24px;
+    font-family: "New Spirit"!important;
+    display: none
+}
+
+.uc-articles-right-panel-search .uc-search-articles label {
+    display: none
+}
+
+.uc-articles-right-panel-search .uc-search-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left
+}
+
+.uc-articles-right-panel-search .uc-search-container>* {
+    margin-top: 10px;
+    margin-right: 15px
+}
+
+.uc-articles-right-panel-search .uc-search-container .uc-search-articles,.uc-articles-right-panel-search .uc-search-container .uc-search-articles-filters {
+    width: 320px
+}
+
+.uc-articles-right-panel-search .uc-search-container .uc-article-sort-by {
+    width: 200px;
+    padding: 0
+}
+
+.uc-articles-right-panel-search .uc-search-container #search_keyword,.uc-articles-right-panel-search .uc-search-container #uc-article-sorting {
+    border: 1px solid black;
+    height: 36px
+}
+
+.uc-articles-right-panel-search .uc-search-container #search_keyword {
+    width: 60%;
+    height: 36px
+}
+
+.uc-search-articles .search-button {
+    background: url("https://assets.unioncloud.org/assets/default/search-image.png") no-repeat center center #fff;
+    border: 1px solid black;
+    height: 36px
+}
+
+.uc-search-articles .clear-button {
+    background: url("https://assets.prod.unioncloud-internal.com/image/images/515744/original/reset-button.png") no-repeat #fff;
+    background-position: center;
+    box-shadow: none;
+    border: 1px solid black;
+    border-radius: 0;
+    height: 36px;
+    line-height: unset;
+    background-size: 40%
+}
+
+.uc-articles-right-panel-search .uc-search-container #uc-article-sorting {
+    width: 100%
+}
+
+.uc-articles-right-panel-search .uc-articles-right-panel-search-wrapper #search_keyword,.uc-articles-right-panel-search .uc-articles-right-panel-search-wrapper input,.uc-articles-right-panel-search .uc-articles-right-panel-search-wrapper select {
+    font-size: 1em;
+    padding: 8px;
+    cursor: pointer
+}
+
+.uc-filter-block {
+    margin: 0
+}
+
+.uc-filter-block.uc-article-sub-catg {
+    display: none
+}
+
+.uc-search-articles-filters h3 {
+    color: black;
+    font-size: 16px;
+    border: 1px solid black;
+    padding: 8px;
+    background-color: #fff;
+    text-transform: capitalize;
+    margin: 0;
+    height: 36px
+}
+
+.uc-articles-right-panel-search,.uc-articles-left-panel-navigation {
+    width: 100%
+}
+
+.uc-articles-page-wrapper .uc-articles-row {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.content h2.uc-result-count,#uc-articles-news .page-separator {
+    display: none
+}
+
+.uc-articles-left-panel-navigation {
+    margin: 20px 0 10px 0
+}
+
+#uc-articles-news .uc-articles-heading h1 span {
+    font-family: "New Spirit"!important;
+    text-shadow: none
+}
+
+.uc-articles-page-wrapper .featured-news-block {
+    display: none
+}
+
+#uc-articles-news .uc-articles-list-block {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.uc-articles-page-wrapper .uc-articles-block,.uc-articles-page-wrapper .featured-news-block {
+    background: #f1e9e0;
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    width: 48%
+}
+
+.uc-articles-page-wrapper .uc-articles-row .uc-articles-block .uc-articles-image {
+    display: none
+}
+
+.uc-articles-page-wrapper .uc-articles-row .uc-articles-block .uc-articles-image img,.uc-articles-page-wrapper .featured-news-block.featured-news-one img,.uc-articles-page-wrapper .featured-news-block.featured-news-two img {
+    width: 100%
+}
+
+.uc-articles-page-wrapper .uc-articles-block .uc-news-headline,.uc-articles-page-wrapper .featured-news-block .news-headline {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 18px
+}
+
+.uc-articles-page-wrapper .uc-articles-block .uc-news-headline h3,.uc-articles-page-wrapper .featured-news-block .news-headline>a {
+    order: 1
+}
+
+.uc-articles-page-wrapper .uc-articles-block .uc-news-headline h3 a,.uc-articles-page-wrapper .featured-news-block .news-headline>a {
+    color: #000;
+    font-size: 27px;
+    margin-bottom: 10px;
+    font-family: "New Spirit"!important
+}
+
+.uc-articles-page-wrapper .uc-articles-block .uc-news-headline span.uc-news-date-time,.uc-articles-page-wrapper .featured-news-block .news-headline span.news-date-time {
+    order: 2
+}
+
+.uc-articles-page-wrapper .uc-articles-block .uc-news-headline span.uc-news-date-time a,.featured-news-block h2.news-headline .news-date-time a {
+    color: #000;
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: capitalize
+}
+
+.uc-articles-page-wrapper .uc-articles-block .uc-articles-summary,.uc-articles-page-wrapper .featured-news-block .featured-text {
+    font-size: 16px;
+    padding: 0 18px;
+    color: #000
+}
+
+#uc-articles-news #load_more_article a {
+    font-size: 18px;
+    background-color: #417ad9;
+    box-shadow: none;
+    color: #f1e9e0
+}
+
+.uc-articles-page-wrapper .uc-articles-block .readMore {
+    display: block;
+    color: #000;
+    margin-top: 10px
+}
+
+#uc-group-homepage #left-content,#uc-group-homepage #right-content,#event-homepage #left-panel,#event-homepage #right-panel {
+    width: 100%!important
+}
+
+#uc-group-homepage .left-nav-content.tree-navigation ul,#event-homepage .left-nav-content.tree-navigation ul {
+    display: flex;
+    flex-wrap: wrap
+}
+
+#uc-group-homepage .left-nav-content.tree-navigation {
+    min-height: unset
+}
+
+#uc-group-homepage .tree-navigation.club-navigation h3,#event-homepage .tree-navigation.club-navigation h3 {
+    text-transform: capitalize;
+    font-family: "New Spirit"!important;
+    font-size: 38px;
+    color: #000;
+    padding: 0;
+    margin: 15px
+}
+
+#uc-group-homepage .threecol.tree-navigation {
+    margin: 0
+}
+
+#uc-group-homepage .left-nav-content.tree-navigation ul li,#uc-group-homepage .search-box .search-box-wrapper,#event-homepage .left-nav-content.tree-navigation ul li,#event-homepage .search-box .search-box-wrapper {
+    border: 2px solid #ed5d54;
+    margin: 5px
+}
+
+#event-homepage .event-type-title h2 {
+    display: none
+}
+
+#event-homepage .event-type-title {
+    border-bottom: 15px solid #383838;
+    width: 100%;
+    margin: 0
+}
+
+.uc-event-page-wrapper {
+    margin-top: 20px
+}
+
+#uc-group-homepage .left-nav-content.tree-navigation ul li a,#event-homepage .left-nav-content.tree-navigation ul li a {
+    font-size: 16px;
+    color: #000
+}
+
+#uc-group-homepage .content-wrap.home-content-wrap.subsites.ninecol.last,#event-homepage #right-panel.content-wrap.home-content-wrap {
+    background: 0
+}
+
+#uc-group-homepage #right-content h1 {
+    display: none
+}
+
+#uc-group-homepage .uc-middle-panel-for-group-cat .group-category-title {
+    display: none
+}
+
+#uc-group-homepage #right-content .club-container {
+    margin: 30px 0 0
+}
+
+#uc-group-homepage .page-separator-wrapper,#event-homepage .page-separator-wrapper {
+    display: none
+}
+
+#uc-group-homepage .types-list {
+    width: 100%
+}
+
+#uc-group-homepage .types-list .group-types {
+    background: 0;
+    margin: 10px 0;
+    border-bottom: 15px solid #383838;
+    border-top: 15px solid #383838
+}
+
+#uc-group-homepage .types-list .group-types-wrapper {
+    background: 0;
+    min-height: unset;
+    margin: 15px 0
+}
+
+#uc-group-homepage .types-list .group-types-wrapper ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px
+}
+
+#uc-group-homepage .types-list .group-types-wrapper ul li {
+    border: 1px solid #ed5d54;
+    font-size: 14px;
+    font-weight: normal
+}
+
+#uc-group-homepage .types-list .group-types-wrapper ul li a {
+    color: #000!important
+}
+
+#uc-group-homepage .types-list .group-types-wrapper ul li.active {
+    background: #ed5d54
+}
+
+#uc-group-homepage .types-list .group-types-wrapper ul li.active a,#uc-group-homepage .left-nav-content.tree-navigation ul li.active a,#event-homepage .tree-navigation ul li.selected a {
+    color: #fff!important
+}
+
+#uc-group-homepage .group-list,#eventcarousel {
+    width: 100%;
+    background-color: #fff;
+    padding: 0
+}
+
+#uc-group-homepage .uc-group-list-page-wrapper,#eventcarousel .uc-event-page-wrapper ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left
+}
+
+#uc-group-homepage .group-list .group-box {
+    width: 23%;
+    display: flex;
+    flex-flow: column nowrap;
+    text-decoration: none;
+    padding: 0;
+    background: 0;
+    background-color: #383838;
+    margin: 8px;
+    box-shadow: 5px 5px 10px 0 rgba(0,0,0,0.2)
+}
+
+#eventcarousel .uc-event-page-wrapper li {
+    width: 23%;
+    background-color: #383838;
+    margin: 8px;
+    box-shadow: 5px 5px 10px 0 rgba(0,0,0,0.2)
+}
+
+#eventcarousel .uc-event-page-wrapper li .event-container {
+    width: 100%
+}
+
+#eventcarousel .uc-event-page-wrapper li a.event-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    background: 0
+}
+
+#uc-group-homepage .group-box .group-banner,#eventcarousel .event-box .event-banner {
+    order: 1;
+    display: block;
+    width: 100%;
+    margin: 0
+}
+
+#eventcarousel .event-box .event-banner img {
+    width: 100%
+}
+
+#uc-group-homepage .group-box .group-name,#eventcarousel .event-box .event-name {
+    order: 2;
+    padding: 10px;
+    font-family: "New Spirit"!important;
+    font-size: 20px;
+    color: #fff;
+    height: unset;
+    text-align: center
+}
+
+#eventcarousel .event-box .event-name {
+    font-size: 18px;
+    letter-spacing: .2px;
+    padding: 5px 10px;
+    text-align: center;
+    text-transform: capitalize
+}
+
+#uc-group-homepage .group-box .group-details,#eventcarousel .event-box .event-details {
+    order: 3;
+    padding: 10px;
+    width: 100%;
+    margin: 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal
+}
+
+#eventcarousel .event-box .event-details {
+    padding: 5px 10px;
+    text-align: center;
+    margin-bottom: 10px
+}
+
+#eventcarousel .event-box .event-details p {
+    padding: 0;
+    line-height: unset
+}
+
+#eventcarousel .uc-event-page-wrapper a.event-box .venue,#eventcarousel .uc-event-page-wrapper a.event-box .event-description {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+#uc-group-homepage #uc-more-group-search,#eventcarousel>div#load-more-events {
+    padding: 0;
+    margin: 20px 0 0
+}
+
+#uc-group-homepage #uc-more-group-search a.uc-load-more-groups,#event-homepage #load-more-events a {
+    background: 0;
+    background-color: #383838;
+    box-shadow: none;
+    color: #fff;
+    width: 100%
+}
+
+.event-details-wrapper {
+    width: 100%
+}
+
+#uc-events-details-page {
+    width: 100%
+}
+
+#uc-groups-details-page .left-nav-content {
+    width: 100%;
+    margin: unset
+}
+
+#uc-groups-details-page .left-nav-content .group_left_panel_menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 10px;
+    background-color: #f1e9e0
+}
+
+.event-details-wrapper .left-nav-content {
+    width: 100%;
+    margin: unset;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 10px;
+    background-color: #f1e9e0
+}
+
+#uc-groups-details-page .left-nav-content .group_left_panel_menu ul li {
+    border: 0;
+    margin: 8px 15px
+}
+
+#uc-groups-details-page .group_left_panel_menu .thumbnail,.event-details-wrapper .left-nav-content .thumbnail {
+    order: 1
+}
+
+#uc-groups-details-page .group_left_panel_menu .thumbnail img {
+    display: block;
+    max-width: 220px
+}
+
+#uc-groups-details-page .group_left_panel_menu .title,.event-details-wrapper .left-nav-content .title {
+    order: 2;
+    max-width: 500px;
+    text-align: center
+}
+
+.event-details-wrapper .left-nav-content .title h1,#uc-groups-details-page .left-nav-content .group_left_panel_menu .title h1 {
+    font-family: "New Spirit"!important;
+    font-size: 28px;
+    color: #000!important;
+    text-transform: capitalize;
+    line-height: 1.3em
+}
+
+#uc-groups-details-page .group_left_panel_menu .group-category {
+    order: 3;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px
+}
+
+.event-details-wrapper .left-nav-content .latestEventLeftSide {
+    order: 3;
+    width: 100%
+}
+
+.tree-navigation ul.latestEventLeftSide li.selected,.tree-navigation ul.thumbnail li.selected {
+    border: 0
+}
+
+.event-details-wrapper .left-nav-content .clubSubMenu {
+    order: 4;
+    display: none
+}
+
+#uc-groups-details-page .group-category li:nth-child(-n+1),.tree-navigation ul.latestEventLeftSide li.selected a {
+    display: none
+}
+
+.tree-navigation ul.latestEventLeftSide li.selected {
+    text-align: center
+}
+
+#uc-groups-details-page .group_left_panel_menu .group-category li {
+    background-color: #383838;
+    padding: 10px 20px;
+    transition: scale ease-in .5s
+}
+
+#uc-groups-details-page .group_left_panel_menu .group-category li a {
+    color: #fff;
+    font-size: 16px
+}
+
+#uc-groups-details-page .group_left_panel_menu .group-category li:hover {
+    scale: 1.1
+}
+
+#uc-groups-details-page .group_left_panel_menu .group-category li:hover a {
+    color: #fff
+}
+
+.latestEventLeftSide li .eventVenue,.latestEventLeftSide li .eventDateTime {
+    font-size: 18px;
+    color: #000;
+    margin: 10px 0;
+    line-height: 20px
+}
+
+.event-details-wrapper .content-wrap.ninecol>div {
+    background: 0;
+    overflow-x: hidden
+}
+
+.contentBoxes .eventheader h2 {
+    display: none
+}
+
+.contentBoxes .eventheader,.contentBoxes .top-container {
+    display: inline-flex!important;
+    border: none!important;
+    margin-bottom: 0!important;
+    justify-content: center;
+    width: 100%
+}
+
+.contentBoxes .eventheader {
+    margin-right: 10px
+}
+
+#uc-groups-details-page .content-wrap.home-content-wrap {
+    width: 100%;
+    margin-top: 20px
+}
+
+#uc-groups-details-page .content-wrap.home-content-wrap>div {
+    background: 0;
+    padding: 0
+}
+
+#uc-groups-details-page .join-this-group.button-top {
+    width: 100%
+}
+
+#uc-groups-details-page .join-this-group.button-top a {
+    background: 0;
+    border: 0 none;
+    background-color: #383838!important;
+    padding: 12px 36px;
+    width: 300px;
+    text-align: center;
+    transition: scale ease-in .5s;
+    border-radius: 0;
+    box-shadow: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: capitalize;
+    text-decoration: none;
+    margin: 30px auto;
+    line-height: unset
+}
+
+.buy-this-now.button-top a,.eventheader .add-to-calendar .title {
+    background: 0;
+    border: 0 none;
+    background-color: #417ad9!important;
+    padding: 12px 36px;
+    text-align: center;
+    border-radius: 0;
+    box-shadow: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: capitalize;
+    text-decoration: none;
+    line-height: unset
+}
+
+.top-container .fivecol {
+    display: none
+}
+
+.buy-this-now.button-top.sevencol {
+    width: unset
+}
+
+.add-to-calendar,.buy-this-now.button-top {
+    margin: 24px 0;
+    flex: unset!important
+}
+
+.eventheader .add-to-calendar .title {
+    display: unset
+}
+
+.add-to-calendar .title:after,.add-to-calendar .title:before {
+    margin-top: 0!important;
+    position: relative
+}
+
+.add-to-calendar .title:before {
+    top: 4px
+}
+
+.add-to-calendar .title:after {
+    top: -2px
+}
+
+.contentBoxes h1,.contentBoxes h1 span {
+    font-size: 30px
+}
+
+.contentBoxes p,.contentBoxes p span,.contentBoxes li span {
+    font-size: 16px
+}
+
+#uc-groups-details-page .join-this-group.button-top a:hover {
+    scale: 1.1
+}
+
+#uc-groups-details-page .contentBoxes p {
+    font-size: 16px
+}
+
+#uc-groups-details-page .join-this-group.button-bottom a,.buy-this-now.button-bottom a {
+    color: #000;
+    text-decoration: underline;
+    background: 0;
+    box-shadow: none;
+    text-transform: capitalize;
+    padding: 0
+}
+
+#uc-groups-details-page .contentBoxes h2:first-of-type {
+    display: none
+}
+
+.section.default-body .vacancy-section {
+    margin: 30px 0;
+    padding: 20px 25px;
+    border-bottom: #383838 10px solid
+}
+
+.section.default-body .vacancy-section:nth-child(even) {
+    background-color: #f1e9e0
+}
+
+.section.default-body .vacancy-section:nth-child(odd) {
+    background-color: #f698d9
+}
+
+.content .row .content-wrap .uc-accordion-list h3 {
+    padding: 5px 0 10px 10px
+}
+
+.tree-navigation-structure #uc-left-navigation {
+    font-size: 16px
+}
+
+.uc-upcoming-event-widget-title {
+    background-color: #383838
+}
+
+.uc-widget-upcoming-events-wrapper #uc-widget-upcoming-events-left-panel .tree-navigation.club-navigation h3 {
+    color: #383838
+}
+
+.uc-widget-upcoming-events-wrapper #uc-widget-upcoming-events-left-panel .tree-navigation ul li.selected {
+    background-color: #ed5d54
+}
+
+.content .row .content-wrap .uc-widget-upcoming-events h3 {
+    padding: 10px;
+    text-transform: capitalize;
+    text-shadow: none
+}
+
+#instagram-column-content {
+    width: 100%
+}
+
+#instagram-column-content .feed-powered-by-es {
+    display: none!important
+}
+
+.custom-photogrid-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 20px 10px;
+    height: 700px;
+    overflow-y: scroll;
+    max-width: 800px;
+    margin: 40px auto;
+    border: 10px solid #383838
+}
+
+.custom-photogrid-row .photogrid-column {
+    -ms-flex: 25%;
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px
+}
+
+.custom-photogrid-row .photogrid-column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 180px
+}
+
+@media only screen and (max-width: 980px) {
+    .system-menu {
+        top:115px
+    }
+
+    #enableRecite.top-right {
+        width: 160px
+    }
+
+    .cart-account {
+        top: 92px
+    }
+
+    .page-search {
+        top: 145px
+    }
+
+    .row.top>.top-wrap>.menu .nav-wrap,.row.top-union>.top-union-wrap>.menu .nav-wrap {
+        height: unset
+    }
+
+    #top-navigation-wrap ul>li>.top-menu-name-wrapper a {
+        font-size: .8rem
+    }
+
+    #top-navigation-wrap ul>li>.top-menu-name-wrapper a::after {
+        margin-left: 5px;
+        font-size: 1rem;
+        top: 1px
+    }
+
+    #top-navigation-wrap .top-submenu-wrapper ul::after {
+        top: unset;
+        right: unset;
+        width: unset
+    }
+
+    .banner-text div {
+        height: 420px
+    }
+
+    .uc-page-class-jobs-page .banner-text p {
+        gap: 10px
+    }
+
+    .banner-text p span {
+        font-size: 66px
+    }
+
+    .uc-page-class-svl-page .banner-text p span,.uc-page-class-acl-page .banner-text p span,.uc-page-class-jobs-page .banner-text p span {
+        font-size: 40px
+    }
+
+    .content .row .content-wrap,.content.row .wrap {
+        margin: 35px 0
+    }
+
+    .uc-page-class-welcome-page #banner-section {
+        height: 30vh;
+        min-height: 230px
+    }
+
+    .uc-page-class-student-groups-page #banner-section,.uc-page-class-student-officers-page #banner-section,.uc-page-class-jobs-page #banner-section,.uc-page-class-campaigns-page #banner-section,.uc-page-class-communities-page #banner-section,.uc-page-class-committee-page #banner-section,.uc-page-class-reps-page #banner-section,.uc-page-class-about-page #banner-section,.uc-page-class-merchandise-page #banner-section,.uc-page-class-acl-page #banner-section,.uc-page-class-svl-page #banner-section,.uc-page-class-current-vacancies #banner-section,.uc-page-class-advice-page #banner-section,.uc-page-class-liberation-page #banner-section {
+        height: 450px;
+        min-height: 230px;
+        left: 50%
+    }
+
+    .stripe .jcarousel-skin-tango .jcarousel-prev-horizontal {
+        left: 10px
+    }
+
+    .stripe .jcarousel-skin-tango .jcarousel-next-horizontal {
+        right: 10px
+    }
+
+    #latest-news-and-events.section {
+        padding: 0 20px
+    }
+
+    .uc-page-class-welcome-page #welcome-list-images.list-images .page-details {
+        top: 11px;
+        padding: 30px 20px;
+        min-height: 200px
+    }
+
+    .uc-page-class-welcome-page #body-text,.uc-page-class-welcome-page #events-widget,.uc-page-class-welcome-page #welcome-list-images,.uc-page-class-welcome-page #marketing-enquiries {
+        margin: 30px 0
+    }
+
+    #officers .stripe-wrap a.uc-link-block,#officers .stripe-wrap a.uc-page-block {
+        width: 200px
+    }
+
+    .stripe .jcarousel-skin-tango .jcarousel-clip-horizontal {
+        width: 760px
+    }
+
+    .uc-articles-right-panel-search .uc-search-container .uc-search-articles,.uc-articles-right-panel-search .uc-search-container .uc-search-articles-filters {
+        width: 300px
+    }
+
+    .uc-articles-right-panel-search .uc-search-container .uc-article-sort-by {
+        width: 160px
+    }
+
+    .uc-articles-right-panel-search-wrapper.visible::before {
+        top: -40px;
+        font-size: 26px
+    }
+
+    #uc-groups-details-page .group_left_panel_menu .thumbnail img {
+        max-width: 200px
+    }
+
+    h2,.content .row .content-wrap h2,.content .row .content-wrap h2>span {
+        line-height: 1.08em
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .row.top a.phone-menu:link,.row.top-union a.phone-menu:link {
+        background:#f1e9e0;
+        color: #383838;
+        text-align: right
+    }
+
+    .phone-menu-icon {
+        margin-left: 10px
+    }
+
+    .row.top,.row.top-union {
+        top: 5px!important;
+        background: transparent
+    }
+
+    #enableRecite.top-right {
+        width: 140px
+    }
+
+    .header {
+        min-height: 200px
+    }
+
+    .header #union-logo {
+        top: 45px
+    }
+
+    .page-search {
+        top: 185px!important
+    }
+
+    .system-menu {
+        top: 105px
+    }
+
+    .cart-account {
+        top: 85px!important
+    }
+
+    .home-content-html .content,.sub-site-home-html .content,.sub-site-page-html .content,.page-content-html .content {
+        top: -15px
+    }
+
+    #your-mdxsu-officers-wrap div.column-content {
+        width: 50%
+    }
+
+    #uc-articles-details .article-details-wrapper * {
+        font-size: 16px!important;
+        line-height: 1.2em
+    }
+
+    #uc-articles-details .quote-highlight p {
+        font-size: 24px!important
+    }
+
+    #uc-articles-details .quote-highlight p::first-letter {
+        font-size: 36px
+    }
+
+    .uc-page-class-welcome-page #banner-section,.uc-page-class-student-officers-page #banner-section,.uc-page-class-student-groups-page #banner-section,.uc-page-class-jobs-page #banner-section,.uc-page-class-campaigns-page #banner-section,.uc-page-class-communities-page #banner-section,.uc-page-class-committee-page #banner-section,.uc-page-class-reps-page #banner-section,.uc-page-class-about-page #banner-section,.uc-page-class-merchandise-page #banner-section,.uc-page-class-acl-page #banner-section,.uc-page-class-svl-page #banner-section,.uc-page-class-current-vacancies #banner-section,.uc-page-class-advice-page #banner-sectio,.uc-page-class-liberation-page #banner-sectionn {
+        height: 360px;
+        left: 50%
+    }
+
+    #news,#what-s-on,#your-ideas {
+        width: 97%
+    }
+
+    .jcarousel-container-horizontal {
+        margin-top: 10px;
+        margin-bottom: 10px
+    }
+
+    #latest-news-and-events.section {
+        padding: 0;
+        width: 97%
+    }
+
+    .uc-widget-articles-container ul.uc-widget-articles-list li .article-thumbnail>a img {
+        max-width: 120px
+    }
+
+    .uc-widget-articles-container ul.uc-widget-articles-list li .date>a {
+        font-size: 12px
+    }
+
+    .stripe .jcarousel-skin-tango .jcarousel-prev-horizontal {
+        left: 2px
+    }
+
+    .stripe .jcarousel-skin-tango .jcarousel-next-horizontal {
+        right: 2px
+    }
+
+    .row.bottom,.row.bottom-union {
+        padding: 35px 10px
+    }
+
+    #footer-wrap .column-content {
+        min-height: 170px
+    }
+
+    .bottom-wrap,.bottom-union-wrap {
+        min-height: 170px
+    }
+
+    .footerlinks a {
+        font-size: .7em;
+        padding-right: 10px;
+        margin: 5px
+    }
+
+    .footerlinks .social a {
+        margin: 10px
+    }
+
+    .footerlinks .company {
+        font-size: .7em;
+        margin: 10px
+    }
+
+    .banner-text div {
+        height: 340px
+    }
+
+    .banner-text p span {
+        font-size: 66px
+    }
+
+    .uc-page-class-welcome-page .content-wrap #buttons-wrap {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap
+    }
+
+    .uc-page-class-welcome-page #welcome-list-images.list-images .fourcol {
+        width: 32%
+    }
+
+    .uc-page-class-welcome-page #welcome-list-images.list-images .page-details {
+        top: 15px;
+        left: 4%;
+        padding: 20px 12px;
+        min-height: 160px
+    }
+
+    .stripe .jcarousel-skin-tango .jcarousel-clip-horizontal {
+        width: 600px
+    }
+
+    .uc-articles-right-panel-search .uc-search-container .uc-search-articles,.uc-articles-right-panel-search .uc-search-container .uc-search-articles-filters {
+        width: 300px
+    }
+
+    .uc-articles-right-panel-search .uc-search-container .uc-article-sort-by {
+        width: 160px
+    }
+
+    #uc-group-homepage #left-content.threecol.left-nav-content.tree-navigation {
+        min-height: unset
+    }
+
+    #uc-group-homepage .group-list .group-box,#eventcarousel .uc-event-page-wrapper li {
+        width: 30%
+    }
+
+    #uc-groups-details-page .left-nav-content,.event-details-wrapper .left-nav-content {
+        width: 97%
+    }
+
+    .vacancy-section img {
+        width: 50%!important
+    }
+
+    #instagram-column-content {
+        display: block
+    }
+
+    .custom-photogrid-row {
+        height: 500px;
+        max-width: 600px;
+        margin: 30px auto;
+        border-width: 8px;
+        padding: 10px 7px
+    }
+
+    .custom-photogrid-row .photogrid-column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%
+    }
+
+    .custom-photogrid-row .photogrid-column img {
+        width: 300px
+    }
+}
+
+@media only screen and (max-width: 685px) {
+    .content .row .content-wrap p,.content .row .content-wrap .column-content p,.content .row .content-wrap p span,.content .row .content-wrap div span,.content .row .content-wrap ul {
+        font-size:16px!important
+    }
+
+    .home-content-html .content,.sub-site-home-html .content,.sub-site-page-html .content,.page-content-html .content {
+        top: -70px
+    }
+
+    .cart-account {
+        top: 110px!important
+    }
+
+    h1,h1 span,.content .row .content-wrap h1 {
+        font-size: 28px;
+        letter-spacing: .04rem
+    }
+
+    #banner-section.section.column {
+        margin-bottom: 20px
+    }
+
+    #your-mdxsu-officers-wrap a .page-details {
+        padding: 8px;
+        min-height: 50px;
+        opacity: 1
+    }
+
+    #your-mdxsu-officers-wrap a .page-details .page-title {
+        font-size: 16px
+    }
+
+    #your-mdxsu-officers-wrap a .page-details .page-summary {
+        font-size: 14px
+    }
+
+    .banner-text div {
+        height: 300px
+    }
+
+    .banner-text p {
+        gap: 8px
+    }
+
+    .banner-text p span {
+        font-size: 40px
+    }
+
+    .uc-page-class-welcome-page #banner-section {
+        height: 30vh;
+        min-height: 200px;
+        left: 50%
+    }
+
+    .uc-page-class-student-groups-page #banner-section,.uc-page-class-student-officers-page #banner-section,.uc-page-class-jobs-page #banner-section,.uc-page-class-campaigns-page #banner-section,.uc-page-class-communities-page #banner-section,.uc-page-class-committee-page #banner-section,.uc-page-class-reps-page #banner-section,.uc-page-class-about-page #banner-section,.uc-page-class-acl-page #banner-section,.uc-page-class-merchandise-page #banner-section,.uc-page-class-svl-page #banner-section,.uc-page-class-current-vacancies #banner-section,.uc-page-class-acl-page #banner-section,.uc-page-class-advice-page #banner-section,.uc-page-class-liberation-page #banner-section {
+        min-height: 170px;
+        height: 300px
+    }
+
+    .bottom,.bottom-union {
+        padding: 35px 10px
+    }
+
+    #your-mdxsu-officers-wrap {
+        margin-top: 35px
+    }
+
+    .uc-articles-mobile-search-option {
+        font-size: 22px;
+        padding: 10px
+    }
+
+    .uc-articles-mobile-search-option::before {
+        font-size: 24px
+    }
+
+    .uc-articles-right-panel-search-wrapper.visible::before {
+        right: 20px;
+        top: -30px;
+        font-size: 20px
+    }
+
+    .uc-widget-articles-container .uc-widget-article-header h2,.events h2,#your-officers h2 {
+        font-size: 24px!important
+    }
+
+    #news,#what-s-on,#your-ideas {
+        width: 93%
+    }
+
+    .uc-page-class-welcome-page #welcome-list-images.list-images .fourcol.column-content {
+        width: 32%
+    }
+
+    .uc-page-class-welcome-page #welcome-list-images .column-content {
+        min-height: 180px
+    }
+
+    .uc-page-class-welcome-page #welcome-list-images.list-images .fourcol.column-content img {
+        min-height: 160px
+    }
+
+    .uc-page-class-welcome-page #welcome-list-images.list-images .page-details {
+        width: 85%;
+        top: 10px;
+        left: 5%;
+        padding: 15px 12px;
+        min-height: 140px
+    }
+
+    .uc-page-class-welcome-page .welcome-intro div.welcome-message,.content .row .content-wrap .student-groups-message {
+        font-size: 16px
+    }
+
+    .stripe .jcarousel-skin-tango .jcarousel-clip-horizontal {
+        width: 600px
+    }
+
+    .uc-slider-wrapper .uc-rslides_container .centered-btns_nav {
+        top: 60%;
+        scale: 70%;
+        height: 50px
+    }
+
+    .uc-slider-wrapper .uc-rslides_container .centered-btns_nav.next {
+        background-position: right center;
+        right: 0
+    }
+
+    .uc-slider-wrapper .uc-rslides_container .centered-btns_nav.prev {
+        background-position: left center;
+        left: 0
+    }
+
+    .jcarousel-container-horizontal {
+        margin: 0
+    }
+
+    #uc-group-homepage .tree-navigation.club-navigation h3,#event-homepage .tree-navigation.club-navigation h3 {
+        font-size: 28px
+    }
+
+    #event-homepage .left-nav-content.tree-navigation ul li a {
+        font-size: 14px
+    }
+
+    #event-homepage .left-nav-content.tree-navigation ul li {
+        padding: 6px 14px
+    }
+
+    .uc-widget-articles-container ul.uc-widget-articles-list li {
+        width: 100%!important
+    }
+
+    .uc-articles-page-wrapper .uc-articles-block .uc-news-headline,.uc-articles-page-wrapper .featured-news-block .news-headline {
+        padding: 8px 12px
+    }
+
+    .uc-articles-page-wrapper .uc-articles-block .uc-news-headline h3 a,.uc-articles-page-wrapper .featured-news-block .news-headline>a {
+        font-size: 20px
+    }
+
+    .uc-articles-page-wrapper .uc-articles-block .uc-articles-summary,.uc-articles-page-wrapper .featured-news-block .featured-text {
+        font-size: 14px;
+        padding: 0 14px
+    }
+
+    #uc-group-homepage .group-list .group-box,#eventcarousel .uc-event-page-wrapper li {
+        width: 47%;
+        margin: 5px
+    }
+
+    #uc-group-homepage .group-box .group-banner,#eventcarousel .event-box .event-banner {
+        align-self: center
+    }
+
+    #uc-group-homepage .group-box .group-name,#eventcarousel .uc-event-page-wrapper li .event-name,#eventcarousel .uc-event-page-wrapper li a.event-box .event-name {
+        font-size: 16px
+    }
+
+    #uc-groups-details-page .group_left_panel_menu .thumbnail img,.event-details-wrapper .thumbnail img {
+        max-width: 200px
+    }
+
+    #uc-groups-details-page .left-nav-content .group_left_panel_menu .title h1 {
+        font-size: 26px;
+        line-height: 1.1em;
+        padding: 0;
+        text-align: center
+    }
+
+    .contentBoxes h1,.contentBoxes h1 span {
+        font-size: 26px
+    }
+
+    .tree-navigation .title h1 {
+        padding: unset
+    }
+
+    #uc-groups-details-page .join-this-group.button-top a {
+        margin: 15px auto
+    }
+
+    .buy-this-now.button-top a,.eventheader .add-to-calendar .title {
+        font-size: 16px;
+        padding: 12px 20px
+    }
+
+    .buy-this-now.button-top a {
+        display: unset
+    }
+
+    .add-to-calendar,.buy-this-now.button-top {
+        margin: 10px 0!important
+    }
+
+    #uc-groups-details-page .left-nav-content,.event-details-wrapper .left-nav-content {
+        width: 95%
+    }
+
+    .vacancy-section img {
+        width: 60%!important
+    }
+
+    .tree-navigation-structure #uc-left-navigation {
+        font-size: 13px
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    .home-content-html .content,.sub-site-home-html .content,.sub-site-page-html .content,.page-content-html .content {
+        top:-55px
+    }
+
+    #top-navigation-wrap .top-submenu-wrapper ul::after {
+        top: unset;
+        right: unset;
+        width: unset
+    }
+
+    .content .row .content-wrap,.content.row .wrap {
+        margin: 25px 0
+    }
+
+    h1,.content .row .content-wrap h1 {
+        font-size: 28px
+    }
+
+    #your-mdxsu-officers-wrap a .page-details {
+        padding: 4px;
+        min-height: 50px
+    }
+
+    #your-mdxsu-officers-wrap a .page-details .page-title {
+        font-size: 14px
+    }
+
+    #your-mdxsu-officers-wrap a .page-details .page-summary {
+        font-size: 12px
+    }
+
+    .banner-text div {
+        height: 250px
+    }
+
+    .banner-text p {
+        width: 50%;
+        gap: 4px
+    }
+
+    #uc-articles-details .quote-highlight p {
+        font-size: 22px!important
+    }
+
+    #uc-articles-details .quote-highlight p::first-letter {
+        font-size: 30px
+    }
+
+    .uc-page-class-jobs-page .banner-text p {
+        gap: 4px
+    }
+
+    .banner-text p span {
+        margin: 5px;
+        font-size: 36px;
+        padding: 8px;
+        line-height: 1em
+    }
+
+    .uc-page-class-merchandise-page .banner-text p {
+        width: 80%
+    }
+
+    .uc-page-class-merchandise-page .banner-text p span {
+        font-size: 30px
+    }
+
+    .uc-page-class-svl-page .banner-text p span,.uc-page-class-acl-page .banner-text p span,.uc-page-class-jobs-page .banner-text p span {
+        font-size: 28px
+    }
+
+    .uc-page-class-welcome-page #banner-section {
+        height: 25vh;
+        min-height: 150px
+    }
+
+    .uc-page-class-student-groups-page #banner-section,.uc-page-class-student-officers-page #banner-section,.uc-page-class-jobs-page #banner-section,.uc-page-class-campaigns-page #banner-section,.uc-page-class-communities-page #banner-section,.uc-page-class-committee-page #banner-section,.uc-page-class-reps-page #banner-section,.uc-page-class-about-page #banner-section,.uc-page-class-acl-page #banner-section,.uc-page-class-merchandise-page #banner-section,.uc-page-class-svl-page #banner-section,.uc-page-class-current-vacancies #banner-section,.uc-page-class-advice-page #banner-section,.uc-page-class-liberation-page #banner-section {
+        height: 250px
+    }
+
+    #officers .stripe-carousel ul li {
+        width: 180px
+    }
+
+    #officers .stripe-wrap a.uc-link-block {
+        width: 180px
+    }
+
+    #officers .stripe-wrap a span.thumbnail-image,.section.stripe .stripe-wrap a span.thumbnail-image {
+        width: 100px
+    }
+
+    .header,.top-union,.content-wrapper {
+        padding: 0 12px
+    }
+
+    .uc-page-class-welcome-page .column-content.welcome-intro div.welcome-message p,.uc-page-class-welcome-page .content-wrap .column-content .to-survey-page p,.content .row .content-wrap .student-groups-message p {
+        font-size: 16px
+    }
+
+    .uc-page-class-welcome-page #welcome-list-images.list-images .fourcol.column-content {
+        width: 32%;
+        min-height: 150px
+    }
+
+    .uc-page-class-welcome-page #welcome-list-images.list-images .fourcol.column-content img {
+        height: 140px
+    }
+
+    .uc-page-class-welcome-page #welcome-list-images.list-images .page-details {
+        width: 90%;
+        top: 6px;
+        left: 5px;
+        padding: 8px 2px;
+        font-size: 14px;
+        min-height: 140px
+    }
+
+    .widget-four.uc-without-og.uc-widget-articles-container ul.uc-widget-articles-list li .article-thumbnail {
+        width: unset
+    }
+
+    .row.bottom,.row.bottom-union {
+        padding: 35px 10px
+    }
+
+    .stripe .stripe-carousel ul li {
+        width: 150px
+    }
+
+    .stripe .jcarousel-skin-tango .jcarousel-clip-horizontal {
+        width: 300px
+    }
+
+    #eventcarousel .uc-event-page-wrapper li a.event-box .event-details p {
+        font-size: 12px;
+        line-height: unset;
+        margin: unset;
+        padding: 0
+    }
+
+    #event-homepage .left-nav-content.tree-navigation ul li a {
+        font-size: 12px
+    }
+
+    #event-homepage .left-nav-content.tree-navigation ul li {
+        padding: 4px 8px
+    }
+
+    #event-homepage .search-box .search-box-wrapper,.group-search .search-box .search-box-wrapper {
+        width: 240px
+    }
+
+    #event-homepage .search-box .search-box-wrapper .search-input,.group-search .search-box .search-box-wrapper .search-input {
+        width: 200px
+    }
+
+    #uc-group-homepage .group-list .group-box,#eventcarousel .uc-event-page-wrapper li {
+        width: 46%;
+        margin: 5px 3px
+    }
+
+    #uc-articles-news .uc-articles-heading h1 span {
+        font-size: 28px
+    }
+
+    .uc-articles-page-wrapper .uc-articles-block,.uc-articles-page-wrapper .featured-news-block {
+        width: 100%
+    }
+
+    .uc-articles-list-block .uc-articles-image {
+        width: 160px;
+        margin: unset
+    }
+
+    .uc-articles-list-block .uc-articles-image>a {
+        width: 160px
+    }
+
+    .uc-articles-page-wrapper .uc-articles-block .uc-news-headline,.uc-articles-page-wrapper .featured-news-block .news-headline {
+        padding: 10px 12px 0
+    }
+
+    .uc-articles-page-wrapper .uc-articles-block .uc-news-headline h3 a,.uc-articles-page-wrapper .featured-news-block .news-headline>a {
+        font-size: 18px;
+        margin-bottom: 6px
+    }
+
+    .uc-articles-page-wrapper .uc-articles-block .uc-articles-summary,.uc-articles-page-wrapper .featured-news-block .featured-text {
+        font-size: 14px;
+        padding: 0 14px;
+        margin-top: 5px
+    }
+
+    #uc-group-homepage .group-box .group-banner {
+        width: 100%
+    }
+
+    .section.default-body .vacancy-section {
+        padding: 15px 20px;
+        margin: 25px 0
+    }
+
+    .vacancy-section img {
+        width: 70%!important
+    }
+
+    .custom-photogrid-row {
+        height: 400px;
+        padding: 5px 5px;
+        border-width: 6px
+    }
+}
+
+
+/* Student Voice Colours */
+
+#uc-sv-nav-tab-panel #uc-sv-main-navcontainer ul li.active a {
+  color: #000;
+}
+
+.uc-sv-module-idea-wrapper {
+  background-image: none;
+  background-color: var(--union-beige);
+}
+
+#uc-sv-nav-tab-panel {
+  background-image: none;
+  background-color: var(--union-blue);
+}
+
+#uc-sv-nav-tab-panel ul li a {
+  color: #fff;
+}
+.module_student_voices .sv-feedback-button,
+.module_student_voices .clear-button,
+.module_student_voices .uc-sv-module-idea-wrapper a.uc-sv-click-like-dislike,
+.sv-button{
+  background-color: var(--union-blue);
+  color: #fff;
+}
+.module_student_voices .uc-sv-module-idea-wrapper a,
+.uc-sv-author-name {
+  color: #000;
+}
+#uc-sv-left-panel .uc-sv-left-panel-wrapper .page-separator {
+  background-image: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  background-color: var(--union-beige);
+}
+
+#uc-sv-left-panel #load_more_sv a {
+  background-image: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  background-color: var(--union-blue);
+  color: #fff;
+}
+.uv-sv-idea-icon { display: none;}
+#uc-sv-main-wrapper .uc-sv-module-idea-wrapper h2 {
+  padding: 10px;
+}
