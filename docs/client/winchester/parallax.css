@@ -4,14 +4,12 @@ body {
   position: relative;
   overflow-x:hidden;
   background-image: url('https://assets.prod.unioncloud-internal.com/image/images/570365/original/background2.png');
-  font-size: 62.5%;
+  /* font-size: 62.5%; */
   box-sizing: border-box;
 }
 body * {
   box-sizing: border-box;
 }
-
-
 
 #journey-line {
   height: 100%;
@@ -54,15 +52,15 @@ body * {
 
 header#hero {
   background-color: var(--organisation);
-  min-height: var(--hero-height); 
-  height: var(--hero-height); 
+  min-height: var(--hero-height);
+  height: var(--hero-height);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
-	overflow: hidden;
-	margin: 0px auto;
+  overflow: hidden;
+  margin: 0px auto;
 }
 header #hero-image {
   background-image: url('https://assets.prod.unioncloud-internal.com/image/images/570368/original/header-background.png');
@@ -95,10 +93,11 @@ header#hero h1 {
 }
 .basic h2 {
   text-transform: uppercase;
-  font-weight: black;
-  /* font-size: 1.8rem; */
+  font-weight: 800;
+  font-size: 1.8rem;
   border-bottom: solid var(--line-thickness) var(--organisation);
-  display: inline-block; padding-bottom: 0.5rem;
+  display: inline-block;
+  padding-bottom: 0.5rem;
   margin:0;
 }
 .basic p {
@@ -196,10 +195,11 @@ section#introduction {
     height: 100vh;
   }
   #measures h2 { transform: translate(-200px,0); }
-  #goals h2 { transform: translate(200px,0); }
+  /* #goals h2 {transform: translate(200px,0);} */
+  #uc-page-id-strategy #goals h2 { font-size: 3em;}
 
   .wheel-space .picture {
-    left: calc(50% - 770px);
+    /* left: calc(50% - 770px); */
     height: 500px;
     background-size: 100%; /* 90% for goals? */
   }
@@ -388,7 +388,7 @@ section#introduction {
 
 #priorities #priority-slider li p {
   font-size: 2.5rem;
-  font-weight: 350;
+  font-weight: 400;
   color: #fff;
 }
 
@@ -488,3 +488,43 @@ section#introduction {
 }
 
 
+
+
+/* New Stuff */
+#uc-page-id-strategy .content .row .content-wrap .section,
+#uc-page-id-strategy .content .row .content-wrap {
+  margin-top: 0;
+}
+#uc-page-id-strategy .content .row .content-wrap h2 {
+  font-size: 1.6em;
+  color: #fff;
+}
+#uc-page-id-strategy .content .row .content-wrap #introduction h2,
+#uc-page-id-strategy .content .row .content-wrap #priorities h2 {
+  color: var(--organisation);
+  font-size: 2em; line-height: 1em;
+}
+
+#uc-page-id-strategy .wrapper .content .row .content-wrap p {
+  font-size: 1.3em; line-height: 1em;
+}
+
+@media screen and (min-width: 1024px) {
+  #mission { max-width: unset; }
+}
+
+#uc-page-id-strategy .wrapper>.row.content {
+  background-color: var(--light-blue);
+}
+
+#uc-page-id-strategy .wrapper>.row.content>.row{
+  background-color: #fff;
+}
+
+section#introduction {
+  padding-top: 50px;
+}
+.rotator .value,
+#goals .value {
+  border-radius: 20px;
+}

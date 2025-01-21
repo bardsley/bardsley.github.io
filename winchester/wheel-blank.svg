@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1023.93 1024.24">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #cb1a1a;
+      }
+
+      .cls-3 {
+        fill: #ffde59;
+      }
+
+      .cls-4 {
+        fill: #ff914d;
+      }
+
+      .cls-5 {
+        fill: #7d2ae8;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1_copy_6" data-name="Layer 1 copy 6">
+    <path class="cls-4" d="m155.79,880.1c198.48,192.27,514.12,192.18,712.5-.25l-356.12-356.12-356.37,356.37Z"/>
+  </g>
+  <g id="Layer_1_copy_5" data-name="Layer 1 copy 5">
+    <path class="cls-2" d="m879.8,868.29c192.27-198.48,192.18-514.12-.25-712.5l-356.12,356.12,356.37,356.37Z"/>
+  </g>
+  <g id="Layer_1_copy_4" data-name="Layer 1 copy 4">
+    <path class="cls-3" d="m144.14,155.95c-192.27,198.48-192.18,514.12.25,712.5l356.12-356.12L144.14,155.95Z"/>
+  </g>
+  <g id="Layer_1_copy_3" data-name="Layer 1 copy 3">
+    <path class="cls-5" d="m868.14,144.14c-198.48-192.27-514.12-192.18-712.5.25l356.12,356.12,356.37-356.37Z"/>
+  </g>
+  <g id="Layer_2" data-name="Layer 2">
+    <circle class="cls-1" cx="512.02" cy="512.1" r="136.9"/>
+  </g>
+</svg>

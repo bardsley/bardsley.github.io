@@ -2530,6 +2530,7 @@ h2,.content .row .content-wrap h2,.content .row .content-wrap h2>span {
 .uc-sv-module-idea-wrapper {
   background-image: none;
   background-color: var(--union-beige);
+  border-top: 6px solid var(--union-blue);
 }
 
 #uc-sv-nav-tab-panel {
@@ -2540,9 +2541,11 @@ h2,.content .row .content-wrap h2,.content .row .content-wrap h2>span {
 #uc-sv-nav-tab-panel ul li a {
   color: #fff;
 }
+
 .module_student_voices .sv-feedback-button,
 .module_student_voices .clear-button,
 .module_student_voices .uc-sv-module-idea-wrapper a.uc-sv-click-like-dislike,
+.module_student_voices .uc-sv-module-idea-wrapper a.uc-sv-click-votenow,
 .sv-button{
   background-color: var(--union-blue);
   color: #fff;
@@ -2565,7 +2568,22 @@ h2,.content .row .content-wrap h2,.content .row .content-wrap h2>span {
   background-color: var(--union-blue);
   color: #fff;
 }
-.uv-sv-idea-icon { display: none;}
-#uc-sv-main-wrapper .uc-sv-module-idea-wrapper h2 {
-  padding: 10px;
+.uv-sv-petition-icon,
+.uv-sv-idea-icon { 
+    background-position: 0 -7px;
+}
+
+.uc-sv-comment-saveButton {
+  background-color: var(--union-blue);
+}
+.uc-sv-module-border-idea {
+  border-top: 6px solid var(--union-blue);
+}
+.uv-sv-details-header-idea {
+  background-position: 0 -7px;
+}
+
+.uc-text-like,
+.uc-text-dislike {
+  background-color: var(--union-blue);
 }
